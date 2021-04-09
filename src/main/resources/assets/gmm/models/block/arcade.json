@@ -7,7 +7,8 @@
 		"sides": "gmm:blocks/concrete_cyan",
 		"screen": "gmm:blocks/arcade_screen",
 		"stick": "gmm:blocks/black_concrete_powder",
-		"body": "gmm:blocks/arcade_panel"
+		"body": "gmm:blocks/arcade_panel",
+		"particle": "gmm:blocks/concrete_cyan"
 	},
 	"elements": [
 		{

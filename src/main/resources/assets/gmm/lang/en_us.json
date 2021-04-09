@@ -244,5 +244,6 @@
   "item.gmm.wapenstok_gold": "Golden Wapenstok",
   "item.gmm.wapenstok_iron": "Iron Wapenstok",
   "item.gmm.wapenstok_redstone": "Redstone Wapenstok",
-  "item.gmm.purple_weed": "Purple Weed"
+  "item.gmm.purple_weed": "Purple Weed",
+  "block.gmm.arcade": "Arcade"
 }

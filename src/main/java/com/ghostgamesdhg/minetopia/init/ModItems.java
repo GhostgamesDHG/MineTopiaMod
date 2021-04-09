@@ -392,4 +392,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> KERST_SLINGERS_ITEM = ITEMS.register("kerst_slingers",
             () -> new BlockItemBase(ModBlocks.KERST_SLINGERS.get()));
+
+    public static final RegistryObject<Item> ARCADE_ITEM = ITEMS.register("arcade",
+            () -> new BlockItemBase(ModBlocks.ARCADE.get()));
 }
