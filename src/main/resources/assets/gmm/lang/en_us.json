@@ -246,5 +246,6 @@
   "item.gmm.wapenstok_redstone": "Redstone Wapenstok",
   "item.gmm.purple_weed": "Purple Weed",
   "block.gmm.arcade": "Arcade",
-  "block.gmm.notebook": "Notebook"
+  "block.gmm.notebook": "Notebook",
+  "block.gmm.monitor": "Monitor"
 }

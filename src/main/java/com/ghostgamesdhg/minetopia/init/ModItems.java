@@ -398,4 +398,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> NOTEBOOK_ITEM = ITEMS.register("notebook",
             () -> new BlockItemBase(ModBlocks.NOTEBOOK.get()));
+
+    public static final RegistryObject<Item> MONITOR_ITEM = ITEMS.register("monitor",
+            () -> new BlockItemBase(ModBlocks.MONITOR.get()));
 }
