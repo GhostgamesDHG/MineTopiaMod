@@ -105,7 +105,7 @@ public class ModItems {
     public static final RegistryObject<Item> SNEEUWPOPPETJE = ITEMS.register("sneeuwpoppetje", ItemPopetjes::new);
     public static final RegistryObject<Item> TEDDYBEER = ITEMS.register("teddybeer", ItemPopetjes::new);
 
-    //Hats
+    //Hat
     public static final RegistryObject<Item> DOLLARBRIL = ITEMS.register("dollarbril", ItemHats::new);
     public static final RegistryObject<Item> SOMBRERO = ITEMS.register("sombrero", ItemHats::new);
     public static final RegistryObject<Item> BEERHEAD = ITEMS.register("beerhead", ItemHats::new);
