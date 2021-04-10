@@ -123,8 +123,8 @@ public class Computer extends Block {
 
     public Computer() {
         super(Properties.create(Material.IRON)
-                .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
+                .hardnessAndResistance(2.5f, 3.0f)
+                .harvestLevel(2)
                 .sound(SoundType.ANVIL)
                 .harvestTool(ToolType.PICKAXE)
                 .setRequiresTool());
