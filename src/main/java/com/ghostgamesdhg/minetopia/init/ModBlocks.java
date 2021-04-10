@@ -43,4 +43,5 @@ public class ModBlocks {
     public static final RegistryObject<Block> KRANS = BLOCKS.register("krans", krans::new);
     public static final RegistryObject<Block> KERST_SLINGERS = BLOCKS.register("kerst_slingers", kerst_slingers::new);
     public static final RegistryObject<Block> ARCADE = BLOCKS.register("arcade", Arcade::new);
+    public static final RegistryObject<Block> NOTEBOOK = BLOCKS.register("notebook", Notebook::new);
 }
