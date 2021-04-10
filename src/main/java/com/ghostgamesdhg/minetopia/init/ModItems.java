@@ -12,7 +12,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModItems {
-
+    
+    //This class registers the items in the mod.
+    
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MinetopiaExtra.MOD_ID);
 
     // Items place
@@ -73,7 +75,7 @@ public class ModItems {
     public static final RegistryObject<Item> MTCASINO_ROOD = ITEMS.register("mtcasino_rood", ItemBase::new);
     public static final RegistryObject<Item> MTCASINO_SILVER = ITEMS.register("mtcasino_silver", ItemBase::new);
 
-    //Items (Not in tab)
+    //Items (Not in tab) (/give command only)
     public static final RegistryObject<DiamondCore> DIAMONDCORE = ITEMS.register("diamondcore", DiamondCore::new);
     public static final RegistryObject<EmeraldCoin> EMERALDCOIN = ITEMS.register("emeraldcoin", EmeraldCoin::new);
 
