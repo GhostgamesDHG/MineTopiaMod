@@ -212,6 +212,7 @@ public class ModItems {
     public static final RegistryObject<banaan> BANAAN = ITEMS.register("banaan", banaan::new);
     public static final RegistryObject<bitterballen> BITTERBALLEN = ITEMS.register("bitterballen", bitterballen::new);
     public static final RegistryObject<blik_linzen_soep> BLIK_LINZEN_SOEP = ITEMS.register("blik_linzen_soep", blik_linzen_soep::new);
+    public static final RegistryObject<pepernoot> PEPERNOOT = ITEMS.register("pepernoot", pepernoot::new);
 
     // Tools place
     public static final RegistryObject<SwordItem> BLUE_CRYSTAL_SWORD = ITEMS.register("blue_crystal_sword", () ->
