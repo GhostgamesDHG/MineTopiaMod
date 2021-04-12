@@ -247,5 +247,12 @@
   "item.gmm.purple_weed": "Purple Weed",
   "block.gmm.arcade": "Arcade",
   "block.gmm.notebook": "Notebook",
-  "block.gmm.monitor": "Monitor"
+  "block.gmm.monitor": "Monitor",
+  "item.gmm.aardbei": "Aardbei",
+  "item.gmm.aardbeien_ijs": "Aardbeien ijsje",
+  "item.gmm.alcoholfles": "Alcohol fles",
+  "item.gmm.apfelstrudel": "Apfelstrudel",
+  "item.gmm.banaan": "Banaan",
+  "item.gmm.bitterballen": "Bitterballen",
+  "item.gmm.blik_linzen_soep": "Blik linzen soep"
 }

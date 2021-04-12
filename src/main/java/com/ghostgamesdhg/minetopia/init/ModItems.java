@@ -205,6 +205,13 @@ public class ModItems {
     public static final RegistryObject<eenhoornvlees> EENHOORNVLEES = ITEMS.register("eenhoornvlees", eenhoornvlees::new);
     public static final RegistryObject<trosdruiven> TROSDRUIVEN = ITEMS.register("trosdruiven", trosdruiven::new);
     public static final RegistryObject<hop> HOP = ITEMS.register("hop", hop::new);
+    public static final RegistryObject<aardbei> AARDBEI = ITEMS.register("aardbei", aardbei::new);
+    public static final RegistryObject<aardbeien_ijs> AARDBEIEN_IJS = ITEMS.register("aardbeien_ijs", aardbeien_ijs::new);
+    public static final RegistryObject<alcoholfles> ALCOHOLFLES = ITEMS.register("alcoholfles", alcoholfles::new);
+    public static final RegistryObject<apfelstrudel> APFELSTRUDEL = ITEMS.register("apfelstrudel", apfelstrudel::new);
+    public static final RegistryObject<banaan> BANAAN = ITEMS.register("banaan", banaan::new);
+    public static final RegistryObject<bitterballen> BITTERBALLEN = ITEMS.register("bitterballen", bitterballen::new);
+    public static final RegistryObject<blik_linzen_soep> BLIK_LINZEN_SOEP = ITEMS.register("blik_linzen_soep", blik_linzen_soep::new);
 
     // Tools place
     public static final RegistryObject<SwordItem> BLUE_CRYSTAL_SWORD = ITEMS.register("blue_crystal_sword", () ->
