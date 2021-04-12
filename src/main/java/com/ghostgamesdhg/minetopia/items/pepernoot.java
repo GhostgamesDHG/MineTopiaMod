@@ -11,6 +11,7 @@ public class pepernoot extends Item {
                 .group(MinetopiaExtra.TAB4)
                 .food(new Food.Builder()
                         .hunger(1)
+                        .setAlwaysEdible()
                         .saturation(1.2f)
                         .build())
         );

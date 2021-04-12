@@ -74,12 +74,24 @@ public class ModItems {
     public static final RegistryObject<Item> MTCASINO_ORANJE = ITEMS.register("mtcasino_oranje", ItemBase::new);
     public static final RegistryObject<Item> MTCASINO_ROOD = ITEMS.register("mtcasino_rood", ItemBase::new);
     public static final RegistryObject<Item> MTCASINO_SILVER = ITEMS.register("mtcasino_silver", ItemBase::new);
+    public static final RegistryObject<Item> LEGEND_50 = ITEMS.register("legend_50", ItemBase::new);
+    public static final RegistryObject<Item> LEGEND_1 = ITEMS.register("legend_1", ItemBase::new);
+    public static final RegistryObject<Item> EPIC_10 = ITEMS.register("epic_10", ItemBase::new);
+    public static final RegistryObject<Item> EPIC_5 = ITEMS.register("epic_5", ItemBase::new);
+    public static final RegistryObject<Item> EPIC_1 = ITEMS.register("epic_1", ItemBase::new);
+    public static final RegistryObject<Item> COMMON_50 = ITEMS.register("common_50", ItemBase::new);
+    public static final RegistryObject<Item> COMMON_10 = ITEMS.register("common_10", ItemBase::new);
+    public static final RegistryObject<Item> COMMON_1 = ITEMS.register("common_1", ItemBase::new);
+    public static final RegistryObject<Item> MODERN_WANDELSTOK = ITEMS.register("modern_wandelstok", ItemBase::new);
+    public static final RegistryObject<Item> ZAK_PARAPLU = ITEMS.register("zak_paraplu", ItemBase::new);
+    public static final RegistryObject<Item> SKISTOKKEN = ITEMS.register("skistokken", ItemBase::new);
 
     //Items (Not in tab) (/give command only)
     public static final RegistryObject<DiamondCore> DIAMONDCORE = ITEMS.register("diamondcore", DiamondCore::new);
     public static final RegistryObject<EmeraldCoin> EMERALDCOIN = ITEMS.register("emeraldcoin", EmeraldCoin::new);
 
     //Popetjes
+    public static final RegistryObject<Item> OLAF = ITEMS.register("olaf", ItemPopetjes::new);
     public static final RegistryObject<Item> SKELETONPOPPETJE = ITEMS.register("skeletonpoppetje", ItemPopetjes::new);
     public static final RegistryObject<Item> PAPEGAAIPOPPETJE = ITEMS.register("papegaaipoppetje", ItemPopetjes::new);
     public static final RegistryObject<Item> COWPOPPETJE = ITEMS.register("cowpoppetje", ItemPopetjes::new);
@@ -106,6 +118,7 @@ public class ModItems {
     public static final RegistryObject<Item> ZEBRAPOPPETJE = ITEMS.register("zebrapoppetje", ItemPopetjes::new);
     public static final RegistryObject<Item> SNEEUWPOPPETJE = ITEMS.register("sneeuwpoppetje", ItemPopetjes::new);
     public static final RegistryObject<Item> TEDDYBEER = ITEMS.register("teddybeer", ItemPopetjes::new);
+    public static final RegistryObject<Item> LEGOPOPPETJE = ITEMS.register("legopoppetje", ItemPopetjes::new);
 
     //Hats
     public static final RegistryObject<Item> DOLLARBRIL = ITEMS.register("dollarbril", ItemHats::new);
@@ -180,6 +193,7 @@ public class ModItems {
     public static final RegistryObject<Item> RODESTRIK = ITEMS.register("rodestrik", ItemHats::new);
     public static final RegistryObject<Item> GIRAFFE_PET = ITEMS.register("giraffe_pet", ItemHats::new);
     public static final RegistryObject<Item> MINING_HELMET = ITEMS.register("mining_helmet", ItemHats::new);
+    public static final RegistryObject<Item> DARTHVADERHEAD = ITEMS.register("darthvaderhead", ItemHats::new);
 
     // Food place
     public static final RegistryObject<MilkShake> MILKSHAKE = ITEMS.register("milkshake", MilkShake::new);
@@ -256,6 +270,21 @@ public class ModItems {
 
     public static final RegistryObject<SwordItem> KNUPPEL = ITEMS.register("knuppel", () ->
             new SwordItem(ModItemTier.KNUPPEL, 0, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> LIGHTSABER_BLUE = ITEMS.register("lightsaber_blue", () ->
+            new SwordItem(ModItemTier.LIGHTSABER, 1, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> LIGHTSABER_GREEN = ITEMS.register("lightsaber_green", () ->
+            new SwordItem(ModItemTier.LIGHTSABER, 1, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> LIGHTSABER_PURPLE = ITEMS.register("lightsaber_purple", () ->
+            new SwordItem(ModItemTier.LIGHTSABER, 1, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> LIGHTSABER_RED = ITEMS.register("lightsaber_red", () ->
+            new SwordItem(ModItemTier.LIGHTSABER, 1, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> LIGHTSABER_YELLOW = ITEMS.register("lightsaber_yellow", () ->
+            new SwordItem(ModItemTier.LIGHTSABER, 1, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 
     // Armors place
     public static final RegistryObject<ArmorItem> NORMAL_HELMET = ITEMS.register("normal_helmet", () ->

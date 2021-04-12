@@ -1,0 +1,11 @@
+{
+	"parent": "gmm:item/lightsaber_blue",
+	"texture_size": [
+		64,
+		64
+	],
+	"textures": {
+		"0": "gmm:items/lightsaber_purple",
+		"particle": "gmm:items/lightsaber_purple"
+	}
+}

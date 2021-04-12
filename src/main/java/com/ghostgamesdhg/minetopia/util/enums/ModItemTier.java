@@ -27,6 +27,10 @@ public enum ModItemTier implements IItemTier {
         return Ingredient.fromItems(ModItems.MES.get());
     }),
 
+    LIGHTSABER(0, 200, 4.0F, 1.0F, 14, () -> {
+        return Ingredient.fromItems(ModItems.MES.get());
+    }),
+
     KNUPPEL(0, 40, 4.0F, 20.0F, 14, () -> {
         return Ingredient.fromItems(ModItems.KNUPPEL.get());
     });
