@@ -194,6 +194,11 @@ public class ModItems {
     public static final RegistryObject<Item> GIRAFFE_PET = ITEMS.register("giraffe_pet", ItemHats::new);
     public static final RegistryObject<Item> MINING_HELMET = ITEMS.register("mining_helmet", ItemHats::new);
     public static final RegistryObject<Item> DARTHVADERHEAD = ITEMS.register("darthvaderhead", ItemHats::new);
+    public static final RegistryObject<Item> AMONGUSHEAD = ITEMS.register("amongushead", ItemHats::new);
+    public static final RegistryObject<Item> DEMONHEAD = ITEMS.register("demonhead", ItemHats::new);
+    public static final RegistryObject<Item> MARIOHEAD = ITEMS.register("mariohead", ItemHats::new);
+    public static final RegistryObject<Item> PANDAHEAD = ITEMS.register("pandahead", ItemHats::new);
+    public static final RegistryObject<Item> SORTINGHAT = ITEMS.register("sortinghat", ItemHats::new);
 
     // Food place
     public static final RegistryObject<MilkShake> MILKSHAKE = ITEMS.register("milkshake", MilkShake::new);
