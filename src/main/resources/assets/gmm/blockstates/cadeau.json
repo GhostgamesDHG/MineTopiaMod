@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "gmm:block/cadeau" },
+    "facing=south": { "model": "gmm:block/cadeau", "y":  180},
+    "facing=west": { "model": "gmm:block/cadeau", "y":  270},
+    "facing=east": { "model": "gmm:block/cadeau", "y":  90}
+  }
+}
