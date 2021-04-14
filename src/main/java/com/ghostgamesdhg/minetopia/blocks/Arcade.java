@@ -25,63 +25,19 @@ public class Arcade extends Block {
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
     private static final VoxelShape SHAPE_N = Stream.of(
-            Block.makeCuboidShape(1, 0, 10, 15, 16, 15),
-            Block.makeCuboidShape(1, 0, 4, 15, 15, 10),
-            Block.makeCuboidShape(15, 0, 3, 16, 16, 16),
-            Block.makeCuboidShape(0, 0, 3, 1, 16, 16),
-            Block.makeCuboidShape(1, 26, 4, 15, 30, 14),
-            Block.makeCuboidShape(1, 14, 1, 15, 16, 10),
-            Block.makeCuboidShape(1, 16, 7, 15, 27, 12),
-            Block.makeCuboidShape(1, 16, 10, 15, 29, 15),
-            Block.makeCuboidShape(15, 16, 3, 16, 32, 16),
-            Block.makeCuboidShape(0, 16, 3, 1, 32, 16),
-            Block.makeCuboidShape(12, 16, 3, 13, 18, 4),
-            Block.makeCuboidShape(11.75, 17.5, 2.75, 13.25, 19, 4.25)
+            Block.makeCuboidShape(0, 0, 3, 16, 32, 16)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(1, 0, 1, 6, 16, 15),
-            Block.makeCuboidShape(6, 0, 1, 12, 15, 15),
-            Block.makeCuboidShape(0, 0, 15, 13, 16, 16),
-            Block.makeCuboidShape(0, 0, 0, 13, 16, 1),
-            Block.makeCuboidShape(2, 26, 1, 12, 30, 15),
-            Block.makeCuboidShape(6, 14, 1, 15, 16, 15),
-            Block.makeCuboidShape(4, 16, 1, 9, 27, 15),
-            Block.makeCuboidShape(1, 16, 1, 6, 29, 15),
-            Block.makeCuboidShape(0, 16, 15, 13, 32, 16),
-            Block.makeCuboidShape(0, 16, 0, 13, 32, 1),
-            Block.makeCuboidShape(12, 16, 12, 13, 18, 13),
-            Block.makeCuboidShape(11.75, 17.5, 11.75, 13.25, 19, 13.25)
+            Block.makeCuboidShape(0, 0, 0, 13, 32, 16)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(1, 0, 1, 15, 16, 6),
-            Block.makeCuboidShape(1, 0, 6, 15, 15, 12),
-            Block.makeCuboidShape(0, 0, 0, 1, 16, 13),
-            Block.makeCuboidShape(15, 0, 0, 16, 16, 13),
-            Block.makeCuboidShape(1, 26, 2, 15, 30, 12),
-            Block.makeCuboidShape(1, 14, 6, 15, 16, 15),
-            Block.makeCuboidShape(1, 16, 4, 15, 27, 9),
-            Block.makeCuboidShape(1, 16, 1, 15, 29, 6),
-            Block.makeCuboidShape(0, 16, 0, 1, 32, 13),
-            Block.makeCuboidShape(15, 16, 0, 16, 32, 13),
-            Block.makeCuboidShape(3, 16, 12, 4, 18, 13),
-            Block.makeCuboidShape(2.75, 17.5, 11.75, 4.25, 19, 13.25)
+            Block.makeCuboidShape(0, 0, 0, 16, 32, 13)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(10, 0, 1, 15, 16, 15),
-            Block.makeCuboidShape(4, 0, 1, 10, 15, 15),
-            Block.makeCuboidShape(3, 0, 0, 16, 16, 1),
-            Block.makeCuboidShape(3, 0, 15, 16, 16, 16),
-            Block.makeCuboidShape(4, 26, 1, 14, 30, 15),
-            Block.makeCuboidShape(1, 14, 1, 10, 16, 15),
-            Block.makeCuboidShape(7, 16, 1, 12, 27, 15),
-            Block.makeCuboidShape(10, 16, 1, 15, 29, 15),
-            Block.makeCuboidShape(3, 16, 0, 16, 32, 1),
-            Block.makeCuboidShape(3, 16, 15, 16, 32, 16),
-            Block.makeCuboidShape(3, 16, 3, 4, 18, 4),
-            Block.makeCuboidShape(2.75, 17.5, 2.75, 4.25, 19, 4.25)
+            Block.makeCuboidShape(3, 0, 0, 16, 32, 16)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public Arcade() {

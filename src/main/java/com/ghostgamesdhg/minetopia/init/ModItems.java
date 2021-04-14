@@ -448,4 +448,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> CADEAU_ITEM = ITEMS.register("cadeau",
             () -> new BlockItemBase(ModBlocks.CADEAU.get()));
+
+    public static final RegistryObject<Item> ANTENNE_ITEM = ITEMS.register("antenne",
+            () -> new BlockItemBase(ModBlocks.ANTENNE.get()));
 }

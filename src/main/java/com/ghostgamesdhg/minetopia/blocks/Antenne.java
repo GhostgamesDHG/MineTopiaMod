@@ -20,27 +20,27 @@ import net.minecraft.world.IBlockReader;
 import javax.annotation.Nullable;
 import java.util.stream.Stream;
 
-public class Notebook extends Block {
+public class Antenne extends Block {
 
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
     private static final VoxelShape SHAPE_N = Stream.of(
-            Block.makeCuboidShape(1.4, 0, 2.91481, 14.5, 0.2, 11.91481)
+            Block.makeCuboidShape(5, 0, 5, 10, 8, 11)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(3.5925900000000013, 0, 1.5, 12.592590000000001, 0.20000000000000018, 14.600000000000001)
+            Block.makeCuboidShape(5, 0, 5, 11, 8, 10)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(1.5, 0, 4.1499900000000025, 14.600000000000001, 0.20000000000000018, 13.149990000000003)
+            Block.makeCuboidShape(5, 0, 5, 10, 8, 11)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(3.4074099999999987, 0, 1.5, 12.407409999999999, 0.20000000000000018, 14.600000000000001)
+            Block.makeCuboidShape(5, 0, 5, 11, 8, 10)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
-    public Notebook() {
+    public Antenne() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
                 .harvestLevel(0)
