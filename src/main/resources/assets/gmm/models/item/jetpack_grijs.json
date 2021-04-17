@@ -1,0 +1,8 @@
+{
+	"parent": "gmm:item/jetpack_diamond",
+	"textures": {
+		"0": "gmm:blocks/anvil_base",
+		"5": "gmm:blocks/concrete_gray",
+		"particle": "gmm:blocks/anvil_base"
+	}
+}

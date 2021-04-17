@@ -85,6 +85,15 @@ public class ModItems {
     public static final RegistryObject<Item> MODERN_WANDELSTOK = ITEMS.register("modern_wandelstok", ItemBase::new);
     public static final RegistryObject<Item> ZAK_PARAPLU = ITEMS.register("zak_paraplu", ItemBase::new);
     public static final RegistryObject<Item> SKISTOKKEN = ITEMS.register("skistokken", ItemBase::new);
+    public static final RegistryObject<Item> MAGICWAND = ITEMS.register("magicwand", ItemBase::new);
+    public static final RegistryObject<Item> MAGICWAND_BLUE = ITEMS.register("magicwand_blue", ItemBase::new);
+    public static final RegistryObject<Item> MAGICWAND_GREEN = ITEMS.register("magicwand_green", ItemBase::new);
+    public static final RegistryObject<Item> MAGICWAND_RED = ITEMS.register("magicwand_red", ItemBase::new);
+    public static final RegistryObject<Item> MAGICWAND_YELLOW = ITEMS.register("magicwand_yellow", ItemBase::new);
+    public static final RegistryObject<Item> JETPACK_DIAMOND = ITEMS.register("jetpack_diamond", ItemBase::new);
+    public static final RegistryObject<Item> JETPACK_GOLD = ITEMS.register("jetpack_gold", ItemBase::new);
+    public static final RegistryObject<Item> JETPACK_GRIJS = ITEMS.register("jetpack_grijs", ItemBase::new);
+    public static final RegistryObject<Item> JETPACK_IRON = ITEMS.register("jetpack_iron", ItemBase::new);
 
     //Items (Not in tab) (/give command only)
     public static final RegistryObject<DiamondCore> DIAMONDCORE = ITEMS.register("diamondcore", DiamondCore::new);
@@ -119,6 +128,7 @@ public class ModItems {
     public static final RegistryObject<Item> SNEEUWPOPPETJE = ITEMS.register("sneeuwpoppetje", ItemPopetjes::new);
     public static final RegistryObject<Item> TEDDYBEER = ITEMS.register("teddybeer", ItemPopetjes::new);
     public static final RegistryObject<Item> LEGOPOPPETJE = ITEMS.register("legopoppetje", ItemPopetjes::new);
+    public static final RegistryObject<Item> AMONGUSRED = ITEMS.register("amongusred", ItemPopetjes::new);
 
     //Hats
     public static final RegistryObject<Item> DOLLARBRIL = ITEMS.register("dollarbril", ItemHats::new);
@@ -199,6 +209,12 @@ public class ModItems {
     public static final RegistryObject<Item> MARIOHEAD = ITEMS.register("mariohead", ItemHats::new);
     public static final RegistryObject<Item> PANDAHEAD = ITEMS.register("pandahead", ItemHats::new);
     public static final RegistryObject<Item> SORTINGHAT = ITEMS.register("sortinghat", ItemHats::new);
+    public static final RegistryObject<Item> SKIBRIL_ROOD = ITEMS.register("skibril_rood", ItemHats::new);
+    public static final RegistryObject<Item> MINI_MOUSE = ITEMS.register("mini_mouse", ItemHats::new);
+    public static final RegistryObject<Item> MICKEY_MOUSE = ITEMS.register("mickey_mouse", ItemHats::new);
+    public static final RegistryObject<Item> HOGEHOED = ITEMS.register("hogehoed", ItemHats::new);
+    public static final RegistryObject<Item> DOGEARS = ITEMS.register("dogears", ItemHats::new);
+    public static final RegistryObject<Item> GOLFPET = ITEMS.register("golfpet", ItemHats::new);
 
     // Food place
     public static final RegistryObject<MilkShake> MILKSHAKE = ITEMS.register("milkshake", MilkShake::new);

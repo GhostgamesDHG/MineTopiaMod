@@ -281,5 +281,21 @@
   "item.gmm.pandahead": "Panda Head",
   "item.gmm.sortinghat": "Sorting Hat",
   "block.gmm.cadeau": "Cadeau",
-  "block.gmm.antenne": "Antenne"
+  "block.gmm.antenne": "Antenne",
+  "item.gmm.amongusred": "Red Amongus",
+  "item.gmm.skibril_rood": "Rode Skibril",
+  "item.gmm.mini_mouse": "Mini Mouse",
+  "item.gmm.mickey_mouse": "Mickey mouse",
+  "item.gmm.hogehoed": "Hoge hoed",
+  "item.gmm.dogears": "Dog ears",
+  "item.gmm.golfpet": "Golfpet",
+  "item.gmm.magicwand": "Magicwand",
+  "item.gmm.magicwand_blue": "Magicwand Blue",
+  "item.gmm.magicwand_green": "Magicwand Green",
+  "item.gmm.magicwand_red": "Magicwand Red",
+  "item.gmm.magicwand_yellow": "Magicwand Yellow",
+  "item.gmm.jetpack_diamond": "Diamond Jetpack",
+  "item.gmm.jetpack_gold": "Golden Jetpack",
+  "item.gmm.jetpack_grijs": "Grijze Jetpack",
+  "item.gmm.jetpack_iron": "Iron Jetpack"
 }
