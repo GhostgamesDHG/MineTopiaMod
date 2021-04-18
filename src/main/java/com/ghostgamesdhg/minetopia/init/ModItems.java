@@ -109,7 +109,6 @@ public class ModItems {
     public static final RegistryObject<Item> KEY_HAMER_REDSTONE = ITEMS.register("key_hamer_redstone", ItemBase::new);
     public static final RegistryObject<Item> KEY_HAMER_SILVER = ITEMS.register("key_hamer_silver", ItemBase::new);
 
-
     //Items (Not in tab) (/give command only)
     public static final RegistryObject<DiamondCore> DIAMONDCORE = ITEMS.register("diamondcore", DiamondCore::new);
     public static final RegistryObject<EmeraldCoin> EMERALDCOIN = ITEMS.register("emeraldcoin", EmeraldCoin::new);
@@ -230,6 +229,7 @@ public class ModItems {
     public static final RegistryObject<Item> HOGEHOED = ITEMS.register("hogehoed", ItemHats::new);
     public static final RegistryObject<Item> DOGEARS = ITEMS.register("dogears", ItemHats::new);
     public static final RegistryObject<Item> GOLFPET = ITEMS.register("golfpet", ItemHats::new);
+    public static final RegistryObject<Item> SNOR = ITEMS.register("snor", ItemHats::new);
 
     // Food place
     public static final RegistryObject<MilkShake> MILKSHAKE = ITEMS.register("milkshake", MilkShake::new);
@@ -263,6 +263,7 @@ public class ModItems {
     public static final RegistryObject<bitterballen> BITTERBALLEN = ITEMS.register("bitterballen", bitterballen::new);
     public static final RegistryObject<blik_linzen_soep> BLIK_LINZEN_SOEP = ITEMS.register("blik_linzen_soep", blik_linzen_soep::new);
     public static final RegistryObject<pepernoot> PEPERNOOT = ITEMS.register("pepernoot", pepernoot::new);
+    public static final RegistryObject<bonbons> BONBONS = ITEMS.register("bonbons", bonbons::new);
 
     // Tools place
     public static final RegistryObject<SwordItem> BLUE_CRYSTAL_SWORD = ITEMS.register("blue_crystal_sword", () ->
