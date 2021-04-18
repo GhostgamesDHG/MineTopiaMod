@@ -1,0 +1,11 @@
+{
+	"parent": "gmm:item/key_dobbelsteen_bronze",
+	"texture_size": [
+		32,
+		32
+	],
+	"textures": {
+		"0": "gmm:items/key_dobbelsteen_silver",
+		"particle": "gmm:items/key_dobbelsteen_silver"
+	}
+}

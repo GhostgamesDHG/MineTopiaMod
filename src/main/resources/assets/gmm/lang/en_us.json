@@ -297,5 +297,20 @@
   "item.gmm.jetpack_diamond": "Diamond Jetpack",
   "item.gmm.jetpack_gold": "Golden Jetpack",
   "item.gmm.jetpack_grijs": "Grijze Jetpack",
-  "item.gmm.jetpack_iron": "Iron Jetpack"
+  "item.gmm.jetpack_iron": "Iron Jetpack",
+  "item.gmm.valentijn_sword": "Valentijn Sword",
+  "item.gmm.key_dobbelsteen_bronze": "Bronzen Dobbelsteen key",
+  "item.gmm.key_dobbelsteen_diamond": "Diamond Dobbelsteen key",
+  "item.gmm.key_dobbelsteen_emerald": "Emerald Dobbelsteen key",
+  "item.gmm.key_dobbelsteen_gold": "Golden Dobbelsteen key",
+  "item.gmm.key_dobbelsteen_mystic": "Mystic Dobbelsteen key",
+  "item.gmm.key_dobbelsteen_redstone": "Redstone Dobbelsteen key",
+  "item.gmm.key_dobbelsteen_silver": "Silveren Dobbelsteen key",
+  "item.gmm.key_hamer_bronze": "Bronzen Hamer key",
+  "item.gmm.key_hamer_diamond": "Diamond Hamer key",
+  "item.gmm.key_hamer_emerald": "Emerald Hamer key",
+  "item.gmm.key_hamer_gold": "Golden Hamer key",
+  "item.gmm.key_hamer_mystic": "mystic Hamer key",
+  "item.gmm.key_hamer_redstone": "Redstone Hamer key",
+  "item.gmm.key_hamer_silver": "Silveren Hamer key"
 }

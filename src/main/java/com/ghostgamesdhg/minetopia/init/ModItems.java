@@ -94,6 +94,21 @@ public class ModItems {
     public static final RegistryObject<Item> JETPACK_GOLD = ITEMS.register("jetpack_gold", ItemBase::new);
     public static final RegistryObject<Item> JETPACK_GRIJS = ITEMS.register("jetpack_grijs", ItemBase::new);
     public static final RegistryObject<Item> JETPACK_IRON = ITEMS.register("jetpack_iron", ItemBase::new);
+    public static final RegistryObject<Item> KEY_DOBBELSTEEN_BRONZE = ITEMS.register("key_dobbelsteen_bronze", ItemBase::new);
+    public static final RegistryObject<Item> KEY_DOBBELSTEEN_DIAMOND = ITEMS.register("key_dobbelsteen_diamond", ItemBase::new);
+    public static final RegistryObject<Item> KEY_DOBBELSTEEN_EMERALD = ITEMS.register("key_dobbelsteen_emerald", ItemBase::new);
+    public static final RegistryObject<Item> KEY_DOBBELSTEEN_GOLD = ITEMS.register("key_dobbelsteen_gold", ItemBase::new);
+    public static final RegistryObject<Item> KEY_DOBBELSTEEN_MYSTIC = ITEMS.register("key_dobbelsteen_mystic", ItemBase::new);
+    public static final RegistryObject<Item> KEY_DOBBELSTEEN_REDSTONE = ITEMS.register("key_dobbelsteen_redstone", ItemBase::new);
+    public static final RegistryObject<Item> KEY_DOBBELSTEEN_SILVER = ITEMS.register("key_dobbelsteen_silver", ItemBase::new);
+    public static final RegistryObject<Item> KEY_HAMER_BRONZE = ITEMS.register("key_hamer_bronze", ItemBase::new);
+    public static final RegistryObject<Item> KEY_HAMER_DIAMOND = ITEMS.register("key_hamer_diamond", ItemBase::new);
+    public static final RegistryObject<Item> KEY_HAMER_EMERALD = ITEMS.register("key_hamer_emerald", ItemBase::new);
+    public static final RegistryObject<Item> KEY_HAMER_GOLD = ITEMS.register("key_hamer_gold", ItemBase::new);
+    public static final RegistryObject<Item> KEY_HAMER_MYSTIC = ITEMS.register("key_hamer_mystic", ItemBase::new);
+    public static final RegistryObject<Item> KEY_HAMER_REDSTONE = ITEMS.register("key_hamer_redstone", ItemBase::new);
+    public static final RegistryObject<Item> KEY_HAMER_SILVER = ITEMS.register("key_hamer_silver", ItemBase::new);
+
 
     //Items (Not in tab) (/give command only)
     public static final RegistryObject<DiamondCore> DIAMONDCORE = ITEMS.register("diamondcore", DiamondCore::new);
@@ -264,6 +279,9 @@ public class ModItems {
 
     public static final RegistryObject<ShovelItem> BLUE_CRYSTAL_SHOVEL = ITEMS.register("blue_crystal_shovel", () ->
             new ShovelItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> VALENTIJN_SWORD = ITEMS.register("valentijn_sword", () ->
+            new SwordItem(ModItemTier.BLUE_CRYSTAL, 5, -2.4F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 
     public static final RegistryObject<SwordItem> MES = ITEMS.register("mes", () ->
             new SwordItem(ModItemTier.MES, 4, -3F, new Item.Properties().group(MinetopiaExtra.TAB3)));
