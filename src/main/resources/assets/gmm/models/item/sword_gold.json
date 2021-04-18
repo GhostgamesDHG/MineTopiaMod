@@ -1,0 +1,10 @@
+{
+	"parent": "gmm:item/sword_blue",
+	"textures": {
+		"particle": "gmm:items/sword_gold2",
+		"grijs": "gmm:items/sword_gold2",
+		"zwart": "gmm:items/sword_black",
+		"groen": "gmm:items/sword_gold",
+		"oranje": "gmm:items/sword_gold"
+	}
+}

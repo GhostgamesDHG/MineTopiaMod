@@ -230,6 +230,18 @@ public class ModItems {
     public static final RegistryObject<Item> DOGEARS = ITEMS.register("dogears", ItemHats::new);
     public static final RegistryObject<Item> GOLFPET = ITEMS.register("golfpet", ItemHats::new);
     public static final RegistryObject<Item> SNOR = ITEMS.register("snor", ItemHats::new);
+    public static final RegistryObject<Item> VISSERSHOEDJE = ITEMS.register("vissershoedje", ItemHats::new);
+    public static final RegistryObject<Item> VISSERSHOEDJE_BLAUW = ITEMS.register("vissershoedje_blauw", ItemHats::new);
+    public static final RegistryObject<Item> VISSERSHOEDJE_GEEL = ITEMS.register("vissershoedje_geel", ItemHats::new);
+    public static final RegistryObject<Item> VISSERSHOEDJE_GROEN = ITEMS.register("vissershoedje_groen", ItemHats::new);
+    public static final RegistryObject<Item> VISSERSHOEDJE_ORANJE = ITEMS.register("vissershoedje_oranje", ItemHats::new);
+    public static final RegistryObject<Item> VISSERSHOEDJE_PAARS = ITEMS.register("vissershoedje_paars", ItemHats::new);
+    public static final RegistryObject<Item> VISSERSHOEDJE_ROOD = ITEMS.register("vissershoedje_rood", ItemHats::new);
+    public static final RegistryObject<Item> VISSERSHOEDJE_ROZE = ITEMS.register("vissershoedje_roze", ItemHats::new);
+    public static final RegistryObject<Item> PANAMA_BRUIN = ITEMS.register("panama_bruin", ItemHats::new);
+    public static final RegistryObject<Item> PANAMA_GRIJS = ITEMS.register("panama_grijs", ItemHats::new);
+    public static final RegistryObject<Item> PANAMA_WIT = ITEMS.register("panama_wit", ItemHats::new);
+    public static final RegistryObject<Item> PANAMA_ZWART = ITEMS.register("panama_zwart", ItemHats::new);
 
     // Food place
     public static final RegistryObject<MilkShake> MILKSHAKE = ITEMS.register("milkshake", MilkShake::new);
@@ -269,10 +281,67 @@ public class ModItems {
     public static final RegistryObject<SwordItem> BLUE_CRYSTAL_SWORD = ITEMS.register("blue_crystal_sword", () ->
             new SwordItem(ModItemTier.BLUE_CRYSTAL, 4, -2.4F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 
+    public static final RegistryObject<SwordItem> SWORD_BLUE = ITEMS.register("sword_blue", () ->
+            new SwordItem(ModItemTier.BLUE_CRYSTAL, 4, -2.4F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> SWORD_GOLD = ITEMS.register("sword_gold", () ->
+            new SwordItem(ModItemTier.BLUE_CRYSTAL, 4, -2.4F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> SWORD_GREEN = ITEMS.register("sword_green", () ->
+            new SwordItem(ModItemTier.BLUE_CRYSTAL, 4, -2.4F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> SWORD_PINK = ITEMS.register("sword_pink", () ->
+            new SwordItem(ModItemTier.BLUE_CRYSTAL, 4, -2.4F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
     public static final RegistryObject<PickaxeItem> BLUE_CRYSTAL_PICKAXE = ITEMS.register("blue_crystal_pickaxe", () ->
             new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 
+    public static final RegistryObject<PickaxeItem> CHRISTMAS_PICKAXE = ITEMS.register("christmas_pickaxe", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> ICE_PICKAXE = ITEMS.register("ice_pickaxe", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> LAPIS_PICKAXE = ITEMS.register("lapis_pickaxe", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> MAGMA_PICKAXE = ITEMS.register("magma_pickaxe", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> OBSIDIAN_PICKAXE = ITEMS.register("obsidian_pickaxe", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> REDSTONE_PICKAXE = ITEMS.register("redstone_pickaxe", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> VALENTIJN_PICKAXE = ITEMS.register("valentijn_pickaxe", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
     public static final RegistryObject<AxeItem> BLUE_CRYSTAL_AXE = ITEMS.register("blue_crystal_axe", () ->
+            new AxeItem(ModItemTier.BLUE_CRYSTAL, 6, -2.6F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<AxeItem> CHRISTMAS_AXE = ITEMS.register("christmas_axe", () ->
+            new AxeItem(ModItemTier.BLUE_CRYSTAL, 6, -2.6F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<AxeItem> COPPER_AXE = ITEMS.register("copper_axe", () ->
+            new AxeItem(ModItemTier.BLUE_CRYSTAL, 6, -2.6F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<AxeItem> EMERALD_AXE = ITEMS.register("emerald_axe", () ->
+            new AxeItem(ModItemTier.BLUE_CRYSTAL, 6, -2.6F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<AxeItem> LAPIS_AXE = ITEMS.register("lapis_axe", () ->
+            new AxeItem(ModItemTier.BLUE_CRYSTAL, 6, -2.6F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<AxeItem> MAGMA_AXE = ITEMS.register("magma_axe", () ->
+            new AxeItem(ModItemTier.BLUE_CRYSTAL, 6, -2.6F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<AxeItem> OBSIDIAN_AXE = ITEMS.register("obsidian_axe", () ->
+            new AxeItem(ModItemTier.BLUE_CRYSTAL, 6, -2.6F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<AxeItem> REDSTONE_AXE = ITEMS.register("redstone_axe", () ->
             new AxeItem(ModItemTier.BLUE_CRYSTAL, 6, -2.6F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 
     public static final RegistryObject<HoeItem> BLUE_CRYSTAL_HOE = ITEMS.register("blue_crystal_hoe", () ->

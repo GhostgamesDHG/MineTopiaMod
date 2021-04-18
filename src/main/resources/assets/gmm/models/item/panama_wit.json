@@ -1,0 +1,8 @@
+{
+	"parent": "gmm:item/panama_bruin",
+	"textures": {
+		"0": "gmm:blocks/grass_side_snowed",
+		"1": "gmm:blocks/anvil_base",
+		"particle": "gmm:blocks/grass_side_snowed"
+	}
+}
