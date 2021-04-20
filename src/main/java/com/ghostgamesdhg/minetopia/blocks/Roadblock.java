@@ -25,19 +25,19 @@ public class Roadblock extends Block {
 
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
     private static final VoxelShape SHAPE_N = Stream.of(
-            Block.makeCuboidShape(-13, 0, 1, 27, 24, 16)
+            Block.makeCuboidShape(-12, 0.5, 1, 28, 24.5, 15)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(1, 0, -13, 16, 24, 27)
+            Block.makeCuboidShape(1, 0.5, -12, 15, 24.5, 28)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(-13, 0, 1, 27, 24, 16)
+            Block.makeCuboidShape(-12, 0.5, 1, 28, 24.5, 15)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(1, 0, -13, 16, 24, 27)
+            Block.makeCuboidShape(1, 0.5, -12, 15, 24.5, 28)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public Roadblock() {

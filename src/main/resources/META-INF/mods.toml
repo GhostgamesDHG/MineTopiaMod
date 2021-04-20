@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[35,)"
 license="All rights reserved"
+IssueTrackerURL="https://github.com/GhostgamesDHG/MinetopiaMod/issues"
 [[mods]]
 modId="gmm"
-version="1.3.0"
-displayName="Ghostgames MineTopiaExtras Mod"
+version="1.4.0"
+displayName="MineTopia Mod"
 updateJSONURL="https://raw.githubusercontent.com/GhostgamesDHG/update.json/main/update.json"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/minetopia-extra-mod"
 logoFile="logo.png"
 authors="GhostGamesDHG"
 description='''
-         This mod adds MineTopia money and more stuff!
+         This mod adds almost everything from the MineTopia world!
 '''
