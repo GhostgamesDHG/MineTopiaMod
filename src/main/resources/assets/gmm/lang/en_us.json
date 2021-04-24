@@ -345,5 +345,16 @@
   "item.gmm.panama_bruin": "Brown panama",
   "item.gmm.panama_grijs": "Gray panama",
   "item.gmm.panama_wit": "White panama",
-  "item.gmm.panama_zwart": "Black panama"
+  "item.gmm.panama_zwart": "Black panama",
+  "item.gmm.patatje_mayo": "Fries mayonnaise",
+  "item.gmm.chocolade_ijs": "Chocolate Ice cream",
+  "item.gmm.chocolade_kinderijsje": "Chocolate children ice cream",
+  "item.gmm.kinderijsje": "Children ice cream",
+  "item.gmm.smurfen_ijs": "Smurf ice cream",
+  "item.gmm.vanille_ijs": "Vanilla ice cream",
+  "item.gmm.vlaamse_frites": "Flemish fries",
+  "block.gmm.diamond_trophie_1j": "Diamond Trophie 1 year",
+  "block.gmm.golden_trophie_1j": "Golden Trophie 1 year",
+  "block.gmm.silver_trophie_1j": "Silver Trophie 1 year",
+  "block.gmm.bronze_trophie_1j": "Bronze Trophie 1 year"
 }

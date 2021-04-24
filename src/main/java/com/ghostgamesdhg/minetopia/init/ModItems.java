@@ -276,6 +276,13 @@ public class ModItems {
     public static final RegistryObject<blik_linzen_soep> BLIK_LINZEN_SOEP = ITEMS.register("blik_linzen_soep", blik_linzen_soep::new);
     public static final RegistryObject<pepernoot> PEPERNOOT = ITEMS.register("pepernoot", pepernoot::new);
     public static final RegistryObject<bonbons> BONBONS = ITEMS.register("bonbons", bonbons::new);
+    public static final RegistryObject<Patat> PATATJE_MAYO = ITEMS.register("patatje_mayo", Patat::new);
+    public static final RegistryObject<aardbeien_ijs> CHOCOLADE_IJS = ITEMS.register("chocolade_ijs", aardbeien_ijs::new);
+    public static final RegistryObject<aardbeien_ijs> CHOCOLADE_KINDERIJSJE = ITEMS.register("chocolade_kinderijsje", aardbeien_ijs::new);
+    public static final RegistryObject<aardbeien_ijs> KINDERIJSJE = ITEMS.register("kinderijsje", aardbeien_ijs::new);
+    public static final RegistryObject<aardbeien_ijs> SMURFEN_IJS = ITEMS.register("smurfen_ijs", aardbeien_ijs::new);
+    public static final RegistryObject<aardbeien_ijs> VANILLE_IJS = ITEMS.register("vanille_ijs", aardbeien_ijs::new);
+    public static final RegistryObject<Patat> VLAAMSE_FRITES = ITEMS.register("vlaamse_frites", Patat::new);
 
     // Tools place
     public static final RegistryObject<SwordItem> BLUE_CRYSTAL_SWORD = ITEMS.register("blue_crystal_sword", () ->
@@ -555,4 +562,16 @@ public class ModItems {
 
     public static final RegistryObject<Item> ANTENNE_ITEM = ITEMS.register("antenne",
             () -> new BlockItemBase(ModBlocks.ANTENNE.get()));
+
+    public static final RegistryObject<Item> DIAMOND_TROPHIE_1J_ITEM = ITEMS.register("diamond_trophie_1j",
+            () -> new BlockItemBase(ModBlocks.DIAMOND_TROPHIE_1J.get()));
+
+    public static final RegistryObject<Item> BRONZE_TROPHIE_1J_ITEM = ITEMS.register("bronze_trophie_1j",
+            () -> new BlockItemBase(ModBlocks.BRONZE_TROPHIE_1J.get()));
+
+    public static final RegistryObject<Item> GOLDEN_TROPHIE_1J_ITEM = ITEMS.register("golden_trophie_1j",
+            () -> new BlockItemBase(ModBlocks.GOLDEN_TROPHIE_1J.get()));
+
+    public static final RegistryObject<Item> SILVER_TROPHIE_1J_ITEM = ITEMS.register("silver_trophie_1j",
+            () -> new BlockItemBase(ModBlocks.SILVER_TROPHIE_1J.get()));
 }

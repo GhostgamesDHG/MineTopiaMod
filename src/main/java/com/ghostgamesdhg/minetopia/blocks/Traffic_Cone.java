@@ -70,10 +70,10 @@ public class Traffic_Cone extends Block {
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public Traffic_Cone() {
-        super(Properties.create(Material.WOOL)
+        super(Properties.create(Material.ROCK)
                 .hardnessAndResistance(3.5f, 4.0f)
                 .harvestLevel(0)
-                .sound(SoundType.WOOD)
+                .sound(SoundType.STONE)
                 .setRequiresTool());
     }
 

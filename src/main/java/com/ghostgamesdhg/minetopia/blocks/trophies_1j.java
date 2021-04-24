@@ -1,9 +1,6 @@
 package com.ghostgamesdhg.minetopia.blocks;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.HorizontalBlock;
-import net.minecraft.block.SoundType;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.state.DirectionProperty;
@@ -16,37 +13,35 @@ import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.world.IBlockReader;
-import net.minecraftforge.common.ToolType;
 
 import javax.annotation.Nullable;
 import java.util.stream.Stream;
 
-public class Yellow_Bag extends Block {
+public class trophies_1j extends Block {
 
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
     private static final VoxelShape SHAPE_N = Stream.of(
-            Block.makeCuboidShape(0, 1, 3, 16, 10, 13)
+            Block.makeCuboidShape(2, 0.5, 5, 14, 10.5, 11)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(3, 1, 0, 13, 10, 16)
+            Block.makeCuboidShape(5, 0.5, 2, 11, 10.5, 14)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(0, 1, 3, 16, 10, 13)
+            Block.makeCuboidShape(2, 0.5, 5, 14, 10.5, 11)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(3, 1, 0, 13, 10, 16)
+            Block.makeCuboidShape(5, 0.5, 2, 11, 10.5, 14)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
-    public Yellow_Bag() {
-        super(Properties.create(Material.IRON)
+    public trophies_1j() {
+        super(Properties.create(Material.WOOD)
                 .hardnessAndResistance(3.5f, 4.0f)
                 .harvestLevel(0)
-                .sound(SoundType.CLOTH)
-                .setRequiresTool());
+                .sound(SoundType.WOOD));
     }
 
     @Override
@@ -84,10 +79,5 @@ public class Yellow_Bag extends Block {
     @Override
     protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
         builder.add(FACING);
-    }
-
-    @Override
-    public float getAmbientOcclusionLightValue(BlockState state, IBlockReader worldIn, BlockPos pos) {
-        return 0.6f;
     }
 }

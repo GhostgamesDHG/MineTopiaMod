@@ -6,8 +6,8 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
-public class Zwarte_Keukentegels extends Block {
-    public Zwarte_Keukentegels() {
+public class keukentegels extends Block {
+    public keukentegels() {
         super(AbstractBlock.Properties.create(Material.ROCK)
                 .hardnessAndResistance(3.0f, 10.0f)
                 .sound(SoundType.STONE)

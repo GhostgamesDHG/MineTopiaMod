@@ -11,7 +11,7 @@ import net.minecraftforge.common.ToolType;
 
 public class Blue_Crystal_Ore extends OreBlock {
     public Blue_Crystal_Ore() {
-        super(Block.Properties.create(Material.IRON)
+        super(Block.Properties.create(Material.ROCK)
                 .hardnessAndResistance(4.0f, 2.0f)
                 .sound(SoundType.STONE)
                 .harvestLevel(3) //1 = wood - 2 = stone - 3 = iron - 4 = diamond.

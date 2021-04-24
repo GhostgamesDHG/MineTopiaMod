@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "gmm:block/diamond_trophie_1j" },
+    "facing=south": { "model": "gmm:block/diamond_trophie_1j", "y":  180},
+    "facing=west": { "model": "gmm:block/diamond_trophie_1j", "y":  270},
+    "facing=east": { "model": "gmm:block/diamond_trophie_1j", "y":  90}
+  }
+}

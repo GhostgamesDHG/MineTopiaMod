@@ -15,7 +15,6 @@ public class diamondcore_ore extends OreBlock {
                 .sound(SoundType.STONE)
                 .harvestLevel(4) //1 = wood - 2 = stone - 3 = iron - 4 = diamond.
                 .harvestTool(ToolType.PICKAXE));
-
     }
 
     @Override

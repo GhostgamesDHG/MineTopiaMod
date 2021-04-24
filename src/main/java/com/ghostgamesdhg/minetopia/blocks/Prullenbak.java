@@ -26,83 +26,26 @@ public class Prullenbak extends Block {
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
     private static final VoxelShape SHAPE_N = Stream.of(
-            Block.makeCuboidShape(0, 0, 0, 16, 1, 16),
-            Block.makeCuboidShape(0, 18, 1, 1, 19, 15),
-            Block.makeCuboidShape(15, 18, 1, 16, 19, 15),
-            Block.makeCuboidShape(1, 18, 15, 15, 19, 16),
-            Block.makeCuboidShape(1, 18, 0, 15, 19, 1),
-            Block.makeCuboidShape(0, 23, 0, 16, 24, 16),
-            Block.makeCuboidShape(0, 1, 0, 1, 23, 1),
-            Block.makeCuboidShape(0, 1, 15, 1, 23, 16),
-            Block.makeCuboidShape(15, 1, 15, 16, 23, 16),
-            Block.makeCuboidShape(15, 1, 0, 16, 23, 1),
-            Block.makeCuboidShape(1, 1, 0.5, 15, 18, 1),
-            Block.makeCuboidShape(1, 1, 15, 15, 18, 15.5),
-            Block.makeCuboidShape(0.5, 1, 1, 1, 18, 15),
-            Block.makeCuboidShape(15, 1, 1, 15.5, 18, 15),
-            Block.makeCuboidShape(0.5, 19, 1, 1, 23, 15),
-            Block.makeCuboidShape(15, 19, 1, 15.5, 23, 15)
+            Block.makeCuboidShape(0.1, 0, 0.1, 16, 24, 16)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
+
     private static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(0, 0, 0, 16, 1, 16),
-            Block.makeCuboidShape(0, 18, 1, 1, 19, 15),
-            Block.makeCuboidShape(15, 18, 1, 16, 19, 15),
-            Block.makeCuboidShape(1, 18, 15, 15, 19, 16),
-            Block.makeCuboidShape(1, 18, 0, 15, 19, 1),
-            Block.makeCuboidShape(0, 23, 0, 16, 24, 16),
-            Block.makeCuboidShape(0, 1, 0, 1, 23, 1),
-            Block.makeCuboidShape(0, 1, 15, 1, 23, 16),
-            Block.makeCuboidShape(15, 1, 15, 16, 23, 16),
-            Block.makeCuboidShape(15, 1, 0, 16, 23, 1),
-            Block.makeCuboidShape(1, 1, 0.5, 15, 18, 1),
-            Block.makeCuboidShape(1, 1, 15, 15, 18, 15.5),
-            Block.makeCuboidShape(0.5, 1, 1, 1, 18, 15),
-            Block.makeCuboidShape(15, 1, 1, 15.5, 18, 15),
-            Block.makeCuboidShape(0.5, 19, 1, 1, 23, 15),
-            Block.makeCuboidShape(15, 19, 1, 15.5, 23, 15)
+            Block.makeCuboidShape(0.1, 0, 0.1, 16, 24, 16)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
+
     private static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(0, 0, 0, 16, 1, 16),
-            Block.makeCuboidShape(0, 18, 1, 1, 19, 15),
-            Block.makeCuboidShape(15, 18, 1, 16, 19, 15),
-            Block.makeCuboidShape(1, 18, 15, 15, 19, 16),
-            Block.makeCuboidShape(1, 18, 0, 15, 19, 1),
-            Block.makeCuboidShape(0, 23, 0, 16, 24, 16),
-            Block.makeCuboidShape(0, 1, 0, 1, 23, 1),
-            Block.makeCuboidShape(0, 1, 15, 1, 23, 16),
-            Block.makeCuboidShape(15, 1, 15, 16, 23, 16),
-            Block.makeCuboidShape(15, 1, 0, 16, 23, 1),
-            Block.makeCuboidShape(1, 1, 0.5, 15, 18, 1),
-            Block.makeCuboidShape(1, 1, 15, 15, 18, 15.5),
-            Block.makeCuboidShape(0.5, 1, 1, 1, 18, 15),
-            Block.makeCuboidShape(15, 1, 1, 15.5, 18, 15),
-            Block.makeCuboidShape(0.5, 19, 1, 1, 23, 15),
-            Block.makeCuboidShape(15, 19, 1, 15.5, 23, 15)
+            Block.makeCuboidShape(0.1, 0, 0.1, 16, 24, 16)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
+
     private static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(0, 0, 0, 16, 1, 16),
-            Block.makeCuboidShape(0, 18, 1, 1, 19, 15),
-            Block.makeCuboidShape(15, 18, 1, 16, 19, 15),
-            Block.makeCuboidShape(1, 18, 15, 15, 19, 16),
-            Block.makeCuboidShape(1, 18, 0, 15, 19, 1),
-            Block.makeCuboidShape(0, 23, 0, 16, 24, 16),
-            Block.makeCuboidShape(0, 1, 0, 1, 23, 1),
-            Block.makeCuboidShape(0, 1, 15, 1, 23, 16),
-            Block.makeCuboidShape(15, 1, 15, 16, 23, 16),
-            Block.makeCuboidShape(15, 1, 0, 16, 23, 1),
-            Block.makeCuboidShape(1, 1, 0.5, 15, 18, 1),
-            Block.makeCuboidShape(1, 1, 15, 15, 18, 15.5),
-            Block.makeCuboidShape(0.5, 1, 1, 1, 18, 15),
-            Block.makeCuboidShape(15, 1, 1, 15.5, 18, 15),
-            Block.makeCuboidShape(0.5, 19, 1, 1, 23, 15),
-            Block.makeCuboidShape(15, 19, 1, 15.5, 23, 15)
+            Block.makeCuboidShape(0.1, 0, 0.1, 16, 24, 16)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public Prullenbak() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
                 .harvestLevel(0)
-                .sound(SoundType.STONE)
+                .sound(SoundType.METAL)
                 .harvestTool(ToolType.PICKAXE)
                 .setRequiresTool());
     }

@@ -26,90 +26,26 @@ public class microfoon extends Block {
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
     private static final VoxelShape SHAPE_N = Stream.of(
-            Block.makeCuboidShape(7, 0, 7, 9, 10, 9),
-            Block.makeCuboidShape(6.5, 3.5, 7, 7, 10, 9),
-            Block.makeCuboidShape(9, 3.5, 7, 9.5, 10, 9),
-            Block.makeCuboidShape(7, 3.5, 9, 9, 10, 9.5),
-            Block.makeCuboidShape(7, 3.5, 6.5, 9, 10, 7),
-            Block.makeCuboidShape(6.5, 10, 6.5, 9.5, 10.5, 9.5),
-            Block.makeCuboidShape(6, 10.5, 6.5, 6.5, 12, 9.5),
-            Block.makeCuboidShape(9.5, 10.5, 6.5, 10, 12, 9.5),
-            Block.makeCuboidShape(6.5, 10.5, 9.5, 9.5, 12, 10),
-            Block.makeCuboidShape(6.5, 10.5, 6, 9.5, 12, 6.5),
-            Block.makeCuboidShape(6.5, 13, 6, 9.5, 14, 6.5),
-            Block.makeCuboidShape(6, 13, 6.5, 6.5, 14, 9.5),
-            Block.makeCuboidShape(9.5, 13, 6.5, 10, 14, 9.5),
-            Block.makeCuboidShape(6.5, 13, 9.5, 9.5, 14, 10),
-            Block.makeCuboidShape(6.5, 10.5, 6.5, 9.5, 14, 9.5),
-            Block.makeCuboidShape(6.5, 14, 6.5, 9.5, 14.5, 9.5),
-            Block.makeCuboidShape(6, 12, 6, 10, 13, 10)
+            Block.makeCuboidShape(6, 0.5, 6, 10, 15, 10)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(7, 0, 7, 9, 10, 9),
-            Block.makeCuboidShape(6.5, 3.5, 7, 7, 10, 9),
-            Block.makeCuboidShape(9, 3.5, 7, 9.5, 10, 9),
-            Block.makeCuboidShape(7, 3.5, 9, 9, 10, 9.5),
-            Block.makeCuboidShape(7, 3.5, 6.5, 9, 10, 7),
-            Block.makeCuboidShape(6.5, 10, 6.5, 9.5, 10.5, 9.5),
-            Block.makeCuboidShape(6, 10.5, 6.5, 6.5, 12, 9.5),
-            Block.makeCuboidShape(9.5, 10.5, 6.5, 10, 12, 9.5),
-            Block.makeCuboidShape(6.5, 10.5, 9.5, 9.5, 12, 10),
-            Block.makeCuboidShape(6.5, 10.5, 6, 9.5, 12, 6.5),
-            Block.makeCuboidShape(6.5, 13, 6, 9.5, 14, 6.5),
-            Block.makeCuboidShape(6, 13, 6.5, 6.5, 14, 9.5),
-            Block.makeCuboidShape(9.5, 13, 6.5, 10, 14, 9.5),
-            Block.makeCuboidShape(6.5, 13, 9.5, 9.5, 14, 10),
-            Block.makeCuboidShape(6.5, 10.5, 6.5, 9.5, 14, 9.5),
-            Block.makeCuboidShape(6.5, 14, 6.5, 9.5, 14.5, 9.5),
-            Block.makeCuboidShape(6, 12, 6, 10, 13, 10)
+            Block.makeCuboidShape(6, 0.5, 6, 10, 15, 10)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(7, 0, 7, 9, 10, 9),
-            Block.makeCuboidShape(6.5, 3.5, 7, 7, 10, 9),
-            Block.makeCuboidShape(9, 3.5, 7, 9.5, 10, 9),
-            Block.makeCuboidShape(7, 3.5, 9, 9, 10, 9.5),
-            Block.makeCuboidShape(7, 3.5, 6.5, 9, 10, 7),
-            Block.makeCuboidShape(6.5, 10, 6.5, 9.5, 10.5, 9.5),
-            Block.makeCuboidShape(6, 10.5, 6.5, 6.5, 12, 9.5),
-            Block.makeCuboidShape(9.5, 10.5, 6.5, 10, 12, 9.5),
-            Block.makeCuboidShape(6.5, 10.5, 9.5, 9.5, 12, 10),
-            Block.makeCuboidShape(6.5, 10.5, 6, 9.5, 12, 6.5),
-            Block.makeCuboidShape(6.5, 13, 6, 9.5, 14, 6.5),
-            Block.makeCuboidShape(6, 13, 6.5, 6.5, 14, 9.5),
-            Block.makeCuboidShape(9.5, 13, 6.5, 10, 14, 9.5),
-            Block.makeCuboidShape(6.5, 13, 9.5, 9.5, 14, 10),
-            Block.makeCuboidShape(6.5, 10.5, 6.5, 9.5, 14, 9.5),
-            Block.makeCuboidShape(6.5, 14, 6.5, 9.5, 14.5, 9.5),
-            Block.makeCuboidShape(6, 12, 6, 10, 13, 10)
+            Block.makeCuboidShape(6, 0.5, 6, 10, 15, 10)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(7, 0, 7, 9, 10, 9),
-            Block.makeCuboidShape(6.5, 3.5, 7, 7, 10, 9),
-            Block.makeCuboidShape(9, 3.5, 7, 9.5, 10, 9),
-            Block.makeCuboidShape(7, 3.5, 9, 9, 10, 9.5),
-            Block.makeCuboidShape(7, 3.5, 6.5, 9, 10, 7),
-            Block.makeCuboidShape(6.5, 10, 6.5, 9.5, 10.5, 9.5),
-            Block.makeCuboidShape(6, 10.5, 6.5, 6.5, 12, 9.5),
-            Block.makeCuboidShape(9.5, 10.5, 6.5, 10, 12, 9.5),
-            Block.makeCuboidShape(6.5, 10.5, 9.5, 9.5, 12, 10),
-            Block.makeCuboidShape(6.5, 10.5, 6, 9.5, 12, 6.5),
-            Block.makeCuboidShape(6.5, 13, 6, 9.5, 14, 6.5),
-            Block.makeCuboidShape(6, 13, 6.5, 6.5, 14, 9.5),
-            Block.makeCuboidShape(9.5, 13, 6.5, 10, 14, 9.5),
-            Block.makeCuboidShape(6.5, 13, 9.5, 9.5, 14, 10),
-            Block.makeCuboidShape(6.5, 10.5, 6.5, 9.5, 14, 9.5),
-            Block.makeCuboidShape(6.5, 14, 6.5, 9.5, 14.5, 9.5),
-            Block.makeCuboidShape(6, 12, 6, 10, 13, 10)
+            Block.makeCuboidShape(6, 0.5, 6, 10, 15, 10)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public microfoon() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
                 .harvestLevel(0)
-                .sound(SoundType.STONE));
+                .sound(SoundType.METAL));
     }
 
     @Override

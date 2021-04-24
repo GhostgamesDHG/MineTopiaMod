@@ -16,12 +16,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLUE_CRYSTAL_ORE = BLOCKS.register("blue_crystal_ore", Blue_Crystal_Ore::new);
     public static final RegistryObject<Block> DIAMONDCORE_ORE = BLOCKS.register("diamondcore_ore", diamondcore_ore::new);
     public static final RegistryObject<Block> PIN_AUTOMAAT = BLOCKS.register("pin_automaat", PinAutomaat::new);
-    public static final RegistryObject<Block> BLAUWE_KEUKENTEGELS = BLOCKS.register("blauwe_keukentegels", Blauwe_Keukentegels::new);
-    public static final RegistryObject<Block> ZWARTE_KEUKENTEGELS = BLOCKS.register("zwarte_keukentegels", Zwarte_Keukentegels::new);
+    public static final RegistryObject<Block> BLAUWE_KEUKENTEGELS = BLOCKS.register("blauwe_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> ZWARTE_KEUKENTEGELS = BLOCKS.register("zwarte_keukentegels", keukentegels::new);
     public static final RegistryObject<Block> BROWN_CABINE = BLOCKS.register("brown_cabine", Brown_Cabine::new);
     public static final RegistryObject<Block> COMPUTER = BLOCKS.register("computer", Computer::new);
     public static final RegistryObject<Block> GREEN_BAG = BLOCKS.register("green_bag", Green_Bag::new);
-    public static final RegistryObject<Block> YELLOW_BAG = BLOCKS.register("yellow_bag", Yellow_Bag::new);
+    public static final RegistryObject<Block> YELLOW_BAG = BLOCKS.register("yellow_bag", Green_Bag::new);
     public static final RegistryObject<Block> HONDEN_BEDJE = BLOCKS.register("honden_bedje", Honden_Bedje::new);
     public static final RegistryObject<Block> OVEN = BLOCKS.register("oven", Oven::new);
     public static final RegistryObject<Block> OIL_CAN = BLOCKS.register("oil_can", Oil_Can::new);
@@ -47,4 +47,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> MONITOR = BLOCKS.register("monitor", Monitor::new);
     public static final RegistryObject<Block> CADEAU = BLOCKS.register("cadeau", Cadeau::new);
     public static final RegistryObject<Block> ANTENNE = BLOCKS.register("antenne", Antenne::new);
+    public static final RegistryObject<Block> DIAMOND_TROPHIE_1J = BLOCKS.register("diamond_trophie_1j", trophies_1j::new);
+    public static final RegistryObject<Block> GOLDEN_TROPHIE_1J = BLOCKS.register("golden_trophie_1j", trophies_1j::new);
+    public static final RegistryObject<Block> BRONZE_TROPHIE_1J = BLOCKS.register("bronze_trophie_1j", trophies_1j::new);
+    public static final RegistryObject<Block> SILVER_TROPHIE_1J = BLOCKS.register("silver_trophie_1j", trophies_1j::new);
 }

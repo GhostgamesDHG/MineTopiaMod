@@ -19,7 +19,7 @@ public class PinAutomaat extends Block {
         super(AbstractBlock.Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
                 .harvestLevel(0)
-                .sound(SoundType.ANVIL)
+                .sound(SoundType.METAL)
                 .harvestTool(ToolType.PICKAXE)
                 .setRequiresTool());
     }

@@ -41,7 +41,7 @@ public class luckybag extends Block {
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public luckybag() {
-        super(Properties.create(Material.IRON)
+        super(Properties.create(Material.ROCK)
                 .hardnessAndResistance(3.5f, 4.0f)
                 .harvestLevel(0)
                 .sound(SoundType.STONE));
