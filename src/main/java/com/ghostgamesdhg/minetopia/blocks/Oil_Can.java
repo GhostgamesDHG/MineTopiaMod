@@ -27,24 +27,32 @@ public class Oil_Can extends Block {
 
     private static final VoxelShape SHAPE_N = Stream.of(
             Block.makeCuboidShape(0, 1, 0, 16, 18, 16)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
+    ).reduce((v1, v2) -> {
+        return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);
+    }).get();
 
     public static final VoxelShape SHAPE_E = Stream.of(
             Block.makeCuboidShape(0, 1, 0, 16, 18, 16)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
+    ).reduce((v1, v2) -> {
+        return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);
+    }).get();
 
     public static final VoxelShape SHAPE_S = Stream.of(
             Block.makeCuboidShape(0, 1, 0, 16, 18, 16)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
+    ).reduce((v1, v2) -> {
+        return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);
+    }).get();
 
     public static final VoxelShape SHAPE_W = Stream.of(
             Block.makeCuboidShape(0, 1, 0, 16, 18, 16)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
+    ).reduce((v1, v2) -> {
+        return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);
+    }).get();
 
     public Oil_Can() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
+                .harvestLevel(2)
                 .sound(SoundType.METAL)
                 .harvestTool(ToolType.PICKAXE)
                 .setRequiresTool());
@@ -56,7 +64,7 @@ public class Oil_Can extends Block {
             case NORTH:
                 return SHAPE_N;
             case EAST:
-                return  SHAPE_E;
+                return SHAPE_E;
             case SOUTH:
                 return SHAPE_S;
             case WEST:
@@ -69,7 +77,7 @@ public class Oil_Can extends Block {
     @Nullable
     @Override
     public BlockState getStateForPlacement(BlockItemUseContext context) {
-        return this .getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
+        return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
     }
 
     @Override
@@ -85,5 +93,10 @@ public class Oil_Can extends Block {
     @Override
     protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
         builder.add(FACING);
+    }
+
+    @Override
+    public float getAmbientOcclusionLightValue(BlockState state, IBlockReader worldIn, BlockPos pos) {
+        return 0f;
     }
 }

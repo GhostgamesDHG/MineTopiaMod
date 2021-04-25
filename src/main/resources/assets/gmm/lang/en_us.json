@@ -83,11 +83,13 @@
   "item.gmm.ingbankpas": "ING Debit card",
   "itemGroup.MineTopiaItems": "MineTopia Items",
   "itemGroup.MineTopiaBlocks": "MineTopia Blocks",
+  "itemGroup.MineTopiaBlocks3D": "MineTopia Blocks 3D",
   "itemGroup.MineTopiaTools": "MineTopia Tools",
   "itemGroup.MineTopiaFood": "MineTopia Food",
   "itemGroup.MineTopiaArmor": "MineTopia Clothes",
   "itemGroup.MineTopiaPopetjes": "MineTopia Dolls",
   "itemGroup.MineTopiaHats": "MineTopia Hats",
+  "itemGroup.MineTopiaTrophies": "MineTopia Trophies",
   "item.gmm.blue_crystal": "Blue crystal",
   "item.gmm.knuppel": "Bat",
   "item.gmm.sombrero": "Sombrero",
@@ -356,5 +358,6 @@
   "block.gmm.diamond_trophie_1j": "Diamond Trophie 1 year",
   "block.gmm.golden_trophie_1j": "Golden Trophie 1 year",
   "block.gmm.silver_trophie_1j": "Silver Trophie 1 year",
-  "block.gmm.bronze_trophie_1j": "Bronze Trophie 1 year"
+  "block.gmm.bronze_trophie_1j": "Bronze Trophie 1 year",
+  "block.gmm.mod_maker_trophie": "Mod maker trofee"
 }

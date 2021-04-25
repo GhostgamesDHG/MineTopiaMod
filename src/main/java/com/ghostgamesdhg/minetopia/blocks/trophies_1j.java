@@ -40,7 +40,6 @@ public class trophies_1j extends Block {
     public trophies_1j() {
         super(Properties.create(Material.WOOD)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
                 .sound(SoundType.WOOD));
     }
 

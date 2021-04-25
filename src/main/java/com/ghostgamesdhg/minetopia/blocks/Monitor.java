@@ -16,6 +16,7 @@ import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.world.IBlockReader;
+import net.minecraftforge.common.ToolType;
 
 import javax.annotation.Nullable;
 import java.util.stream.Stream;
@@ -62,7 +63,9 @@ public class Monitor extends Block {
     public Monitor() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
+                .harvestLevel(2)
+                .harvestTool(ToolType.PICKAXE)
+                .setRequiresTool()
                 .sound(SoundType.METAL));
     }
 

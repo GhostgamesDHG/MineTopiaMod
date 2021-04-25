@@ -21,9 +21,10 @@ public class Parking_Sign extends Block {
     public Parking_Sign() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
+                .harvestLevel(2)
                 .sound(SoundType.STONE)
                 .harvestTool(ToolType.PICKAXE)
+                .setLightLevel(value -> 6)
                 .setRequiresTool());
     }
 

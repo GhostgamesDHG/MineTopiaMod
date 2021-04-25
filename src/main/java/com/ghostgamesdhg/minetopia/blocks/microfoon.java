@@ -44,7 +44,6 @@ public class microfoon extends Block {
     public microfoon() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
                 .sound(SoundType.METAL));
     }
 

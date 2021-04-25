@@ -43,7 +43,6 @@ public class krans extends Block {
     public krans() {
         super(Properties.create(Material.LEAVES)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
                 .sound(SoundType.LILY_PADS));
     }
 

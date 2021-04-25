@@ -4,9 +4,9 @@ import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 
-public class BlockItemBase extends BlockItem {
+public class BlockInvis extends BlockItem {
 
-    public BlockItemBase(Block block) {
-        super(block, new Properties().group(MinetopiaExtra.TAB9));
+    public BlockInvis(Block block) {
+        super(block, new Properties());
     }
 }

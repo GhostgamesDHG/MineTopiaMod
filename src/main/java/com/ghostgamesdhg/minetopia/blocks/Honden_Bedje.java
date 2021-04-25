@@ -44,7 +44,7 @@ public class Honden_Bedje extends Block {
     public Honden_Bedje() {
         super(Properties.create(Material.WOOD)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
+                .harvestLevel(2)
                 .sound(SoundType.WOOD)
                 .harvestTool(ToolType.AXE)
                 .setRequiresTool());

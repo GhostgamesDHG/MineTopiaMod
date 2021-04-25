@@ -21,7 +21,7 @@ public class Brown_Cabine extends Block {
     public Brown_Cabine() {
         super(Properties.create(Material.WOOD)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
+                .harvestLevel(2)
                 .sound(SoundType.WOOD)
                 .harvestTool(ToolType.AXE)
                 .setRequiresTool());

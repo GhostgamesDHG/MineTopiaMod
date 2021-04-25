@@ -83,7 +83,7 @@
   "item.gmm.ingbankpas": "ING Bankpas",
   "itemGroup.MineTopiaItems": "MineTopia spullen",
   "itemGroup.MineTopiaBlocks": "MineTopia Blokken",
-  "itemGroup.MineTopiaTools": "MineTopia Gereedstap",
+  "itemGroup.MineTopiaTools": "MineTopia Gereedschap",
   "itemGroup.MineTopiaFood": "MineTopia Eten",
   "itemGroup.MineTopiaArmor": "MineTopia Kleding",
   "itemGroup.MineTopiaPopetjes": "MineTopia Popetjes",
@@ -356,5 +356,8 @@
   "block.gmm.diamond_trophie_1j": "Diamond trofee 1 jaar",
   "block.gmm.golden_trophie_1j": "Gouden trofee 1 jaar",
   "block.gmm.silver_trophie_1j": "Zilveren trofee 1 jaar",
-  "block.gmm.bronze_trophie_1j": "Bronzen trofee 1 jaar"
+  "block.gmm.bronze_trophie_1j": "Bronzen trofee 1 jaar",
+  "itemGroup.MineTopiaTrophies": "MineTopia Trofeeën",
+  "block.gmm.mod_maker_trophie": "Mod maker trophie",
+  "itemGroup.MineTopiaBlocks3D": "MineTopia Blokken 3D"
 }

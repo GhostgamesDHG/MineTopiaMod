@@ -44,9 +44,7 @@ public class Green_Bag extends Block {
     public Green_Bag() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
-                .sound(SoundType.CLOTH)
-                .setRequiresTool());
+                .sound(SoundType.CLOTH));
     }
 
     @Override

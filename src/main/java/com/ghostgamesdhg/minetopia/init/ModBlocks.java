@@ -47,6 +47,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> MONITOR = BLOCKS.register("monitor", Monitor::new);
     public static final RegistryObject<Block> CADEAU = BLOCKS.register("cadeau", Cadeau::new);
     public static final RegistryObject<Block> ANTENNE = BLOCKS.register("antenne", Antenne::new);
+    public static final RegistryObject<Block> MOD_MAKER_TROPHIE = BLOCKS.register("mod_maker_trophie", mod_maker_trophie::new);
     public static final RegistryObject<Block> DIAMOND_TROPHIE_1J = BLOCKS.register("diamond_trophie_1j", trophies_1j::new);
     public static final RegistryObject<Block> GOLDEN_TROPHIE_1J = BLOCKS.register("golden_trophie_1j", trophies_1j::new);
     public static final RegistryObject<Block> BRONZE_TROPHIE_1J = BLOCKS.register("bronze_trophie_1j", trophies_1j::new);

@@ -43,7 +43,6 @@ public class koffer extends Block {
     public koffer() {
         super(Properties.create(Material.WOOD)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
                 .sound(SoundType.WOOD));
     }
 

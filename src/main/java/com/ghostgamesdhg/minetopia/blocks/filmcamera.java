@@ -44,7 +44,6 @@ public class filmcamera extends Block {
     public filmcamera() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
                 .sound(SoundType.METAL));
     }
 

@@ -44,7 +44,6 @@ public class Pumpkin extends Block {
     public Pumpkin() {
         super(Properties.create(Material.WOOD)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
                 .sound(SoundType.WOOD));
     }
 

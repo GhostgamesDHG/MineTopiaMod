@@ -1,5 +1,6 @@
 package com.ghostgamesdhg.minetopia.blocks;
 
+import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalBlock;
@@ -19,33 +20,43 @@ import net.minecraft.world.IBlockReader;
 import net.minecraftforge.common.ToolType;
 
 import javax.annotation.Nullable;
-import java.util.function.ToIntFunction;
 import java.util.stream.Stream;
 
-public class lantaarn extends Block {
+public class mod_maker_trophie extends Block {
 
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
     private static final VoxelShape SHAPE_N = Stream.of(
-            Block.makeCuboidShape(5, 0, 5, 11, 11, 11)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
+            Block.makeCuboidShape(2, 0.5, 2, 14, 31.5, 14)
+    ).reduce((v1, v2) -> {
+        return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);
+    }).get();
 
     public static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(5, 0, 5, 11, 11, 11)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
+            Block.makeCuboidShape(2, 0.5, 2, 14, 31.5, 14)
+    ).reduce((v1, v2) -> {
+        return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);
+    }).get();
 
     public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(5, 0, 5, 11, 11, 11)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
+            Block.makeCuboidShape(2, 0.5, 2, 14, 31.5, 14)
+    ).reduce((v1, v2) -> {
+        return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);
+    }).get();
 
     public static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(5, 0, 5, 11, 11, 11)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
+            Block.makeCuboidShape(2, 0.5, 2, 14, 31.5, 14)
+    ).reduce((v1, v2) -> {
+        return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);
+    }).get();
 
-    public lantaarn() {
+    public mod_maker_trophie() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .setLightLevel(value -> 15)
+                .harvestLevel(2)
+                .harvestTool(ToolType.PICKAXE)
+                .setRequiresTool()
+                .setLightLevel(value -> 8)
                 .sound(SoundType.METAL));
     }
 
@@ -55,7 +66,7 @@ public class lantaarn extends Block {
             case NORTH:
                 return SHAPE_N;
             case EAST:
-                return  SHAPE_E;
+                return SHAPE_E;
             case SOUTH:
                 return SHAPE_S;
             case WEST:
@@ -68,7 +79,7 @@ public class lantaarn extends Block {
     @Nullable
     @Override
     public BlockState getStateForPlacement(BlockItemUseContext context) {
-        return this .getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
+        return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
     }
 
     @Override
@@ -84,5 +95,10 @@ public class lantaarn extends Block {
     @Override
     protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
         builder.add(FACING);
+    }
+
+    @Override
+    public float getAmbientOcclusionLightValue(BlockState state, IBlockReader worldIn, BlockPos pos) {
+        return 0f;
     }
 }

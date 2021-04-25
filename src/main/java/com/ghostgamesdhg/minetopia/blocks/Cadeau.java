@@ -43,7 +43,6 @@ public class Cadeau extends Block {
     public Cadeau() {
         super(Properties.create(Material.WOOL)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
                 .sound(SoundType.CLOTH));
     }
 

@@ -1,7 +1,10 @@
 package com.ghostgamesdhg.minetopia.init;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
+import com.ghostgamesdhg.minetopia.blocks.BlockInvis;
 import com.ghostgamesdhg.minetopia.blocks.BlockItemBase;
+import com.ghostgamesdhg.minetopia.blocks.BlockItemBase3D;
+import com.ghostgamesdhg.minetopia.blocks.BlockTrophies;
 import com.ghostgamesdhg.minetopia.items.*;
 import com.ghostgamesdhg.minetopia.util.enums.ModArmorMaterial;
 import com.ghostgamesdhg.minetopia.util.enums.ModItemTier;
@@ -468,7 +471,7 @@ public class ModItems {
             () -> new BlockItemBase(ModBlocks.DIAMONDCORE_ORE.get()));
 
     public static final RegistryObject<Item> PIN_AUTOMAAT_ITEM = ITEMS.register("pin_automaat",
-            () -> new BlockItemBase(ModBlocks.PIN_AUTOMAAT.get()));
+            () -> new BlockItemBase3D(ModBlocks.PIN_AUTOMAAT.get()));
 
     public static final RegistryObject<Item> BLAUWE_KEUKENTEGELS_ITEM = ITEMS.register("blauwe_keukentegels",
             () -> new BlockItemBase(ModBlocks.BLAUWE_KEUKENTEGELS.get()));
@@ -480,98 +483,103 @@ public class ModItems {
             () -> new BlockItemBase(ModBlocks.BROWN_CABINE.get()));
 
     public static final RegistryObject<Item> COMPUTER_ITEM = ITEMS.register("computer",
-            () -> new BlockItemBase(ModBlocks.COMPUTER.get()));
+            () -> new BlockItemBase3D(ModBlocks.COMPUTER.get()));
 
     public static final RegistryObject<Item> GREEN_BAG_ITEM = ITEMS.register("green_bag",
-            () -> new BlockItemBase(ModBlocks.GREEN_BAG.get()));
+            () -> new BlockItemBase3D(ModBlocks.GREEN_BAG.get()));
 
     public static final RegistryObject<Item> YELLOW_BAG = ITEMS.register("yellow_bag",
-            () -> new BlockItemBase(ModBlocks.YELLOW_BAG.get()));
+            () -> new BlockItemBase3D(ModBlocks.YELLOW_BAG.get()));
 
     public static final RegistryObject<Item> HONDEN_BEDJE_ITEM = ITEMS.register("honden_bedje",
-            () -> new BlockItemBase(ModBlocks.HONDEN_BEDJE.get()));
+            () -> new BlockItemBase3D(ModBlocks.HONDEN_BEDJE.get()));
 
     public static final RegistryObject<Item> OVEN_ITEM = ITEMS.register("oven",
-            () -> new BlockItemBase(ModBlocks.OVEN.get()));
+            () -> new BlockItemBase3D(ModBlocks.OVEN.get()));
 
     public static final RegistryObject<Item> PUMPKIN_ITEM = ITEMS.register("pumpkin",
-            () -> new BlockItemBase(ModBlocks.PUMPKIN.get()));
+            () -> new BlockItemBase3D(ModBlocks.PUMPKIN.get()));
 
     public static final RegistryObject<Item> OIL_CAN_ITEM = ITEMS.register("oil_can",
-            () -> new BlockItemBase(ModBlocks.OIL_CAN.get()));
+            () -> new BlockItemBase3D(ModBlocks.OIL_CAN.get()));
 
     public static final RegistryObject<Item> PARKING_SIGN_ITEM = ITEMS.register("parking_sign",
             () -> new BlockItemBase(ModBlocks.PARKING_SIGN.get()));
 
     public static final RegistryObject<Item> PRULLENBAK_ITEM = ITEMS.register("prullenbak",
-            () -> new BlockItemBase(ModBlocks.PRULLENBAK.get()));
+            () -> new BlockItemBase3D(ModBlocks.PRULLENBAK.get()));
 
     public static final RegistryObject<Item> ROADBLOCK_ITEM = ITEMS.register("roadblock",
-            () -> new BlockItemBase(ModBlocks.ROADBLOCK.get()));
+            () -> new BlockItemBase3D(ModBlocks.ROADBLOCK.get()));
 
     public static final RegistryObject<Item> SCHOENTJE_ITEM = ITEMS.register("schoentje",
-            () -> new BlockItemBase(ModBlocks.SCHOENTJE.get()));
+            () -> new BlockItemBase3D(ModBlocks.SCHOENTJE.get()));
 
     public static final RegistryObject<Item> TRAFFIC_CONE_ITEM = ITEMS.register("traffic_cone",
-            () -> new BlockItemBase(ModBlocks.TRAFFIC_CONE.get()));
+            () -> new BlockItemBase3D(ModBlocks.TRAFFIC_CONE.get()));
 
     public static final RegistryObject<Item> VENDING_MACHINE_ITEM = ITEMS.register("vending_machine",
-            () -> new BlockItemBase(ModBlocks.VENDING_MACHINE.get()));
+            () -> new BlockItemBase3D(ModBlocks.VENDING_MACHINE.get()));
 
     public static final RegistryObject<Item> LANTAARN_ITEM = ITEMS.register("lantaarn",
-            () -> new BlockItemBase(ModBlocks.LANTAARN.get()));
+            () -> new BlockItemBase3D(ModBlocks.LANTAARN.get()));
 
     public static final RegistryObject<Item> BOOMBOX_ITEM = ITEMS.register("boombox",
-            () -> new BlockItemBase(ModBlocks.BOOMBOX.get()));
+            () -> new BlockItemBase3D(ModBlocks.BOOMBOX.get()));
 
     public static final RegistryObject<Item> MICROFOON_ITEM = ITEMS.register("microfoon",
-            () -> new BlockItemBase(ModBlocks.MICROFOON.get()));
+            () -> new BlockItemBase3D(ModBlocks.MICROFOON.get()));
 
     public static final RegistryObject<Item> GOPRO_ITEM = ITEMS.register("gopro",
-            () -> new BlockItemBase(ModBlocks.GOPRO.get()));
+            () -> new BlockItemBase3D(ModBlocks.GOPRO.get()));
 
     public static final RegistryObject<Item> FILMCAMERA_ITEM = ITEMS.register("filmcamera",
-            () -> new BlockItemBase(ModBlocks.FILMCAMERA.get()));
+            () -> new BlockItemBase3D(ModBlocks.FILMCAMERA.get()));
 
     public static final RegistryObject<Item> LUCKYBAG_ITEM = ITEMS.register("luckybag",
-            () -> new BlockItemBase(ModBlocks.LUCKYBAG.get()));
+            () -> new BlockItemBase3D(ModBlocks.LUCKYBAG.get()));
 
     public static final RegistryObject<Item> WALKIETALKIE_ITEM = ITEMS.register("walkietalkie",
-            () -> new BlockItemBase(ModBlocks.WALKIETALKIE.get()));
+            () -> new BlockItemBase3D(ModBlocks.WALKIETALKIE.get()));
 
     public static final RegistryObject<Item> KOFFER_ITEM = ITEMS.register("koffer",
-            () -> new BlockItemBase(ModBlocks.KOFFER.get()));
+            () -> new BlockItemBase3D(ModBlocks.KOFFER.get()));
 
     public static final RegistryObject<Item> KRANS_ITEM = ITEMS.register("krans",
-            () -> new BlockItemBase(ModBlocks.KRANS.get()));
+            () -> new BlockItemBase3D(ModBlocks.KRANS.get()));
 
     public static final RegistryObject<Item> KERST_SLINGERS_ITEM = ITEMS.register("kerst_slingers",
-            () -> new BlockItemBase(ModBlocks.KERST_SLINGERS.get()));
+            () -> new BlockItemBase3D(ModBlocks.KERST_SLINGERS.get()));
 
     public static final RegistryObject<Item> ARCADE_ITEM = ITEMS.register("arcade",
-            () -> new BlockItemBase(ModBlocks.ARCADE.get()));
+            () -> new BlockItemBase3D(ModBlocks.ARCADE.get()));
 
     public static final RegistryObject<Item> NOTEBOOK_ITEM = ITEMS.register("notebook",
-            () -> new BlockItemBase(ModBlocks.NOTEBOOK.get()));
+            () -> new BlockItemBase3D(ModBlocks.NOTEBOOK.get()));
 
     public static final RegistryObject<Item> MONITOR_ITEM = ITEMS.register("monitor",
-            () -> new BlockItemBase(ModBlocks.MONITOR.get()));
+            () -> new BlockItemBase3D(ModBlocks.MONITOR.get()));
 
     public static final RegistryObject<Item> CADEAU_ITEM = ITEMS.register("cadeau",
-            () -> new BlockItemBase(ModBlocks.CADEAU.get()));
+            () -> new BlockItemBase3D(ModBlocks.CADEAU.get()));
 
     public static final RegistryObject<Item> ANTENNE_ITEM = ITEMS.register("antenne",
-            () -> new BlockItemBase(ModBlocks.ANTENNE.get()));
+            () -> new BlockItemBase3D(ModBlocks.ANTENNE.get()));
+
+    public static final RegistryObject<Item> MOD_MAKER_TROPHIE_ITEM = ITEMS.register("mod_maker_trophie",
+            () -> new BlockInvis(ModBlocks.MOD_MAKER_TROPHIE.get()));
 
     public static final RegistryObject<Item> DIAMOND_TROPHIE_1J_ITEM = ITEMS.register("diamond_trophie_1j",
-            () -> new BlockItemBase(ModBlocks.DIAMOND_TROPHIE_1J.get()));
+            () -> new BlockTrophies(ModBlocks.DIAMOND_TROPHIE_1J.get()));
 
     public static final RegistryObject<Item> BRONZE_TROPHIE_1J_ITEM = ITEMS.register("bronze_trophie_1j",
-            () -> new BlockItemBase(ModBlocks.BRONZE_TROPHIE_1J.get()));
+            () -> new BlockTrophies(ModBlocks.BRONZE_TROPHIE_1J.get()));
 
     public static final RegistryObject<Item> GOLDEN_TROPHIE_1J_ITEM = ITEMS.register("golden_trophie_1j",
-            () -> new BlockItemBase(ModBlocks.GOLDEN_TROPHIE_1J.get()));
+            () -> new BlockTrophies(ModBlocks.GOLDEN_TROPHIE_1J.get()));
 
     public static final RegistryObject<Item> SILVER_TROPHIE_1J_ITEM = ITEMS.register("silver_trophie_1j",
-            () -> new BlockItemBase(ModBlocks.SILVER_TROPHIE_1J.get()));
+            () -> new BlockTrophies(ModBlocks.SILVER_TROPHIE_1J.get()));
+
+
 }

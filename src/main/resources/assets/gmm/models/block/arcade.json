@@ -4,11 +4,11 @@
 		"ball": "gmm:blocks/red_concrete",
 		"pad": "gmm:blocks/arcade_pad",
 		"sign": "gmm:blocks/arcade_sign",
+		"particle": "gmm:blocks/concrete_cyan",
 		"sides": "gmm:blocks/concrete_cyan",
 		"screen": "gmm:blocks/arcade_screen",
 		"stick": "gmm:blocks/black_concrete_powder",
-		"body": "gmm:blocks/arcade_panel",
-		"particle": "gmm:blocks/concrete_cyan"
+		"body": "gmm:blocks/arcade_panel"
 	},
 	"elements": [
 		{
@@ -179,7 +179,7 @@
 			"scale": [0.25, 0.25, 0.25]
 		},
 		"gui": {
-			"rotation": [30, 45, 0],
+			"rotation": [30, -153, 0],
 			"translation": [0, -2, 0],
 			"scale": [0.3125, 0.3125, 0.3125]
 		},

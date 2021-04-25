@@ -45,9 +45,10 @@ public class Vending_Machine extends Block {
     public Vending_Machine() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
+                .harvestLevel(2)
                 .sound(SoundType.METAL)
                 .harvestTool(ToolType.PICKAXE)
+                .setLightLevel(value -> 6)
                 .setRequiresTool());
     }
 

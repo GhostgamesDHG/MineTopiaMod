@@ -72,9 +72,7 @@ public class Traffic_Cone extends Block {
     public Traffic_Cone() {
         super(Properties.create(Material.ROCK)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
-                .sound(SoundType.STONE)
-                .setRequiresTool());
+                .sound(SoundType.STONE));
     }
 
     @Override

@@ -43,7 +43,6 @@ public class kerst_slingers extends Block {
     public kerst_slingers() {
         super(Properties.create(Material.LEAVES)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
                 .sound(SoundType.PLANT));
     }
 

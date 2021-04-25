@@ -43,7 +43,6 @@ public class luckybag extends Block {
     public luckybag() {
         super(Properties.create(Material.ROCK)
                 .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(0)
                 .sound(SoundType.STONE));
     }
 
