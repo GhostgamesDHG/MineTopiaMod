@@ -1,6 +1,7 @@
 {
-  "parent": "gmm:item/ballon_blauw",
-  "textures": {
-    "ballon": "gmm:items/hardened_clay_stained_yellow"
-  }
+	"parent": "gmm:item/ballon_blauw",
+	"textures": {
+		"0": "gmm:items/balloon_yellow",
+		"particle": "gmm:items/balloon_yellow"
+	}
 }

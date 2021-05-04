@@ -51,14 +51,7 @@ public class MinetopiaExtra
         }
     };
 
-    public static final ItemGroup TAB2 = new ItemGroup("MineTopiaBlocks3D") {
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(ModBlocks.PIN_AUTOMAAT.get());
-        }
-    };
-
-    public static final ItemGroup TAB9 = new ItemGroup("MineTopiaBlocks") {
+    public static final ItemGroup TAB2 = new ItemGroup("MineTopiaBlocks") {
         @Override
         public ItemStack createIcon() {
             return new ItemStack(ModBlocks.BLAUWE_KEUKENTEGELS.get());

@@ -12,6 +12,7 @@ public class bonbons extends Item {
                 .food(new Food.Builder()
                         .hunger(2)
                         .saturation(1.2f)
+                        .setAlwaysEdible()
                         .build())
         );
     }

@@ -12,6 +12,7 @@ public class Cooked_chicken extends Item {
                 .food(new Food.Builder()
                         .hunger(6)
                         .saturation(1.2f)
+                        .setAlwaysEdible()
                         .build())
         );
     }

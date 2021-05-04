@@ -12,6 +12,7 @@ public class apfelstrudel extends Item {
                 .food(new Food.Builder()
                         .hunger(5)
                         .saturation(1.2f)
+                        .setAlwaysEdible()
                         .build())
         );
     }

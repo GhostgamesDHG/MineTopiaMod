@@ -12,6 +12,7 @@ public class hop extends Item {
                 .food(new Food.Builder()
                         .hunger(3)
                         .saturation(1.2f)
+                        .setAlwaysEdible()
                         .build())
         );
     }

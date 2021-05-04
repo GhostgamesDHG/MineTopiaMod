@@ -12,8 +12,9 @@ public class Hamburger extends Item {
         super(new Item.Properties()
                 .group(MinetopiaExtra.TAB4)
                 .food(new Food.Builder()
-                        .hunger(8)
+                        .hunger(10)
                         .saturation(1.2f)
+                        .setAlwaysEdible()
                         .effect(new EffectInstance(Effects.REGENERATION, 340, 2) ,1f)
                         .build())
         );

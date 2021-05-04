@@ -4,14 +4,15 @@ import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 
-public class trosdruiven extends Item {
+public class water_bottle extends Item {
 
-    public trosdruiven() {
+    public water_bottle() {
         super(new Properties()
                 .group(MinetopiaExtra.TAB4)
                 .food(new Food.Builder()
-                        .hunger(5)
-                        .saturation(1.2f)
+                        .hunger(0)
+                        .saturation(0f)
+                        .setAlwaysEdible()
                         .build())
         );
     }
