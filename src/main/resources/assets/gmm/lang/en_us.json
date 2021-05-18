@@ -37,7 +37,7 @@
   "item.gmm.hop": "Hop",
   "item.gmm.pokemonpet_back": "Pokemon cap backwards",
   "item.gmm.propellorpet": "Propeller cap",
-  "item.gmm.goudenhorloge": "Golden watch",
+  "item.gmm.horloge": "Watch",
   "item.gmm.rodehelm": "Red Helmet",
   "item.gmm.rodehogehoed": "Red high hat",
   "item.gmm.pumpkinmask": "Pumpkin Mask",
@@ -388,5 +388,17 @@
   "block.gmm.oranje_keukentegels": "Orange kitchen tiles",
   "block.gmm.paarze_keukentegels": "Purple kitchen tiles",
   "block.gmm.rode_keukentegels": "Red kitchen tiles",
-  "block.gmm.roze_keukentegels": "Pink kitchen tiles"
+  "block.gmm.roze_keukentegels": "Pink kitchen tiles",
+  "item.gmm.duikbril_normaal": "Normal diving goggles",
+  "item.gmm.duikbril_gold": "Golden diving goggles",
+  "item.gmm.duikbril_oranje": "Orange diving goggles",
+  "item.gmm.racecoin1": "$1 Racecoin",
+  "item.gmm.racecoin10": "$10 Racecoin",
+  "item.gmm.racecoin50": "$50 Racecoin",
+  "item.gmm.racecoin100": "$100 Racecoin",
+  "item.gmm.racecoin500": "$500 Racecoin",
+  "item.gmm.racecoin1000": "$1000 Racecoin",
+  "item.gmm.racecoin2500": "$2500 Racecoin",
+  "item.gmm.racecoin5000": "$5000 Racecoin",
+  "item.gmm.headphones": "Headset"
 }

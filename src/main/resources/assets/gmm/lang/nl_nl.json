@@ -37,7 +37,6 @@
   "item.gmm.hop": "Hop",
   "item.gmm.pokemonpet_back": "Pokemon Pet achterstevoren",
   "item.gmm.propellorpet": "Propellor Pet",
-  "item.gmm.goudenhorloge": "Gouden Horloge",
   "item.gmm.rodehelm": "Rode Helm",
   "item.gmm.rodehogehoed": "Rode Hoge Hoed",
   "item.gmm.pumpkinmask": "Pumpkin Masker",
@@ -388,5 +387,18 @@
   "block.gmm.oranje_keukentegels": "Oranje kitchen tiles",
   "block.gmm.paarze_keukentegels": "Paarze kitchen tiles",
   "block.gmm.rode_keukentegels": "Rode kitchen tiles",
-  "block.gmm.roze_keukentegels": "Roze kitchen tiles"
+  "block.gmm.roze_keukentegels": "Roze kitchen tiles",
+  "item.gmm.horloge": "Horloge",
+  "item.gmm.duikbril_normaal": "Normale duikbril",
+  "item.gmm.duikbril_gold": "Gouden duikbril",
+  "item.gmm.duikbril_oranje": "Oranje duikbril",
+  "item.gmm.racecoin1": "€1 Racemunt",
+  "item.gmm.racecoin10": "€10 Racemunt",
+  "item.gmm.racecoin50": "€50 Racemunt",
+  "item.gmm.racecoin100": "€100 Racemunt",
+  "item.gmm.racecoin500": "€500 Racemunt",
+  "item.gmm.racecoin1000": "€1000 Racemunt",
+  "item.gmm.racecoin2500": "€2500 Racemunt",
+  "item.gmm.racecoin5000": "€5000 Racemunt",
+  "item.gmm.headphones": "Koptelefoon"
 }

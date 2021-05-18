@@ -65,7 +65,7 @@ public class ModItems {
     public static final RegistryObject<Item> NEKTASJE = ITEMS.register("nektasje", ItemBase::new);
     public static final RegistryObject<Item> DUIKFLES = ITEMS.register("duikfles", ItemBase::new);
     public static final RegistryObject<Item> PEPPERSPRAY = ITEMS.register("pepperspray", ItemBase::new);
-    public static final RegistryObject<Item> GOUDENHORLOGE = ITEMS.register("goudenhorloge", ItemBase::new);
+    public static final RegistryObject<Item> HORLOGE = ITEMS.register("horloge", ItemBase::new);
     public static final RegistryObject<Item> WHEELCOIN = ITEMS.register("wheelcoin", ItemBase::new);
     public static final RegistryObject<Item> LUCKYSHARD = ITEMS.register("luckyshard", ItemBase::new);
     public static final RegistryObject<Item> BRONZE_PRISONCOIN = ITEMS.register("bronze_prisoncoin", ItemBase::new);
@@ -120,6 +120,14 @@ public class ModItems {
     public static final RegistryObject<Item> PARAPLU_RED = ITEMS.register("paraplu_red", ItemBase::new);
     public static final RegistryObject<Item> PARAPLU_WHITE = ITEMS.register("paraplu_white", ItemBase::new);
     public static final RegistryObject<Item> PARAPLU_YELLOW = ITEMS.register("paraplu_yellow", ItemBase::new);
+    public static final RegistryObject<Item> RACECOIN1 = ITEMS.register("racecoin1", ItemBase::new);
+    public static final RegistryObject<Item> RACECOIN10 = ITEMS.register("racecoin10", ItemBase::new);
+    public static final RegistryObject<Item> RACECOIN50 = ITEMS.register("racecoin50", ItemBase::new);
+    public static final RegistryObject<Item> RACECOIN100 = ITEMS.register("racecoin100", ItemBase::new);
+    public static final RegistryObject<Item> RACECOIN500 = ITEMS.register("racecoin500", ItemBase::new);
+    public static final RegistryObject<Item> RACECOIN1000 = ITEMS.register("racecoin1000", ItemBase::new);
+    public static final RegistryObject<Item> RACECOIN2500 = ITEMS.register("racecoin2500", ItemBase::new);
+    public static final RegistryObject<Item> RACECOIN5000 = ITEMS.register("racecoin5000", ItemBase::new);
 
     //Items (Not in tab) (/give command only)
     public static final RegistryObject<DiamondCore> DIAMONDCORE = ITEMS.register("diamondcore", DiamondCore::new);

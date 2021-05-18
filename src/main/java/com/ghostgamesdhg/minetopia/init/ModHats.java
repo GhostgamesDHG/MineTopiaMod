@@ -120,4 +120,7 @@ public class ModHats {
     public static final RegistryObject<Item> PANAMA_ZWART = ITEMS.register("panama_zwart", ItemHats::new);
     public static final RegistryObject<Item> GOUDZWART_ZONNEBRIL = ITEMS.register("goudzwart_zonnebril", ItemHats::new);
     public static final RegistryObject<Item> ZWARTE_ZONNEBRIL = ITEMS.register("zwarte_zonnebril", ItemHats::new);
+    public static final RegistryObject<Item> DUIKBRIL_NORMAAL = ITEMS.register("duikbril_normaal", ItemHats::new);
+    public static final RegistryObject<Item> DUIKBRIL_ORANJE = ITEMS.register("duikbril_oranje", ItemHats::new);
+    public static final RegistryObject<Item> DUIKBRIL_GOLD = ITEMS.register("duikbril_gold", ItemHats::new);
 }

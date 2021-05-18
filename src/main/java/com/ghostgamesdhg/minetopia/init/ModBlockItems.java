@@ -50,6 +50,9 @@ public class ModBlockItems {
     public static final RegistryObject<Item> GROENE_KEUKENTEGELS_ITEM = ITEMS.register("groene_keukentegels",
             () -> new BlockItemBase(ModBlocks.GROENE_KEUKENTEGELS.get()));
 
+    public static final RegistryObject<Item> GELE_KEUKENTEGELS_ITEM = ITEMS.register("gele_keukentegels",
+            () -> new BlockItemBase(ModBlocks.GELE_KEUKENTEGELS.get()));
+
     public static final RegistryObject<Item> GRIJZE_KEUKENTEGELS_ITEM = ITEMS.register("grijze_keukentegels",
             () -> new BlockItemBase(ModBlocks.GRIJZE_KEUKENTEGELS.get()));
 
