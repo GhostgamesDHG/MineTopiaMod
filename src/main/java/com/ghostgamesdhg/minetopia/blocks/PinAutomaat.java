@@ -21,7 +21,6 @@ public class PinAutomaat extends Block {
                 .harvestLevel(3)
                 .sound(SoundType.METAL)
                 .harvestTool(ToolType.PICKAXE)
-                .setLightLevel(value -> 10)
                 .setRequiresTool());
     }
 

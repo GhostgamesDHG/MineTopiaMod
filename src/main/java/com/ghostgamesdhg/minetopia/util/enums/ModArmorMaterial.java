@@ -1,6 +1,7 @@
 package com.ghostgamesdhg.minetopia.util.enums;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
+import com.ghostgamesdhg.minetopia.init.ModArmor;
 import com.ghostgamesdhg.minetopia.init.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -15,6 +16,7 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements IArmorMaterial {
 
+    //The armor register
     NORMAL(MinetopiaExtra.MOD_ID + ":normal", 25, new int[] { 2, 5, 6, 2 }, 18,
             SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModItems.BLUE_CRYSTAL.get()); }),
 
@@ -28,7 +30,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModItems.BLUE_CRYSTAL.get()); }),
 
     BIVAK(MinetopiaExtra.MOD_ID + ":bivak", 25, new int[] { 2, 5, 6, 2 }, 18,
-    SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModItems.BIVAK.get()); });
+    SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModArmor.BIVAK.get()); });
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] { 11, 16, 15, 13 };
     private final String name;

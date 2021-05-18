@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "gmm:block/flashlight" },
+    "facing=south": { "model": "gmm:block/flashlight", "y":  180},
+    "facing=west": { "model": "gmm:block/flashlight", "y":  270},
+    "facing=east": { "model": "gmm:block/flashlight", "y":  90}
+  }
+}

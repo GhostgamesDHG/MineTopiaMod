@@ -1,7 +1,6 @@
 package com.ghostgamesdhg.minetopia;
 
-import com.ghostgamesdhg.minetopia.init.ModBlocks;
-import com.ghostgamesdhg.minetopia.init.ModItems;
+import com.ghostgamesdhg.minetopia.init.*;
 import com.ghostgamesdhg.minetopia.world.OreGeneration;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -26,8 +25,19 @@ public class MinetopiaExtra
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
+        //The Block register
         ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+
+        //The Items register(Also the BlockItems)
         ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModBlockItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModFood.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModHats.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModArmor.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModPoppetjes.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModTools.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+
+        //Mod ore generation register
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -37,6 +47,7 @@ public class MinetopiaExtra
 
     private void doClientStuff(final FMLClientSetupEvent event) { }
 
+    //The tabs register
     public static final ItemGroup TAB = new ItemGroup("MineTopiaItems") {
         @Override
         public ItemStack createIcon() {
@@ -47,7 +58,7 @@ public class MinetopiaExtra
     public static final ItemGroup TAB4 = new ItemGroup("MineTopiaFood") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModItems.MILKSHAKE.get());
+            return new ItemStack(ModFood.MILKSHAKE.get());
         }
     };
 
@@ -61,28 +72,28 @@ public class MinetopiaExtra
     public static final ItemGroup TAB3 = new ItemGroup("MineTopiaTools") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModItems.BLUE_CRYSTAL_SWORD.get());
+            return new ItemStack(ModTools.BLUE_CRYSTAL_SWORD.get());
         }
     };
 
     public static final ItemGroup TAB5 = new ItemGroup("MineTopiaArmor") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModItems.NORMAL_HELMET.get());
+            return new ItemStack(ModArmor.NORMAL_HELMET.get());
         }
     };
 
     public static final ItemGroup TAB6 = new ItemGroup("MineTopiaPopetjes") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModItems.PAPEGAAIPOPPETJE.get());
+            return new ItemStack(ModPoppetjes.PAPEGAAIPOPPETJE.get());
         }
     };
 
     public static final ItemGroup TAB7 = new ItemGroup("MineTopiaHats") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModItems.BEERHEAD.get());
+            return new ItemStack(ModHats.BEERHEAD.get());
         }
     };
 

@@ -1,6 +1,7 @@
 package com.ghostgamesdhg.minetopia.util.enums;
 
 import com.ghostgamesdhg.minetopia.init.ModItems;
+import com.ghostgamesdhg.minetopia.init.ModTools;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentType;
 import net.minecraft.item.IItemTier;
@@ -10,29 +11,30 @@ import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
 
+    //The tools register
     BLUE_CRYSTAL(3, 900, 9.0F, 1.0F, 12, () -> {
-        return Ingredient.fromItems(ModItems.BLUE_CRYSTAL_SWORD.get());
+        return Ingredient.fromItems(ModTools.BLUE_CRYSTAL_SWORD.get());
     }),
 
     WAPENSTOK(0, 1200, 2.0F, 0.0F, 15, () -> {
-        return Ingredient.fromItems(ModItems.WAPENSTOK.get());
+        return Ingredient.fromItems(ModTools.WAPENSTOK.get());
     }),
 
     TASER(0, 140, 2.0F, 0.0F, 15, () -> {
-        return Ingredient.fromItems(ModItems.TASER.get());
+        return Ingredient.fromItems(ModTools.TASER.get());
 
     }),
 
     MES(0, 40, 4.0F, 20.0F, 14, () -> {
-        return Ingredient.fromItems(ModItems.MES.get());
+        return Ingredient.fromItems(ModTools.MES.get());
     }),
 
     LIGHTSABER(0, 200, 4.0F, 1.0F, 14, () -> {
-        return Ingredient.fromItems(ModItems.MES.get());
+        return Ingredient.fromItems(ModTools.MES.get());
     }),
 
     KNUPPEL(0, 40, 4.0F, 20.0F, 14, () -> {
-        return Ingredient.fromItems(ModItems.KNUPPEL.get());
+        return Ingredient.fromItems(ModTools.KNUPPEL.get());
     });
 
     private final int harvestlevel;

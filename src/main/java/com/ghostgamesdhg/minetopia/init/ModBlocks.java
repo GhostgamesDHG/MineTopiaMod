@@ -18,6 +18,19 @@ public class ModBlocks {
     public static final RegistryObject<Block> PIN_AUTOMAAT = BLOCKS.register("pin_automaat", PinAutomaat::new);
     public static final RegistryObject<Block> BLAUWE_KEUKENTEGELS = BLOCKS.register("blauwe_keukentegels", keukentegels::new);
     public static final RegistryObject<Block> ZWARTE_KEUKENTEGELS = BLOCKS.register("zwarte_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> DONKERBLAUWE_KEUKENTEGELS = BLOCKS.register("donkerblauwe_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> BRUINE_KEUKENTEGELS = BLOCKS.register("bruine_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> CYAN_KEUKENTEGELS = BLOCKS.register("cyan_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> GROENE_KEUKENTEGELS = BLOCKS.register("groene_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> GRIJZE_KEUKENTEGELS = BLOCKS.register("grijze_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> LICHTGRIJZE_KEUKENTEGELS = BLOCKS.register("lichtgrijze_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> LICHTGROENE_KEUKENTEGELS = BLOCKS.register("lichtgroene_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> MAGENTA_KEUKENTEGELS = BLOCKS.register("magenta_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> ORANJE_KEUKENTEGELS = BLOCKS.register("oranje_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> ROZE_KEUKENTEGELS = BLOCKS.register("roze_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> PAARZE_KEUKENTEGELS = BLOCKS.register("paarze_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> RODE_KEUKENTEGELS = BLOCKS.register("rode_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> GELE_KEUKENTEGELS = BLOCKS.register("gele_keukentegels", keukentegels::new);
     public static final RegistryObject<Block> BROWN_CABINE = BLOCKS.register("brown_cabine", Brown_Cabine::new);
     public static final RegistryObject<Block> COMPUTER = BLOCKS.register("computer", Computer::new);
     public static final RegistryObject<Block> HONDEN_BEDJE = BLOCKS.register("honden_bedje", Honden_Bedje::new);
@@ -42,6 +55,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> NOTEBOOK = BLOCKS.register("notebook", Notebook::new);
     public static final RegistryObject<Block> MONITOR = BLOCKS.register("monitor", Monitor::new);
     public static final RegistryObject<Block> CADEAU = BLOCKS.register("cadeau", Cadeau::new);
+    public static final RegistryObject<Block> FLASHLIGHT = BLOCKS.register("flashlight", Flashlight::new);
     public static final RegistryObject<Block> ANTENNE = BLOCKS.register("antenne", Antenne::new);
     public static final RegistryObject<Block> MOD_MAKER_TROPHIE = BLOCKS.register("mod_maker_trophie", mod_maker_trophie::new);
     public static final RegistryObject<Block> DIAMOND_TROPHIE_1J = BLOCKS.register("diamond_trophie_1j", trophies_1j::new);

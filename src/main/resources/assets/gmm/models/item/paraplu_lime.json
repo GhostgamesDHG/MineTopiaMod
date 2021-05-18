@@ -1,0 +1,8 @@
+{
+	"parent": "gmm:item/paraplu_black",
+	"textures": {
+		"0": "gmm:blocks/emerald_block",
+		"1": "gmm:items/stok",
+		"particle": "gmm:blocks/emerald_block"
+	}
+}
