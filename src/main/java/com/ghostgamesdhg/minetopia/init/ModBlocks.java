@@ -62,4 +62,5 @@ public class ModBlocks {
     public static final RegistryObject<Block> GOLDEN_TROPHIE_1J = BLOCKS.register("golden_trophie_1j", trophies_1j::new);
     public static final RegistryObject<Block> BRONZE_TROPHIE_1J = BLOCKS.register("bronze_trophie_1j", trophies_1j::new);
     public static final RegistryObject<Block> SILVER_TROPHIE_1J = BLOCKS.register("silver_trophie_1j", trophies_1j::new);
+    public static final RegistryObject<Block> OPEN_SIGN = BLOCKS.register("open_sign", open_sign::new);
 }

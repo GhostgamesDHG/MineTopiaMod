@@ -1,0 +1,8 @@
+{
+	"parent": "gmm:item/zwarte_vliegenmepper",
+	"textures": {
+		"1": "gmm:blocks/gold_block",
+		"2": "gmm:blocks/iron_block",
+		"particle": "gmm:blocks/gold_block"
+	}
+}

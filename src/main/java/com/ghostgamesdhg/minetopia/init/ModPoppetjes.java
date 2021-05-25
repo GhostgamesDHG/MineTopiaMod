@@ -53,4 +53,6 @@ public class ModPoppetjes {
     public static final RegistryObject<Item> TEDDYBEER = ITEMS.register("teddybeer", ItemPopetjes::new);
     public static final RegistryObject<Item> LEGOPOPPETJE = ITEMS.register("legopoppetje", ItemPopetjes::new);
     public static final RegistryObject<Item> AMONGUSRED = ITEMS.register("amongusred", ItemPopetjes::new);
+    public static final RegistryObject<Item> TEDDYBEER_ROZE = ITEMS.register("teddybeer_roze", ItemPopetjes::new);
+    public static final RegistryObject<Item> TEDDYBEER_WIT = ITEMS.register("teddybeer_wit", ItemPopetjes::new);
 }

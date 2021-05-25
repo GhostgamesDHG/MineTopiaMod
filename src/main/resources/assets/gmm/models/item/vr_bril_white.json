@@ -1,0 +1,6 @@
+{
+	"parent": "gmm:item/vr_bril",
+	"textures": {
+		"1": "gmm:items/vr_bril_white"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "gmm:item/oogglas",
+	"textures": {
+		"0": "gmm:items/oogglas_gold",
+		"particle": "gmm:items/oogglas_gold"
+	}
+}

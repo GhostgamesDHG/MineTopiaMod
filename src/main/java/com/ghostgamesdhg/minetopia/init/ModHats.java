@@ -123,4 +123,11 @@ public class ModHats {
     public static final RegistryObject<Item> DUIKBRIL_NORMAAL = ITEMS.register("duikbril_normaal", ItemHats::new);
     public static final RegistryObject<Item> DUIKBRIL_ORANJE = ITEMS.register("duikbril_oranje", ItemHats::new);
     public static final RegistryObject<Item> DUIKBRIL_GOLD = ITEMS.register("duikbril_gold", ItemHats::new);
+    public static final RegistryObject<Item> VR_BRIL = ITEMS.register("vr_bril", ItemHats::new);
+    public static final RegistryObject<Item> VR_BRIL_WHITE = ITEMS.register("vr_bril_white", ItemHats::new);
+    public static final RegistryObject<Item> BLUE_SPIRIT_MASK = ITEMS.register("blue_spirit_mask", ItemHats::new);
+    public static final RegistryObject<Item> AFRO = ITEMS.register("afro", ItemHats::new);
+    public static final RegistryObject<Item> OOGGLAS = ITEMS.register("oogglas", ItemHats::new);
+    public static final RegistryObject<Item> OOGGLAS_GOLD = ITEMS.register("oogglas_gold", ItemHats::new);
+    public static final RegistryObject<Item> MOOSE_HAT = ITEMS.register("moose_hat", ItemHats::new);
 }

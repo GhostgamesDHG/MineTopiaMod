@@ -128,6 +128,16 @@ public class ModItems {
     public static final RegistryObject<Item> RACECOIN1000 = ITEMS.register("racecoin1000", ItemBase::new);
     public static final RegistryObject<Item> RACECOIN2500 = ITEMS.register("racecoin2500", ItemBase::new);
     public static final RegistryObject<Item> RACECOIN5000 = ITEMS.register("racecoin5000", ItemBase::new);
+    public static final RegistryObject<Item> ROLEX_GOLD = ITEMS.register("rolex_gold", ItemBase::new);
+    public static final RegistryObject<Item> ROLEX_DIAMOND = ITEMS.register("rolex_diamond", ItemBase::new);
+    public static final RegistryObject<Item> ROLEX_SILVER = ITEMS.register("rolex_silver", ItemBase::new);
+    public static final RegistryObject<Item> APPLE_WATCH = ITEMS.register("apple_watch", ItemBase::new);
+    public static final RegistryObject<Item> AIRPODS = ITEMS.register("airpods", ItemBase::new);
+    public static final RegistryObject<Item> ARMBAND = ITEMS.register("armband", ItemBase::new);
+    public static final RegistryObject<Item> ARMBAND2 = ITEMS.register("armband2", ItemBase::new);
+    public static final RegistryObject<Item> TABLET = ITEMS.register("tablet", ItemBase::new);
+    public static final RegistryObject<Item> ZWARTE_VLIEGENMEPPER = ITEMS.register("zwarte_vliegenmepper", ItemBase::new);
+    public static final RegistryObject<Item> GOLDEN_VLIEGENMEPPER = ITEMS.register("golden_vliegenmepper", ItemBase::new);
 
     //Items (Not in tab) (/give command only)
     public static final RegistryObject<DiamondCore> DIAMONDCORE = ITEMS.register("diamondcore", DiamondCore::new);

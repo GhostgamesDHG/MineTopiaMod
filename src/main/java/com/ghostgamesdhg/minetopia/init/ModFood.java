@@ -65,6 +65,9 @@ public class ModFood {
 
     //Potions (Need a rewrite!)
     public static final RegistryObject<water_bottle> WATER_BOTTLE = ITEMS.register("water_bottle", water_bottle::new);
+    public static final RegistryObject<koffie> KOFFIE = ITEMS.register("koffie", koffie::new);
+    public static final RegistryObject<wine> WINE = ITEMS.register("wine", wine::new);
     public static final RegistryObject<cocktail> COCKTAIL = ITEMS.register("cocktail", cocktail::new);
+    public static final RegistryObject<Champagne> CHAMPAGNE_BOTTLE = ITEMS.register("champagne_bottle", Champagne::new);
     public static final RegistryObject<MilkShake> MILKSHAKE = ITEMS.register("milkshake", MilkShake::new);
 }
