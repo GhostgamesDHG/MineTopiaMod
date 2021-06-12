@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aba",
+    "bxb",
+    "aba"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:white_wool"
+    },
+    "b":
+    {
+      "item": "minecraft:yellow_wool"
+    },
+    "a":
+    {
+      "item": "minecraft:gray_wool"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:luckyshard",
+    "count": 2
+  }
+}

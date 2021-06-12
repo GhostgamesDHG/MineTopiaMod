@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "x x",
+    "xax"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:light_blue_wool"
+    },
+    "a":
+    {
+      "item": "minecraft:gray_wool"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:blue_phone",
+    "count": 1
+  }
+}

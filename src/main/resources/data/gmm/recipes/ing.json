@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:orange_wool"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:ingbankpas",
+    "count": 1
+  }
+}

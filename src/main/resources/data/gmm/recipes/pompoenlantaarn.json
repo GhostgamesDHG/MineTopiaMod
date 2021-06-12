@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " b ",
+    "b b",
+    "xax"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:pumpkin"
+    },
+    "b":
+    {
+      "item": "minecraft:stick"
+    },
+    "a":
+    {
+      "item": "minecraft:carved_pumpkin"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:pompoenlantaarn",
+    "count": 4
+  }
+}

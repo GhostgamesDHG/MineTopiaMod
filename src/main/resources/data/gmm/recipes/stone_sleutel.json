@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " aa",
+    "aaa",
+    "   "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:stone"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:stone_sleutel",
+    "count": 1
+  }
+}

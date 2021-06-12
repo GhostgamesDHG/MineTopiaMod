@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "axa",
+    "xax",
+    "axa"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:white_wool"
+    },
+    "a":
+    {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:wheelcoin",
+    "count": 1
+  }
+}

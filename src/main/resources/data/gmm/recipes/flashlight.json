@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "bba",
+    "   "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:sea_lantern"
+    },
+    "b":
+    {
+      "item": "minecraft:gray_wool"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:flashlight",
+    "count": 1
+  }
+}
