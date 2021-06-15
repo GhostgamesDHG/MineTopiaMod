@@ -1,5 +1,5 @@
 {
-	"credit": "Made by Rintjuuh",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "gmm:blocks/diamond_block",
 		"2": "gmm:blocks/sea_lantern",
@@ -1924,6 +1924,7 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [0, 0.5, -4.5],

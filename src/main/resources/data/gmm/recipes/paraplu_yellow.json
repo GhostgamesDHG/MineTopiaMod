@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bbb",
+    "bab",
+    " a "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:stick"
+    },
+    "b":
+    {
+      "item": "minecraft:yellow_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:paraplu_yellow",
+    "count": 1
+  }
+}

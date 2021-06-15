@@ -1,5 +1,5 @@
 {
-	"credit": "Model and texture made by @luccahmc",
+	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "gmm:items/key_dobbelsteen_bronze",
@@ -85,6 +85,7 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [0, 1.25, -2.25],

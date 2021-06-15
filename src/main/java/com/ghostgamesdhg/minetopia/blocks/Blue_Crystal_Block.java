@@ -11,6 +11,7 @@ public class Blue_Crystal_Block extends Block {
         super(AbstractBlock.Properties.create(Material.ROCK)
                 .hardnessAndResistance(5.0f, 10.0f)
                 .sound(SoundType.STONE)
+                .setRequiresTool()
                 .harvestLevel(3) //1 = wood - 2 = stone - 3 = iron - 4 = diamond.
                 .setRequiresTool()
                 .harvestTool(ToolType.PICKAXE));

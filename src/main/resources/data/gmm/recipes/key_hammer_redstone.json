@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " aa",
+    "aaa",
+    "a  "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:key_hamer_redstone",
+    "count": 1
+  }
+}

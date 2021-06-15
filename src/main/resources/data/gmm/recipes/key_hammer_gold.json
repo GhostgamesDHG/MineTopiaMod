@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " aa",
+    "aaa",
+    "a  "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:key_hamer_gold",
+    "count": 1
+  }
+}

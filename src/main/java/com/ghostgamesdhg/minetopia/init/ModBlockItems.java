@@ -29,6 +29,12 @@ public class ModBlockItems {
     public static final RegistryObject<Item> DIAMONDCORE_ORE_ITEM = ITEMS.register("diamondcore_ore",
             () -> new BlockItemBase(ModBlocks.DIAMONDCORE_ORE.get()));
 
+    public static final RegistryObject<Item> COPPER_ORE_ITEM = ITEMS.register("copper_ore",
+            () -> new BlockItemBase(ModBlocks.COPPER_ORE.get()));
+
+    public static final RegistryObject<Item> COPPER_BLOCK_ITEM = ITEMS.register("copper_block",
+            () -> new BlockItemBase(ModBlocks.COPPER_BLOCK.get()));
+
     public static final RegistryObject<Item> PIN_AUTOMAAT_ITEM = ITEMS.register("pin_automaat",
             () -> new BlockItemBase(ModBlocks.PIN_AUTOMAAT.get()));
 

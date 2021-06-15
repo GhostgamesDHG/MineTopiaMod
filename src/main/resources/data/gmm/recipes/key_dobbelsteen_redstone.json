@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "  a",
+    "aaa",
+    "a a"
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:key_dobbelsteen_redstone",
+    "count": 1
+  }
+}

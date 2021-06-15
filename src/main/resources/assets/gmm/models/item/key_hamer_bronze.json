@@ -1,5 +1,5 @@
 {
-	"credit": "Model and texture made by @luccahmc",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "gmm:items/key_hamer_bronze"
 	},
@@ -109,6 +109,7 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [0, 1, -1.75],

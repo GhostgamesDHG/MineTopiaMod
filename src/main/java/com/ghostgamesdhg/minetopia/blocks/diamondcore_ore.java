@@ -13,7 +13,8 @@ public class diamondcore_ore extends OreBlock {
         super(Properties.create(Material.ROCK)
                 .hardnessAndResistance(4.0f, 2.0f)
                 .sound(SoundType.STONE)
-                .harvestLevel(4) //1 = wood - 2 = stone - 3 = iron - 4 = diamond.
+                .setRequiresTool()
+                .harvestLevel(3) //1 = wood - 2 = stone - 3 = iron - 4 = diamond.
                 .harvestTool(ToolType.PICKAXE));
     }
 

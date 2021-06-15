@@ -28,6 +28,12 @@ public class OreGeneration {
 
             ModBlocks.DIAMONDCORE_ORE.get().getDefaultState(), 2, 2, 14, 4);
         }
+        //The copper ore spawn code
+        if(!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
+            generateOres(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
+
+                    ModBlocks.COPPER_ORE.get().getDefaultState(), 3, 1, 60, 6);
+        }
     }
 
 

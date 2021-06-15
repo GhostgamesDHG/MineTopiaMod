@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "ccc",
+    " d "
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "minecraft:diamond_block"
+    },
+    "d":
+    {
+      "item": "minecraft:flint_and_steel"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:jetpack_diamond",
+    "count": 1
+  }
+}

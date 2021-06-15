@@ -1,5 +1,5 @@
 {
-	"credit": "By TheDaann, for DDG/MTW",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "gmm:blocks/iron_block",
 		"3": "gmm:blocks/concrete_black",
@@ -2112,6 +2112,7 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [-89, 0, 90],

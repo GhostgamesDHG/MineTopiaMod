@@ -9,7 +9,6 @@
 		{
 			"from": [9.5, 0, 8.5],
 			"to": [10, 1.5, 9],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 0]},
 			"faces": {
 				"north": {"uv": [4, 12.5, 4.5, 14], "texture": "#dark_handle"},
 				"east": {"uv": [4, 12.5, 4.5, 14], "texture": "#dark_handle"},
@@ -22,7 +21,6 @@
 		{
 			"from": [10, 0, 9],
 			"to": [10.5, 1.5, 9.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 0]},
 			"faces": {
 				"north": {"uv": [3.5, 13.5, 4, 15], "texture": "#dark_handle"},
 				"east": {"uv": [4, 12, 4.5, 13.5], "texture": "#dark_handle"},
@@ -35,7 +33,6 @@
 		{
 			"from": [8, 0.5, 3.5],
 			"to": [8.5, 1, 4],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 0]},
 			"faces": {
 				"north": {"uv": [10, 4.5, 10.5, 5], "texture": "#texture"},
 				"east": {"uv": [10, 4, 10.5, 4.5], "texture": "#texture"},
@@ -48,7 +45,6 @@
 		{
 			"from": [7.5, 0.5, 4],
 			"to": [9, 1, 9.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 0]},
 			"faces": {
 				"north": {"uv": [9, 8, 11.5, 8.5], "texture": "#texture"},
 				"east": {"uv": [11, 9.5, 11.5, 13], "texture": "#texture"},
@@ -61,7 +57,6 @@
 		{
 			"from": [6.5, 0, 9.5],
 			"to": [10, 1.5, 10],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 0]},
 			"faces": {
 				"north": {"uv": [3.5, 7.5, 5, 10.5], "texture": "#dark_handle"},
 				"east": {"uv": [3.5, 12.5, 4, 14], "texture": "#dark_handle"},
@@ -74,7 +69,6 @@
 		{
 			"from": [7.5, 0, 10],
 			"to": [9, 1.5, 15],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 0]},
 			"faces": {
 				"north": {"uv": [0, 0, 1.5, 1.5], "texture": "#handle"},
 				"east": {"uv": [5, 0, 10, 1.5], "texture": "#handle"},
@@ -87,7 +81,6 @@
 		{
 			"from": [7, 0, 15],
 			"to": [9.5, 1.5, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 0]},
 			"faces": {
 				"north": {"uv": [9, 14.5, 11.5, 16], "texture": "#dark_handle"},
 				"east": {"uv": [10.5, 14.5, 11.5, 16], "texture": "#dark_handle"},
@@ -98,6 +91,7 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [92, 3, -83],

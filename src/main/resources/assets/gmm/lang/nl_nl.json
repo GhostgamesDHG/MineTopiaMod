@@ -424,5 +424,9 @@
   "item.gmm.oogglas_gold": "Gouden oogglas",
   "item.gmm.moose_hat": "Moose hat",
   "item.gmm.koffie": "Koffie",
-  "item.gmm.wine": "Wijn"
+  "item.gmm.wine": "Wijn",
+  "item.gmm.copper_ingot": "Koper staaf",
+  "block.gmm.copper_ore": "Koper ore",
+  "block.gmm.copper_block": "Koper blok",
+  "item.gmm.tiara": "Tiara"
 }

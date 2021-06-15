@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":[
+    {
+      "item": "gmm:key_dobbelsteen_diamond"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "gmm:key_dobbelsteen_mystic",
+    "count": 1
+  }
+}

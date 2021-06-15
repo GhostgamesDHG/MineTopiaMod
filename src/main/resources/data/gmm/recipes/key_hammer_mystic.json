@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":[
+    {
+      "item": "gmm:key_hamer_diamond"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "gmm:key_hamer_mystic",
+    "count": 1
+  }
+}

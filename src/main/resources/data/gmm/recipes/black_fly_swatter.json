@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " a ",
+    " b ",
+    " a "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:black_concrete"
+    },
+    "b":
+    {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:zwarte_vliegenmepper",
+    "count": 1
+  }
+}

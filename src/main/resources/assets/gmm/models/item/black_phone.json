@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"telefoon_back": "gmm:items/telefoon_back",
 		"particle": "gmm:items/telefoon_back",
+		"telefoon_back": "gmm:items/telefoon_back",
 		"telefoon_front": "gmm:items/telefoon_front"
 	},
 	"elements": [
@@ -12,11 +12,11 @@
 			"to": [12.5, 8.5, 15],
 			"faces": {
 				"north": {"uv": [4.5, 1.5, 12.5, 1], "texture": "#telefoon_back"},
-				"east": {"uv": [4.5, 1, 5, 15], "texture": "#telefoon_back", "rotation": 90},
+				"east": {"uv": [4.5, 1, 5, 15], "rotation": 90, "texture": "#telefoon_back"},
 				"south": {"uv": [12.5, 15, 4.5, 14.5], "texture": "#telefoon_back"},
-				"west": {"uv": [12.5, 15, 12, 1], "texture": "#telefoon_back", "rotation": 90},
-				"up": {"uv": [4.5, 15, 12.5, 1], "texture": "#telefoon_back", "rotation": 180},
-				"down": {"uv": [4.5, 1, 12.5, 15], "texture": "#telefoon_back", "rotation": 180}
+				"west": {"uv": [12.5, 15, 12, 1], "rotation": 90, "texture": "#telefoon_back"},
+				"up": {"uv": [4.5, 15, 12.5, 1], "rotation": 180, "texture": "#telefoon_back"},
+				"down": {"uv": [4.5, 1, 12.5, 15], "rotation": 180, "texture": "#telefoon_back"}
 			}
 		},
 		{
@@ -25,11 +25,11 @@
 			"to": [12, 8.5, 15.5],
 			"faces": {
 				"north": {"uv": [5, 1, 12, 0.5], "texture": "#telefoon_back"},
-				"east": {"uv": [5, 0.5, 5.5, 15.5], "texture": "#telefoon_back", "rotation": 90},
+				"east": {"uv": [5, 0.5, 5.5, 15.5], "rotation": 90, "texture": "#telefoon_back"},
 				"south": {"uv": [12, 15.5, 5, 15], "texture": "#telefoon_back"},
-				"west": {"uv": [12, 15.5, 11.5, 0.5], "texture": "#telefoon_back", "rotation": 90},
-				"up": {"uv": [5, 15.5, 12, 0.5], "texture": "#telefoon_back", "rotation": 180},
-				"down": {"uv": [5, 0.5, 12, 15.5], "texture": "#telefoon_back", "rotation": 180}
+				"west": {"uv": [12, 15.5, 11.5, 0.5], "rotation": 90, "texture": "#telefoon_back"},
+				"up": {"uv": [5, 15.5, 12, 0.5], "rotation": 180, "texture": "#telefoon_back"},
+				"down": {"uv": [5, 0.5, 12, 15.5], "rotation": 180, "texture": "#telefoon_back"}
 			}
 		},
 		{
@@ -38,9 +38,9 @@
 			"to": [12.5, 9.5, 15],
 			"faces": {
 				"north": {"uv": [12.5, 1, 4.5, 1.5], "texture": "#telefoon_front"},
-				"east": {"uv": [12.5, 15, 12, 1], "texture": "#telefoon_front", "rotation": 270},
+				"east": {"uv": [12.5, 15, 12, 1], "rotation": 270, "texture": "#telefoon_front"},
 				"south": {"uv": [4.5, 14.5, 12.5, 15], "texture": "#telefoon_front"},
-				"west": {"uv": [4.5, 1, 5, 15], "texture": "#telefoon_front", "rotation": 270},
+				"west": {"uv": [4.5, 1, 5, 15], "rotation": 270, "texture": "#telefoon_front"},
 				"up": {"uv": [4.5, 1, 12.5, 15], "texture": "#telefoon_front"},
 				"down": {"uv": [4.5, 15, 12.5, 1], "texture": "#telefoon_front"}
 			}
@@ -51,14 +51,15 @@
 			"to": [12, 9.5, 15.5],
 			"faces": {
 				"north": {"uv": [12, 0.5, 5, 1], "texture": "#telefoon_front"},
-				"east": {"uv": [12, 15.5, 11.5, 0.5], "texture": "#telefoon_front", "rotation": 270},
+				"east": {"uv": [12, 15.5, 11.5, 0.5], "rotation": 270, "texture": "#telefoon_front"},
 				"south": {"uv": [5, 15, 12, 15.5], "texture": "#telefoon_front"},
-				"west": {"uv": [5, 0.5, 5.5, 15.5], "texture": "#telefoon_front", "rotation": 270},
+				"west": {"uv": [5, 0.5, 5.5, 15.5], "rotation": 270, "texture": "#telefoon_front"},
 				"up": {"uv": [5, 0.5, 12, 15.5], "texture": "#telefoon_front"},
 				"down": {"uv": [5, 15.5, 12, 0.5], "texture": "#telefoon_front"}
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [90, 0, 0],
@@ -80,16 +81,16 @@
 			"translation": [0, 2.7826, 0],
 			"scale": [0.5, 0.5, 0.5]
 		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 4.8695, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
 		"gui": {
 			"rotation": [90, 0, 0]
 		},
 		"head": {
 			"scale": [0.1, 0.1, 0.1]
-		},
-		"ground": {
-			"rotation": [90, 0, 0],
-			"translation": [0, 4.8695, 0],
-			"scale": [0.4, 0.4, 0.4]
 		},
 		"fixed": {
 			"rotation": [90, 0, 180],

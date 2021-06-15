@@ -424,5 +424,9 @@
   "item.gmm.oogglas_gold": "Golden eye glasses",
   "item.gmm.moose_hat": "Moose hat",
   "item.gmm.koffie": "Kaffee",
-  "item.gmm.wine": "Wine"
+  "item.gmm.wine": "Wine",
+  "item.gmm.tiara": "Tiara",
+  "item.gmm.copper_ingot": "Copper Ingot",
+  "block.gmm.copper_ore": "Copper ore",
+  "block.gmm.copper_block": "Copper block"
 }

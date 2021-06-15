@@ -1,5 +1,5 @@
 {
-	"credit": "made by LuccaH - DDG server model",
+	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "gmm:items/lightsaber_blue",
@@ -85,6 +85,7 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -180, 0],
