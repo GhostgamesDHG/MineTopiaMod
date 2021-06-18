@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:minecart"
+      "item": "minecraft:water_bucket"
     },
     {
-      "item": "gmm:100euro"
+      "item": "minecraft:glass_bottle"
     }
   ],
   "result": {
-    "item": "gmm:racecoin100",
+    "item": "gmm:water_bottle",
     "count": 1
   }
 }
