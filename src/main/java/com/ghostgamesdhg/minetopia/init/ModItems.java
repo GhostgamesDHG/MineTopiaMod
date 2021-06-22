@@ -27,6 +27,7 @@ public class ModItems {
     public static final RegistryObject<Item> GREEN_PHONE = ITEMS.register("green_phone", ItemBase::new);
     public static final RegistryObject<Item> BLUE_PHONE = ITEMS.register("blue_phone", ItemBase::new);
     public static final RegistryObject<Item> RED_PHONE = ITEMS.register("red_phone", ItemBase::new);
+    public static final RegistryObject<Item> MINETOPIAEXTRA = ITEMS.register("minetopiaextra", MineTopiaExtra::new);
     public static final RegistryObject<Item> SLEUTEL = ITEMS.register("sleutel", ItemBase::new);
     public static final RegistryObject<Item> MONEY1 = ITEMS.register("0.10euro", ItemBase::new);
     public static final RegistryObject<Item> MONEY2 = ITEMS.register("1euro", ItemBase::new);

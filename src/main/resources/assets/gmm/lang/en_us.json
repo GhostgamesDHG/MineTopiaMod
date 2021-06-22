@@ -428,5 +428,6 @@
   "item.gmm.tiara": "Tiara",
   "item.gmm.copper_ingot": "Copper Ingot",
   "block.gmm.copper_ore": "Copper ore",
-  "block.gmm.copper_block": "Copper block"
+  "block.gmm.copper_block": "Copper block",
+  "item.gmm.minetopiaextra": "MineTopia Extra Logo"
 }
