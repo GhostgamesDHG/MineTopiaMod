@@ -1,6 +1,13 @@
 package com.ghostgamesdhg.minetopia;
 
-import com.ghostgamesdhg.minetopia.init.*;
+import com.ghostgamesdhg.minetopia.init.ModArmor;
+import com.ghostgamesdhg.minetopia.init.ModBlockItems;
+import com.ghostgamesdhg.minetopia.init.ModBlocks;
+import com.ghostgamesdhg.minetopia.init.ModFood;
+import com.ghostgamesdhg.minetopia.init.ModHats;
+import com.ghostgamesdhg.minetopia.init.ModItems;
+import com.ghostgamesdhg.minetopia.init.ModPoppetjes;
+import com.ghostgamesdhg.minetopia.init.ModTools;
 import com.ghostgamesdhg.minetopia.world.OreGeneration;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -13,9 +20,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.EventListenerProxy;
-
-    //Main class
+//Main class
 @Mod("gmm")
 public class MinetopiaExtra
 {
