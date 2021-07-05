@@ -4,11 +4,11 @@ license="All rights reserved"
 IssueTrackerURL="https://github.com/GhostgamesDHG/MinetopiaMod/issues"
 [[mods]]
 modId="gmm"
-version="1.6"
+version="1.7"
 displayName="MineTopia Mod"
 updateJSONURL="https://raw.githubusercontent.com/GhostgamesDHG/update.json/main/update.json"
 logoFile="logo.png"
-authors="GhostGamesDHG"
+authors="ArmedEndmion"
 description='''
-         This mod adds almost every item/block from the MineTopia world!
+         This mod adds almost everything from the MineTopia world!
 '''

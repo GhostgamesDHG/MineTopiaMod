@@ -429,5 +429,13 @@
   "block.gmm.copper_ore": "Koper ore",
   "block.gmm.copper_block": "Koper blok",
   "item.gmm.tiara": "Tiara",
-  "item.gmm.minetopiaextra": "MineTopia Extra Logo"
+  "item.gmm.minetopiaextra": "MineTopia Extra Logo",
+  "item.gmm.broodje_doner": "Broodje doner",
+  "item.gmm.broodje_gezond": "Broodje gezond",
+  "item.gmm.vitamine_a": "Vitamine A",
+  "item.gmm.vitamine_c": "Vitamine C",
+  "item.gmm.vitamine_d": "Vitamine D",
+  "item.gmm.vitamine_e": "Vitamine E",
+  "item.gmm.vitamine_f": "Vitamine F",
+  "item.gmm.tomaat": "Tomaat"
 }

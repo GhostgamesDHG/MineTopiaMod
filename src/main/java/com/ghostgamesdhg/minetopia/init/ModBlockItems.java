@@ -5,9 +5,6 @@ import com.ghostgamesdhg.minetopia.blocks.BlockInvis;
 import com.ghostgamesdhg.minetopia.blocks.BlockItemBase;
 import com.ghostgamesdhg.minetopia.blocks.BlockItemItemBase;
 import com.ghostgamesdhg.minetopia.blocks.BlockTrophies;
-import com.ghostgamesdhg.minetopia.items.DiamondCore;
-import com.ghostgamesdhg.minetopia.items.EmeraldCoin;
-import com.ghostgamesdhg.minetopia.items.ItemBase;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,7 +13,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModBlockItems {
     
     //This class registers the items in the mod.
-    
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MinetopiaExtra.MOD_ID);
 
     // Blocks Items

@@ -3,7 +3,6 @@ package com.ghostgamesdhg.minetopia.world;
 import com.ghostgamesdhg.minetopia.init.ModBlocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.world.biome.Biome;
-import net.minecraft.world.biome.BiomeGenerationSettings;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
@@ -35,8 +34,6 @@ public class OreGeneration {
                     ModBlocks.COPPER_ORE.get().getDefaultState(), 3, 1, 60, 6);
         }
     }
-
-
 
     private static void generateOres(BiomeGenerationSettingsBuilder Settings, RuleTest fillerType, BlockState state, int veinSize,
                               int minHeight, int maxHeight, int amount) {

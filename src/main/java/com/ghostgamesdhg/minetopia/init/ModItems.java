@@ -17,7 +17,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModItems {
     
     //This class registers the items in the mod.
-    
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MinetopiaExtra.MOD_ID);
 
     // Items place
@@ -140,8 +139,8 @@ public class ModItems {
     public static final RegistryObject<Item> TABLET = ITEMS.register("tablet", ItemBase::new);
     public static final RegistryObject<Item> ZWARTE_VLIEGENMEPPER = ITEMS.register("zwarte_vliegenmepper", ItemBase::new);
     public static final RegistryObject<Item> GOLDEN_VLIEGENMEPPER = ITEMS.register("golden_vliegenmepper", ItemBase::new);
+    public static final RegistryObject<Item> DIAMONDCORE = ITEMS.register("diamondcore", ItemBase::new);
 
     //Items (Not in tab) (/give command only)
-    public static final RegistryObject<DiamondCore> DIAMONDCORE = ITEMS.register("diamondcore", DiamondCore::new);
-    public static final RegistryObject<EmeraldCoin> EMERALDCOIN = ITEMS.register("emeraldcoin", EmeraldCoin::new);
+    public static final RegistryObject<NOTAB> EMERALDCOIN = ITEMS.register("emeraldcoin", NOTAB::new);
 }

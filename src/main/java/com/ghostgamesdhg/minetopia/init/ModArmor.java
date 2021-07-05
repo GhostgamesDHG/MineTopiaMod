@@ -1,13 +1,6 @@
 package com.ghostgamesdhg.minetopia.init;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.blocks.BlockInvis;
-import com.ghostgamesdhg.minetopia.blocks.BlockItemBase;
-import com.ghostgamesdhg.minetopia.blocks.BlockItemItemBase;
-import com.ghostgamesdhg.minetopia.blocks.BlockTrophies;
-import com.ghostgamesdhg.minetopia.items.DiamondCore;
-import com.ghostgamesdhg.minetopia.items.EmeraldCoin;
-import com.ghostgamesdhg.minetopia.items.ItemBase;
 import com.ghostgamesdhg.minetopia.util.enums.ModArmorMaterial;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
@@ -19,10 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModArmor {
 
     //This class registers the items in the mod.
-
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MinetopiaExtra.MOD_ID);
-
-    // Armors place
 
     //NORMAL CLOTHES
     public static final RegistryObject<ArmorItem> NORMAL_HELMET = ITEMS.register("normal_helmet", () ->
