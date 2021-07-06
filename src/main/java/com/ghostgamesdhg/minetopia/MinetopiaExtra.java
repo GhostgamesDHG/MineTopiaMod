@@ -30,7 +30,6 @@ public class MinetopiaExtra
     public MinetopiaExtra() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
-
         //The Block register
         ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
 

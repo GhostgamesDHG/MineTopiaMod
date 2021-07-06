@@ -34,19 +34,10 @@ public class ModTools {
     public static final RegistryObject<PickaxeItem> CHRISTMAS_PICKAXE = ITEMS.register("christmas_pickaxe", () ->
             new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 
-    public static final RegistryObject<PickaxeItem> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", () ->
-            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
-
     public static final RegistryObject<PickaxeItem> ICE_PICKAXE = ITEMS.register("ice_pickaxe", () ->
             new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 
     public static final RegistryObject<PickaxeItem> LAPIS_PICKAXE = ITEMS.register("lapis_pickaxe", () ->
-            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
-
-    public static final RegistryObject<PickaxeItem> MAGMA_PICKAXE = ITEMS.register("magma_pickaxe", () ->
-            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
-
-    public static final RegistryObject<PickaxeItem> OBSIDIAN_PICKAXE = ITEMS.register("obsidian_pickaxe", () ->
             new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 
     public static final RegistryObject<PickaxeItem> REDSTONE_PICKAXE = ITEMS.register("redstone_pickaxe", () ->
@@ -129,4 +120,47 @@ public class ModTools {
 
     public static final RegistryObject<SwordItem> LIGHTSABER_YELLOW = ITEMS.register("lightsaber_yellow", () ->
             new SwordItem(ModItemTier.LIGHTSABER, 1, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    //REFINED PICKAXES
+    public static final RegistryObject<PickaxeItem> CACTUS_PICKAXE_REFINED = ITEMS.register("cactus_pickaxe_refined", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> COPPER_PICKAXE_REFINED = ITEMS.register("copper_pickaxe_refined", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> DARKPRISMARINE_PICKAXE_REFINED = ITEMS.register("darkprismarine_pickaxe_refined", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> LAVA_PICKAXE_REFINED = ITEMS.register("lava_pickaxe_refined", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> MONDRIAAN_PICKAXE_REFINED = ITEMS.register("mondriaan_pickaxe_refined", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> MORGANITE_PICKAXE_REFINED = ITEMS.register("morganite_pickaxe_refined", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> NETHERPORTAL_PICKAXE_REFINED = ITEMS.register("netherportal_pickaxe_refined", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> RUBY_PICKAXE_REFINED = ITEMS.register("ruby_pickaxe_refined", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> SAPPHIRE_PICKAXE_REFINED = ITEMS.register("sapphire_pickaxe_refined", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> SILVER_PICKAXE_REFINED = ITEMS.register("silver_pickaxe_refined", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> WATER_PICKAXE_REFINED = ITEMS.register("water_pickaxe_refined", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> MAGMA_PICKAXE_REFINED = ITEMS.register("magma_pickaxe_refined", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> OBSIDIAN_PICKAXE_REFINED = ITEMS.register("obsidian_pickaxe_refined", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<PickaxeItem> EMERALD_PICKAXE_REFINED = ITEMS.register("emerald_pickaxe_refined", () ->
+            new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 }

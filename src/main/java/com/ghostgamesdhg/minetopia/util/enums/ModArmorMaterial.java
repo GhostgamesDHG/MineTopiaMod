@@ -3,7 +3,6 @@ package com.ghostgamesdhg.minetopia.util.enums;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.init.ModArmor;
 import com.ghostgamesdhg.minetopia.init.ModItems;
-import net.minecraft.client.Minecraft;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.crafting.Ingredient;
@@ -18,6 +17,30 @@ public enum ModArmorMaterial implements IArmorMaterial {
 
     //The armor register
     NORMAL(MinetopiaExtra.MOD_ID + ":normal", 25, new int[] { 2, 5, 6, 2 }, 18,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModItems.BLUE_CRYSTAL.get()); }),
+
+    TRAINER(MinetopiaExtra.MOD_ID + ":trainer", 25, new int[] { 2, 5, 6, 2 }, 18,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModItems.BLUE_CRYSTAL.get()); }),
+
+    CHEETAH(MinetopiaExtra.MOD_ID + ":cheetah", 25, new int[] { 2, 5, 6, 2 }, 18,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModItems.BLUE_CRYSTAL.get()); }),
+
+    COW(MinetopiaExtra.MOD_ID + ":cow", 25, new int[] { 2, 5, 6, 2 }, 18,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModItems.BLUE_CRYSTAL.get()); }),
+
+    DALMATIER(MinetopiaExtra.MOD_ID + ":dalmatier", 25, new int[] { 2, 5, 6, 2 }, 18,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModItems.BLUE_CRYSTAL.get()); }),
+
+    GIRAFFE(MinetopiaExtra.MOD_ID + ":giraffe", 25, new int[] { 2, 5, 6, 2 }, 18,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModItems.BLUE_CRYSTAL.get()); }),
+
+    JAGUAR(MinetopiaExtra.MOD_ID + ":jaguar", 25, new int[] { 2, 5, 6, 2 }, 18,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModItems.BLUE_CRYSTAL.get()); }),
+
+    TIGER(MinetopiaExtra.MOD_ID + ":tiger", 25, new int[] { 2, 5, 6, 2 }, 18,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModItems.BLUE_CRYSTAL.get()); }),
+
+    WHITE_TIGER(MinetopiaExtra.MOD_ID + ":white_tiger", 25, new int[] { 2, 5, 6, 2 }, 18,
             SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModItems.BLUE_CRYSTAL.get()); }),
 
     POLITIE_NEDERLAND(MinetopiaExtra.MOD_ID + ":politie_nederland", 25, new int[] { 2, 5, 6, 2 }, 18,

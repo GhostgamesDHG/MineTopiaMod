@@ -1,7 +1,6 @@
 package com.ghostgamesdhg.minetopia.init;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-
 import com.ghostgamesdhg.minetopia.items.ItemPopetjes;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
