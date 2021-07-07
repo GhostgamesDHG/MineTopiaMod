@@ -56,7 +56,7 @@ public class MinetopiaExtra
     public static final ItemGroup TAB = new ItemGroup("MineTopiaItems") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModItems.BLACK_PHONE.get());
+            return new ItemStack(ModItems.IPHONE_7_BLACK.get());
         }
     };
 

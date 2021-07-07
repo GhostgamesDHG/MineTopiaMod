@@ -1,8 +1,0 @@
-{
-	"parent": "gmm:item/black_phone",
-	"textures": {
-		"particle": "gmm:items/geel_back",
-		"telefoon_back": "gmm:items/geel_back",
-		"telefoon_front": "gmm:items/geel"
-	}
-}
