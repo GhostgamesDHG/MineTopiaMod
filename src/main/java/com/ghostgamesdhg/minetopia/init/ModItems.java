@@ -41,7 +41,7 @@ public class ModItems {
     public static final RegistryObject<Item> BLUE_CRYSTAL = ITEMS.register("blue_crystal", ItemBase::new);
     public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot", ItemBase::new);
 
-    //DUTCH NAMES (CHANGE TO ENGLISH, PLEASE)
+    //DUTCH NAMES (CHANGE TO ENGLISH, PLEASE )
     public static final RegistryObject<Item> BALLON_ROZE = ITEMS.register("ballon_roze", ItemBase::new);
     public static final RegistryObject<Item> BALLON_ROOD = ITEMS.register("ballon_rood", ItemBase::new);
     public static final RegistryObject<Item> BALLON_ORANJE = ITEMS.register("ballon_oranje", ItemBase::new);

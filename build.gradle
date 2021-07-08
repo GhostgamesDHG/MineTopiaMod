@@ -12,9 +12,9 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.6'
+version = '1.7'
 group = 'com.yourname.modid'
-archivesBaseName = 'MineTopiaMod-'
+archivesBaseName = 'MineTopiaMod'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
 

@@ -17,11 +17,11 @@ import javax.annotation.Nullable;
 public class Oven extends Block {
 
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
-
     public Oven() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
                 .harvestLevel(2)
+                .notSolid() //for the non-xray look? Less bugs if I use this
                 .sound(SoundType.METAL)
                 .harvestTool(ToolType.PICKAXE)
                 .setRequiresTool());

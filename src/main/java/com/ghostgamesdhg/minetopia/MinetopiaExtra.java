@@ -1,5 +1,6 @@
 package com.ghostgamesdhg.minetopia;
 
+import com.ghostgamesdhg.minetopia.init.ContainerTypesInit;
 import com.ghostgamesdhg.minetopia.init.ModArmor;
 import com.ghostgamesdhg.minetopia.init.ModBlockItems;
 import com.ghostgamesdhg.minetopia.init.ModBlocks;
@@ -8,49 +9,43 @@ import com.ghostgamesdhg.minetopia.init.ModHats;
 import com.ghostgamesdhg.minetopia.init.ModItems;
 import com.ghostgamesdhg.minetopia.init.ModPoppetjes;
 import com.ghostgamesdhg.minetopia.init.ModTools;
+import com.ghostgamesdhg.minetopia.init.TileEntityTypesInit;
 import com.ghostgamesdhg.minetopia.world.OreGeneration;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.EventPriority;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-//Main class
 @Mod("gmm")
+@Mod.EventBusSubscriber(modid = MinetopiaExtra.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MinetopiaExtra
 {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "gmm";
 
     public MinetopiaExtra() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
-        //The Block register
-        ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        //The Items register(Also the BlockItems)
-        ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        ModBlockItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        ModFood.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        ModHats.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        ModArmor.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        ModPoppetjes.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        ModTools.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-
-        //Mod ore generation register
+        //ITEMS REGISTER (EVEN THE BLOCKS)
+        ModBlocks.BLOCKS.register(bus);
+        TileEntityTypesInit.TILE_ENTITY_TYPE.register(bus);
+        ContainerTypesInit.CONTAINER_TYPES.register(bus);
+        ModItems.ITEMS.register(bus);
+        ModBlockItems.ITEMS.register(bus);
+        ModFood.ITEMS.register(bus);
+        ModHats.ITEMS.register(bus);
+        ModArmor.ITEMS.register(bus);
+        ModPoppetjes.ITEMS.register(bus);
+        ModTools.ITEMS.register(bus);
+        //ORE GENERATION
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
-
         MinecraftForge.EVENT_BUS.register(this);
     }
-
-    private void setup(final FMLCommonSetupEvent event) { }
-
-    private void doClientStuff(final FMLClientSetupEvent event) { }
 
     //The tabs register
     public static final ItemGroup TAB = new ItemGroup("MineTopiaItems") {

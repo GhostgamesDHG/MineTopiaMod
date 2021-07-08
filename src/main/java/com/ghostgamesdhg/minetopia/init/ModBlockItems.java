@@ -174,4 +174,9 @@ public class ModBlockItems {
 
     public static final RegistryObject<Item> OPEN_SIGN_ITEM = ITEMS.register("open_sign",
             () -> new BlockItemBase(ModBlocks.OPEN_SIGN.get()));
+
+
+    // Invisible, because if you right click on it it will crash the game.
+    //public static final RegistryObject<Item> GREEN_BAG = ITEMS.register("green_bag",
+    //        () -> new BlockInvis(ModBlocks.GREEN_BAG.get()));
 }

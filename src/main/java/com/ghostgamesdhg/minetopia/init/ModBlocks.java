@@ -36,7 +36,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> BROWN_CABINE = BLOCKS.register("brown_cabine", Brown_Cabine::new);
     public static final RegistryObject<Block> COMPUTER = BLOCKS.register("computer", Computer::new);
     public static final RegistryObject<Block> HONDEN_BEDJE = BLOCKS.register("honden_bedje", Honden_Bedje::new);
-    public static final RegistryObject<Block> OVEN = BLOCKS.register("oven", Oven::new);
+    public static final RegistryObject<Block> OVEN = BLOCKS.register("oven", () -> new Oven());
     public static final RegistryObject<Block> OIL_CAN = BLOCKS.register("oil_can", Oil_Can::new);
     public static final RegistryObject<Block> PARKING_SIGN = BLOCKS.register("parking_sign", Parking_Sign::new);
     public static final RegistryObject<Block> PUMPKIN = BLOCKS.register("pumpkin", Pumpkin::new);
@@ -65,4 +65,5 @@ public class ModBlocks {
     public static final RegistryObject<Block> BRONZE_TROPHIE_1J = BLOCKS.register("bronze_trophie_1j", trophies_1j::new);
     public static final RegistryObject<Block> SILVER_TROPHIE_1J = BLOCKS.register("silver_trophie_1j", trophies_1j::new);
     public static final RegistryObject<Block> OPEN_SIGN = BLOCKS.register("open_sign", open_sign::new);
+    public static final RegistryObject<Block> GREEN_BAG = BLOCKS.register("green_bag", () -> new Green_bag());
 }
