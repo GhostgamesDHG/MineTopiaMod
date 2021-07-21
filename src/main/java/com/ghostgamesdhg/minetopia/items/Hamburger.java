@@ -15,7 +15,7 @@ public class Hamburger extends Item {
                         .hunger(10)
                         .saturation(1.2f)
                         .setAlwaysEdible()
-                        .effect(new EffectInstance(Effects.REGENERATION, 340, 2) ,1f)
+                        .effect(new EffectInstance(Effects.REGENERATION, 5*20, 2) ,1f)
                         .build())
         );
     }

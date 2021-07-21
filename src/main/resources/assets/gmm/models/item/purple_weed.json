@@ -1,7 +1,6 @@
 {
-	"parent": "gmm:item/weed",
-	"textures": {
-		"0": "gmm:items/purple_weed",
-		"particle": "gmm:items/purple_weed"
-	}
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gmm:items/paarze_wiet"
+  }
 }

@@ -13,7 +13,7 @@ public class wine extends Item {
                 .group(MinetopiaExtra.TAB4)
                 .food(new Food.Builder()
                         .hunger(0)
-                        .effect(new EffectInstance(Effects.NAUSEA, 300, 2) ,0.2f)
+                        .effect(new EffectInstance(Effects.NAUSEA, 12*20, 2) ,0.2f)
                         .setAlwaysEdible()
                         .saturation(0f)
                         .build())

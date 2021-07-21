@@ -15,7 +15,7 @@ public class Broodje_Gezond extends Item {
                         .hunger(4)
                         .saturation(1.2f)
                         .setAlwaysEdible()
-                        .effect(new EffectInstance(Effects.REGENERATION, 100, 1) ,1f)
+                        .effect(new EffectInstance(Effects.REGENERATION, 5*20, 1) ,1f)
                         .build())
         );
     }

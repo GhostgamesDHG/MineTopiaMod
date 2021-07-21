@@ -88,6 +88,7 @@ public class ModFood {
     public static final RegistryObject<eightHunger> CHICKEN_NUGGETS = ITEMS.register("chicken_nuggets", eightHunger::new);
     public static final RegistryObject<eightHunger> LOBSTER = ITEMS.register("lobster", eightHunger::new);
     public static final RegistryObject<twoHunger> RED_LOLLYPOP = ITEMS.register("red_lollypop", twoHunger::new);
+    public static final RegistryObject<twoHunger> LOLLYPOP = ITEMS.register("lollypop", twoHunger::new);
     public static final RegistryObject<fourHunger> LIEGE_WAFFLE = ITEMS.register("liege_waffle", fourHunger::new);
     public static final RegistryObject<fiveHunger> MUSSELS = ITEMS.register("mussels", fiveHunger::new);
     public static final RegistryObject<fourHunger> OYSTER = ITEMS.register("oyster", fourHunger::new);
@@ -96,7 +97,8 @@ public class ModFood {
     public static final RegistryObject<fourHunger> PRETZEL = ITEMS.register("pretzel", fourHunger::new);
     public static final RegistryObject<sixHunger> REDFISH = ITEMS.register("redfish", sixHunger::new);
     public static final RegistryObject<sixHunger> PIKE = ITEMS.register("pike", sixHunger::new);
-    public static final RegistryObject<eightHunger> SPARERIBS = ITEMS.register("spareribs", eightHunger::new);
+    public static final RegistryObject<twoHunger> SPARERIBS = ITEMS.register("spareribs", twoHunger::new);
+    public static final RegistryObject<eightHunger> COOKED_SPARERIBS = ITEMS.register("cooked_spareribs", eightHunger::new);
     public static final RegistryObject<sixHunger> STURGEON = ITEMS.register("sturgeon", sixHunger::new);
     public static final RegistryObject<fourHunger> STROOPWAFEL = ITEMS.register("stroopwafel", fourHunger::new);
     public static final RegistryObject<fourHunger> APPLE = ITEMS.register("apple", fourHunger::new);
@@ -106,24 +108,64 @@ public class ModFood {
     public static final RegistryObject<fourHunger> WAFFLE = ITEMS.register("waffle", fourHunger::new);
     public static final RegistryObject<fourHunger> WHITE_GRAPES = ITEMS.register("white_grapes", fourHunger::new);
     public static final RegistryObject<sixHunger> SALTY_FISH = ITEMS.register("salty_fish", sixHunger::new);
+    public static final RegistryObject<sixHunger> FRIED_FISH = ITEMS.register("fried_fish", sixHunger::new);
     public static final RegistryObject<fourHunger> OMELET = ITEMS.register("omelet", fourHunger::new);
     public static final RegistryObject<eightHunger> MEATBALLS = ITEMS.register("meatballs", eightHunger::new);
     public static final RegistryObject<eightHunger> LASAGNE = ITEMS.register("lasagne", eightHunger::new);
+    public static final RegistryObject<sixHunger> POPCORN = ITEMS.register("popcorn", sixHunger::new);
+    public static final RegistryObject<sixHunger> SPAGHETTI = ITEMS.register("spaghetti", sixHunger::new);
+    public static final RegistryObject<fourHunger> WRAP = ITEMS.register("wrap", fourHunger::new);
+    public static final RegistryObject<twoHunger> CHOCOLATE_EGG = ITEMS.register("chocolate_egg", twoHunger::new);
+    public static final RegistryObject<twoHunger> LEMON = ITEMS.register("lemon", twoHunger::new);
+    public static final RegistryObject<twoHunger> LETTUCE = ITEMS.register("lettuce", twoHunger::new);
+    public static final RegistryObject<twoHunger> KIWI = ITEMS.register("kiwi", twoHunger::new);
+    public static final RegistryObject<sixHunger> FRIKANDEL_BROODJE = ITEMS.register("frikandel_broodje", sixHunger::new);
+    public static final RegistryObject<pepper> HOT_PEPPER = ITEMS.register("hot_pepper", pepper::new);
+    public static final RegistryObject<twoHunger> DROP = ITEMS.register("drop", twoHunger::new);
+    public static final RegistryObject<twoHunger> CANDY_GREEN = ITEMS.register("candy_green", twoHunger::new);
+    public static final RegistryObject<twoHunger> CANDY_PURPLE = ITEMS.register("candy_purple", twoHunger::new);
+    public static final RegistryObject<twoHunger> CANDY_RED = ITEMS.register("candy_red", twoHunger::new);
+    public static final RegistryObject<gelukskoekje> FORTUNE_COOKIE = ITEMS.register("fortune_cookie", gelukskoekje::new);
+    public static final RegistryObject<fourHunger> PAPRIKA = ITEMS.register("paprika", fourHunger::new);
+    public static final RegistryObject<fourHunger> ORANGE = ITEMS.register("orange", fourHunger::new);
+    public static final RegistryObject<fourHunger> RASPBERRY = ITEMS.register("raspberry", fourHunger::new);
+    public static final RegistryObject<fourHunger> MELON = ITEMS.register("melon", fourHunger::new);
+    public static final RegistryObject<fourHunger> CARROT = ITEMS.register("carrot", fourHunger::new);
+    public static final RegistryObject<fourHunger> PEAR = ITEMS.register("pear", fourHunger::new);
+    public static final RegistryObject<sevenHunger> TOMATO_SOUP = ITEMS.register("tomato_soup", sevenHunger::new);
+    public static final RegistryObject<eightHunger> ROOKWORST = ITEMS.register("rookworst", eightHunger::new);
+    public static final RegistryObject<sixHunger> CHEESECAKE = ITEMS.register("cheesecake", sixHunger::new);
+    public static final RegistryObject<fourHunger> BOSSCHE_BOL = ITEMS.register("bossche_bol", fourHunger::new);
+    public static final RegistryObject<eightHunger> CHOCOLATE_CAKE = ITEMS.register("chocolate_cake", eightHunger::new);
+    public static final RegistryObject<eightHunger> VANILLA_CAKE = ITEMS.register("vanilla_cake", eightHunger::new);
+    public static final RegistryObject<twoHunger> SHRIMP = ITEMS.register("shrimp", twoHunger::new);
+    public static final RegistryObject<eightHunger> COOKED_SHRIMP = ITEMS.register("cooked_shrimp", eightHunger::new);
+    public static final RegistryObject<twoHunger> MERINGUE = ITEMS.register("meringue", twoHunger::new);
+    public static final RegistryObject<twoHunger> TAAITAAI = ITEMS.register("taaitaai", twoHunger::new);
+    public static final RegistryObject<twoHunger> SPICED_BESQUIT = ITEMS.register("spiced_besquit", twoHunger::new);
+    public static final RegistryObject<twoHunger> TOMPOUCE = ITEMS.register("tompouce", twoHunger::new);
 
     //Potions (Need a rewrite!)
     public static final RegistryObject<noHunger> WATER_BOTTLE = ITEMS.register("water_bottle", noHunger::new);
     public static final RegistryObject<koffie> COFFEE = ITEMS.register("coffee", koffie::new);
     public static final RegistryObject<wine> WINE = ITEMS.register("wine", wine::new);
     public static final RegistryObject<cocktail> COCKTAIL = ITEMS.register("cocktail", cocktail::new);
+    public static final RegistryObject<wine> BEER_BOTTLE = ITEMS.register("beer_bottle", wine::new);
+    public static final RegistryObject<wine> BEER_GLASS = ITEMS.register("beer_glass", wine::new);
     public static final RegistryObject<Champagne> CHAMPAGNE_BOTTLE = ITEMS.register("champagne_bottle", Champagne::new);
     public static final RegistryObject<MilkShake> MILKSHAKE = ITEMS.register("milkshake", MilkShake::new);
     public static final RegistryObject<oneHunger> ALCOHOL_BOTTLE = ITEMS.register("alcohol_bottle", oneHunger::new);
+    public static final RegistryObject<oneHunger> ORANGE_JUICE = ITEMS.register("orange_juice", oneHunger::new);
 
-    //Vitamines (All 'Vitamines' needs custom effects. Everything is not the same. This is because the game will crash otherwise.)
+    //Vitamines
     public static final RegistryObject<Vitamine_B> VITAMIN_A = ITEMS.register("vitamin_a", Vitamine_B::new);
     public static final RegistryObject<Vitamine_B> VITAMIN_B = ITEMS.register("vitamin_b", Vitamine_B::new);
     public static final RegistryObject<Vitamine_B> VITAMIN_C = ITEMS.register("vitamin_c", Vitamine_B::new);
     public static final RegistryObject<Vitamine_B> VITAMIN_D = ITEMS.register("vitamin_d", Vitamine_B::new);
     public static final RegistryObject<Vitamine_B> VITAMIN_E = ITEMS.register("vitamin_e", Vitamine_B::new);
     public static final RegistryObject<Vitamine_B> VITAMIN_F = ITEMS.register("vitamin_f", Vitamine_B::new);
+
+    //ANIMAL FOOD (Need a custom code, Will do this later!)
+    public static final RegistryObject<fourHunger> DOG_FOOD = ITEMS.register("dog_food", fourHunger::new);
+    public static final RegistryObject<fourHunger> CAT_FOOD = ITEMS.register("cat_food", fourHunger::new);
 }

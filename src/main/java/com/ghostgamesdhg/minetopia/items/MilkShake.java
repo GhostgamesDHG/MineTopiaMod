@@ -14,8 +14,8 @@ public class MilkShake extends Item {
                 .food(new Food.Builder()
                         .hunger(1)
                         .saturation(1.2f)
-                        .effect(new EffectInstance(Effects.HASTE, 2000, 1) ,1f)
-                        .effect(new EffectInstance(Effects.NAUSEA, 340, 0), 0.4f)
+                        .effect(new EffectInstance(Effects.HASTE, 30*20, 1) ,1f)
+                        .effect(new EffectInstance(Effects.NAUSEA, 10*20, 0), 0.4f)
                         .setAlwaysEdible()
                         .build())
         );

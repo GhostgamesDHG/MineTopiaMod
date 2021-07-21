@@ -13,7 +13,7 @@ public class koffie extends Item {
                 .group(MinetopiaExtra.TAB4)
                 .food(new Food.Builder()
                         .hunger(0)
-                        .effect(new EffectInstance(Effects.HEALTH_BOOST, 200, 2) ,0.7f)
+                        .effect(new EffectInstance(Effects.HEALTH_BOOST, 4*20, 2) ,0.7f)
                         .setAlwaysEdible()
                         .saturation(0f)
                         .build())

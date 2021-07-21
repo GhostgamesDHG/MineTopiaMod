@@ -54,14 +54,14 @@ public class MinetopiaExtra
     public static final ItemGroup TAB4 = new ItemGroup("MineTopiaFood") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModFood.MILKSHAKE.get());
+            return new ItemStack(ModFood.HOTDOG.get());
         }
     };
 
     public static final ItemGroup TAB2 = new ItemGroup("MineTopiaBlocks") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModBlocks.BLAUWE_KEUKENTEGELS.get());
+            return new ItemStack(ModBlocks.PIN_AUTOMAAT.get());
         }
     };
 
