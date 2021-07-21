@@ -29,7 +29,6 @@ public class MinetopiaExtra
     public MinetopiaExtra() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        //ITEMS REGISTER (EVEN THE BLOCKS)
         ModBlocks.BLOCKS.register(bus);
         ModItems.ITEMS.register(bus);
         ModBlockItems.ITEMS.register(bus);
@@ -38,12 +37,10 @@ public class MinetopiaExtra
         ModArmor.ITEMS.register(bus);
         ModPoppetjes.ITEMS.register(bus);
         ModTools.ITEMS.register(bus);
-        //ORE GENERATION
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    //The tabs register
     public static final ItemGroup TAB = new ItemGroup("MineTopiaItems") {
         @Override
         public ItemStack createIcon() {
