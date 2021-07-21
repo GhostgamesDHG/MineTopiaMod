@@ -9,10 +9,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModPoppetjes {
 
-    //This class registers the items in the mod.
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MinetopiaExtra.MOD_ID);
 
-    //Popetjes
     public static final RegistryObject<Item> OLAF = ITEMS.register("olaf", ItemPopetjes::new);
     public static final RegistryObject<Item> SKELETONPOPPETJE = ITEMS.register("skeletonpoppetje", ItemPopetjes::new);
     public static final RegistryObject<Item> PAPEGAAIPOPPETJE = ITEMS.register("papegaaipoppetje", ItemPopetjes::new);

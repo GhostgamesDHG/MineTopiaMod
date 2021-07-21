@@ -8,11 +8,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModItems {
-    
-    //This class registers the items in the mod.
+
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MinetopiaExtra.MOD_ID);
 
-    // Items place
     public static final RegistryObject<Item> IPHONE_7_BLACK = ITEMS.register("iphone_7_black", ItemBase::new);
     public static final RegistryObject<Item> IPHONE_7_PINK = ITEMS.register("iphone_7_pink", ItemBase::new);
     public static final RegistryObject<Item> IPHONE_7_YELLOW = ITEMS.register("iphone_7_yellow", ItemBase::new);
@@ -40,8 +38,6 @@ public class ModItems {
     public static final RegistryObject<Item> ING_DEBIT_CARD = ITEMS.register("ing_debit_card", ItemBase::new);
     public static final RegistryObject<Item> BLUE_CRYSTAL = ITEMS.register("blue_crystal", ItemBase::new);
     public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot", ItemBase::new);
-
-    //DUTCH NAMES (CHANGE TO ENGLISH, PLEASE )
     public static final RegistryObject<Item> BALLON_ROZE = ITEMS.register("ballon_roze", ItemBase::new);
     public static final RegistryObject<Item> BALLON_ROOD = ITEMS.register("ballon_rood", ItemBase::new);
     public static final RegistryObject<Item> BALLON_ORANJE = ITEMS.register("ballon_oranje", ItemBase::new);
@@ -136,6 +132,5 @@ public class ModItems {
     public static final RegistryObject<Item> GOLDEN_VLIEGENMEPPER = ITEMS.register("golden_vliegenmepper", ItemBase::new);
     public static final RegistryObject<Item> DIAMONDCORE = ITEMS.register("diamondcore", ItemBase::new);
 
-    //Items (Not in tab) (/give command only)
     public static final RegistryObject<NOTAB> EMERALDCOIN = ITEMS.register("emeraldcoin", NOTAB::new);
 }

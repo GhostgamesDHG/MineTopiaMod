@@ -15,7 +15,6 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements IArmorMaterial {
 
-    //The armor register
     NORMAL(MinetopiaExtra.MOD_ID + ":normal", 25, new int[] { 2, 5, 6, 2 }, 18,
             SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModItems.BLUE_CRYSTAL.get()); }),
 

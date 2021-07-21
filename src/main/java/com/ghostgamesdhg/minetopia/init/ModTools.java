@@ -9,10 +9,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModTools {
 
-    //This class registers the items in the mod.
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MinetopiaExtra.MOD_ID);
 
-    // Tools place
     public static final RegistryObject<SwordItem> BLUE_CRYSTAL_SWORD = ITEMS.register("blue_crystal_sword", () ->
             new SwordItem(ModItemTier.BLUE_CRYSTAL, 4, -2.4F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 

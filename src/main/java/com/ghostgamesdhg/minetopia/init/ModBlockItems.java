@@ -11,11 +11,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModBlockItems {
-    
-    //This class registers the items in the mod.
+
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MinetopiaExtra.MOD_ID);
 
-    // Blocks Items
     public static final RegistryObject<Item> BLUE_CRYSTAL_BLOCK_ITEM = ITEMS.register("blue_crystal_block",
             () -> new BlockItemBase(ModBlocks.BLUE_CRYSTAL_BLOCK.get()));
 

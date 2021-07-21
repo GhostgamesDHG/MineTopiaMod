@@ -11,7 +11,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModArmor {
 
-    //This class registers the items in the mod.
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MinetopiaExtra.MOD_ID);
 
     //NORMAL CLOTHES

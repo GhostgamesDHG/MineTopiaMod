@@ -574,5 +574,16 @@
   "item.gmm.spiced_besquit": "Speculaas",
   "item.gmm.tompouce": "Tompouce",
   "item.gmm.dog_food": "Hondenvoer",
-  "item.gmm.cat_food": "Kattenvoer"
+  "item.gmm.cat_food": "Kattenvoer",
+  "item.gmm.hat_red": "Zwarte hoed",
+  "item.gmm.hat_blue": "Blauwe hoed",
+  "item.gmm.hat_gold": "Gouden hoed",
+  "item.gmm.hat_green": "Groene hoed",
+  "item.gmm.hat_yellow": "Gele hoed",
+  "item.gmm.medal_bronze": "Medaille bronze",
+  "item.gmm.medal_gold": "Medaille goud",
+  "item.gmm.medal_silver": "Medaille zilver",
+  "item.gmm.bandana_blue": "Bandana blauw",
+  "item.gmm.bandana_red": "Bandana rood",
+  "item.gmm.bandana_yellow": "Bandana geel"
 }

@@ -9,10 +9,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModHats {
 
-    //This class registers the items in the mod.
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MinetopiaExtra.MOD_ID);
 
-    //Hats
     public static final RegistryObject<Item> DOLLARBRIL = ITEMS.register("dollarbril", ItemHats::new);
     public static final RegistryObject<Item> SOMBRERO = ITEMS.register("sombrero", ItemHats::new);
     public static final RegistryObject<Item> BEERHEAD = ITEMS.register("beerhead", ItemHats::new);
@@ -122,4 +120,15 @@ public class ModHats {
     public static final RegistryObject<Item> OOGGLAS = ITEMS.register("oogglas", ItemHats::new);
     public static final RegistryObject<Item> OOGGLAS_GOLD = ITEMS.register("oogglas_gold", ItemHats::new);
     public static final RegistryObject<Item> MOOSE_HAT = ITEMS.register("moose_hat", ItemHats::new);
+    public static final RegistryObject<Item> HAT_RED = ITEMS.register("hat_red", ItemHats::new);
+    public static final RegistryObject<Item> HAT_BLUE = ITEMS.register("hat_blue", ItemHats::new);
+    public static final RegistryObject<Item> HAT_GOLD = ITEMS.register("hat_gold", ItemHats::new);
+    public static final RegistryObject<Item> HAT_GREEN = ITEMS.register("hat_green", ItemHats::new);
+    public static final RegistryObject<Item> HAT_YELLOW = ITEMS.register("hat_yellow", ItemHats::new);
+    public static final RegistryObject<Item> MEDAL_BRONZE = ITEMS.register("medal_bronze", ItemHats::new);
+    public static final RegistryObject<Item> MEDAL_GOLD = ITEMS.register("medal_gold", ItemHats::new);
+    public static final RegistryObject<Item> MEDAL_SILVER = ITEMS.register("medal_silver", ItemHats::new);
+    public static final RegistryObject<Item> BANDANA_BLUE = ITEMS.register("bandana_blue", ItemHats::new);
+    public static final RegistryObject<Item> BANDANA_RED = ITEMS.register("bandana_red", ItemHats::new);
+    public static final RegistryObject<Item> BANDANA_YELLOW = ITEMS.register("bandana_yellow", ItemHats::new);
 }

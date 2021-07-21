@@ -1,0 +1,7 @@
+{
+	"parent": "gmm:item/hat_red",
+	"textures": {
+		"0": "gmm:items/hogehoed_yellow",
+		"particle": "gmm:items/hogehoed_yellow"
+	}
+}

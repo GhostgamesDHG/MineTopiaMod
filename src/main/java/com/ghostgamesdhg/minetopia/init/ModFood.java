@@ -9,10 +9,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModFood {
 
-    //This class registers the items in the mod.
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MinetopiaExtra.MOD_ID);
 
-    // Food place
     public static final RegistryObject<Hamburger> HAMBURGER = ITEMS.register("hamburger", Hamburger::new);
     public static final RegistryObject<sixHunger> SANDWICH = ITEMS.register("sandwich", sixHunger::new);
     public static final RegistryObject<fourHunger> PINEAPPLE = ITEMS.register("pineapple", fourHunger::new);

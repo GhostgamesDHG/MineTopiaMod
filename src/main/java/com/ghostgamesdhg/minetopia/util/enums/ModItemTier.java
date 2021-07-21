@@ -11,7 +11,6 @@ import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
 
-    //The tools register
     BLUE_CRYSTAL(3, 900, 9.0F, 1.0F, 12, () -> {
         return Ingredient.fromItems(ModTools.BLUE_CRYSTAL_SWORD.get());
     }),

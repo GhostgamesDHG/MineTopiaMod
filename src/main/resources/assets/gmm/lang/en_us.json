@@ -574,5 +574,16 @@
   "item.gmm.spiced_besquit": "Spiced bisquit",
   "item.gmm.orange_juice": "Orange juice",
   "item.gmm.dog_food": "Dog food",
-  "item.gmm.cat_food": "Cat food"
+  "item.gmm.cat_food": "Cat food",
+  "item.gmm.hat_red": "Black hat",
+  "item.gmm.hat_blue": "Blue hat",
+  "item.gmm.hat_gold": "Golden hat",
+  "item.gmm.hat_green": "Green hat",
+  "item.gmm.hat_yellow": "Yellow hat",
+  "item.gmm.medal_bronze": "Medal bronze",
+  "item.gmm.medal_gold": "Medal gold",
+  "item.gmm.medal_silver": "Medal silver",
+  "item.gmm.bandana_blue": "Bandana blue",
+  "item.gmm.bandana_red": "Bandana red",
+  "item.gmm.bandana_yellow": "Bandana yellow"
 }
