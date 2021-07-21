@@ -7,7 +7,7 @@ modId="gmm"
 version="1.7"
 displayName="MineTopia Mod"
 updateJSONURL="https://raw.githubusercontent.com/GhostgamesDHG/update.json/main/update.json"
-logoFile="logo.png"
+logoFile="pack.png"
 authors="ArmedEndmion"
 description='''
          This mod adds almost everything from the MineTopia world!

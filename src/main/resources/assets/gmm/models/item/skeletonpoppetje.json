@@ -1,7 +1,7 @@
 {
 	"__comment": "Designed by Nightcling with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"particle": "gmm:items/skeleton_skin",
+		"particle": "gmm:blocks/skeleton_skin",
 		"skeletonskin": "gmm:blocks/skeleton_skin",
 		"blackskeletonhead": "gmm:blocks/wool_colored_black",
 		"skeletonleather": "gmm:blocks/skeleton_leather",

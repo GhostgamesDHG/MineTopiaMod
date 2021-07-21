@@ -1,6 +1,5 @@
 package com.ghostgamesdhg.minetopia;
 
-import com.ghostgamesdhg.minetopia.init.ContainerTypesInit;
 import com.ghostgamesdhg.minetopia.init.ModArmor;
 import com.ghostgamesdhg.minetopia.init.ModBlockItems;
 import com.ghostgamesdhg.minetopia.init.ModBlocks;
@@ -9,7 +8,6 @@ import com.ghostgamesdhg.minetopia.init.ModHats;
 import com.ghostgamesdhg.minetopia.init.ModItems;
 import com.ghostgamesdhg.minetopia.init.ModPoppetjes;
 import com.ghostgamesdhg.minetopia.init.ModTools;
-import com.ghostgamesdhg.minetopia.init.TileEntityTypesInit;
 import com.ghostgamesdhg.minetopia.world.OreGeneration;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -25,7 +23,7 @@ import org.apache.logging.log4j.Logger;
 @Mod.EventBusSubscriber(modid = MinetopiaExtra.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MinetopiaExtra
 {
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "gmm";
 
     public MinetopiaExtra() {
@@ -33,8 +31,6 @@ public class MinetopiaExtra
 
         //ITEMS REGISTER (EVEN THE BLOCKS)
         ModBlocks.BLOCKS.register(bus);
-        TileEntityTypesInit.TILE_ENTITY_TYPE.register(bus);
-        ContainerTypesInit.CONTAINER_TYPES.register(bus);
         ModItems.ITEMS.register(bus);
         ModBlockItems.ITEMS.register(bus);
         ModFood.ITEMS.register(bus);

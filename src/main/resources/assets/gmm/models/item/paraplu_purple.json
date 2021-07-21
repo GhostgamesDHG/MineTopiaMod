@@ -3,6 +3,6 @@
 	"textures": {
 		"0": "gmm:items/paraplu_purple",
 		"1": "gmm:items/stok",
-		"particle": "gmm:items/paraplu-purple"
+		"particle": "gmm:items/paraplu_purple"
 	}
 }
