@@ -1,0 +1,9 @@
+{
+  "parent": "gmm:custom/green_bag",
+  "textures": {
+    "all": "gmm:blocks/black",
+    "particle": "gmm:blocks/black",
+    "0": "gmm:blocks/bag_main",
+    "1": "gmm:blocks/black"
+  }
+}

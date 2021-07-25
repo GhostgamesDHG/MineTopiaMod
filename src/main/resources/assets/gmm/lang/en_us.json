@@ -586,5 +586,10 @@
   "item.gmm.bandana_blue": "Bandana blue",
   "item.gmm.bandana_red": "Bandana red",
   "item.gmm.weed_seeds": "Weed seeds",
-  "item.gmm.bandana_yellow": "Bandana yellow"
+  "item.gmm.bandana_yellow": "Bandana yellow",
+  "block.gmm.bag": "Bag",
+  "item.gmm.handbag": "Handbag",
+  "block.gmm.yellowbag": "Yellow bag",
+  "block.gmm.icebox": "Icebox",
+  "block.gmm.vendingmachine": "Vending machine"
 }

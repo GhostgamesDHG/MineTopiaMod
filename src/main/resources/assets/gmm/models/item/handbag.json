@@ -1,0 +1,10 @@
+{
+  "parent": "gmm:custom/handbag",
+  "textures": {
+    "0": "gmm:blocks/concrete_light_blue",
+    "1": "gmm:blocks/concrete_powder_white",
+    "2": "gmm:blocks/bookshelf",
+    "missing": "gmm:blocks/concrete_light_blue",
+    "particle": "gmm:items/concrete_light_blue"
+  }
+}

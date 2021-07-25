@@ -1,0 +1,10 @@
+{
+  "parent": "gmm:custom/icebox",
+  "textures": {
+    "all": "gmm:blocks/box",
+    "particle": "gma:blocks/box",
+    "0": "gmm:blocks/iron_block",
+    "1": "gmm:blocks/planks_birch",
+    "2": "gmm:blocks/dak1"
+  }
+}

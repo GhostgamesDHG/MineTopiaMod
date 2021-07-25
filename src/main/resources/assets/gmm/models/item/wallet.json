@@ -1,0 +1,9 @@
+{
+  "parent": "gmm:custom/wallet",
+  "textures": {
+    "0": "gmm:blocks/portemonnee",
+    "1": "gmm:blocks/portemonnee_2",
+    "2": "gmm:blocks/portemonnee_geld",
+    "particle": "gmm:items/portemonnee"
+  }
+}

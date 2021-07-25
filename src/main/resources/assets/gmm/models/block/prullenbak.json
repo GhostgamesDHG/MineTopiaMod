@@ -1,0 +1,9 @@
+{
+  "parent": "gmm:custom/prullenbak",
+  "textures": {
+    "all": "gmm:blocks/onderkantvuilnisbak",
+    "particle": "gma:blocks/onderkantvuilnisbak",
+    "0": "gmm:blocks/onderkantvuilnisbak",
+    "1": "gmm:blocks/anvil_base"
+  }
+}

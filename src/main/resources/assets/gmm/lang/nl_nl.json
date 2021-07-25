@@ -586,5 +586,10 @@
   "item.gmm.bandana_blue": "Bandana blauw",
   "item.gmm.bandana_red": "Bandana rood",
   "item.gmm.bandana_yellow": "Bandana geel",
-  "item.gmm.weed_seeds": "Weed seeds"
+  "item.gmm.weed_seeds": "Weed seeds",
+  "block.gmm.bag": "Tas",
+  "item.gmm.handbag": "Handtas",
+  "block.gmm.yellowbag": "Gele tas",
+  "block.gmm.icebox": "Ijskraampje",
+  "block.gmm.vendingmachine": "Vending machine"
 }

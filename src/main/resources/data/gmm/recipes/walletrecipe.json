@@ -1,0 +1,16 @@
+{
+  "group": "gmm",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_wool"
+    },
+    {
+      "item": "minecraft:green_wool"
+    }
+  ],
+  "result": {
+    "item": "gmm:wallet",
+    "count": 1
+  }
+}
