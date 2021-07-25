@@ -132,5 +132,6 @@ public class ModItems {
     public static final RegistryObject<Item> GOLDEN_VLIEGENMEPPER = ITEMS.register("golden_vliegenmepper", ItemBase::new);
     public static final RegistryObject<Item> DIAMONDCORE = ITEMS.register("diamondcore", ItemBase::new);
 
+    public static final RegistryObject<NOTAB> WEED_SEEDS = ITEMS.register("weed_seeds", NOTAB::new);
     public static final RegistryObject<NOTAB> EMERALDCOIN = ITEMS.register("emeraldcoin", NOTAB::new);
 }

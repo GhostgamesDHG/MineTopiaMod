@@ -15,23 +15,19 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 public class OreGeneration {
 
     public static void generateOres(final BiomeLoadingEvent event) {
-        //The blue crystal spawn code
         if(!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
             generateOres(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
-
-                    ModBlocks.BLUE_CRYSTAL_ORE.get().getDefaultState(), 5, 12, 40, 10);
+                    ModBlocks.BLUE_CRYSTAL_ORE.get().getDefaultState(), 4, 9, 30, 5);
         }
-        //The DiamondCore spawn code
+
         if(!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
             generateOres(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
-
-            ModBlocks.DIAMONDCORE_ORE.get().getDefaultState(), 2, 2, 14, 4);
+            ModBlocks.DIAMONDCORE_ORE.get().getDefaultState(), 3, 8, 15, 6);
         }
-        //The copper ore spawn code
+
         if(!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
             generateOres(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
-
-                    ModBlocks.COPPER_ORE.get().getDefaultState(), 3, 1, 60, 6);
+                    ModBlocks.COPPER_ORE.get().getDefaultState(), 4, 12, 40, 8);
         }
     }
 
