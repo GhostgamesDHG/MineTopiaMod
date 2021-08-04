@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "gmm:blocks/blockz/microphone_2",
-		"microphoneSilver": "gmm:blocks/blockz/microphone_2",
-		"microphonesound": "gmm:blocks/blockz/microphone_1"
+		"particle": "minecraft:block/clay",
+		"microphoneSilver": "minecraft:block/clay",
+		"microphonesound": "gmm:blocks/microphone_1"
 	},
 	"elements": [
 		{

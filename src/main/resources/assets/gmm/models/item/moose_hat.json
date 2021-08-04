@@ -1,10 +1,10 @@
 {
 	"credit": "Made by frankschepers24",
 	"textures": {
-		"0": "gmm:blocks/moose/brown_wool",
-		"1": "gmm:blocks/moose/brown_terracotta",
-		"2": "gmm:blocks/moose/extras",
-		"particle": "gmm:blocks/moose/brown_wool"
+		"0": "minecraft:block/brown_wool",
+		"1": "minecraft:block/brown_terracotta",
+		"2": "gmm:blocks/extras",
+		"particle": "minecraft:block/brown_wool"
 	},
 	"elements": [
 		{

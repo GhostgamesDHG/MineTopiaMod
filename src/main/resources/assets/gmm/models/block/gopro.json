@@ -5,9 +5,7 @@
 		"1": "minecraft:block/cyan_terracotta",
 		"2": "gmm:blocks/structure_block",
 		"3": "minecraft:block/bedrock",
-		"6": "gmm:blocks/blockz/bed_feet_top",
-		"8": "gmm:blocks/structure_block",
-		"particle": "minecraft:block/couldron_inner"
+		"6": "minecraft:block/red_concrete"
 	},
 	"elements": [
 		{
@@ -262,7 +260,7 @@
 			"to": [8.36, 5.2, 7.2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [19.26, -1, 7]},
 			"faces": {
-				"north": {"uv": [13.49938, 7.99984, 14.99754, 9.49728], "texture": "#3"},
+				"north": {"uv": [14, 8, 15, 9], "texture": "#3"},
 				"east": {"uv": [13.49938, 7.99984, 14.99754, 9.49728], "texture": "#3"},
 				"south": {"uv": [13.49938, 7.99984, 14.99754, 9.49728], "texture": "#3"},
 				"west": {"uv": [13.49938, 7.99984, 14.99754, 9.49728], "texture": "#3"},
@@ -667,7 +665,7 @@
 			"faces": {
 				"north": {"uv": [0, 0, 1, 0.5], "texture": "#0"},
 				"east": {"uv": [0, 0, 1, 0.5], "texture": "#0"},
-				"south": {"uv": [1, 4, 15, 11], "rotation": 90, "texture": "#8"},
+				"south": {"uv": [1, 4, 15, 11], "rotation": 90, "texture": "#2"},
 				"west": {"uv": [0, 0, 1, 0.5], "texture": "#0"},
 				"up": {"uv": [0, 0, 1, 0.5], "rotation": 90, "texture": "#0"},
 				"down": {"uv": [0, 0, 1, 0.5], "rotation": 270, "texture": "#0"}

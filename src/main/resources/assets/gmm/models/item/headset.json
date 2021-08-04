@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:items/koptelefoon/black",
-		"1": "gmm:items/koptelefoon/details",
-		"2": "gmm:items/koptelefoon/gray",
-		"particle": "gmm:items/koptelefoon/black"
+		"0": "minecraft:block/black_wool",
+		"1": "gmm:items/details",
+		"2": "minecraft:block/gray_concrete",
+		"particle": "minecraft:block/black_wool"
 	},
 	"elements": [
 		{

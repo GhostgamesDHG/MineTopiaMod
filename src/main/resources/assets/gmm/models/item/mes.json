@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"dark_handle": "gmm:items/mes/base",
-		"texture": "gmm:items/mes/iron",
-		"handle": "gmm:items/mes/jungle"
+		"dark_handle": "gmm:blocks/anvil_base",
+		"texture": "minecraft:block/iron_block",
+		"handle": "minecraft:block/jungle_planks"
 	},
 	"elements": [
 		{
