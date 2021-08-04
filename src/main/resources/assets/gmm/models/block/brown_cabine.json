@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/blockz/planks_big_oak",
-		"1": "gmm:blocks/blockz/quartz_block_bottom",
-		"2": "gmm:blocks/blockz/anvil_base",
-		"particle": "gmm:blocks/blockz/planks_big_oak"
+		"0": "minecraft:block/dark_oak_planks",
+		"1": "minecraft:block/quartz_block_bottom",
+		"2": "minecraft:block/anvil_base",
+		"particle": "minecraft:block/dark_oak_planks"
 	},
 	"elements": [
 		{

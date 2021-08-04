@@ -1,12 +1,12 @@
 {
 "__comment": "Designed by NathanKuijt - In Order Of DusDavidGames",
 "textures": {
-    "particle": "minecraft:blocks/red_sand",
-    "texture": "gmm:blocks/wool_colored_red",
-    "anvil_base": "gmm:blocks/blockz/anvil_base",
-    "hardened_clay_stained_yellow": "gmm:blocks/hardened_clay_stained_yellow",
-    "lapis_block": "gmm:blocks/lapis_block",
-    "mushroom_block_skin_stem": "gmm:blocks/mushroom_block_skin_stem"
+    "particle": "minecraft:block/red_sand",
+    "texture": "minecraft:block/red_wool",
+    "anvil_base": "gmm:blocks/anvil_base",
+    "hardened_clay_stained_yellow": "minecraft:block/yellow_terracotta",
+    "lapis_block": "minecraft:block/lapis_block",
+    "mushroom_block_skin_stem": "minecraft:block/mushroom_stem"
 },
 "elements": [ 
 {

@@ -122,9 +122,6 @@ public class ModBlockItems {
     public static final RegistryObject<Item> FILMCAMERA_ITEM = ITEMS.register("filmcamera",
             () -> new BlockItemBase(ModBlocks.FILMCAMERA.get()));
 
-    public static final RegistryObject<Item> LUCKYBAG_ITEM = ITEMS.register("luckybag",
-            () -> new BlockItemBase(ModBlocks.LUCKYBAG.get()));
-
     public static final RegistryObject<Item> WALKIETALKIE_ITEM = ITEMS.register("walkietalkie",
             () -> new BlockItemBase(ModBlocks.WALKIETALKIE.get()));
 
@@ -136,9 +133,6 @@ public class ModBlockItems {
 
     public static final RegistryObject<Item> KERST_SLINGERS_ITEM = ITEMS.register("kerst_slingers",
             () -> new BlockItemBase(ModBlocks.KERST_SLINGERS.get()));
-
-    public static final RegistryObject<Item> ARCADE_ITEM = ITEMS.register("arcade",
-            () -> new BlockItemBase(ModBlocks.ARCADE.get()));
 
     public static final RegistryObject<Item> NOTEBOOK_ITEM = ITEMS.register("notebook",
             () -> new BlockItemBase(ModBlocks.NOTEBOOK.get()));

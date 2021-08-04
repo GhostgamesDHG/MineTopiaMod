@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "gmm:blocks/blockz/pumpkin_side",
-		"2": "gmm:blocks/blockz/coal_block",
-		"3": "gmm:blocks/blockz/log_big_oak",
-		"particle": "gmm:blocks/blockz/log_big_oak"
+		"1": "minecraft:block/pumpkin_side",
+		"2": "minecraft:block/coal_block",
+		"3": "minecraft:block/oak_log",
+		"particle": "minecraft:block/oak_log"
 	},
 	"elements": [
 		{

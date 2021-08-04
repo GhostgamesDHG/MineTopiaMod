@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "gmm:blocks/blockz/camera_zwart",
-		"zwart": "gmm:blocks/blockz/camera_zwart",
-		"lichtzwart": "gmm:blocks/blockz/camera_lichtzwart",
-		"lichtgrijs": "gmm:blocks/blockz/camera_lichtgrijs",
-		"scherm": "gmm:blocks/blockz/camera_scherm"
+		"particle": "minecraft:block/black_terracotta",
+		"zwart": "minecraft:block/black_terracotta",
+		"lichtzwart": "minecraft:block/gray_concrete",
+		"lichtgrijs": "minecraft:block/gray_concrete",
+		"scherm": "gmm:blocks/structure_block"
 	},
 	"elements": [
 		{

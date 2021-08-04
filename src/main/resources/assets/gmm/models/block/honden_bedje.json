@@ -2,11 +2,11 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "gmm:blocks/blockz/mand",
-		"1": "gmm:blocks/blockz/wool_colored_white",
-		"2": "gmm:blocks/blockz/planks_spruce",
-		"3": "gmm:blocks/blockz/bone_block_side",
-		"4": "gmm:blocks/blockz/wool_colored_yellow",
-		"particle": "gmm:blocks/blockz/planks_spruce"
+		"1": "minecraft:block/white_wool",
+		"2": "minecraft:block/spruce_planks",
+		"3": "minecraft:block/bone_block_side",
+		"4": "minecraft:block/yellow_wool",
+		"particle": "minecraft:block/spruce_planks"
 	},
 	"elements": [
 		{

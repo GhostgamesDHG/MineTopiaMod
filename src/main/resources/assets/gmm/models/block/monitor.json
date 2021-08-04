@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "gmm:blocks/blockz/anvil_base",
-		"2": "gmm:blocks/blockz/structure_block",
-		"particle": "gmm:blocks/blockz/anvil_base"
+		"1": "minecraft:block/anvil",
+		"2": "gmm:blocks/structure_block",
+		"particle": "minecraft:block/anvil"
 	},
 	"elements": [
 		{

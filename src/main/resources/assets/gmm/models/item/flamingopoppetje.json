@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/coal_block",
-		"1": "gmm:blocks/wool_colored_pink",
-		"particle": "gmm:blocks/coal_block"
+		"0": "minecraft:block/coal_block",
+		"1": "minecraft:block/pink_wool",
+		"particle": "minecraft:block/coal_block"
 	},
 	"elements": [
 		{

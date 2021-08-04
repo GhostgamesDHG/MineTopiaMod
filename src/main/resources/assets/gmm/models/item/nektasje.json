@@ -1,11 +1,11 @@
 {
 	"__comment": "Designed by Nightcling",
 	"textures": {
-		"particle": "gmm:blocks/hardened_clay_stained_green",
-		"green": "gmm:blocks/hardened_clay_stained_brown",
-		"lime": "gmm:blocks/hardened_clay_stained_lime",
-		"black": "gmm:blocks/hardened_clay_stained_black",
-		"brown": "gmm:blocks/hardened_clay_stained_brown"
+		"particle": "minecraft:block/green_terracotta",
+		"green": "minecraft:block/brown_terracotta",
+		"lime": "minecraft:block/lime_terracotta",
+		"black": "minecraft:block/black_terracotta",
+		"brown": "minecraft:block/brown_terracotta"
 	},
 	"elements": [ 	 
 		{

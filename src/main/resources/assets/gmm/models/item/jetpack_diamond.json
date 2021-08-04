@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/diamond_block",
-		"2": "gmm:blocks/sea_lantern",
-		"3": "gmm:blocks/fire_layer_0",
-		"particle": "gmm:blocks/diamond_block"
+		"0": "minecraft:block/diamond_block",
+		"2": "minecraft:block/sea_lantern",
+		"3": "minecraft:block/fire_0",
+		"particle": "minecraft:block/diamond_block"
 	},
 	"elements": [
 		{

@@ -1,9 +1,9 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
     "textures": {
-        "particle": "gmm:blocks/blockz/orange_concrete",
-        "base": "gmm:blocks/blockz/orange_concrete",
-        "stripe": "gmm:blocks/blockz/white_concrete"
+        "particle": "minecraft:block/orange_concrete",
+        "base": "minecraft:block/orange_concrete",
+        "stripe": "minecraft:block/white_concrete"
     },
     "display": {
         "gui": {

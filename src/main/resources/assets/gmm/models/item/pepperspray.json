@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "gmm:blocks/concrete_black",
-		"2": "gmm:blocks/concrete_yellow",
-		"3": "gmm:blocks/concrete_red"
+		"1": "minecraft:block/black_concrete",
+		"2": "minecraft:block/yellow_concrete",
+		"3": "minecraft:block/red_concrete"
 	},
 	"elements": [
 		{

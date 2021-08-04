@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "gmm:blocks/kerstkrans_leaves",
-		"1": "gmm:blocks/glazed_terracotta_red",
-		"2": "gmm:blocks/kerstkrans_kerstbal",
+		"1": "minecraft:block/red_terracotta",
+		"2": "minecraft:block/lapis_block",
 		"particle": "gmm:blocks/kerstkrans_leaves"
 	},
 	"elements": [

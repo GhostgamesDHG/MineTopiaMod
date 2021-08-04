@@ -1,12 +1,12 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/concrete_blue",
-		"1": "gmm:blocks/concrete_brown",
-		"3": "gmm:blocks/concrete_yellow",
-		"4": "gmm:blocks/concrete_red",
-		"5": "gmm:blocks/concrete_black",
-		"particle": "gmm:blocks/concrete_blue"
+		"0": "minecraft:block/blue_concrete",
+		"1": "minecraft:block/brown_concrete",
+		"3": "minecraft:block/yellow_concrete",
+		"4": "minecraft:block/red_concrete",
+		"5": "minecraft:block/black_concrete",
+		"particle": "minecraft:block/blue_concrete"
 	},
 	"elements": [
 		{

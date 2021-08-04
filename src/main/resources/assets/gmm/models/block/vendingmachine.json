@@ -1,15 +1,11 @@
 {
   "parent": "gmm:custom/vending_machine",
   "textures": {
-    "all": "gmm:blocks/1",
-    "particle": "gma:blocks/1",
-    "1": "gmm:blocks/texture",
-    "2": "gmm:blocks/2",
-    "1_0": "gmm:blocks/cadeau_small_redyellow",
-    "2_0": "gmm:blocks/cadeau_big_blueyellow",
-    "4": "gmm:blocks/texture",
+    "1": "block/gray_concrete",
+    "2": "block/green_concrete",
     "5": "gmm:blocks/6",
-    "7": "gmm:blocks/1",
-    "missing": "gmm:blocks/1"
+    "6": "gmm:blocks/structure_block",
+    "7": "block/gray_stained_glass",
+    "particle": "block/gray_concrete"
   }
 }

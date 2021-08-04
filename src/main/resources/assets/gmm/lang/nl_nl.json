@@ -142,7 +142,6 @@
   "block.gmm.pumpkin": "Pumpkin",
   "block.gmm.roadblock": "Roadblock",
   "block.gmm.schoentje": "Schoentje",
-  "block.gmm.luckybag": "LuckyBag",
   "block.gmm.kerst_slingers": "Kerst slingers",
   "block.gmm.walkietalkie": "WalkieTalkie",
   "block.gmm.krans": "krans",
@@ -246,7 +245,6 @@
   "item.gmm.wapenstok_iron": "Ijzeren Wapenstok",
   "item.gmm.wapenstok_redstone": "Redstone Wapenstok",
   "item.gmm.purple_weed": "Paarze wiet",
-  "block.gmm.arcade": "Arcade",
   "block.gmm.notebook": "Laptop",
   "block.gmm.monitor": "Monitor",
   "item.gmm.strawberry": "Aardbei",
@@ -591,5 +589,8 @@
   "item.gmm.handbag": "Handtas",
   "block.gmm.yellowbag": "Gele tas",
   "block.gmm.icebox": "Ijskraampje",
-  "block.gmm.vendingmachine": "Vending machine"
+  "block.gmm.vendingmachine": "Vending machine",
+  "block.gmm.chest_spawner": "Chest Spawner",
+  "advancements.better_world.descr": "Houd de wereld schoon!",
+  "advancements.better_world.title": "Een betere wereld"
 }

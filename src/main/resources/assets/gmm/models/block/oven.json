@@ -1,12 +1,12 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "gmm:blocks/mob_spawner",
-		"2": "gmm:blocks/black_stained_glass",
-		"3": "gmm:blocks/anvil",
-		"4": "gmm:blocks/stone_slab_top",
-		"5": "gmm:blocks/furnace_top",
-		"particle": "gmm:blocks/anvil"
+		"1": "minecraft:block/spawner",
+		"2": "minecraft:block/black_stained_glass",
+		"3": "minecraft:block/anvil",
+		"4": "minecraft:block/smooth_stone",
+		"5": "minecraft:block/furnace_top",
+		"particle": "minecraft:block/anvil"
 	},
 	"elements": [
 		{

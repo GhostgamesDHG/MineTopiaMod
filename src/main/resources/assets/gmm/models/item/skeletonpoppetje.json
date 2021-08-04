@@ -3,11 +3,11 @@
 	"textures": {
 		"particle": "gmm:blocks/skeleton_skin",
 		"skeletonskin": "gmm:blocks/skeleton_skin",
-		"blackskeletonhead": "gmm:blocks/wool_colored_black",
+		"blackskeletonhead": "minecraft:block/black_wool",
 		"skeletonleather": "gmm:blocks/skeleton_leather",
-		"skeletoneyes": "gmm:blocks/hardened_clay_stained_red",
+		"skeletoneyes": "minecraft:block/red_terracotta",
 		"skeleton_sword": "gmm:items/skeleton_sword",
-		"goldskeletoncrown": "gmm:blocks/gold_block"
+		"goldskeletoncrown": "minecraft:block/gold_block"
 	},
 	"elements": [
 		{

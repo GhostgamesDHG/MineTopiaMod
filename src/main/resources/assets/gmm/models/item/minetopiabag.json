@@ -2,10 +2,10 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"3": "gmm:items/bag121",
-		"kleur": "gmm:blocks/hardened_clay_stained_brown",
-		"touwtjes": "gmm:blocks/hardened_clay_stained_black",
-		"particle": "gmm:blocks/hardened_clay_stained_cyan",
-		"zipper": "gmm:blocks/hardened_clay_stained_cyan"
+		"kleur": "minecraft:block/brown_terracotta",
+		"touwtjes": "minecraft:block/black_terracotta",
+		"particle": "minecraft:block/cyan_terracotta",
+		"zipper": "minecraft:block/cyan_terracotta"
 	},
 	"elements": [
 		{

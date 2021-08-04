@@ -1,11 +1,11 @@
 {
 	"credit": "Made by Zeeppompje for the DDG MineTopia ResourcePack",
 	"textures": {
-		"0": "gmm:blocks/hardened_clay_stained_cyan",
-		"2": "gmm:blocks/hardened_clay_stained_black",
-		"3": "gmm:blocks/bone_block_side",
-		"4": "gmm:blocks/hardened_clay_stained_white",
-		"particle": "gmm:blocks/hardened_clay_stained_black"
+		"0": "minecraft:block/cyan_terracotta",
+		"2": "minecraft:block/black_terracotta",
+		"3": "minecraft:block/bone_block_side",
+		"4": "minecraft:block/white_terracotta",
+		"particle": "minecraft:block/black_terracotta"
 	},
 	"elements": [
 		{

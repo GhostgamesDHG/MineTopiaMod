@@ -2,12 +2,12 @@
 	"__comment": "Designed by Nightcling",
 	"__comment": "Pika Pika CHHHUUUUUUUUU!!!!!",
 	"textures": {
-		"particle": "gmm:blocks/hardened_clay_stained_yellow",
-		"yellow": "gmm:blocks/hardened_clay_stained_yellow",
-		"brown": "gmm:blocks/hardened_clay_stained_brown",
-		"black": "gmm:blocks/hardened_clay_stained_black",
-		"white": "gmm:blocks/quartz_block_bottom",
-		"red": "gmm:blocks/hardened_clay_stained_red"
+		"particle": "minecraft:block/yellow_terracotta",
+		"yellow": "minecraft:block/yellow_terracotta",
+		"brown": "minecraft:block/brown_terracotta",
+		"black": "minecraft:block/black_terracotta",
+		"white": "minecraft:block/quartz_block_bottom",
+		"red": "minecraft:block/red_terracotta"
 	},
 	"elements": [ 	 
 		{

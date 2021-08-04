@@ -1,13 +1,13 @@
 {
 	"__comment": "Designed by Nightcling with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"particle": "gmm:blocks/hardened_clay_stained_yellow",
-		"yellow": "gmm:blocks/hardened_clay_stained_yellow",
-		"black": "gmm:blocks/hardened_clay_stained_black",
-		"cyan": "gmm:blocks/hardened_clay_stained_cyan",
-		"brown": "gmm:blocks/hardened_clay_stained_brown",
-		"blue": "gmm:blocks/hardened_clay_stained_light_blue",
-		"white": "gmm:blocks/quartz_block_bottom"
+		"particle": "minecraft:block/yellow_terracotta",
+		"yellow": "minecraft:block/yellow_terracotta",
+		"black": "minecraft:block/black_terracotta",
+		"cyan": "minecraft:block/cyan_terracotta",
+		"brown": "minecraft:block/brown_terracotta",
+		"blue": "minecraft:block/light_blue_terracotta",
+		"white": "minecraft:block/quartz_block_bottom"
 	},
 	"elements": [
 		{

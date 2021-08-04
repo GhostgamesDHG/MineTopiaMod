@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/blockz/anvil_base",
-		"1": "gmm:blocks/blockz/clay",
-		"2": "gmm:blocks/blockz/red_terracotta",
-		"3": "gmm:blocks/blockz/white_concrete",
-		"particle": "gmm:blocks/blockz/anvil_base"
+		"0": "minecraft:block/anvil",
+		"1": "minecraft:block/clay",
+		"2": "minecraft:block/red_terracotta",
+		"3": "minecraft:block/white_concrete",
+		"particle": "minecraft:block/anvil"
 	},
 	"elements": [
 		{

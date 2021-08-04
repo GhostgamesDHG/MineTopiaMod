@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"texture": "gmm:blocks/diamond_block",
-		"voxels_palette": "gmm:blocks/gold_block"
+		"texture": "minecraft:block/diamond_block",
+		"voxels_palette": "minecraft:block/gold_block"
 	},
 	"elements": [
 		{

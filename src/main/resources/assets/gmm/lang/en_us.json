@@ -142,7 +142,6 @@
   "block.gmm.pumpkin": "Pumpkin",
   "block.gmm.roadblock": "Roadblock",
   "block.gmm.schoentje": "Shoe",
-  "block.gmm.luckybag": "LuckyBag",
   "block.gmm.kerst_slingers": "Christmas garlands",
   "block.gmm.walkietalkie": "WalkieTalkie",
   "block.gmm.krans": "krans",
@@ -246,7 +245,6 @@
   "item.gmm.wapenstok_iron": "Iron baton",
   "item.gmm.wapenstok_redstone": "Redstone baton",
   "item.gmm.purple_weed": "Purple Weed",
-  "block.gmm.arcade": "Arcade",
   "block.gmm.notebook": "Notebook",
   "block.gmm.monitor": "Monitor",
   "item.gmm.strawberry": "Strawberry",
@@ -591,5 +589,8 @@
   "item.gmm.handbag": "Handbag",
   "block.gmm.yellowbag": "Yellow bag",
   "block.gmm.icebox": "Icebox",
-  "block.gmm.vendingmachine": "Vending machine"
+  "block.gmm.vendingmachine": "Vending machine",
+  "block.gmm.chest_spawner": "Chest Spawner",
+  "advancements.better_world.descr": "Keep the world clean!",
+  "advancements.better_world.title": "A better world"
 }

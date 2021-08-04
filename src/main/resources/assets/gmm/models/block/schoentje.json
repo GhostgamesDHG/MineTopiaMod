@@ -1,14 +1,14 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/blockz/zool",
-		"1": "gmm:blocks/blockz/zwart_binnen",
-		"2": "gmm:blocks/blockz/veters",
-		"4": "gmm:blocks/blockz/brown2",
-		"5": "gmm:blocks/blockz/brown3",
-		"6": "gmm:blocks/blockz/green",
-		"7": "gmm:blocks/blockz/orange",
-		"particle": "gmm:blocks/blockz/zool"
+		"0": "minecraft:block/quartz_pillar",
+		"1": "minecraft:block/black_concrete",
+		"2": "minecraft:block/white_concrete",
+		"4": "minecraft:block/black_terracotta",
+		"5": "minecraft:block/black_terracotta",
+		"6": "minecraft:block/green_concrete",
+		"7": "minecraft:block/orange_concrete",
+		"particle": "minecraft:block/quartz_pillar"
 	},
 	"elements": [
 		{

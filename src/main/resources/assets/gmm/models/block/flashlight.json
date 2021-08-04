@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "gmm:blocks/anvil_base",
-		"color": "gmm:blocks/anvil_base",
-		"light": "gmm:blocks/sea_lantern",
-		"color2": "gmm:blocks/hardened_clay_stained_cyan",
-		"button": "gmm:blocks/stone_andesite_smooth"
+		"particle": "minecraft:block/anvil",
+		"color": "minecraft:block/anvil",
+		"light": "minecraft:block/sea_lantern",
+		"color2": "minecraft:block/cyan_terracotta",
+		"button": "minecraft:block/polished_andesite"
 	},
 	"elements": [
 		{

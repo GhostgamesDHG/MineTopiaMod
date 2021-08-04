@@ -2,15 +2,15 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "gmm:blocks/anvil_base",
-		"2": "gmm:blocks/concrete_silver",
-		"3": "gmm:blocks/beacon",
-		"4": "gmm:blocks/stone_slab_top",
-		"5": "gmm:blocks/black_concrete",
-		"7": "gmm:blocks/concrete_red",
-		"8": "gmm:blocks/concrete_lime",
-		"9": "gmm:blocks/concrete_yellow",
+		"2": "minecraft:block/gray_concrete",
+		"3": "minecraft:block/beacon",
+		"4": "minecraft:block/smooth_stone",
+		"5": "minecraft:block/black_concrete",
+		"7": "minecraft:block/red_concrete",
+		"8": "minecraft:block/lime_concrete",
+		"9": "minecraft:block/yellow_concrete",
 		"10": "gmm:blocks/logo",
-		"particle": "gmm:blocks/concrete_gray"
+		"particle": "minecraft:block/gray_concrete"
 	},
 	"elements": [
 		{

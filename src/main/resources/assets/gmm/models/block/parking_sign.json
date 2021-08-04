@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"texture": "gmm:blocks/blockz/concrete_powder_cyan",
-		"iron_block": "gmm:blocks/blockz/iron_block",
-		"particle": "gmm:blocks/blockz/concrete_white",
-		"snow": "gmm:blocks/blockz/concrete_white"
+		"texture": "minecraft:block/cyan_concrete_powder",
+		"iron_block": "minecraft:block/iron_block",
+		"particle": "minecraft:block/white_concrete",
+		"snow": "minecraft:block/white_concrete"
 	},
 	"elements": [
 		{

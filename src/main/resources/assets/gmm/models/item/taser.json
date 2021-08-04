@@ -1,10 +1,10 @@
 {
 "__comment": "Designed by Eagleshooter217 with BDcraft Cubik PRO 0.96 Beta - http://bdcraft.net",
 "textures": {
-    "texture": "gmm:blocks/blockz/anvil_base",
-    "hardened_clay_stained_yellow": "gmm:blocks/blockz/hardened_clay_stained_yellow",
-    "redstone_torch_on": "gmm:blocks/blockz/redstone_torch_on",
-    "iron_block": "gmm:blocks/blockz/iron_block"
+    "texture": "gmm:blocks/anvil_base",
+    "hardened_clay_stained_yellow": "minecraft:block/yellow_terracotta",
+    "redstone_torch_on": "minecraft:block/redstone_torch",
+    "iron_block": "minecraft:block/iron_block"
 },
 "elements": [ 
 {

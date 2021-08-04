@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/bedrock",
-		"1": "gmm:blocks/cactus_top",
-		"2": "gmm:blocks/double_plant_paeonia_top",
-		"particle": "gmm:blocks/bedrock"
+		"0": "minecraft:block/bedrock",
+		"1": "minecraft:block/cactus_top",
+		"2": "minecraft:block/red_concrete",
+		"particle": "minecraft:block/bedrock"
 	},
 	"elements": [
 		{

@@ -1,9 +1,9 @@
 {
   "parent": "gmm:custom/wallet",
   "textures": {
-    "0": "gmm:blocks/portemonnee",
-    "1": "gmm:blocks/portemonnee_2",
-    "2": "gmm:blocks/portemonnee_geld",
+    "0": "minecraft:block/brown_terracotta",
+    "1": "minecraft:block/brown_terracotta",
+    "2": "minecraft:block/green_terracotta",
     "particle": "gmm:items/portemonnee"
   }
 }

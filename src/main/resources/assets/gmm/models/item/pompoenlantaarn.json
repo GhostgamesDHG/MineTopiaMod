@@ -1,15 +1,15 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/pumpkin_side",
+		"0": "minecraft:block/pumpkin_side",
 		"1": "gmm:blocks/pumpkin_face_on",
-		"3": "gmm:blocks/concrete_black",
-		"4": "gmm:blocks/bone_block_side",
-		"5": "gmm:blocks/pompoensnoep",
+		"3": "minecraft:block/black_concrete",
+		"4": "minecraft:block/bone_block_side",
+		"5": "minecraft:block/yellow_concrete",
 		"6": "gmm:blocks/anvil_base",
-		"7": "gmm:blocks/dark_oak_planks",
+		"7": "minecraft:block/dark_oak_planks",
 		"8": "gmm:blocks/case_lightbrown",
-		"particle": "gmm:blocks/pumpkin_side"
+		"particle": "minecraft:block/pumpkin_side"
 	},
 	"elements": [
 		{

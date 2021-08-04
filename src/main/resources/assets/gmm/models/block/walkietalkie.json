@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/blockz/dispenser_front_horizontal",
-		"1": "gmm:blocks/blockz/structure_block",
-		"3": "gmm:blocks/blockz/bedrock",
-		"particle": "gmm:blocks/blockz/dispenser_front_horizontal"
+		"0": "minecraft:block/gray_concrete",
+		"1": "gmm:blocks/structure_block",
+		"3": "minecraft:block/gray_concrete",
+		"particle": "minecraft:block/gray_concrete"
 	},
 	"elements": [
 		{

@@ -1,16 +1,16 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/planks_spruce",
-		"2": "gmm:blocks/concrete_red",
-		"3": "gmm:blocks/concrete_orange",
-		"4": "gmm:blocks/concrete_yellow",
-		"5": "gmm:blocks/concrete_lime",
-		"6": "gmm:blocks/concrete_light_blue",
-		"7": "gmm:blocks/concrete_pink",
-		"8": "gmm:blocks/concrete_purple",
-		"9": "gmm:blocks/concrete_blue",
-		"10": "gmm:blocks/bone_block_side"
+		"0": "minecraft:block/spruce_planks",
+		"2": "minecraft:block/red_concrete",
+		"3": "minecraft:block/orange_concrete",
+		"4": "minecraft:block/yellow_concrete",
+		"5": "minecraft:block/lime_concrete",
+		"6": "minecraft:block/light_blue_concrete",
+		"7": "minecraft:block/pink_concrete",
+		"8": "minecraft:block/purple_concrete",
+		"9": "minecraft:block/blue_concrete",
+		"10": "minecraft:block/bone_block_side"
 	},
 	"elements": [
 		{

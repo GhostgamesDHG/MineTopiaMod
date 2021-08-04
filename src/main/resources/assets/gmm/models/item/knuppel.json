@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"texture": "gmm:blocks/blockz/planks_birch"
+		"texture": "minecraft:block/birch_planks"
 	},
 	"elements": [
 		{

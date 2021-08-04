@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/stone_slab_top",
-		"1": "gmm:blocks/hardened_clay_stained_yellow",
+		"0": "minecraft:block/smooth_stone",
+		"1": "minecraft:block/yellow_terracotta",
 		"2": "gmm:blocks/oil",
-		"particle": "gmm:blocks/stone_slab_top"
+		"particle": "minecraft:block/smooth_stone"
 	},
 	"elements": [
 		{

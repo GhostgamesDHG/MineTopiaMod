@@ -1,13 +1,13 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"textures": {
-		"0": "gmm:blocks/jukebox_top",
-		"1": "gmm:blocks/wool_colored_orange",
-		"2": "gmm:blocks/wool_colored_red",
-		"3": "gmm:blocks/door_iron_lower",
-		"4": "gmm:blocks/log_oak",
-		"ballon": "gmm:blocks/quartz_block_bottom",
-		"particle": "gmm:blocks/jukebox_top"
+		"0": "minecraft:block/jukebox_top",
+		"1": "minecraft:block/orange_wool",
+		"2": "minecraft:block/red_wool",
+		"3": "minecraft:block/iron_door_bottom",
+		"4": "minecraft:block/oak_log",
+		"ballon": "minecraft:block/quartz_block_bottom",
+		"particle": "minecraft:block/jukebox_top"
 	},
 	"elements": [
 		{

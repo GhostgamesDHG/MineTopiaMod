@@ -1,12 +1,12 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "gmm:blocks/iron_block",
-		"3": "gmm:blocks/concrete_black",
+		"2": "minecraft:block/iron_block",
+		"3": "minecraft:block/black_concrete",
 		"4": "gmm:blocks/anvil_base",
-		"6": "gmm:blocks/concrete_white",
-		"10": "gmm:blocks/hardened_clay_stained_brown",
-		"particle": "gmm:blocks/concrete_white"
+		"6": "minecraft:block/white_concrete",
+		"10": "minecraft:block/brown_terracotta",
+		"particle": "minecraft:block/white_concrete"
 	},
 	"elements": [
 		{

@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"texture": "gmm:blocks/quartz_block_bottom",
-		"coal_block": "gmm:blocks/coal_block"
+		"texture": "minecraft:block/quartz_block_bottom",
+		"coal_block": "minecraft:block/coal_block"
 	},
 	"elements": [
 		{

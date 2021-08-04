@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"textures": {
-		"0": "gmm:blocks/blockz/anvil_base",
-		"1": "gmm:blocks/blockz/structure_block",
-		"3": "gmm:blocks/blockz/hardened_clay_stained_cyan",
-		"4": "gmm:blocks/blockz/iron_block",
-		"particle": "gmm:blocks/blockz/anvil_base"
+		"0": "gmm:blocks/anvil_base",
+		"1": "gmm:blocks/structure_block",
+		"3": "minecraft:block/cyan_terracotta",
+		"4": "minecraft:block/iron_block",
+		"particle": "gmm:blocks/anvil_base"
 	},
 	"elements": [
 		{

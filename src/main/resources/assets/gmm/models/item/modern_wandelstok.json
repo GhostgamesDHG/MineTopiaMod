@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"texture": "gmm:blocks/stone_slab_top",
-		"planks_big_oak": "gmm:blocks/planks_big_oak",
+		"texture": "minecraft:block/smooth_stone",
+		"planks_big_oak": "minecraft:block/dark_oak_planks",
 		"anvil_base": "gmm:blocks/anvil_base"
 	},
 	"elements": [

@@ -1,6 +1,6 @@
 {
     "parent": "gmm:block/diamond_trophie_1j",
 	"textures": {
-		"1": "gmm:blocks/gold_block"
+		"1": "minecraft:block/gold_block"
 	}
 }

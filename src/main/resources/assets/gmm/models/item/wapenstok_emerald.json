@@ -1,6 +1,6 @@
 {
 	"parent": "gmm:item/wapenstok",
 	"textures": {
-		"politie": "gmm:blocks/emerald_block"
+		"politie": "minecraft:block/emerald_block"
 	}
 }

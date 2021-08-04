@@ -2,9 +2,9 @@
 	"__comment": "Designed by DitIsMax_ for DDG [Minetopia]",
 	"textures": {
 		"particle": "gmm:blocks/anvil_base",
-		"Shark_grijs": "gmm:blocks/hardened_clay_stained_cyan",
-		"Shark_wit": "gmm:blocks/snow",
-		"Shark_ogen": "gmm:blocks/coal_block"
+		"Shark_grijs": "minecraft:block/cyan_terracotta",
+		"Shark_wit": "minecraft:block/snow",
+		"Shark_ogen": "minecraft:block/coal_block"
 	},
 	"elements": [
 		{

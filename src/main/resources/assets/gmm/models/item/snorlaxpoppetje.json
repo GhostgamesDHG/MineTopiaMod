@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/prismarine_bricks",
-		"1": "gmm:blocks/bedrock",
-		"2": "gmm:blocks/cake_top",
-		"3": "gmm:blocks/end_stone",
-		"particle": "gmm:blocks/prismarine_bricks"
+		"0": "minecraft:block/prismarine_bricks",
+		"1": "minecraft:block/bedrock",
+		"2": "minecraft:block/cake_top",
+		"3": "minecraft:block/end_stone",
+		"particle": "minecraft:block/prismarine_bricks"
 	},
 	"elements": [
 		{

@@ -2,10 +2,11 @@ package com.ghostgamesdhg.minetopia.procedures;
 
 import com.ghostgamesdhg.minetopia.GMMElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
+import com.ghostgamesdhg.minetopia.init.ModItems;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
+
 
 import java.util.Map;
 
@@ -22,10 +23,10 @@ public class CarrotProcedure extends GMMElements.ModElement {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(Items.IRON_INGOT, (int) (1))) : false)) {
+		if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ModItems.MONEY2.get(), (int) (1))) : false)) {
 			if (entity instanceof PlayerEntity) {
-				ItemStack _stktoremove = new ItemStack(Items.IRON_INGOT, (int) (1));
-				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
+				ItemStack _stktoremove = new ItemStack(ModItems.MONEY2.get(), (int) (1));
+				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 2,
 						((PlayerEntity) entity).container.func_234641_j_());
 			}
 			{

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gmm:block/chest_spawner"
+    }
+  }
+}

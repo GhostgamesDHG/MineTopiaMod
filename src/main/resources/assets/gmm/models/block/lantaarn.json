@@ -1,13 +1,13 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/blockz/anvil_base",
-		"1": "gmm:blocks/blockz/hardened_clay_stained_cyan",
-		"2": "gmm:blocks/blockz/bone_block_side",
-		"3": "gmm:blocks/blockz/concrete_orange",
-		"6": "gmm:blocks/blockz/texture1",
-		"12": "gmm:blocks/blockz/concrete_gray",
-		"particle": "gmm:blocks/blockz/hardened_clay_stained_cyan"
+		"0": "minecraft:block/anvil",
+		"1": "minecraft:block/cyan_terracotta",
+		"2": "minecraft:block/bone_block_side",
+		"3": "minecraft:block/orange_concrete",
+		"6": "minecraft:block/gray_concrete",
+		"12": "minecraft:block/gray_concrete",
+		"particle": "minecraft:block/cyan_terracotta"
 	},
 	"elements": [
 		{

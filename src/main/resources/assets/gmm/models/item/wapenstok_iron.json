@@ -1,6 +1,6 @@
 {
 	"parent": "gmm:item/wapenstok",
 	"textures": {
-		"politie": "gmm:blocks/iron_block"
+		"politie": "minecraft:block/iron_block"
 	}
 }

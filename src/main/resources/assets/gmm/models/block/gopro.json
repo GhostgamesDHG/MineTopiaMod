@@ -1,13 +1,13 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/blockz/cauldron_inner",
-		"1": "gmm:blocks/blockz/hardened_clay_stained_cyan",
-		"2": "gmm:blocks/blockz/structure_block",
-		"3": "gmm:blocks/blockz/bedrock",
+		"0": "minecraft:block/cauldron_inner",
+		"1": "minecraft:block/cyan_terracotta",
+		"2": "gmm:blocks/structure_block",
+		"3": "minecraft:block/bedrock",
 		"6": "gmm:blocks/blockz/bed_feet_top",
-		"8": "gmm:blocks/blockz/vending_machine",
-		"particle": "gmm:blocks/blockz/cauldron_inner"
+		"8": "gmm:blocks/structure_block",
+		"particle": "minecraft:block/couldron_inner"
 	},
 	"elements": [
 		{
@@ -667,7 +667,7 @@
 			"faces": {
 				"north": {"uv": [0, 0, 1, 0.5], "texture": "#0"},
 				"east": {"uv": [0, 0, 1, 0.5], "texture": "#0"},
-				"south": {"uv": [1.55392, 0, 8.88904, 15.98376], "rotation": 90, "texture": "#8"},
+				"south": {"uv": [1, 4, 15, 11], "rotation": 90, "texture": "#8"},
 				"west": {"uv": [0, 0, 1, 0.5], "texture": "#0"},
 				"up": {"uv": [0, 0, 1, 0.5], "rotation": 90, "texture": "#0"},
 				"down": {"uv": [0, 0, 1, 0.5], "rotation": 270, "texture": "#0"}

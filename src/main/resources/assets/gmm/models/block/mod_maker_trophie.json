@@ -1,15 +1,15 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "gmm:blocks/bone_block_side",
-		"2": "gmm:blocks/spruce_log",
-		"3": "gmm:blocks/dark_oak_trapdoor",
-		"4": "gmm:blocks/dark_oak_planks",
-		"6": "gmm:blocks/gold_block",
-		"7": "gmm:blocks/red_glazed_terracotta",
-		"8": "gmm:blocks/lime_shulker_box",
+		"1": "minecraft:block/bone_block_side",
+		"2": "minecraft:block/spruce_log",
+		"3": "minecraft:block/dark_oak_trapdoor",
+		"4": "minecraft:block/dark_oak_planks",
+		"6": "minecraft:block/gold_block",
+		"7": "minecraft:block/red_terracotta",
+		"8": "minecraft:block/lime_shulker_box",
 		"9": "gmm:blocks/skin",
-		"particle": "gmm:blocks/bone_block_side"
+		"particle": "minecraft:block/bone_block_side"
 	},
 	"elements": [
 		{

@@ -1,7 +1,7 @@
 {
 	"parent": "gmm:item/jetpack_diamond",
 	"textures": {
-		"0": "gmm:blocks/iron_block",
-		"particle": "gmm:blocks/iron_block"
+		"0": "minecraft:block/iron_block",
+		"particle": "minecraft:block/iron_block"
 	}
 }
