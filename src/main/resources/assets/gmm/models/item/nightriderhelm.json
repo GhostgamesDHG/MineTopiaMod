@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"textures": {
-		"0": "gmm:blocks/hardened_clay_stained_cyan",
-		"1": "gmm:blocks/wool_colored_red",
-		"2": "gmm:blocks/gold_block",
-		"particle": "gmm:blocks/hardened_clay_stained_cyan"
+		"0": "minecraft:block/cyan_terracotta",
+		"1": "minecraft:block/red_wool",
+		"2": "minecraft:block/gold_block",
+		"particle": "minecraft:block/cyan_terracotta"
 	},
 	"elements": [
 		{

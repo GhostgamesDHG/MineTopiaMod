@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:items/hay_block_top",
-		"1": "gmm:items/debug",
-		"2": "gmm:items/bone_block_side",
-		"particle": "gmm:items/hay_block_top"
+		"0": "minecraft:block/hay_block_top",
+		"1": "gmm:blocks/debug",
+		"2": "minecraft:block/bone_block_side",
+		"particle": "minecraft:block/hay_block_top"
 	},
 	"elements": [
 		{

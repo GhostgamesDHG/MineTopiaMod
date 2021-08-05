@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/dirt",
+		"0": "minecraft:block/dirt",
 		"1": "gmm:blocks/anvil_base",
-		"particle": "gmm:blocks/dirt"
+		"particle": "minecraft:block/dirt"
 	},
 	"elements": [
 		{

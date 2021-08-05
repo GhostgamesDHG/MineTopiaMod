@@ -1,8 +1,8 @@
 {
 	"__comment": "Designed by BuffaloWout with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"wool_colored_white": "gmm:blocks/wool_colored_green",
-		"texture": "gmm:blocks/wool_colored_red"
+		"wool_colored_white": "minecraft:block/green_wool",
+		"texture": "minecraft:block/red_wool"
 	},
 	"elements": [ 	 
 		{

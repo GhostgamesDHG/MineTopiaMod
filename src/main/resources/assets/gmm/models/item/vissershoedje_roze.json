@@ -1,8 +1,8 @@
 {
 	"parent": "gmm:item/vissershoedje",
 	"textures": {
-		"0": "gmm:blocks/hardened_clay_stained_magenta",
+		"0": "minecraft:block/magenta_terracotta",
 		"2": "gmm:blocks/tnt_side",
-		"particle": "gmm:blocks/hardened_clay_stained_magenta"
+		"particle": "minecraft:block/magenta_terracotta"
 	}
 }

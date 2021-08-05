@@ -1,13 +1,13 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"5": "gmm:blocks/hardened_clay_stained_brown",
-		"6": "gmm:blocks/hardened_clay_stained_yellow",
+		"5": "minecraft:block/brown_terracotta",
+		"6": "minecraft:block/yellow_terracotta",
 		"7": "gmm:items/giraffe",
-		"8": "gmm:blocks/concrete_black",
-		"particle": "gmm:blocks/hardened_clay_stained_brown",
-		"snow": "gmm:blocks/snow",
-		"iron_block": "gmm:blocks/iron_block"
+		"8": "minecraft:block/black_concrete",
+		"particle": "minecraft:block/brown_terracotta",
+		"snow": "minecraft:block/snow",
+		"iron_block": "minecraft:block/iron_block"
 	},
 	"elements": [
 		{

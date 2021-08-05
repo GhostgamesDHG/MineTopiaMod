@@ -1,9 +1,9 @@
 {
 	"credit": "Made by Crafter_Lukas, DDG Resource Pack Artist",
 	"textures": {
-		"0": "gmm:blocks/hardened_clay_stained_red",
-		"1": "gmm:blocks/planks_oak",
-		"particle": "gmm:blocks/hardened_clay_stained_red"
+		"0": "minecraft:block/red_terracotta",
+		"1": "minecraft:block/oak_planks",
+		"particle": "minecraft:block/red_terracotta"
 	},
 	"elements": [
 		{

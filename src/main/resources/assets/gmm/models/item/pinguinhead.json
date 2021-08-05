@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"texture": "gmm:blocks/black_concrete",
-		"texture1": "gmm:blocks/hardened_clay_stained_orange"
+		"texture": "minecraft:block/black_concrete",
+		"texture1": "minecraft:block/orange_terracotta"
 	},
 	"elements": [
 		{

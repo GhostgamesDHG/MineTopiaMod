@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/hardened_clay_stained_cyan",
-		"1": "gmm:blocks/concrete_black",
-		"2": "gmm:blocks/fire_layer_1",
-		"3": "gmm:blocks/cauldron_inner",
-		"particle": "gmm:blocks/hardened_clay_stained_cyan"
+		"0": "minecraft:block/cyan_terracotta",
+		"1": "minecraft:block/black_concrete",
+		"2": "minecraft:block/fire_1",
+		"3": "minecraft:block/cauldron_inner",
+		"particle": "minecraft:block/cyan_terracotta"
 	},
 	"elements": [
 		{

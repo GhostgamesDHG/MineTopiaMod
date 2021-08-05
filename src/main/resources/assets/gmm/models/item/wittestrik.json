@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "gmm:blocks/anvil_base",
-		"1": "gmm:blocks/quartz_block_side",
+		"1": "minecraft:block/quartz_block_side",
 		"particle": "gmm:blocks/anvil_base"
 	},
 	"elements": [

@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"texture": "gmm:blocks/hardened_clay_stained_pink",
-		"snow": "gmm:blocks/snow",
-		"iron_block": "gmm:blocks/iron_block"
+		"texture": "minecraft:block/pink_terracotta",
+		"snow": "minecraft:block/snow",
+		"iron_block": "minecraft:block/iron_block"
 	},
 	"elements": [
 		{

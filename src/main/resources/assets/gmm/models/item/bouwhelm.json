@@ -1,9 +1,9 @@
 {
 	"__comment": "Designed by Nightcling",
 	"textures": {
-		"particle": "gmm:blocks/hardened_clay_stained_yellow",
-		"yellow": "gmm:blocks/hardened_clay_stained_yellow",
-		"gray": "gmm:blocks/hardened_clay_stained_cyan"
+		"particle": "minecraft:block/yellow_terracotta",
+		"yellow": "minecraft:block/yellow_terracotta",
+		"gray": "minecraft:block/cyan_terracotta"
 	},
 	"elements": [ 	 
 		{

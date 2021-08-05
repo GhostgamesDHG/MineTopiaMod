@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/hardened_clay_stained_red",
-		"1": "gmm:blocks/cauldron_inner",
-		"3": "gmm:blocks/frosted_ice_0",
-		"particle": "gmm:blocks/hardened_clay_stained_red"
+		"0": "minecraft:block/red_terracotta",
+		"1": "minecraft:block/cauldron_inner",
+		"3": "minecraft:block/frosted_ice_0",
+		"particle": "minecraft:block/red_terracotta"
 	},
 	"elements": [
 		{

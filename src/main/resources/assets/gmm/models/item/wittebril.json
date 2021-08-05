@@ -1,8 +1,8 @@
 {
 "__comment": "Designed by Timbayens by order of DusDavid (DusDavidGames)",
 "textures": {
-    "texture": "gmm:blocks/quartz_block_bottom",
-    "glass": "gmm:blocks/glass_gray"
+    "texture": "minecraft:block/quartz_block_bottom",
+    "glass": "minecraft:block/gray_stained_glass"
 },
 "elements": [ 
 {

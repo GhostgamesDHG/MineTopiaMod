@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/concrete_black",
-		"1": "gmm:blocks/redstone_block",
-		"particle": "gmm:blocks/concrete_black"
+		"0": "minecraft:block/black_concrete",
+		"1": "minecraft:block/redstone_block",
+		"particle": "minecraft:block/black_concrete"
 	},
 	"elements": [
 		{

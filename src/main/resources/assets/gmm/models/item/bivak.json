@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"texture": "gmm:blocks/blockz/wool_colored_black"
+		"texture": "minecraft:block/black_wool"
 	},
 	"elements": [
 		{

@@ -1,12 +1,12 @@
 {
 	"credit": "Made by Nathantjuhh",
 	"textures": {
-		"0": "gmm:blocks/wool_colored_black",
-		"1": "gmm:blocks/hardened_clay_stained_orange",
-		"2": "gmm:blocks/hardened_clay_stained_red",
-		"3": "gmm:blocks/quartz_block_bottom",
-		"4": "gmm:blocks/lapis_block",
-		"particle": "gmm:blocks/wool_colored_black"
+		"0": "minecraft:block/black_wool",
+		"1": "minecraft:block/orange_terracotta",
+		"2": "minecraft:block/red_terracotta",
+		"3": "minecraft:block/quartz_block_bottom",
+		"4": "minecraft:block/lapis_block",
+		"particle": "minecraft:block/black_wool"
 	},
 	"elements": [
 		{

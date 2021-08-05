@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"texture": "gmm:blocks/quartz_block_bottom",
-		"coal_block": "gmm:blocks/coal_block",
-		"texture1": "gmm:blocks/hardened_clay_stained_brown",
-		"texture2": "gmm:blocks/planks_oak",
-		"texture3": "gmm:blocks/concrete_red"
+		"texture": "minecraft:block/quartz_block_bottom",
+		"coal_block": "minecraft:block/coal_block",
+		"texture1": "minecraft:block/brown_terracotta",
+		"texture2": "minecraft:block/oak_planks",
+		"texture3": "minecraft:block/red_concrete"
 	},
 	"elements": [
 		{

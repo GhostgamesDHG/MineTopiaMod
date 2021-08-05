@@ -1,11 +1,11 @@
 {
 	"__comment": "Designed by Benderdt with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"0": "gmm:blocks/ice_packed",
-		"1": "gmm:blocks/wool_colored_yellow",
-		"2": "gmm:block/gold_block",
-		"particle": "gmm:blocks/ice_packed",
-		"missing": "gmm:blocks/gold_block"
+		"0": "minecraft:block/packed_ice",
+		"1": "minecraft:block/yellow_wool",
+		"2": "minecraft:block/gold_block",
+		"particle": "minecraft:block/packed_ice",
+		"missing": "minecraft:block/gold_block"
 	},
 	"elements": [ 	 
 		{

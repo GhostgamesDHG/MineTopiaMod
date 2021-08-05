@@ -1,10 +1,10 @@
 {
 	"__comment": "The Night Is Near!",
 	"textures": {
-		"particle": "gmm:blocks/hardened_clay_stained_gray",
-		"yellow": "gmm:blocks/hardened_clay_stained_gray",
-		"gray": "gmm:blocks/hardened_clay_stained_cyan",
-		"lamp": "gmm:blocks/redstone_lamp_on"
+		"particle": "minecraft:block/gray_terracotta",
+		"yellow": "minecraft:block/gray_terracotta",
+		"gray": "minecraft:block/cyan_terracotta",
+		"lamp": "minecraft:block/redstone_lamp_on"
 	},
 	"elements": [
 		{

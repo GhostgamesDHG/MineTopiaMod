@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/crafting_table_front",
-		"particle": "gmm:blocks/crafting_table_front"
+		"0": "minecraft:block/crafting_table_front",
+		"particle": "minecraft:block/crafting_table_front"
 	},
 	"elements": [
 		{

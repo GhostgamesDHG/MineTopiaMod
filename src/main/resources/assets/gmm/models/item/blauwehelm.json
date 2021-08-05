@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/concrete_cyan",
-		"2": "gmm:blocks/concrete_silver",
-		"particle": "gmm:blocks/concrete_cyan"
+		"0": "minecraft:block/cyan_concrete",
+		"2": "minecraft:block/light_gray_concrete",
+		"particle": "minecraft:block/cyan_concrete"
 	},
 	"elements": [
 		{

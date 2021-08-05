@@ -1,10 +1,9 @@
 {
 	"parent": "gmm:item/duikbril_blauw",
 	"textures": {
-		"5": "gmm:blocks/ddg",
-		"particle": "gmm:blocks/hardened_clay_stained_pink",
-		"color": "gmm:blocks/hardened_clay_stained_pink",
-		"black": "gmm:blocks/hardened_clay_stained_black",
-		"color2": "gmm:blocks/hardened_clay_stained_magenta"
+		"particle": "minecraft:block/pink_terracotta",
+		"color": "minecraft:block/pink_terracotta",
+		"black": "minecraft:block/black_terracotta",
+		"color2": "minecraft:block/magenta_terracotta"
 	}
 }

@@ -1,9 +1,9 @@
 {
 	"credit": "Made by Meloenmahn",
 	"textures": {
-		"0": "gmm:blocks/blockz/anvil_base",
-		"1": "gmm:blocks/hardened_clay_stained_green",
-		"particle": "gmm:blocks/blockz/anvil_base"
+		"0": "gmm:blocks/anvil_base",
+		"1": "minecraft:block/green_terracotta",
+		"particle": "gmm:blocks/anvil_base"
 	},
 	"elements": [
 		{

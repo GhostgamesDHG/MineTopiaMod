@@ -1,12 +1,12 @@
 {
 	"credit": "Made by frankschepers24",
 	"textures": {
-		"0": "gmm:items/black",
-		"1": "gmm:items/white",
-		"2": "gmm:items/red",
-		"3": "gmm:items/darkred",
-		"4": "gmm:items/deepdarkred",
-		"particle": "gmm:items/black"
+		"0": "minecraft:block/black_concrete",
+		"1": "minecraft:block/white_concrete",
+		"2": "minecraft:block/red_concrete",
+		"3": "minecraft:block/red_terracotta",
+		"4": "minecraft:block/red_terracotta",
+		"particle": "minecraft:block/black_concrete"
 	},
 	"elements": [
 		{

@@ -1,8 +1,8 @@
 {
 	"parent": "gmm:item/panama_bruin",
 	"textures": {
-		"0": "gmm:blocks/brewing_stand_base",
-		"1": "gmm:blocks/quartz_block_bottom",
-		"particle": "gmm:blocks/brewing_stand_base"
+		"0": "minecraft:block/brewing_stand_base",
+		"1": "minecraft:block/quartz_block_bottom",
+		"particle": "minecraft:block/brewing_stand_base"
 	}
 }

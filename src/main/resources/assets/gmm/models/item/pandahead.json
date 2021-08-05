@@ -2,9 +2,9 @@
 	"credit": "Made by frankschepers24, bamboo taken from MerchantCraft",
 	"textures": {
 		"0": "gmm:items/panda",
-		"3": "gmm:items/dark_green",
-		"4": "gmm:items/green",
-		"5": "gmm:items/light_green",
+		"3": "minecraft:block/green_terracotta",
+		"4": "minecraft:block/green_concrete",
+		"5": "minecraft:block/lime_concrete",
 		"particle": "gmm:items/panda"
 	},
 	"elements": [

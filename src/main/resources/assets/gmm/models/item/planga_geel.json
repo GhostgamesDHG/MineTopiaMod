@@ -1,9 +1,9 @@
 {
 	"credit": "Made by Meloenmahn",
 	"textures": {
-		"0": "gmm:blocks/camera_scherm",
-		"1": "gmm:blocks/hardened_clay_stained_yellow",
-		"particle": "gmm:blocks/camera_scherm"
+		"0": "gmm:blocks/structure_block",
+		"1": "minecraft:block/yellow_terracotta",
+		"particle": "gmm:blocks/structure_block"
 	},
 	"elements": [
 		{

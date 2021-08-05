@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:items/blue",
-		"1": "gmm:items/white",
-		"2": "gmm:items/black",
-		"particle": "gmm:items/blue"
+		"0": "minecraft:block/blue_concrete",
+		"1": "minecraft:block/white_concrete",
+		"2": "minecraft:block/black_concrete",
+		"particle": "minecraft:block/blue_concrete"
 	},
 	"elements": [
 		{

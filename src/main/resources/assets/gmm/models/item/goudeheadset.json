@@ -2,8 +2,8 @@
 	"__comment": "Designed by Benderdt with Cubik Studio - https://cubik.studio",
 	"textures": {
 		"0": "gmm:blocks/anvil_base",
-		"1": "gmm:blocks/coal_block",
-		"2": "gmm:blocks/gold_block",
+		"1": "minecraft:block/coal_block",
+		"2": "minecraft:block/gold_block",
 		"particle": "gmm:blocks/anvil_base"
 	},
 	"elements": [ 	 

@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/quartz_block_side",
-		"1": "gmm:blocks/wool_colored_blue",
+		"0": "minecraft:block/quartz_block_side",
+		"1": "minecraft:block/blue_wool",
 		"particle": "gmm:blocks/anvil_base"
 	},
 	"elements": [

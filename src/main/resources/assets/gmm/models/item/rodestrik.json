@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "gmm:blocks/anvil_base",
-		"1": "gmm:blocks/wool_colored_red",
+		"1": "minecraft:block/red_wool",
 		"particle": "gmm:blocks/anvil_base"
 	},
 	"elements": [

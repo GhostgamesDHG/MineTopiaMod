@@ -1,7 +1,7 @@
 {
 	"parent": "gmm:item/blauwehelm",
 	"textures": {
-		"0": "gmm:blocks/concrete_red",
-		"particle": "gmm:blocks/concrete_red"
+		"0": "minecraft:block/red_concrete",
+		"particle": "minecraft:block/red_concrete"
 	}
 }

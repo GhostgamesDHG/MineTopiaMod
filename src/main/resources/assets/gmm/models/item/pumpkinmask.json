@@ -1,12 +1,12 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:blocks/pumpkin_side",
+		"0": "minecraft:block/pumpkin_side",
 		"1": "gmm:blocks/pumpkin_face_on",
-		"3": "gmm:blocks/concrete_black",
-		"4": "gmm:blocks/bone_block_side",
-		"10": "gmm:blocks/torch_on",
-		"particle": "gmm:blocks/pumpkin_side"
+		"3": "minecraft:block/black_concrete",
+		"4": "minecraft:block/bone_block_side",
+		"10": "minecraft:block/torch",
+		"particle": "minecraft:block/pumpkin_side"
 	},
 	"elements": [
 		{

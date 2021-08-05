@@ -2,7 +2,7 @@
 	"credit": "Made by frankschepers24",
 	"textures": {
 		"1": "gmm:items/cap",
-		"2": "gmm:items/red",
+		"2": "minecraft:block/red_terracotta",
 		"3": "gmm:items/hoedje",
 		"particle": "gmm:items/hoedje"
 	},

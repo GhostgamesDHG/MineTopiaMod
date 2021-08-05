@@ -2,8 +2,8 @@
     "parent": "gmm:item/medal_bronze",
 	"textures": {
 		"0": "gmm:items/medal/silver",
-		"1": "gmm:items/medal/silver2",
-		"2": "gmm:items/medal/netherite",
+		"1": "gmm:items/medal/silver",
+		"2": "minecraft:block/netherite_block",
 		"3": "gmm:items/medal/lint",
 		"particle": "gmm:items/medal/bronze"
 	}

@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"texture": "gmm:blocks/cauldron_inner",
+		"texture": "minecraft:block/cauldron_inner",
 		"cap": "gmm:blocks/anvil_base",
-		"snow": "gmm:blocks/snow",
-		"iron_block": "gmm:blocks/iron_block"
+		"snow": "minecraft:block/snow",
+		"iron_block": "minecraft:block/iron_block"
 	},
 	"elements": [
 		{

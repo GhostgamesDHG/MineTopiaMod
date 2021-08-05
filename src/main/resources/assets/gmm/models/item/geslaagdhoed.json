@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"textures": {
-		"0": "gmm:blocks/bedrock",
-		"1": "gmm:blocks/concrete_yellow",
-		"particle": "gmm:blocks/bedrock"
+		"0": "minecraft:block/bedrock",
+		"1": "minecraft:block/yellow_concrete",
+		"particle": "minecraft:block/bedrock"
 	},
 	"elements": [
 		{

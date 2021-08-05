@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"texture": "gmm:blocks/mushroom_block_skin_red",
-		"snow": "gmm:blocks/snow",
-		"iron_block": "gmm:blocks/iron_block",
+		"texture": "minecraft:block/red_concrete",
+		"snow": "minecraft:block/snow",
+		"iron_block": "minecraft:block/iron_block",
 		"DDG": "gmm:items/ash"
 	},
 	"elements": [

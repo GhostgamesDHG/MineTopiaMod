@@ -2,12 +2,12 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"5": "gmm:blocks/ddg",
-		"particle": "gmm:blocks/hardened_clay_stained_light_blue",
-		"color": "gmm:blocks/hardened_clay_stained_light_blue",
-		"glass": "gmm:blocks/glass_gray",
-		"black": "gmm:blocks/hardened_clay_stained_black",
-		"color2": "gmm:blocks/hardened_clay_stained_blue",
-		"wit": "gmm:blocks/hardened_clay_stained_white"
+		"particle": "minecraft:block/light_blue_terracotta",
+		"color": "minecraft:block/light_blue_terracotta",
+		"glass": "minecraft:block/gray_stained_glass",
+		"black": "minecraft:block/black_terracotta",
+		"color2": "minecraft:block/blue_terracotta",
+		"wit": "minecraft:block/white_terracotta"
 	},
 	"elements": [
 		{
