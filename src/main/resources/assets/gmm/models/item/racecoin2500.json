@@ -1,7 +1,7 @@
 {
 	"parent": "gmm:item/racecoin1",
 	"textures": {
-		"2": "gmm:items/gold_block",
+		"2": "minecraft:block/gold_block",
 		"5": "gmm:items/khamori_tires_normal"
 	},
 	"elements": [

@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "gmm:items/sword_blue2",
-		"grijs": "gmm:items/sword_blue2",
-		"zwart": "gmm:items/sword_black",
-		"groen": "gmm:items/sword_blue"
+		"particle": "minecraft:block/light_blue_concrete",
+		"grijs": "minecraft:block/light_blue_concrete",
+		"zwart": "minecraft:block/black_concrete",
+		"groen": "minecraft:block/light_blue_concrete"
 	},
 	"elements": [
 		{

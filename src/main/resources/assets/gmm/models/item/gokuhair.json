@@ -1,7 +1,7 @@
 {
 	"__comment": "In Order Of DusDavidGames - Minetopia",
 	"textures": {
-		"texture": "gmm:items/gokugold"
+		"texture": "minecraft:block/yellow_concrete_powder"
 	},
 	"elements": [
 		{

@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:items/paraplu",
-		"1": "gmm:items/stok",
-		"particle": "gmm:items/paraplu"
+		"0": "minecraft:block/black_concrete",
+		"1": "minecraft:block/cyan_terracotta",
+		"particle": "minecraft:block/black_concrete"
 	},
 	"elements": [
 		{

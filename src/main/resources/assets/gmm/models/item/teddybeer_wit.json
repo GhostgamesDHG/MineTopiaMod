@@ -1,9 +1,7 @@
 {
 	"parent": "gmm:item/teddybeer_roze",
 	"textures": {
-		"0": "gmm:items/teddy/accent",
-		"1": "gmm:items/teddy/body",
-		"2": "gmm:items/teddy/nose",
-		"particle": "gmm:items/teddy/accent"
+		"1": "minecraft:block/white_concrete_powder",
+		"particle": "minecraft:block/white_concrete_powder"
 	}
 }

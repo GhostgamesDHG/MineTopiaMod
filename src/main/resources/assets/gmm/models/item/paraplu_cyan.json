@@ -2,7 +2,6 @@
 	"parent": "gmm:item/paraplu_black",
 	"textures": {
 		"0": "minecraft:block/cyan_concrete",
-		"1": "gmm:items/stok",
 		"particle": "minecraft:block/cyan_concrete"
 	}
 }

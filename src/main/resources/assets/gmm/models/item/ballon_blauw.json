@@ -2,7 +2,7 @@
 	"credit": "Made by frankschepers24",
 	"textures": {
 		"0": "gmm:items/balloon_blue",
-		"1": "gmm:items/rope",
+		"1": "minecraft:block/spruce_planks",
 		"particle": "gmm:items/balloon_blue"
 	},
 	"elements": [

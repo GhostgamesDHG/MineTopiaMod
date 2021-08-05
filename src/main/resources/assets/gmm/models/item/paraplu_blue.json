@@ -2,7 +2,6 @@
 	"parent": "gmm:item/paraplu_black",
 	"textures": {
 		"0": "minecraft:block/light_blue_concrete",
-		"1": "minecraft:block/cyan_terracotta",
 		"particle": "gmm:items/balloon_blue"
 	}
 }

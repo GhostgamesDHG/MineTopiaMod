@@ -2,9 +2,9 @@
 	"credit": "Made by frankschepers24",
 	"textures": {
 		"0": "gmm:items/bottle",
-		"1": "gmm:items/cork",
+		"1": "minecraft:block/stripped_oak_log",
 		"2": "gmm:items/champagne",
-		"3": "gmm:items/label",
+		"3": "minecraft:block/bone_block_side",
 		"particle": "gmm:items/bottle"
 	},
 	"elements": [

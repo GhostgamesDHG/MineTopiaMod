@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"3": "gmm:items/khamori_tires_normal",
-		"4": "gmm:items/gold_block"
+		"4": "minecraft:block/gold_block"
 	},
 	"elements": [
 		{

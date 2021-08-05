@@ -1,10 +1,10 @@
 {
 	"credit": "Made by frankschepers24",
 	"textures": {
-		"0": "gmm:items/teddy/accent",
-		"1": "gmm:items/teddy/roze",
-		"2": "gmm:items/teddy/nose",
-		"particle": "gmm:items/teddy/accent"
+		"0": "minecraft:block/bone_block_side",
+		"1": "minecraft:block/pink_concrete_powder",
+		"2": "minecraft:block/coal_block",
+		"particle": "minecraft:block/pink_concrete_powder"
 	},
 	"elements": [
 		{

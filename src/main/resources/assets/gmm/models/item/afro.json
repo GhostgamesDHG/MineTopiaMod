@@ -1,6 +1,6 @@
 {
 	"parent": "gmm:item/gokuhair",
 	"textures": {
-		"texture": "gmm:items/afro"
+		"texture": "minecraft:block/brown_concrete_powder"
 	}
 }
