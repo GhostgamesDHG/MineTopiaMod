@@ -1,0 +1,6 @@
+{
+	"parent": "gmm:item/bivouac",
+	"textures": {
+		"texture": "minecraft:block/pink_wool"
+	}
+}

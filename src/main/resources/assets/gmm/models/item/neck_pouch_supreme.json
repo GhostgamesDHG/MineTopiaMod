@@ -1,0 +1,7 @@
+{
+	"parent": "gmm:item/neck_pouch_gucci",
+	"textures": {
+		"0": "gmm:items/nektasjesupreme",
+		"particle": "gmm:items/nektasjesupreme"
+	}
+}

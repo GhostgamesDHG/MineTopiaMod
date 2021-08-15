@@ -51,8 +51,20 @@ public enum ModArmorMaterial implements IArmorMaterial {
     POLITIEDUBAI(MinetopiaExtra.MOD_ID + ":politiedubai", 25, new int[] { 2, 5, 6, 2 }, 18,
             SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModItems.BLUE_CRYSTAL.get()); }),
 
-    BIVAK(MinetopiaExtra.MOD_ID + ":bivak", 25, new int[] { 2, 5, 6, 2 }, 18,
-    SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModArmor.BIVAK.get()); });
+    BIVOUAC(MinetopiaExtra.MOD_ID + ":bivouac", 25, new int[] { 2, 5, 6, 2 }, 18,
+    SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModArmor.BIVOUAC.get()); }),
+
+    BIVOUAC_PINK(MinetopiaExtra.MOD_ID + ":bivouac_pink", 25, new int[] { 2, 5, 6, 2 }, 18,
+    SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModArmor.BIVOUAC_PINK.get()); }),
+
+    BIVOUAC_ORANGE(MinetopiaExtra.MOD_ID + ":bivouac_orange", 25, new int[] { 2, 5, 6, 2 }, 18,
+    SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModArmor.BIVOUAC_ORANGE.get()); }),
+
+    BIVOUAC_SAND(MinetopiaExtra.MOD_ID + ":bivouac_sand", 25, new int[] { 2, 5, 6, 2 }, 18,
+    SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModArmor.BIVOUAC_SAND.get()); }),
+
+    BIVOUAC_LIGHT_GRAY(MinetopiaExtra.MOD_ID + ":bivouac_light_gray", 25, new int[] { 2, 5, 6, 2 }, 18,
+    SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5f, () -> { return Ingredient.fromItems(ModArmor.BIVOUAC_LIGHT_GRAY.get()); });
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] { 11, 16, 15, 13 };
     private final String name;

@@ -17,6 +17,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> COPPER_ORE = BLOCKS.register("copper_ore", copper_ore::new);
     public static final RegistryObject<Block> COPPER_BLOCK = BLOCKS.register("copper_block", Blue_Crystal_Block::new);
     public static final RegistryObject<Block> PIN_AUTOMAAT = BLOCKS.register("pin_automaat", PinAutomaat::new);
+    public static final RegistryObject<Block> PORTABLE_ATM = BLOCKS.register("portable_atm", PAtm::new);
     public static final RegistryObject<Block> BLAUWE_KEUKENTEGELS = BLOCKS.register("blauwe_keukentegels", keukentegels::new);
     public static final RegistryObject<Block> ZWARTE_KEUKENTEGELS = BLOCKS.register("zwarte_keukentegels", keukentegels::new);
     public static final RegistryObject<Block> DONKERBLAUWE_KEUKENTEGELS = BLOCKS.register("donkerblauwe_keukentegels", keukentegels::new);

@@ -32,6 +32,9 @@ public class ModBlockItems {
     public static final RegistryObject<Item> PIN_AUTOMAAT_ITEM = ITEMS.register("pin_automaat",
             () -> new BlockItemBase(ModBlocks.PIN_AUTOMAAT.get()));
 
+    public static final RegistryObject<Item> PORTABLE_ATM_ITEM = ITEMS.register("portable_atm",
+            () -> new BlockItemBase(ModBlocks.PORTABLE_ATM.get()));
+
     public static final RegistryObject<Item> BLAUWE_KEUKENTEGELS_ITEM = ITEMS.register("blauwe_keukentegels",
             () -> new BlockItemBase(ModBlocks.BLAUWE_KEUKENTEGELS.get()));
 

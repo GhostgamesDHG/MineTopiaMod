@@ -167,6 +167,18 @@ public class ModArmor {
             new ArmorItem(ModArmorMaterial.WHITE_TIGER, EquipmentSlotType.FEET, new Item.Properties().group(MinetopiaExtra.TAB5)));
 
     // BIVAK
-    public static final RegistryObject<ArmorItem> BIVAK = ITEMS.register("bivak", () ->
-            new ArmorItem(ModArmorMaterial.BIVAK, EquipmentSlotType.HEAD, new Item.Properties().group(MinetopiaExtra.TAB7)));
+    public static final RegistryObject<ArmorItem> BIVOUAC = ITEMS.register("bivouac", () ->
+            new ArmorItem(ModArmorMaterial.BIVOUAC, EquipmentSlotType.HEAD, new Item.Properties().group(MinetopiaExtra.TAB7)));
+
+    public static final RegistryObject<ArmorItem> BIVOUAC_ORANGE = ITEMS.register("bivouac_orange", () ->
+            new ArmorItem(ModArmorMaterial.BIVOUAC_ORANGE, EquipmentSlotType.HEAD, new Item.Properties().group(MinetopiaExtra.TAB7)));
+
+    public static final RegistryObject<ArmorItem> BIVOUAC_PINK = ITEMS.register("bivouac_pink", () ->
+            new ArmorItem(ModArmorMaterial.BIVOUAC_PINK, EquipmentSlotType.HEAD, new Item.Properties().group(MinetopiaExtra.TAB7)));
+
+    public static final RegistryObject<ArmorItem> BIVOUAC_SAND = ITEMS.register("bivouac_sand", () ->
+            new ArmorItem(ModArmorMaterial.BIVOUAC_SAND, EquipmentSlotType.HEAD, new Item.Properties().group(MinetopiaExtra.TAB7)));
+
+    public static final RegistryObject<ArmorItem> BIVOUAC_LIGHT_GRAY = ITEMS.register("bivouac_light_gray", () ->
+            new ArmorItem(ModArmorMaterial.BIVOUAC_LIGHT_GRAY, EquipmentSlotType.HEAD, new Item.Properties().group(MinetopiaExtra.TAB7)));
 }

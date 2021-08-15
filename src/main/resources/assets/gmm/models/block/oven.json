@@ -5,7 +5,7 @@
 		"2": "minecraft:block/black_stained_glass",
 		"3": "minecraft:block/anvil",
 		"4": "minecraft:block/smooth_stone",
-		"5": "minecraft:block/furnace_top",
+		"5": "gmm:blocks/furnace_top",
 		"particle": "minecraft:block/anvil"
 	},
 	"elements": [

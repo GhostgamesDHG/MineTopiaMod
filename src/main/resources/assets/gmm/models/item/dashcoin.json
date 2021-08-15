@@ -1,0 +1,7 @@
+{
+	"parent": "gmm:item/bitcoin",
+	"textures": {
+		"0": "gmm:items/dashcoin",
+		"particle": "gmm:items/dashcoin"
+	}
+}

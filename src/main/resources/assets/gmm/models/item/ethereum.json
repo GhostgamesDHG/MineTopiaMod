@@ -1,0 +1,7 @@
+{
+	"parent": "gmm:item/bitcoin",
+	"textures": {
+		"0": "gmm:items/ethereum",
+		"particle": "gmm:items/ethereum"
+	}
+}

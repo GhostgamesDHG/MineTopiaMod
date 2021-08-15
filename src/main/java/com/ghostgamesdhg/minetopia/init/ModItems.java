@@ -131,6 +131,14 @@ public class ModItems {
     public static final RegistryObject<Item> ZWARTE_VLIEGENMEPPER = ITEMS.register("zwarte_vliegenmepper", ItemBase::new);
     public static final RegistryObject<Item> GOLDEN_VLIEGENMEPPER = ITEMS.register("golden_vliegenmepper", ItemBase::new);
     public static final RegistryObject<Item> DIAMONDCORE = ITEMS.register("diamondcore", ItemBase::new);
+    public static final RegistryObject<Item> NECK_POUCH_GUCCI = ITEMS.register("neck_pouch_gucci", ItemBase::new);
+    public static final RegistryObject<Item> NECK_POUCH_SUPREME = ITEMS.register("neck_pouch_supreme", ItemBase::new);
+    public static final RegistryObject<Item> BITCOIN = ITEMS.register("bitcoin", ItemBase::new);
+    public static final RegistryObject<Item> BITCOIN_CASH = ITEMS.register("bitcoin_cash", ItemBase::new);
+    public static final RegistryObject<Item> DASHCOIN = ITEMS.register("dashcoin", ItemBase::new);
+    public static final RegistryObject<Item> ETHEREUM = ITEMS.register("ethereum", ItemBase::new);
+    public static final RegistryObject<Item> LITECOIN = ITEMS.register("litecoin", ItemBase::new);
+    public static final RegistryObject<Item> MAKER = ITEMS.register("maker", ItemBase::new);
 
     public static final RegistryObject<NOTAB> WEED_SEEDS = ITEMS.register("weed_seeds", NOTAB::new);
     public static final RegistryObject<NOTAB> EMERALDCOIN = ITEMS.register("emeraldcoin", NOTAB::new);
