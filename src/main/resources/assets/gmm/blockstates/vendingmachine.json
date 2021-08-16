@@ -1,19 +1,8 @@
 {
   "variants": {
-    "facing=north": {
-      "model": "gmm:block/vendingmachine"
-    },
-    "facing=east": {
-      "model": "gmm:block/vendingmachine",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "gmm:block/vendingmachine",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "gmm:block/vendingmachine",
-      "y": 270
-    }
+    "facing=north": { "model": "gmm:block/vendingmachine" },
+    "facing=south": { "model": "gmm:block/vendingmachine", "y":  180},
+    "facing=west": { "model": "gmm:block/vendingmachine", "y":  270},
+    "facing=east": { "model": "gmm:block/vendingmachine", "y":  90}
   }
 }

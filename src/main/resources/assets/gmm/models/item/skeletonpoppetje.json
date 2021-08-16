@@ -1,12 +1,11 @@
 {
-	"__comment": "Designed by Nightcling with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"particle": "gmm:blocks/skeleton_skin",
-		"skeletonskin": "gmm:blocks/skeleton_skin",
+		"particle": "minecraft:block/stone",
+		"skeletonskin": "minecraft:block/stone",
 		"blackskeletonhead": "minecraft:block/black_wool",
-		"skeletonleather": "gmm:blocks/skeleton_leather",
+		"skeletonleather": "minecraft:block/red_terracotta",
 		"skeletoneyes": "minecraft:block/red_terracotta",
-		"skeleton_sword": "gmm:items/skeleton_sword",
+		"skeleton_sword": "minecraft:item/iron_sword",
 		"goldskeletoncrown": "minecraft:block/gold_block"
 	},
 	"elements": [

@@ -9,7 +9,7 @@
 		"7": "minecraft:block/red_concrete",
 		"8": "minecraft:block/lime_concrete",
 		"9": "minecraft:block/yellow_concrete",
-		"10": "gmm:blocks/logo",
+		"10": "gmm:items/minetopia",
 		"particle": "minecraft:block/gray_concrete"
 	},
 	"elements": [

@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "paraplu1",
 	"textures": {
 		"0": "minecraft:block/gray_concrete",
 		"1": "minecraft:block/gray_concrete_powder",

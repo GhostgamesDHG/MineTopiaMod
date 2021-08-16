@@ -1,9 +1,9 @@
 {
   "parent": "gmm:custom/yellow_bag",
   "textures": {
-    "all": "gmm:blocks/black",
-    "particle": "gmm:blocks/black",
+    "all": "minecraft:block/black_concrete",
+    "particle": "minecraft:block/yellow_concrete",
     "0": "gmm:blocks/bag_main_gold",
-    "1": "gmm:blocks/black"
+    "1": "minecraft:block/black_concrete"
   }
 }

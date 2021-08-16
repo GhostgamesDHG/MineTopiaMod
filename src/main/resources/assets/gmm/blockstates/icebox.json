@@ -1,19 +1,8 @@
 {
   "variants": {
-    "facing=north": {
-      "model": "gmm:block/icebox"
-    },
-    "facing=east": {
-      "model": "gmm:block/icebox",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "gmm:block/icebox",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "gmm:block/icebox",
-      "y": 270
-    }
+    "facing=north": { "model": "gmm:block/icebox" },
+    "facing=south": { "model": "gmm:block/icebox", "y":  180},
+    "facing=west": { "model": "gmm:block/icebox", "y":  270},
+    "facing=east": { "model": "gmm:block/icebox", "y":  90}
   }
 }

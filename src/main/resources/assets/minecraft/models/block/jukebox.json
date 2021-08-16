@@ -1,18 +1,18 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"diamond": "gmm:blocks/diamond_block",
-		"texture": "block/cauldron_inner",
-		"iron": "gmm:blocks/iron_block",
-		"particle": "block/cyan_terracotta",
-		"gray": "block/cyan_terracotta",
-		"yellow": "block/yellow_wool",
-		"magenta": "block/magenta_wool",
-		"purple": "block/purple_wool",
-		"lime": "block/lime_wool",
-		"blue": "block/blue_wool",
-		"red": "block/red_wool",
-		"light_blue": "block/light_blue_wool"
+		"diamond": "minecraft:block/diamond_block",
+		"texture": "minecraft:block/cauldron_inner",
+		"iron": "minecraft:block/iron_block",
+		"particle": "minecraft:block/cyan_terracotta",
+		"gray": "minecraft:block/cyan_terracotta",
+		"yellow": "minecraft:block/yellow_wool",
+		"magenta": "minecraft:block/magenta_wool",
+		"purple": "minecraft:block/purple_wool",
+		"lime": "minecraft:block/lime_wool",
+		"blue": "minecraft:block/blue_wool",
+		"red": "minecraft:block/red_wool",
+		"light_blue": "minecraft:block/light_blue_wool"
 	},
 	"elements": [
 		{
