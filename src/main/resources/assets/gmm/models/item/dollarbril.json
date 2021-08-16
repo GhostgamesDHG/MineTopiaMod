@@ -1,8 +1,8 @@
 {
-	"credit": "Made by Meloenmahn",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "gmm:blocks/anvil_base",
-		"1": "minecraft:block/green_terracotta",
+		"1": "minecraft:block/green_concrete",
 		"particle": "gmm:blocks/anvil_base"
 	},
 	"elements": [
@@ -390,21 +390,6 @@
 			"translation": [0, -0.19, 1.7],
 			"scale": [0.5, 0.5, 0.5]
 		},
-		"head": {
-			"rotation": [0, 89, 0],
-			"translation": [0.5, 2.5, -4],
-			"scale": [0.875, 0.875, 0.85]
-		},
-		"ground": {
-			"rotation": [0, 0, 0],
-			"translation": [0, 0, 0],
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"fixed": {
-			"rotation": [1, 91, 0],
-			"translation": [0.5, 2.5, 0.5],
-			"scale": [0.95, 0.95, 0.95]
-		},
 		"firstperson_righthand": {
 			"rotation": [3, 57, 3],
 			"translation": [-2, 4, 1],
@@ -415,39 +400,40 @@
 			"translation": [-2, 4, 1],
 			"scale": [0.75, 0.75, 0.75]
 		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
 		"gui": {
-			"rotation": [1, -91, -6],
+			"rotation": [20, -125, 0],
 			"translation": [-0.5, 1.5, 0.5],
 			"scale": [0.75, 0.75, 0.775]
+		},
+		"head": {
+			"rotation": [0, 89, 0],
+			"translation": [0.5, 2.5, -4],
+			"scale": [0.875, 0.875, 0.85]
+		},
+		"fixed": {
+			"rotation": [1, 91, 0],
+			"translation": [0.5, 2.5, 0.5],
+			"scale": [0.95, 0.95, 0.95]
 		}
 	},
 	"groups": [
 		{
 			"name": "2",
-			"isOpen": true,
-			"shade": true,
-			"display": {
-				"visibility": true,
-				"autouv": true
-			},
+			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
 				{
 					"name": "group",
-					"isOpen": true,
-					"shade": true,
-					"display": {
-						"visibility": true,
-						"autouv": true
-					},
+					"origin": [8, 8, 8],
+					"color": 0,
 					"children": [
 						{
 							"name": "group",
-							"isOpen": true,
-							"shade": true,
-							"display": {
-								"visibility": true,
-								"autouv": true
-							},
+							"origin": [8, 8, 8],
+							"color": 0,
 							"children": []
 						}
 					]
@@ -456,33 +442,21 @@
 		},
 		{
 			"name": "1",
-			"isOpen": true,
-			"shade": true,
-			"display": {
-				"visibility": true,
-				"autouv": true
-			},
+			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [
 				{
 					"name": "group",
-					"isOpen": true,
-					"shade": true,
-					"display": {
-						"visibility": true,
-						"autouv": true
-					},
+					"origin": [8, 8, 8],
+					"color": 0,
 					"children": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
 				}
 			]
 		},
 		{
 			"name": "3",
-			"isOpen": true,
-			"shade": true,
-			"display": {
-				"visibility": true,
-				"autouv": true
-			},
+			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [26, 27, 28, 29, 30]
 		}
 	]

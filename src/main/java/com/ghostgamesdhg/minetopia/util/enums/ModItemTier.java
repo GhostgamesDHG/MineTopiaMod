@@ -32,8 +32,8 @@ public enum ModItemTier implements IItemTier {
         return Ingredient.fromItems(ModTools.MES.get());
     }),
 
-    KNUPPEL(0, 40, 4.0F, 20.0F, 14, () -> {
-        return Ingredient.fromItems(ModTools.KNUPPEL.get());
+    BAT(0, 40, 4.0F, 20.0F, 14, () -> {
+        return Ingredient.fromItems(ModTools.BAT.get());
     });
 
     private final int harvestlevel;

@@ -101,8 +101,26 @@ public class ModTools {
     public static final RegistryObject<SwordItem> TASER = ITEMS.register("taser", () ->
             new SwordItem(ModItemTier.TASER, 0, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 
-    public static final RegistryObject<SwordItem> KNUPPEL = ITEMS.register("knuppel", () ->
-            new SwordItem(ModItemTier.KNUPPEL, 0, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+    public static final RegistryObject<SwordItem> BAT = ITEMS.register("bat", () ->
+            new SwordItem(ModItemTier.BAT, 0, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> BAT_DIAMOND = ITEMS.register("bat_diamond", () ->
+            new SwordItem(ModItemTier.BAT, 0, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> BAT_EMERALD = ITEMS.register("bat_emerald", () ->
+            new SwordItem(ModItemTier.BAT, 0, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> BAT_GOLD = ITEMS.register("bat_gold", () ->
+            new SwordItem(ModItemTier.BAT, 0, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> BAT_IRON = ITEMS.register("bat_iron", () ->
+            new SwordItem(ModItemTier.BAT, 0, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> BAT_REDSTONE = ITEMS.register("bat_redstone", () ->
+            new SwordItem(ModItemTier.BAT, 0, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> BAT_GRAY = ITEMS.register("bat_gray", () ->
+            new SwordItem(ModItemTier.BAT, 0, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 
     public static final RegistryObject<SwordItem> LIGHTSABER_BLUE = ITEMS.register("lightsaber_blue", () ->
             new SwordItem(ModItemTier.LIGHTSABER, 1, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));

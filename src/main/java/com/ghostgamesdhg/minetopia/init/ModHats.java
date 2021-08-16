@@ -164,4 +164,14 @@ public class ModHats {
     public static final RegistryObject<Item> FISHBOWL_HEAD = ITEMS.register("fishbowl_head", ItemHats::new);
     public static final RegistryObject<Item> DOG_HEAD = ITEMS.register("dog_head", ItemHats::new);
     public static final RegistryObject<Item> CROCODILE_HEAD = ITEMS.register("crocodile_head", ItemHats::new);
+    public static final RegistryObject<Item> STITCH_HEAD = ITEMS.register("stitch_head", ItemHats::new);
+    public static final RegistryObject<Item> LACASA_HEAD = ITEMS.register("lacasa_head", ItemHats::new);
+    public static final RegistryObject<Item> ORANGE_HEART_GLASSES = ITEMS.register("orange_heart_glasses", ItemHats::new);
+    public static final RegistryObject<Item> COWBOY_HAT = ITEMS.register("cowboy_hat", ItemHats::new);
+    public static final RegistryObject<Item> GUCCI_SKI_GOGGLES = ITEMS.register("gucci_ski_goggles", ItemHats::new);
+    public static final RegistryObject<Item> BUNNY_EARS = ITEMS.register("bunny_ears", ItemHats::new);
+    public static final RegistryObject<Item> BUNNY_EARS2 = ITEMS.register("bunny_ears2", ItemHats::new);
+    public static final RegistryObject<Item> EASTER_LOOP = ITEMS.register("easter_loop", ItemHats::new);
+    public static final RegistryObject<Item> EASTER_BUNNY_HEAD = ITEMS.register("easter_bunny_head", ItemHats::new);
+    public static final RegistryObject<Item> DEER_HEAD = ITEMS.register("deer_head", ItemHats::new);
 }

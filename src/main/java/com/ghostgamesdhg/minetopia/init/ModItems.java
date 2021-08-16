@@ -139,6 +139,7 @@ public class ModItems {
     public static final RegistryObject<Item> ETHEREUM = ITEMS.register("ethereum", ItemBase::new);
     public static final RegistryObject<Item> LITECOIN = ITEMS.register("litecoin", ItemBase::new);
     public static final RegistryObject<Item> MAKER = ITEMS.register("maker", ItemBase::new);
+    public static final RegistryObject<Item> EASTER_BASKET = ITEMS.register("easter_basket", ItemBase::new);
 
     public static final RegistryObject<NOTAB> WEED_SEEDS = ITEMS.register("weed_seeds", NOTAB::new);
     public static final RegistryObject<NOTAB> EMERALDCOIN = ITEMS.register("emeraldcoin", NOTAB::new);
