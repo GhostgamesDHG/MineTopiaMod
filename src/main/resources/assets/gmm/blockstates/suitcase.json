@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "gmm:block/suitcase" },
+    "facing=south": { "model": "gmm:block/suitcase", "y":  180},
+    "facing=west": { "model": "gmm:block/suitcase", "y":  270},
+    "facing=east": { "model": "gmm:block/suitcase", "y":  90}
+  }
+}

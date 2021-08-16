@@ -119,7 +119,7 @@
   "block.gmm.zwarte_keukentegels": "Zwarte Keukentegels",
   "block.gmm.blauwe_keukentegels": "Blauwe Keukentegels",
   "block.gmm.pin_automaat": "Pin automaat",
-  "block.gmm.koffer": "Koffer",
+  "block.gmm.suitcase": "Koffer",
   "item.gmm.blue_crystal_sword": "Blauwe kristallen zwaard",
   "item.gmm.blue_crystal_axe": "Blauwe kristallen bijl",
   "item.gmm.blue_crystal_hoe": "Blauwe kristallen schovel",
@@ -662,5 +662,9 @@
   "item.gmm.easter_loop": "Pasen strik",
   "item.gmm.easter_bunny_head": "Paashaas hoofd",
   "item.gmm.easter_bunny_doll": "Paashaas poppetje",
-  "item.gmm.deer_head": "Hert hoofd"
+  "item.gmm.deer_head": "Hert hoofd",
+  "item.gmm.ghost_head": "Spook hoofd",
+  "item.gmm.guitar": "Gitaar",
+  "block.gmm.christmas_suitcase": "Kerst koffer",
+  "item.gmm.driving_license": "Rijbewijs"
 }

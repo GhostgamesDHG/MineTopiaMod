@@ -23,19 +23,19 @@ public class GmmprocedureProcedure extends GMMElements.ModElement {
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((entity.isAlive())) {
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("====Info===="), (false));
+				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A72\u00A7l====Info===="), (false));
 			}
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("Current version: 1.7.5"), (false));
+				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7aCurrent version: 1.9"), (false));
 			}
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("Current commands:"), (false));
+				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7aCurrent commands:"), (false));
 			}
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("./gmm - Shows this information"), (false));
+				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7a/gmm - Shows this information"), (false));
 			}
-		//	if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-		//		((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("./hat - Puts item in hand on head"), (false));
+			//	if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
+		//		((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7a/hat - Puts item in hand on head"), (false));
 		//	}
 		}
 	}

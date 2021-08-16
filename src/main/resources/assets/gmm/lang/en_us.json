@@ -119,7 +119,7 @@
   "block.gmm.zwarte_keukentegels": "Black kitchen tiles",
   "block.gmm.blauwe_keukentegels": "Blue kitchen tiles",
   "block.gmm.pin_automaat": "ATM",
-  "block.gmm.koffer": "Suitcase",
+  "block.gmm.suitcase": "Suitcase",
   "item.gmm.blue_crystal_sword": "Blue crystal sword",
   "item.gmm.blue_crystal_axe": "Blue crystal axe",
   "item.gmm.blue_crystal_hoe": "Blue crystal hoe",
@@ -662,5 +662,9 @@
   "item.gmm.easter_loop": "Easter loop",
   "item.gmm.easter_bunny_head": "Easter bunny head",
   "item.gmm.easter_bunny_doll": "Easter bunny doll",
-  "item.gmm.deer_head": "Deer head"
+  "item.gmm.deer_head": "Deer head",
+  "item.gmm.ghost_head": "Ghost head",
+  "item.gmm.guitar": "Guitar",
+  "block.gmm.christmas_suitcase": "Christmas suitcase",
+  "item.gmm.driving_license": "Driving license"
 }

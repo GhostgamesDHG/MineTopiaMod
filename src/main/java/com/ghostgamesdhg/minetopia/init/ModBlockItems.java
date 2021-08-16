@@ -128,8 +128,11 @@ public class ModBlockItems {
     public static final RegistryObject<Item> WALKIETALKIE_ITEM = ITEMS.register("walkietalkie",
             () -> new BlockItemBase(ModBlocks.WALKIETALKIE.get()));
 
-    public static final RegistryObject<Item> KOFFER_ITEM = ITEMS.register("koffer",
-            () -> new BlockItemBase(ModBlocks.KOFFER.get()));
+    public static final RegistryObject<Item> SUITCASE_ITEM = ITEMS.register("suitcase",
+            () -> new BlockItemBase(ModBlocks.SUITCASE.get()));
+
+    public static final RegistryObject<Item> CHRISTMAS_SUITCASE_ITEM = ITEMS.register("christmas_suitcase",
+            () -> new BlockItemBase(ModBlocks.CHRISTMAS_SUITCASE.get()));
 
     public static final RegistryObject<Item> KRANS_ITEM = ITEMS.register("krans",
             () -> new BlockItemBase(ModBlocks.KRANS.get()));
