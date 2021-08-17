@@ -1,9 +1,0 @@
-{
-  "parent": "gmm:custom/prullenbak",
-  "textures": {
-    "all": "minecraft:block/gray_concrete",
-    "particle": "minecraft:block/gray_concrete",
-    "0": "minecraft:block/gray_concrete",
-    "1": "gmm:blocks/anvil_base"
-  }
-}

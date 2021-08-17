@@ -49,8 +49,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> GOPRO = BLOCKS.register("gopro", gopro::new);
     public static final RegistryObject<Block> FILMCAMERA = BLOCKS.register("filmcamera", filmcamera::new);
     public static final RegistryObject<Block> WALKIETALKIE = BLOCKS.register("walkietalkie", walkietalkie::new);
-    public static final RegistryObject<Block> SUITCASE = BLOCKS.register("suitcase", koffer::new);
-    public static final RegistryObject<Block> CHRISTMAS_SUITCASE = BLOCKS.register("christmas_suitcase", koffer::new);
     public static final RegistryObject<Block> KRANS = BLOCKS.register("krans", krans::new);
     public static final RegistryObject<Block> KERST_SLINGERS = BLOCKS.register("kerst_slingers", kerst_slingers::new);
     public static final RegistryObject<Block> NOTEBOOK = BLOCKS.register("notebook", Notebook::new);

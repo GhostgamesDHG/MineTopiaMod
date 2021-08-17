@@ -1,8 +1,0 @@
-{
-	"parent": "gmm:item/suitcase",
-	"textures": {
-		"brownlight": "gmm:items/kerst5",
-		"browndark": "gmm:items/kerst5",
-		"particle": "gmm:items/kerst5"
-	}
-}

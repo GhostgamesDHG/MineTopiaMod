@@ -119,7 +119,7 @@
   "block.gmm.zwarte_keukentegels": "Zwarte Keukentegels",
   "block.gmm.blauwe_keukentegels": "Blauwe Keukentegels",
   "block.gmm.pin_automaat": "Pin automaat",
-  "block.gmm.suitcase": "Koffer",
+  "item.gmm.suitcase": "Koffer",
   "item.gmm.blue_crystal_sword": "Blauwe kristallen zwaard",
   "item.gmm.blue_crystal_axe": "Blauwe kristallen bijl",
   "item.gmm.blue_crystal_hoe": "Blauwe kristallen schovel",
@@ -138,7 +138,7 @@
   "block.gmm.gopro": "GoPro",
   "block.gmm.filmcamera": "Video Camera",
   "block.gmm.parking_sign": "Parkeer Block",
-  "block.gmm.prullenbak": "Prullenbak",
+  "block.gmm.garbage_can": "Prullenbak",
   "block.gmm.pumpkin": "Pumpkin",
   "block.gmm.roadblock": "Roadblock",
   "block.gmm.schoentje": "Schoentje",
@@ -665,6 +665,6 @@
   "item.gmm.deer_head": "Hert hoofd",
   "item.gmm.ghost_head": "Spook hoofd",
   "item.gmm.guitar": "Gitaar",
-  "block.gmm.christmas_suitcase": "Kerst koffer",
+  "item.gmm.christmas_suitcase": "Kerst koffer",
   "item.gmm.driving_license": "Rijbewijs"
 }
