@@ -16,7 +16,7 @@ public class GarbageProcedureProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A74\u00A7lWarning!"), (false));
+			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A74\u00A7l          Warning!"), (false));
 		}
 		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7cEverything you put inside of the"), (false));

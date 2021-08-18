@@ -33,7 +33,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> PAARZE_KEUKENTEGELS = BLOCKS.register("paarze_keukentegels", keukentegels::new);
     public static final RegistryObject<Block> RODE_KEUKENTEGELS = BLOCKS.register("rode_keukentegels", keukentegels::new);
     public static final RegistryObject<Block> GELE_KEUKENTEGELS = BLOCKS.register("gele_keukentegels", keukentegels::new);
-    public static final RegistryObject<Block> BROWN_CABINE = BLOCKS.register("brown_cabine", Brown_Cabine::new);
     public static final RegistryObject<Block> COMPUTER = BLOCKS.register("computer", Computer::new);
     public static final RegistryObject<Block> HONDEN_BEDJE = BLOCKS.register("honden_bedje", Honden_Bedje::new);
     public static final RegistryObject<Block> OVEN = BLOCKS.register("oven", () -> new Oven());

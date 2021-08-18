@@ -80,9 +80,6 @@ public class ModBlockItems {
     public static final RegistryObject<Item> ROZE_KEUKENTEGELS_ITEM = ITEMS.register("roze_keukentegels",
             () -> new BlockItemBase(ModBlocks.ROZE_KEUKENTEGELS.get()));
 
-    public static final RegistryObject<Item> BROWN_CABINE_ITEM = ITEMS.register("brown_cabine",
-            () -> new BlockItemBase(ModBlocks.BROWN_CABINE.get()));
-
     public static final RegistryObject<Item> COMPUTER_ITEM = ITEMS.register("computer",
             () -> new BlockItemBase(ModBlocks.COMPUTER.get()));
 
