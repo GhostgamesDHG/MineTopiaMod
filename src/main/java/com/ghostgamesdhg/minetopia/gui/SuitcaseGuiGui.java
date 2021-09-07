@@ -1,7 +1,7 @@
 
 package com.ghostgamesdhg.minetopia.gui;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
@@ -34,11 +34,11 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-@GMMElements.ModElement.Tag
-public class SuitcaseGuiGui extends GMMElements.ModElement {
+@GmmModElements.ModElement.Tag
+public class SuitcaseGuiGui extends GmmModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public SuitcaseGuiGui(GMMElements instance) {
+	public SuitcaseGuiGui(GmmModElements instance) {
 		super(instance, 55);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);

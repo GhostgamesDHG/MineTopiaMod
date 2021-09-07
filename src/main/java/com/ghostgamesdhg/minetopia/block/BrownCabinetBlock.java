@@ -1,7 +1,8 @@
 
 package com.ghostgamesdhg.minetopia.block;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
+import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.gui.BrowncabinetguiGui;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.items.wrapper.SidedInvWrapper;
@@ -42,7 +43,6 @@ import net.minecraft.network.NetworkManager;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
@@ -72,13 +72,13 @@ import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
-@GMMElements.ModElement.Tag
-public class BrownCabinetBlock extends GMMElements.ModElement {
+@GmmModElements.ModElement.Tag
+public class BrownCabinetBlock extends GmmModElements.ModElement {
 	@ObjectHolder("gmm:brown_cabinet")
 	public static final Block block = null;
 	@ObjectHolder("gmm:brown_cabinet")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
-	public BrownCabinetBlock(GMMElements instance) {
+	public BrownCabinetBlock(GmmModElements instance) {
 		super(instance, 57);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
@@ -87,7 +87,7 @@ public class BrownCabinetBlock extends GMMElements.ModElement {
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(MinetopiaExtra.TAB2)).setRegistryName(block.getRegistryName()));
 	}
 	private static class TileEntityRegisterHandler {
 		@SubscribeEvent

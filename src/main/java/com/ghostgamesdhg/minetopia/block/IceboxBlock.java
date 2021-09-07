@@ -1,7 +1,7 @@
 
 package com.ghostgamesdhg.minetopia.block;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.gui.IceboxguiGui;
 import io.netty.buffer.Unpooled;
@@ -71,13 +71,13 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.IntStream;
 
-@GMMElements.ModElement.Tag
-public class IceboxBlock extends GMMElements.ModElement {
+@GmmModElements.ModElement.Tag
+public class IceboxBlock extends GmmModElements.ModElement {
 	@ObjectHolder("gmm:icebox")
 	public static final Block block = null;
 	@ObjectHolder("gmm:icebox")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
-	public IceboxBlock(GMMElements instance) {
+	public IceboxBlock(GmmModElements instance) {
 		super(instance, 18);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}

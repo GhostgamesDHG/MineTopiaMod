@@ -1,7 +1,7 @@
 
 package com.ghostgamesdhg.minetopia.block;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.gui.GarbageCanGuiGui;
 import com.ghostgamesdhg.minetopia.procedures.GarbageProcedureProcedure;
@@ -58,11 +58,11 @@ import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
-@GMMElements.ModElement.Tag
-public class GarbagecanBlock extends GMMElements.ModElement {
+@GmmModElements.ModElement.Tag
+public class GarbagecanBlock extends GmmModElements.ModElement {
 	@ObjectHolder("gmm:garbage_can")
 	public static final Block block = null;
-	public GarbagecanBlock(GMMElements instance) {
+	public GarbagecanBlock(GmmModElements instance) {
 		super(instance, 54);
 	}
 

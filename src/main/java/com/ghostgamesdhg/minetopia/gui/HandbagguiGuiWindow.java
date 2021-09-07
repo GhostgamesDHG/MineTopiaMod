@@ -64,7 +64,7 @@ public class HandbagguiGuiWindow extends ContainerScreen<HandbagguiGui.GuiContai
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Handbag", 7, 6, -12829636);
+		this.font.drawString(ms, "", 7, 6, -12829636);
 	}
 
 	@Override

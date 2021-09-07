@@ -42,10 +42,10 @@ public class MinetopiaExtra
     private static final String PROTOCOL_VERSION = "1";
     public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation("gmm", "gmm"), () -> PROTOCOL_VERSION,
             PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
-    public GMMElements elements;
+    public GmmModElements elements;
     public MinetopiaExtra() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        elements = new GMMElements();
+        elements = new GmmModElements();
         ModBlocks.BLOCKS.register(bus);
         ModItems.ITEMS.register(bus);
         ModBlockItems.ITEMS.register(bus);

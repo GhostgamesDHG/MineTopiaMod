@@ -1,6 +1,6 @@
 package com.ghostgamesdhg.minetopia.procedures;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.init.ModItems;
 import net.minecraft.entity.Entity;
@@ -10,9 +10,9 @@ import net.minecraft.item.ItemStack;
 
 import java.util.Map;
 
-@GMMElements.ModElement.Tag
-public class AppleProcedure extends GMMElements.ModElement {
-	public AppleProcedure(GMMElements instance) {
+@GmmModElements.ModElement.Tag
+public class AppleProcedure extends GmmModElements.ModElement {
+	public AppleProcedure(GmmModElements instance) {
 		super(instance, 12);
 	}
 

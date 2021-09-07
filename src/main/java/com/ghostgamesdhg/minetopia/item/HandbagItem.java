@@ -1,7 +1,7 @@
 
 package com.ghostgamesdhg.minetopia.item;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.gui.HandbagguiGui;
 import com.ghostgamesdhg.minetopia.gui.HandbagguiGuiWindow;
@@ -42,11 +42,11 @@ import net.minecraftforge.registries.ObjectHolder;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-@GMMElements.ModElement.Tag
-public class HandbagItem extends GMMElements.ModElement {
+@GmmModElements.ModElement.Tag
+public class HandbagItem extends GmmModElements.ModElement {
 	@ObjectHolder("gmm:handbag")
 	public static final Item block = null;
-	public HandbagItem(GMMElements instance) {
+	public HandbagItem(GmmModElements instance) {
 		super(instance, 32);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

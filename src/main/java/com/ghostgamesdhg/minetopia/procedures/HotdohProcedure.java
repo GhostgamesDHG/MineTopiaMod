@@ -1,6 +1,6 @@
 package com.ghostgamesdhg.minetopia.procedures;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.init.ModItems;
 import net.minecraft.entity.Entity;
@@ -9,9 +9,9 @@ import net.minecraft.item.ItemStack;
 
 import java.util.Map;
 
-@GMMElements.ModElement.Tag
-public class HotdohProcedure extends GMMElements.ModElement {
-	public HotdohProcedure(GMMElements instance) {
+@GmmModElements.ModElement.Tag
+public class HotdohProcedure extends GmmModElements.ModElement {
+	public HotdohProcedure(GmmModElements instance) {
 		super(instance, 16);
 	}
 

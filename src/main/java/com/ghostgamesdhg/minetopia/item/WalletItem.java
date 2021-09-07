@@ -1,7 +1,7 @@
 
 package com.ghostgamesdhg.minetopia.item;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.gui.WalletguiGui;
 import com.ghostgamesdhg.minetopia.gui.WalletguiGuiWindow;
@@ -42,11 +42,11 @@ import net.minecraftforge.registries.ObjectHolder;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-@GMMElements.ModElement.Tag
-public class WalletItem extends GMMElements.ModElement {
+@GmmModElements.ModElement.Tag
+public class WalletItem extends GmmModElements.ModElement {
 	@ObjectHolder("gmm:wallet")
 	public static final Item block = null;
-	public WalletItem(GMMElements instance) {
+	public WalletItem(GmmModElements instance) {
 		super(instance, 34);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

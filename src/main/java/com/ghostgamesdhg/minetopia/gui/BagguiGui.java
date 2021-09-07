@@ -1,7 +1,7 @@
 
 package com.ghostgamesdhg.minetopia.gui;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.entity.Entity;
@@ -33,11 +33,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Supplier;
 
-@GMMElements.ModElement.Tag
-public class BagguiGui extends GMMElements.ModElement {
+@GmmModElements.ModElement.Tag
+public class BagguiGui extends GmmModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public BagguiGui(GMMElements instance) {
+	public BagguiGui(GmmModElements instance) {
 		super(instance, 4);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);

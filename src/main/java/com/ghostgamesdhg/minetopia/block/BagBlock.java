@@ -1,7 +1,7 @@
 
 package com.ghostgamesdhg.minetopia.block;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.gui.BagguiGui;
 import io.netty.buffer.Unpooled;
@@ -74,13 +74,13 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.IntStream;
 
-@GMMElements.ModElement.Tag
-public class BagBlock extends GMMElements.ModElement {
+@GmmModElements.ModElement.Tag
+public class BagBlock extends GmmModElements.ModElement {
 	@ObjectHolder("gmm:bag")
 	public static final Block block = null;
 	@ObjectHolder("gmm:bag")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
-	public BagBlock(GMMElements instance) {
+	public BagBlock(GmmModElements instance) {
 		super(instance, 3);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}

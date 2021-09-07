@@ -16,7 +16,7 @@ import net.minecraftforge.fml.network.PacketDistributor;
 import java.util.function.Supplier;
 
 public class GmmModVariables {
-	public GmmModVariables(GMMElements elements) {
+	public GmmModVariables(GmmModElements elements) {
 		elements.addNetworkMessage(WorldSavedDataSyncMessage.class, WorldSavedDataSyncMessage::buffer, WorldSavedDataSyncMessage::new,
 				WorldSavedDataSyncMessage::handler);
 	}

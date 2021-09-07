@@ -1,6 +1,6 @@
 package com.ghostgamesdhg.minetopia.procedures;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.GmmModVariables;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.init.ModItems;
@@ -15,9 +15,9 @@ import net.minecraftforge.items.IItemHandlerModifiable;
 
 import java.util.Map;
 
-@GMMElements.ModElement.Tag
-public class ChestSpawnerBlockAddedProcedure extends GMMElements.ModElement {
-	public ChestSpawnerBlockAddedProcedure(GMMElements instance) {
+@GmmModElements.ModElement.Tag
+public class ChestSpawnerBlockAddedProcedure extends GmmModElements.ModElement {
+	public ChestSpawnerBlockAddedProcedure(GmmModElements instance) {
 		super(instance, 15);
 	}
 

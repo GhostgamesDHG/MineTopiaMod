@@ -64,7 +64,7 @@ public class WalletguiGuiWindow extends ContainerScreen<WalletguiGui.GuiContaine
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Wallet", 7, 5, -12829636);
+		this.font.drawString(ms, "", 7, 5, -12829636);
 	}
 
 	@Override

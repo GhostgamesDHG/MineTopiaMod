@@ -28,29 +28,29 @@ import java.util.function.BiConsumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-public class GMMElements {
+public class GmmModElements {
 	public final List<ModElement> elements = new ArrayList<>();
 	public final List<Supplier<Block>> blocks = new ArrayList<>();
 	public final List<Supplier<Item>> items = new ArrayList<>();
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
-	public GMMElements() {
+	public GmmModElements() {
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("gmm").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
 			for (ModFileScanData.AnnotationData annotationData : annotations) {
 				if (annotationData.getAnnotationType().getClassName().equals(ModElement.Tag.class.getName())) {
 					Class<?> clazz = Class.forName(annotationData.getClassType().getClassName());
-					if (clazz.getSuperclass() == GMMElements.ModElement.class)
-						elements.add((GMMElements.ModElement) clazz.getConstructor(this.getClass()).newInstance(this));
+					if (clazz.getSuperclass() == GmmModElements.ModElement.class)
+						elements.add((GmmModElements.ModElement) clazz.getConstructor(this.getClass()).newInstance(this));
 				}
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		Collections.sort(elements);
-		elements.forEach(GMMElements.ModElement::initElements);
+		elements.forEach(GmmModElements.ModElement::initElements);
 	}
 
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
@@ -87,9 +87,9 @@ public class GMMElements {
 		@Retention(RetentionPolicy.RUNTIME)
 		public @interface Tag {
 		}
-		protected final GMMElements elements;
+		protected final GmmModElements elements;
 		protected final int sortid;
-		public ModElement(GMMElements elements, int sortid) {
+		public ModElement(GmmModElements elements, int sortid) {
 			this.elements = elements;
 			this.sortid = sortid;
 		}

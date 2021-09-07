@@ -1,7 +1,7 @@
 
 package com.ghostgamesdhg.minetopia.command;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.procedures.GmmprocedureProcedure;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
@@ -19,9 +19,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-@GMMElements.ModElement.Tag
-public class GmmCommand extends GMMElements.ModElement {
-	public GmmCommand(GMMElements instance) {
+@GmmModElements.ModElement.Tag
+public class GmmCommand extends GmmModElements.ModElement {
+	public GmmCommand(GmmModElements instance) {
 		super(instance, 3);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

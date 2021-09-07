@@ -1,7 +1,7 @@
 
 package com.ghostgamesdhg.minetopia.block;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.gui.VendingguiGui;
 import io.netty.buffer.Unpooled;
@@ -66,13 +66,13 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.IntStream;
 
-@GMMElements.ModElement.Tag
-public class VendingmachineBlock extends GMMElements.ModElement {
+@GmmModElements.ModElement.Tag
+public class VendingmachineBlock extends GmmModElements.ModElement {
 	@ObjectHolder("gmm:vendingmachine")
 	public static final Block block = null;
 	@ObjectHolder("gmm:vendingmachine")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
-	public VendingmachineBlock(GMMElements instance) {
+	public VendingmachineBlock(GmmModElements instance) {
 		super(instance, 7);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}

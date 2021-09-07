@@ -64,7 +64,7 @@ public class BagguiGuiWindow extends ContainerScreen<BagguiGui.GuiContainerMod> 
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Bag", 7, 7, -12829636);
+		this.font.drawString(ms, "", 7, 7, -12829636);
 	}
 
 	@Override

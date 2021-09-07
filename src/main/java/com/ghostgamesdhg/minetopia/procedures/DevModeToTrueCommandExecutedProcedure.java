@@ -1,6 +1,6 @@
 package com.ghostgamesdhg.minetopia.procedures;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.GmmModVariables;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import net.minecraft.server.MinecraftServer;
@@ -12,9 +12,9 @@ import net.minecraftforge.fml.server.ServerLifecycleHooks;
 
 import java.util.Map;
 
-@GMMElements.ModElement.Tag
-public class DevModeToTrueCommandExecutedProcedure extends GMMElements.ModElement {
-	public DevModeToTrueCommandExecutedProcedure(GMMElements instance) {
+@GmmModElements.ModElement.Tag
+public class DevModeToTrueCommandExecutedProcedure extends GmmModElements.ModElement {
+	public DevModeToTrueCommandExecutedProcedure(GmmModElements instance) {
 		super(instance, 13);
 	}
 

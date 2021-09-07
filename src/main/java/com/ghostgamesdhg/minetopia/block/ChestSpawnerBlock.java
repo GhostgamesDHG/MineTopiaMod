@@ -1,7 +1,7 @@
 
 package com.ghostgamesdhg.minetopia.block;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.procedures.ChestSpawnerBlockAddedProcedure;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -34,11 +34,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-@GMMElements.ModElement.Tag
-public class ChestSpawnerBlock extends GMMElements.ModElement {
+@GmmModElements.ModElement.Tag
+public class ChestSpawnerBlock extends GmmModElements.ModElement {
 	@ObjectHolder("gmm:chest_spawner")
 	public static final Block block = null;
-	public ChestSpawnerBlock(GMMElements instance) {
+	public ChestSpawnerBlock(GmmModElements instance) {
 		super(instance, 15);
 	}
 

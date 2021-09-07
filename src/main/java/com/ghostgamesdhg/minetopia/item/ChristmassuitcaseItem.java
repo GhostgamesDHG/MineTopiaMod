@@ -1,7 +1,7 @@
 
 package com.ghostgamesdhg.minetopia.item;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.gui.SuitcaseGuiGui;
 import com.ghostgamesdhg.minetopia.gui.SuitcaseGuiGuiWindow;
@@ -44,11 +44,11 @@ import javax.annotation.Nonnull;
 
 import io.netty.buffer.Unpooled;
 
-@GMMElements.ModElement.Tag
-public class ChristmassuitcaseItem extends GMMElements.ModElement {
+@GmmModElements.ModElement.Tag
+public class ChristmassuitcaseItem extends GmmModElements.ModElement {
 	@ObjectHolder("gmm:christmas_suitcase")
 	public static final Item block = null;
-	public ChristmassuitcaseItem(GMMElements instance) {
+	public ChristmassuitcaseItem(GmmModElements instance) {
 		super(instance, 56);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

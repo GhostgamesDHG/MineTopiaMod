@@ -1,7 +1,7 @@
 
 package com.ghostgamesdhg.minetopia.structure;
 
-import com.ghostgamesdhg.minetopia.GMMElements;
+import com.ghostgamesdhg.minetopia.GmmModElements;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.ResourceLocation;
@@ -31,11 +31,11 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 import java.util.Random;
 
-@GMMElements.ModElement.Tag
-public class RedcontainerStructure extends GMMElements.ModElement {
+@GmmModElements.ModElement.Tag
+public class RedcontainerStructure extends GmmModElements.ModElement {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
-	public RedcontainerStructure(GMMElements instance) {
+	public RedcontainerStructure(GmmModElements instance) {
 		super(instance, 11);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
