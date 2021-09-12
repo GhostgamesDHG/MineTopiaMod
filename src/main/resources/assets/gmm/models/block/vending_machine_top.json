@@ -1,0 +1,11 @@
+{
+	"parent": "gmm:custom/vending_machine_top",
+	"textures": {
+		"1": "minecraft:block/gray_concrete",
+		"2": "minecraft:block/green_concrete",
+		"5": "gmm:blocks/6",
+		"6": "gmm:blocks/structure_block",
+		"7": "minecraft:block/gray_stained_glass",
+		"particle": "minecraft:block/gray_concrete"
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "gmm:custom/safe",
+  "textures": {
+    "all": "gmm:blocks/anvil_base",
+    "particle": "gmm:blocks/anvil_base",
+    "0": "gmm:blocks/anvil_base",
+    "1": "minecraft:block/iron_block",
+    "3": "minecraft:block/cyan_terracotta",
+    "4": "minecraft:block/smooth_stone",
+    "5": "gmm:blocks/structure_block",
+    "6": "minecraft:block/white_concrete_powder"
+  }
+}

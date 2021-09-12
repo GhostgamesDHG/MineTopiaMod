@@ -175,4 +175,5 @@ public class ModHats {
     public static final RegistryObject<Item> EASTER_BUNNY_HEAD = ITEMS.register("easter_bunny_head", ItemHats::new);
     public static final RegistryObject<Item> DEER_HEAD = ITEMS.register("deer_head", ItemHats::new);
     public static final RegistryObject<Item> GHOST_HEAD = ITEMS.register("ghost_head", ItemHats::new);
+    public static final RegistryObject<Item> GOPRO_HEAD = ITEMS.register("gopro_head", ItemHats::new);
 }

@@ -2,6 +2,7 @@
 package com.ghostgamesdhg.minetopia.gui;
 
 import com.ghostgamesdhg.minetopia.GmmModElements;
+import com.ghostgamesdhg.minetopia.procedures.safe.SetPasswordButtonProcedure;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.fml.network.NetworkEvent;
@@ -28,11 +29,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @GmmModElements.ModElement.Tag
-public class VendingguiGui extends GmmModElements.ModElement {
+public class SafeGuiSetPasswordGui extends GmmModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public VendingguiGui(GmmModElements instance) {
-		super(instance, 63);
+	public SafeGuiSetPasswordGui(GmmModElements instance) {
+		super(instance, 39);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -43,12 +44,12 @@ public class VendingguiGui extends GmmModElements.ModElement {
 	private static class ContainerRegisterHandler {
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-			event.getRegistry().register(containerType.setRegistryName("vending_gui"));
+			event.getRegistry().register(containerType.setRegistryName("safe_gui_set_password"));
 		}
 	}
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, VendingguiGuiWindow::new));
+		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, SafeGuiSetPasswordGuiWindow::new));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -173,6 +174,18 @@ public class VendingguiGui extends GmmModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("guistate", guistate);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				SetPasswordButtonProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {

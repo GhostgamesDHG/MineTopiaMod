@@ -161,6 +161,6 @@ public class ModBlockItems {
     public static final RegistryObject<Item> FLASHLIGHT_ITEM = ITEMS.register("flashlight",
             () -> new BlockItemItemBase(ModBlocks.FLASHLIGHT.get()));
 
-    public static final RegistryObject<Item> OPEN_SIGN_ITEM = ITEMS.register("open_sign",
-            () -> new BlockItemBase(ModBlocks.OPEN_SIGN.get()));
+    public static final RegistryObject<Item> WALL_LIGHT_ITEM = ITEMS.register("wall_light",
+            () -> new BlockItemBase(ModBlocks.WALL_LIGHT.get()));
 }
