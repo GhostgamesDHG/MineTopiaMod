@@ -1,0 +1,19 @@
+{
+  "parent": "gmm:custom/christmas_tree_lower",
+  "textures": {
+    "all": "minecraft:block/dark_oak_planks",
+    "particle": "gmm:blocks/leaves1",
+    "0": "minecraft:block/blue_glazed_terracotta",
+    "11": "minecraft:block/yellow_concrete",
+    "12": "minecraft:block/spruce_log_top",
+    "1": "minecraft:block/cyan_glazed_terracotta",
+    "2": "minecraft:block/green_glazed_terracotta",
+    "3": "minecraft:block/lime_glazed_terracotta",
+    "4": "minecraft:block/pink_glazed_terracotta",
+    "5": "minecraft:block/purple_glazed_terracotta",
+    "6": "minecraft:block/red_glazed_terracotta",
+    "7": "minecraft:block/yellow_glazed_terracotta",
+    "8": "gmm:blocks/leaves1",
+    "9": "minecraft:block/spruce_log"
+  }
+}

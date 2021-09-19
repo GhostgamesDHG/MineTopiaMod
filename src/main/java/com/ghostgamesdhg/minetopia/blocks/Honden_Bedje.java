@@ -33,14 +33,6 @@ public class Honden_Bedje extends Block {
             Block.makeCuboidShape(0, 0.5, -6, 16, 8, 22)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
-    public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(-6, 0.5, 0, 22, 8, 16)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(0, 0.5, -6, 16, 8, 22)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
     public Honden_Bedje() {
         super(Properties.create(Material.WOOD)
                 .hardnessAndResistance(3.5f, 4.0f)
@@ -58,9 +50,9 @@ public class Honden_Bedje extends Block {
             case EAST:
                 return  SHAPE_E;
             case SOUTH:
-                return SHAPE_S;
+                return SHAPE_N;
             case WEST:
-                return SHAPE_W;
+                return SHAPE_E;
             default:
                 return SHAPE_N;
         }

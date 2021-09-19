@@ -15,5 +15,6 @@ public class ClientEventBusSubscriber {
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
         RenderTypeLookup.setRenderLayer(ModBlocks.OVEN.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(ModBlocks.OIL_CAN.get(), RenderType.getTranslucent());
     }
 }

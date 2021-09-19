@@ -16,7 +16,6 @@ import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.world.IBlockReader;
-import net.minecraftforge.common.ToolType;
 
 import javax.annotation.Nullable;
 import java.util.stream.Stream;
@@ -26,18 +25,6 @@ public class microfoon extends Block {
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
     private static final VoxelShape SHAPE_N = Stream.of(
-            Block.makeCuboidShape(6, 0.5, 6, 10, 15, 10)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(6, 0.5, 6, 10, 15, 10)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(6, 0.5, 6, 10, 15, 10)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_W = Stream.of(
             Block.makeCuboidShape(6, 0.5, 6, 10, 15, 10)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
@@ -53,11 +40,11 @@ public class microfoon extends Block {
             case NORTH:
                 return SHAPE_N;
             case EAST:
-                return  SHAPE_E;
+                return  SHAPE_N;
             case SOUTH:
-                return SHAPE_S;
+                return SHAPE_N;
             case WEST:
-                return SHAPE_W;
+                return SHAPE_N;
             default:
                 return SHAPE_N;
         }

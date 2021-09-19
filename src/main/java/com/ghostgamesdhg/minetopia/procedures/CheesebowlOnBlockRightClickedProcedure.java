@@ -1,9 +1,9 @@
 package com.ghostgamesdhg.minetopia.procedures;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.block.CheeseBowl1Block;
-import com.ghostgamesdhg.minetopia.block.CheeseBowl2Block;
-import com.ghostgamesdhg.minetopia.block.CheesebowlBlock;
+import com.ghostgamesdhg.minetopia.blocks.CheeseBowl1Block;
+import com.ghostgamesdhg.minetopia.blocks.CheeseBowl2Block;
+import com.ghostgamesdhg.minetopia.blocks.CheesebowlBlock;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.state.Property;

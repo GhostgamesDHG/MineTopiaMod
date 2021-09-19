@@ -4,7 +4,6 @@ import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.blocks.BlockInvis;
 import com.ghostgamesdhg.minetopia.blocks.BlockItemBase;
 import com.ghostgamesdhg.minetopia.blocks.BlockItemItemBase;
-import com.ghostgamesdhg.minetopia.blocks.BlockTrophies;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -147,16 +146,16 @@ public class ModBlockItems {
             () -> new BlockInvis(ModBlocks.MOD_MAKER_TROPHIE.get()));
 
     public static final RegistryObject<Item> DIAMOND_TROPHIE_1J_ITEM = ITEMS.register("diamond_trophie_1j",
-            () -> new BlockTrophies(ModBlocks.DIAMOND_TROPHIE_1J.get()));
+            () -> new BlockInvis(ModBlocks.DIAMOND_TROPHIE_1J.get()));
 
     public static final RegistryObject<Item> BRONZE_TROPHIE_1J_ITEM = ITEMS.register("bronze_trophie_1j",
-            () -> new BlockTrophies(ModBlocks.BRONZE_TROPHIE_1J.get()));
+            () -> new BlockInvis(ModBlocks.BRONZE_TROPHIE_1J.get()));
 
     public static final RegistryObject<Item> GOLDEN_TROPHIE_1J_ITEM = ITEMS.register("golden_trophie_1j",
-            () -> new BlockTrophies(ModBlocks.GOLDEN_TROPHIE_1J.get()));
+            () -> new BlockInvis(ModBlocks.GOLDEN_TROPHIE_1J.get()));
 
     public static final RegistryObject<Item> SILVER_TROPHIE_1J_ITEM = ITEMS.register("silver_trophie_1j",
-            () -> new BlockTrophies(ModBlocks.SILVER_TROPHIE_1J.get()));
+            () -> new BlockInvis(ModBlocks.SILVER_TROPHIE_1J.get()));
 
     public static final RegistryObject<Item> FLASHLIGHT_ITEM = ITEMS.register("flashlight",
             () -> new BlockItemItemBase(ModBlocks.FLASHLIGHT.get()));

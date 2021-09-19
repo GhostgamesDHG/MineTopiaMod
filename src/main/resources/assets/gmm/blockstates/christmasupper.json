@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gmm:block/christmasupper"
+    },
+    "facing=east": {
+      "model": "gmm:block/christmasupper",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gmm:block/christmasupper",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gmm:block/christmasupper",
+      "y": 270
+    }
+  }
+}

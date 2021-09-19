@@ -672,5 +672,7 @@
   "block.gmm.cheese_bowl_1": "Cheese bowl",
   "item.gmm.gopro_head": "GoPro head",
   "block.gmm.wall_light": "Wall light",
-  "block.gmm.safe": "Safe"
+  "block.gmm.safe": "Safe",
+  "block.gmm.christmastree": "Christmas tree",
+  "item.gmm.reindeer_antlers": "Reindeer antlers"
 }

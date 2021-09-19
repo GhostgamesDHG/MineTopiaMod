@@ -672,5 +672,7 @@
   "block.gmm.cheese_bowl_1": "Schaal met kaas",
   "item.gmm.gopro_head": "GoPro head",
   "block.gmm.wall_light": "Wall light",
-  "block.gmm.safe": "Kluis"
+  "block.gmm.safe": "Kluis",
+  "block.gmm.christmastree": "Kerstboom",
+  "item.gmm.reindeer_antlers": "Rendier gewei"
 }

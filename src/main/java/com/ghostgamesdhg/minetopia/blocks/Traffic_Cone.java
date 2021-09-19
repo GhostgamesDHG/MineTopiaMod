@@ -16,8 +16,6 @@ import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.world.IBlockReader;
-import net.minecraftforge.common.ToolType;
-
 import javax.annotation.Nullable;
 import java.util.stream.Stream;
 
@@ -26,39 +24,6 @@ public class Traffic_Cone extends Block {
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
     private static final VoxelShape SHAPE_N = Stream.of(
-            Block.makeCuboidShape(2, 0, 3, 14, 2, 13),
-            Block.makeCuboidShape(4, 1, 4, 12, 4, 12),
-            Block.makeCuboidShape(6, 10, 6, 10, 12, 10),
-            Block.makeCuboidShape(4.5, 4, 4.5, 11.5, 6, 11.5),
-            Block.makeCuboidShape(5, 6, 5, 11, 8, 11),
-            Block.makeCuboidShape(5.5, 8, 5.5, 10.5, 10, 10.5),
-            Block.makeCuboidShape(6.5, 12, 6.5, 9.5, 14, 9.5),
-            Block.makeCuboidShape(3, 0, 2, 13, 2, 14)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(2, 0, 3, 14, 2, 13),
-            Block.makeCuboidShape(4, 1, 4, 12, 4, 12),
-            Block.makeCuboidShape(6, 10, 6, 10, 12, 10),
-            Block.makeCuboidShape(4.5, 4, 4.5, 11.5, 6, 11.5),
-            Block.makeCuboidShape(5, 6, 5, 11, 8, 11),
-            Block.makeCuboidShape(5.5, 8, 5.5, 10.5, 10, 10.5),
-            Block.makeCuboidShape(6.5, 12, 6.5, 9.5, 14, 9.5),
-            Block.makeCuboidShape(3, 0, 2, 13, 2, 14)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(2, 0, 3, 14, 2, 13),
-            Block.makeCuboidShape(4, 1, 4, 12, 4, 12),
-            Block.makeCuboidShape(6, 10, 6, 10, 12, 10),
-            Block.makeCuboidShape(4.5, 4, 4.5, 11.5, 6, 11.5),
-            Block.makeCuboidShape(5, 6, 5, 11, 8, 11),
-            Block.makeCuboidShape(5.5, 8, 5.5, 10.5, 10, 10.5),
-            Block.makeCuboidShape(6.5, 12, 6.5, 9.5, 14, 9.5),
-            Block.makeCuboidShape(3, 0, 2, 13, 2, 14)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_W = Stream.of(
             Block.makeCuboidShape(2, 0, 3, 14, 2, 13),
             Block.makeCuboidShape(4, 1, 4, 12, 4, 12),
             Block.makeCuboidShape(6, 10, 6, 10, 12, 10),
@@ -81,11 +46,11 @@ public class Traffic_Cone extends Block {
             case NORTH:
                 return SHAPE_N;
             case EAST:
-                return  SHAPE_E;
+                return  SHAPE_N;
             case SOUTH:
-                return SHAPE_S;
+                return SHAPE_N;
             case WEST:
-                return SHAPE_W;
+                return SHAPE_N;
             default:
                 return SHAPE_N;
         }

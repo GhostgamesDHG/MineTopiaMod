@@ -8,7 +8,7 @@ import com.ghostgamesdhg.minetopia.init.ModHats;
 import com.ghostgamesdhg.minetopia.init.ModItems;
 import com.ghostgamesdhg.minetopia.init.ModPoppetjes;
 import com.ghostgamesdhg.minetopia.init.ModTools;
-import com.ghostgamesdhg.minetopia.world.OreGeneration;
+import com.ghostgamesdhg.minetopia.init.OreGeneration;
 import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.EntityType;
@@ -155,10 +155,10 @@ public class MinetopiaExtra
         }
     };
 
-    public static final ItemGroup TAB8 = new ItemGroup("MineTopiaTrophies") {
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(ModBlocks.MOD_MAKER_TROPHIE.get());
-        }
-    };
+//    public static final ItemGroup TAB8 = new ItemGroup("MineTopiaTrophies") {
+//        @Override
+//        public ItemStack createIcon() {
+//            return new ItemStack(ModBlocks.MOD_MAKER_TROPHIE.get());
+//        }
+//    };
 }

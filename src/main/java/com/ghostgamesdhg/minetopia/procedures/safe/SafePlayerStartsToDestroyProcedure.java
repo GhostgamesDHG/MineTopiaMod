@@ -1,7 +1,7 @@
 package com.ghostgamesdhg.minetopia.procedures.safe;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.block.SafeBlock;
+import com.ghostgamesdhg.minetopia.blocks.SafeBlock;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.text.StringTextComponent;

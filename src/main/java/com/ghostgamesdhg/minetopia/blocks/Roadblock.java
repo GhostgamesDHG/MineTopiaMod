@@ -25,20 +25,22 @@ public class Roadblock extends Block {
 
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
     private static final VoxelShape SHAPE_N = Stream.of(
-            Block.makeCuboidShape(-12, 0.5, 1, 28, 24.5, 15)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
+            Block.makeCuboidShape(-3.5, 11, 7.65, 19.75, 15.75, 8.65),
+            Block.makeCuboidShape(19.5, 11, 7.65, 27.75, 15.75, 8.65),
+            Block.makeCuboidShape(-11.5, 11, 7.65, -3.25, 15.75, 8.65),
+            Block.makeCuboidShape(-3.5, 18, 7.65, 19.75, 22.75, 8.65),
+            Block.makeCuboidShape(-11.5, 18, 7.65, -3.25, 22.75, 8.65),
+            Block.makeCuboidShape(19.5, 18, 7.65, 27.75, 22.75, 8.65)
+    ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR)).get();
 
     public static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(1, 0.5, -12, 15, 24.5, 28)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(-12, 0.5, 1, 28, 24.5, 15)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(1, 0.5, -12, 15, 24.5, 28)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
+            Block.makeCuboidShape(7.35, 11, -3.5, 8.35, 15.75, 19.75),
+            Block.makeCuboidShape(7.35, 11, 19.5, 8.35, 15.75, 27.75),
+            Block.makeCuboidShape(7.35, 11, -11.5, 8.35, 15.75, -3.25),
+            Block.makeCuboidShape(7.35, 18, -3.5, 8.35, 22.75, 19.75),
+            Block.makeCuboidShape(7.35, 18, -11.5, 8.35, 22.75, -3.25),
+            Block.makeCuboidShape(7.35, 18, 19.5, 8.35, 22.75, 27.75)
+    ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR)).get();
 
     public Roadblock() {
         super(Properties.create(Material.IRON)
@@ -57,9 +59,9 @@ public class Roadblock extends Block {
             case EAST:
                 return  SHAPE_E;
             case SOUTH:
-                return SHAPE_S;
+                return SHAPE_N;
             case WEST:
-                return SHAPE_W;
+                return SHAPE_E;
             default:
                 return SHAPE_N;
         }

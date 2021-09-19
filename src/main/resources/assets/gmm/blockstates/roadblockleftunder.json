@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gmm:block/roadblockleftunder"
+    },
+    "facing=east": {
+      "model": "gmm:block/roadblockleftunder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gmm:block/roadblockleftunder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gmm:block/roadblockleftunder",
+      "y": 270
+    }
+  }
+}

@@ -16,10 +16,7 @@ import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.world.IBlockReader;
-import net.minecraftforge.common.ToolType;
-
 import javax.annotation.Nullable;
-import java.util.function.ToIntFunction;
 import java.util.stream.Stream;
 
 public class lantaarn extends Block {
@@ -27,18 +24,6 @@ public class lantaarn extends Block {
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
     private static final VoxelShape SHAPE_N = Stream.of(
-            Block.makeCuboidShape(5, 0, 5, 11, 11, 11)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(5, 0, 5, 11, 11, 11)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(5, 0, 5, 11, 11, 11)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_W = Stream.of(
             Block.makeCuboidShape(5, 0, 5, 11, 11, 11)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
@@ -55,11 +40,11 @@ public class lantaarn extends Block {
             case NORTH:
                 return SHAPE_N;
             case EAST:
-                return  SHAPE_E;
+                return  SHAPE_N;
             case SOUTH:
-                return SHAPE_S;
+                return SHAPE_N;
             case WEST:
-                return SHAPE_W;
+                return SHAPE_N;
             default:
                 return SHAPE_N;
         }
