@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/anvil",
-		"1": "block/clay",
-		"2": "block/red_terracotta",
-		"3": "block/white_concrete",
-		"particle": "block/anvil"
+		"0": "minecraft:block/anvil",
+		"1": "minecraft:block/clay",
+		"2": "minecraft:block/red_terracotta",
+		"3": "minecraft:block/white_concrete",
+		"particle": "minecraft:block/anvil"
 	},
 	"elements": [
 		{
@@ -373,7 +373,7 @@
 			"scale": [0.25, 0.25, 0.25]
 		},
 		"gui": {
-			"rotation": [30, 22.5, 0],
+			"rotation": [14, 143, 0],
 			"translation": [0, -1.25, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},

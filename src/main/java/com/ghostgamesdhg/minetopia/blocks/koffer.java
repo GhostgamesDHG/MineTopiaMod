@@ -32,14 +32,6 @@ public class koffer extends Block {
             Block.makeCuboidShape(0.5, 0.5, 5, 15, 12, 11)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
-    public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(5, 0.5, 1, 11, 12, 15.5)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(0.5, 0.5, 5, 15, 12, 11)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
     public koffer() {
         super(Properties.create(Material.WOOD)
                 .hardnessAndResistance(3.5f, 4.0f)
@@ -54,9 +46,9 @@ public class koffer extends Block {
             case EAST:
                 return  SHAPE_E;
             case SOUTH:
-                return SHAPE_S;
+                return SHAPE_N;
             case WEST:
-                return SHAPE_W;
+                return SHAPE_E;
             default:
                 return SHAPE_N;
         }

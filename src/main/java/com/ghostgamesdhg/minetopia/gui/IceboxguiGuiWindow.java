@@ -67,11 +67,11 @@ public class IceboxguiGuiWindow extends ContainerScreen<IceboxguiGui.GuiContaine
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Thank you for visiting my", 135, 13, -12829636);
-		this.font.drawString(ms, "ice cream store!", 156, 22, -12829636);
-		this.font.drawString(ms, "each ice cream costs:", 148, 51, -12829636);
-		this.font.drawString(ms, "\u20AC3,- Euro or", 169, 60, -12829636);
-		this.font.drawString(ms, "$3 Dollars", 173, 69, -12829636);
+		this.font.drawString(ms, "Thank you for visiting my", 135, 13, -1);
+		this.font.drawString(ms, "ice cream store!", 156, 22, -1);
+		this.font.drawString(ms, "each ice cream costs:", 148, 51, -1);
+		this.font.drawString(ms, "\u20AC3,- Euro or", 169, 60, -1);
+		this.font.drawString(ms, "$3 Dollars", 173, 69, -1);
 	}
 
 	@Override

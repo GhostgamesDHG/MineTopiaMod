@@ -28,18 +28,6 @@ public class Cadeau extends Block {
             Block.makeCuboidShape(3, 0.5, 3, 13, 9, 13)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
-    public static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(3, 0.5, 3, 13, 9, 13)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(3, 0.5, 3, 13, 9, 13)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(3, 0.5, 3, 13, 9, 13)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
     public Cadeau() {
         super(Properties.create(Material.WOOL)
                 .hardnessAndResistance(3.5f, 4.0f)
@@ -51,12 +39,6 @@ public class Cadeau extends Block {
         switch (state.get(FACING)) {
             case NORTH:
                 return SHAPE_N;
-            case EAST:
-                return  SHAPE_E;
-            case SOUTH:
-                return SHAPE_S;
-            case WEST:
-                return SHAPE_W;
             default:
                 return SHAPE_N;
         }

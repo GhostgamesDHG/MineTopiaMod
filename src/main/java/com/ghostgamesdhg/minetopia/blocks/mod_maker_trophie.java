@@ -1,6 +1,5 @@
 package com.ghostgamesdhg.minetopia.blocks;
 
-import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalBlock;
@@ -32,24 +31,6 @@ public class mod_maker_trophie extends Block {
         return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);
     }).get();
 
-    public static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(2, 0.5, 2, 14, 31.5, 14)
-    ).reduce((v1, v2) -> {
-        return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);
-    }).get();
-
-    public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(2, 0.5, 2, 14, 31.5, 14)
-    ).reduce((v1, v2) -> {
-        return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);
-    }).get();
-
-    public static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(2, 0.5, 2, 14, 31.5, 14)
-    ).reduce((v1, v2) -> {
-        return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);
-    }).get();
-
     public mod_maker_trophie() {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
@@ -65,12 +46,6 @@ public class mod_maker_trophie extends Block {
         switch (state.get(FACING)) {
             case NORTH:
                 return SHAPE_N;
-            case EAST:
-                return SHAPE_E;
-            case SOUTH:
-                return SHAPE_S;
-            case WEST:
-                return SHAPE_W;
             default:
                 return SHAPE_N;
         }

@@ -26,23 +26,11 @@ public class boombox extends Block {
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
     private static final VoxelShape SHAPE_N = Stream.of(
-            VoxelShapes.combineAndSimplify(Block.makeCuboidShape(17.5016, 8.9636, 9.9804, 18.1472, 23.4792, 10.6444),
-                    Block.makeCuboidShape(-4, 0, 4, 19, 9, 11), IBooleanFunction.OR)
+            Block.makeCuboidShape(-3, 0, 5, 18, 9, 11)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public static final VoxelShape SHAPE_E = Stream.of(
-            VoxelShapes.combineAndSimplify(Block.makeCuboidShape(5.355600000000001, 8.9636, 17.5016, 6.0196000000000005, 23.4792, 18.1472),
-                    Block.makeCuboidShape(5, 0, -4, 12, 9, 19), IBooleanFunction.OR)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_S = Stream.of(
-            VoxelShapes.combineAndSimplify(Block.makeCuboidShape(-2.485000000000003, 8.9636, 5.355600000000001, -1.8394000000000013, 23.4792, 6.0196000000000005),
-                    Block.makeCuboidShape(-3.3378000000000014, 0, 5, 19.6622, 9, 12), IBooleanFunction.OR)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_W = Stream.of(
-            VoxelShapes.combineAndSimplify(Block.makeCuboidShape(9.642599999999998, 8.9636, -2.485000000000003, 10.306599999999998, 23.4792, -1.8394000000000013),
-                    Block.makeCuboidShape(3.6621999999999986, 0, -3.3378000000000014, 10.662199999999999, 9, 19.6622), IBooleanFunction.OR)
+            Block.makeCuboidShape(5, 0, -3, 11, 9, 18)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public boombox() {
@@ -59,9 +47,9 @@ public class boombox extends Block {
             case EAST:
                 return  SHAPE_E;
             case SOUTH:
-                return SHAPE_S;
+                return SHAPE_N;
             case WEST:
-                return SHAPE_W;
+                return SHAPE_E;
             default:
                 return SHAPE_N;
         }

@@ -71,10 +71,10 @@ public class VendingguiGuiWindow extends ContainerScreen<VendingguiGui.GuiContai
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
 		this.font.drawString(ms, "The vending machines are", 3, 17, -1);
 		this.font.drawString(ms, "Hello user, read this message!", 10, 3, -1);
-		this.font.drawString(ms, "currently updating...", 3, 25, -1);
+		this.font.drawString(ms, "Under development", 3, 25, -1);
 		this.font.drawString(ms, "Hopefully this will work", 3, 38, -1);
 		this.font.drawString(ms, "In the next update!", 2, 48, -1);
-		this.font.drawString(ms, "There will be a new (Massive) GUI", 2, 62, -1);
+		this.font.drawString(ms, "There will be a new GUI", 2, 62, -1);
 		this.font.drawString(ms, "Can't use the old GUI due to", 3, 77, -1);
 		this.font.drawString(ms, " game crashes when right-clicked!", -1, 85, -1);
 	}

@@ -29,14 +29,6 @@ public class trophies_1j extends Block {
             Block.makeCuboidShape(5, 0.5, 2, 11, 10.5, 14)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
-    public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(2, 0.5, 5, 14, 10.5, 11)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(5, 0.5, 2, 11, 10.5, 14)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
     public trophies_1j() {
         super(Properties.create(Material.WOOD)
                 .hardnessAndResistance(3.5f, 4.0f)
@@ -51,9 +43,9 @@ public class trophies_1j extends Block {
             case EAST:
                 return  SHAPE_E;
             case SOUTH:
-                return SHAPE_S;
+                return SHAPE_N;
             case WEST:
-                return SHAPE_W;
+                return SHAPE_E;
             default:
                 return SHAPE_N;
         }
