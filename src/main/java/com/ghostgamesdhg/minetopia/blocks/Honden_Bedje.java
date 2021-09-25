@@ -8,30 +8,21 @@ import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.state.StateContainer;
+import net.minecraft.util.Direction;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.shapes.IBooleanFunction;
 import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.world.IBlockReader;
 import net.minecraftforge.common.ToolType;
-
 import javax.annotation.Nullable;
-import java.util.stream.Stream;
 
 public class Honden_Bedje extends Block {
 
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
-
-    private static final VoxelShape SHAPE_N = Stream.of(
-            Block.makeCuboidShape(-6, 0.5, 0, 22, 8, 16)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
-    public static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(0, 0.5, -6, 16, 8, 22)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public Honden_Bedje() {
         super(Properties.create(Material.WOOD)
@@ -43,18 +34,18 @@ public class Honden_Bedje extends Block {
     }
 
     @Override
-    public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
-        switch (state.get(FACING)) {
-            case NORTH:
-                return SHAPE_N;
-            case EAST:
-                return  SHAPE_E;
+    public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
+        Vector3d offset = state.getOffset(world, pos);
+        switch ((Direction) state.get(FACING)) {
+            case NORTH :
+            default :
+                return VoxelShapes.or(makeCuboidShape(-6, 0.5, 0, 22, 8, 16)).withOffset(offset.x, offset.y, offset.z);
+            case EAST :
+                return VoxelShapes.or(makeCuboidShape(0, 0.5, -6, 16, 8, 22)).withOffset(offset.x, offset.y, offset.z);
             case SOUTH:
-                return SHAPE_N;
-            case WEST:
-                return SHAPE_E;
-            default:
-                return SHAPE_N;
+                return VoxelShapes.or(makeCuboidShape(-6, 0.5, 0, 22, 8, 16)).withOffset(offset.x, offset.y, offset.z);
+            case WEST :
+                return VoxelShapes.or(makeCuboidShape(0, 0.5, -6, 16, 8, 22)).withOffset(offset.x, offset.y, offset.z);
         }
     }
 
