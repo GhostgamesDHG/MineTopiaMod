@@ -1,16 +1,16 @@
 {
 	"credit": "Made by frankschepers24",
 	"textures": {
-		"0": "gmm:items/red",
+		"0": "minecraft:block/red_concrete",
 		"1": "gmm:items/skin",
-		"2": "gmm:items/hair2",
-		"3": "gmm:items/hair1",
-		"4": "gmm:items/white",
+		"2": "minecraft:block/black_terracotta",
+		"3": "minecraft:block/red_concrete",
+		"4": "minecraft:block/white_concrete",
 		"5": "gmm:items/mouth",
 		"6": "gmm:items/eye",
-		"7": "gmm:items/nose",
+		"7": "gmm:items/skin",
 		"8": "gmm:items/snor",
-		"particle": "gmm:items/red"
+		"particle": "minecraft:block/red_concrete"
 	},
 	"elements": [
 		{

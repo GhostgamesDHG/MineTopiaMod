@@ -18,7 +18,6 @@ public class ModItems {
     public static final RegistryObject<Item> IPHONE_7_BLUE = ITEMS.register("iphone_7_blue", ItemBase::new);
     public static final RegistryObject<Item> IPHONE_7_RED = ITEMS.register("iphone_7_red", ItemBase::new);
     public static final RegistryObject<Item> MINETOPIAEXTRA = ITEMS.register("minetopiaextra", MineTopiaExtra::new);
-    public static final RegistryObject<Item> KEY = ITEMS.register("key", ItemBase::new);
     public static final RegistryObject<Item> MONEY1 = ITEMS.register("0.10euro", ItemBase::new);
     public static final RegistryObject<Item> MONEY2 = ITEMS.register("1euro", ItemBase::new);
     public static final RegistryObject<Item> MONEY3 = ITEMS.register("5euro", ItemBase::new);
@@ -144,5 +143,4 @@ public class ModItems {
     public static final RegistryObject<Item> DRIVING_LICENSE = ITEMS.register("driving_license", ItemBase::new);
 
     public static final RegistryObject<NOTAB> WEED_SEEDS = ITEMS.register("weed_seeds", NOTAB::new);
-    public static final RegistryObject<NOTAB> EMERALDCOIN = ITEMS.register("emeraldcoin", NOTAB::new);
 }

@@ -3,7 +3,7 @@
 	"textures": {
 		"particle": "gmm:blocks/case_lightbrown",
 		"brownlight": "gmm:blocks/case_lightbrown",
-		"browndark": "gmm:blocks/case_brown",
+		"browndark": "gmm:blocks/case_lightbrown",
 		"gold": "minecraft:block/hay_block_top"
 	},
 	"elements": [

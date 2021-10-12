@@ -1,5 +1,5 @@
 {
-	"credit": "By TheDaann, for DDG/MTW",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "minecraft:block/red_concrete",
 		"1": "minecraft:block/yellow_concrete",
@@ -27,12 +27,12 @@
 			"to": [9.7125, 7.8375, 14.7125],
 			"rotation": {"angle": 0, "axis": "y", "origin": [15.9375, 14.1625, 22.5125]},
 			"faces": {
-				"north": {"uv": [0, 0, 0, 0.125], "texture": "#5"},
-				"east": {"uv": [0, 0, 0, 0.125], "texture": "#5"},
-				"south": {"uv": [0, 0, 0, 0.125], "texture": "#5"},
-				"west": {"uv": [0, 0, 0, 0.125], "texture": "#5"},
-				"up": {"uv": [0, 0, 0, 0.125], "texture": "#5"},
-				"down": {"uv": [0, 0, 0, 0.125], "texture": "#5"}
+				"north": {"uv": [0, 0, 1, 1], "texture": "#5"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#5"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#5"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#5"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#5"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#5"}
 			}
 		},
 		{
@@ -79,12 +79,12 @@
 			"to": [14.7375, 7.8375, 9.7125],
 			"rotation": {"angle": 0, "axis": "y", "origin": [22.5375, 14.1625, 0.0625]},
 			"faces": {
-				"north": {"uv": [0, 0, 0, 0.125], "texture": "#5"},
-				"east": {"uv": [0, 0, 0, 0.125], "texture": "#5"},
-				"south": {"uv": [0, 0, 0, 0.125], "texture": "#5"},
-				"west": {"uv": [0, 0, 0, 0.125], "texture": "#5"},
-				"up": {"uv": [0, 0, 0, 0.125], "texture": "#5"},
-				"down": {"uv": [0, 0, 0, 0.125], "texture": "#5"}
+				"north": {"uv": [0, 0, 1, 1], "texture": "#5"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#5"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#5"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#5"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#5"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#5"}
 			}
 		},
 		{
@@ -765,10 +765,12 @@
 		{
 			"name": "ParapluhoedMTW (rood, blauw, geel, groen)",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [0, 1, 2, 3, 4, 5,
 				{
 					"name": "group",
 					"origin": [8, 8, 8],
+					"color": 0,
 					"children": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]
 				}
 			]

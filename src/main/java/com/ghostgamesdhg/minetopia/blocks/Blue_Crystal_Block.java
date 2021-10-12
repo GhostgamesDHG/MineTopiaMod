@@ -15,6 +15,5 @@ public class Blue_Crystal_Block extends Block {
                 .harvestLevel(3) //1 = wood - 2 = stone - 3 = iron - 4 = diamond.
                 .setRequiresTool()
                 .harvestTool(ToolType.PICKAXE));
-
     }
 }

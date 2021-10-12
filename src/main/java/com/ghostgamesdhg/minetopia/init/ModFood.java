@@ -127,8 +127,6 @@ public class ModFood {
     public static final RegistryObject<fourHunger> PAPRIKA = ITEMS.register("paprika", fourHunger::new);
     public static final RegistryObject<fourHunger> ORANGE = ITEMS.register("orange", fourHunger::new);
     public static final RegistryObject<fourHunger> RASPBERRY = ITEMS.register("raspberry", fourHunger::new);
-    public static final RegistryObject<fourHunger> MELON = ITEMS.register("melon", fourHunger::new);
-    public static final RegistryObject<fourHunger> CARROT = ITEMS.register("carrot", fourHunger::new);
     public static final RegistryObject<fourHunger> PEAR = ITEMS.register("pear", fourHunger::new);
     public static final RegistryObject<sevenHunger> TOMATO_SOUP = ITEMS.register("tomato_soup", sevenHunger::new);
     public static final RegistryObject<eightHunger> ROOKWORST = ITEMS.register("rookworst", eightHunger::new);

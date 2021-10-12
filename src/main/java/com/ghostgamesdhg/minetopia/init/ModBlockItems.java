@@ -142,9 +142,6 @@ public class ModBlockItems {
     public static final RegistryObject<Item> ANTENNE_ITEM = ITEMS.register("antenne",
             () -> new BlockItemBase(ModBlocks.ANTENNE.get()));
 
-    public static final RegistryObject<Item> MOD_MAKER_TROPHIE_ITEM = ITEMS.register("mod_maker_trophie",
-            () -> new BlockInvis(ModBlocks.MOD_MAKER_TROPHIE.get()));
-
     public static final RegistryObject<Item> DIAMOND_TROPHIE_1J_ITEM = ITEMS.register("diamond_trophie_1j",
             () -> new BlockInvis(ModBlocks.DIAMOND_TROPHIE_1J.get()));
 

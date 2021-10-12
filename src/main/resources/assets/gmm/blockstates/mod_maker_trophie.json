@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "gmm:block/mod_maker_trophie" },
-    "facing=south": { "model": "gmm:block/mod_maker_trophie", "y":  180},
-    "facing=west": { "model": "gmm:block/mod_maker_trophie", "y":  270},
-    "facing=east": { "model": "gmm:block/mod_maker_trophie", "y":  90}
-  }
-}

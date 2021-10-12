@@ -1,7 +1,6 @@
 {
   "parent": "gmm:custom/icebox",
   "textures": {
-    "all": "gmm:blocks/box",
     "0": "minecraft:block/iron_block",
     "1": "minecraft:block/birch_planks",
     "2": "gmm:blocks/dak1",

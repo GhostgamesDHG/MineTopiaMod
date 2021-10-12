@@ -56,9 +56,9 @@ public class MinetopiaExtra
         ModTools.ITEMS.register(bus);
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
         MinecraftForge.EVENT_BUS.register(this);
-        FMLJavaModLoadingContext.get().getModEventBus().register(this);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::init);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientLoad);
+        bus.register(this);
+        bus.addListener(this::init);
+        bus.addListener(this::clientLoad);
         MinecraftForge.EVENT_BUS.register(new GmaModFMLBusEvents(this));
     }
 
