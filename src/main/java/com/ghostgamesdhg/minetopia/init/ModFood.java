@@ -144,11 +144,8 @@ public class ModFood {
     //Potions (Need a rewrite!)
     public static final RegistryObject<noHunger> WATER_BOTTLE = ITEMS.register("water_bottle", noHunger::new);
     public static final RegistryObject<koffie> COFFEE = ITEMS.register("coffee", koffie::new);
-    public static final RegistryObject<wine> WINE = ITEMS.register("wine", wine::new);
-    public static final RegistryObject<cocktail> COCKTAIL = ITEMS.register("cocktail", cocktail::new);
     public static final RegistryObject<wine> BEER_BOTTLE = ITEMS.register("beer_bottle", wine::new);
     public static final RegistryObject<wine> BEER_GLASS = ITEMS.register("beer_glass", wine::new);
-    public static final RegistryObject<Champagne> CHAMPAGNE_BOTTLE = ITEMS.register("champagne_bottle", Champagne::new);
     public static final RegistryObject<MilkShake> MILKSHAKE = ITEMS.register("milkshake", MilkShake::new);
     public static final RegistryObject<oneHunger> ALCOHOL_BOTTLE = ITEMS.register("alcohol_bottle", oneHunger::new);
     public static final RegistryObject<oneHunger> ORANGE_JUICE = ITEMS.register("orange_juice", oneHunger::new);

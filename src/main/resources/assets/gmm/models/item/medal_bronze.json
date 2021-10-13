@@ -1,11 +1,11 @@
 {
 	"credit": "Made by frankschepers24",
 	"textures": {
-		"0": "gmm:items/medal/bronze",
-		"1": "gmm:items/medal/bronze",
+		"0": "gmm:blocks/bronze_block",
+		"1": "gmm:blocks/bronze_block",
 		"2": "minecraft:block/netherite_block",
-		"3": "gmm:items/medal/lint",
-		"particle": "gmm:items/medal/bronze"
+		"3": "gmm:items/lint",
+		"particle": "gmm:blocks/bronze_block"
 	},
 	"elements": [
 		{
