@@ -159,4 +159,10 @@ public class ModBlockItems {
 
     public static final RegistryObject<Item> WALL_LIGHT_ITEM = ITEMS.register("wall_light",
             () -> new BlockItemBase(ModBlocks.WALL_LIGHT.get()));
+
+    public static final RegistryObject<Item> WHITE_BRICKS_ITEM = ITEMS.register("white_bricks",
+            () -> new BlockItemBase(ModBlocks.WHITE_BRICKS.get()));
+
+    public static final RegistryObject<Item> BLACK_BRICKS_ITEM = ITEMS.register("black_bricks",
+            () -> new BlockItemBase(ModBlocks.BLACK_BRICKS.get()));
 }

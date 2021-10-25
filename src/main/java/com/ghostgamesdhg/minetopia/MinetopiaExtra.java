@@ -59,7 +59,7 @@ public class MinetopiaExtra
         bus.register(this);
         bus.addListener(this::init);
         bus.addListener(this::clientLoad);
-        MinecraftForge.EVENT_BUS.register(new GmaModFMLBusEvents(this));
+        MinecraftForge.EVENT_BUS.register(new GmmModFMLBusEvents(this));
     }
 
     private void init(FMLCommonSetupEvent event) {
@@ -94,9 +94,9 @@ public class MinetopiaExtra
     public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
         elements.registerSounds(event);
     }
-    private static class GmaModFMLBusEvents {
+    private static class GmmModFMLBusEvents {
         private final MinetopiaExtra parent;
-        GmaModFMLBusEvents(MinetopiaExtra parent) {
+        GmmModFMLBusEvents(MinetopiaExtra parent) {
             this.parent = parent;
         }
 
@@ -154,11 +154,4 @@ public class MinetopiaExtra
             return new ItemStack(ModHats.BEERHEAD.get());
         }
     };
-
-//    public static final ItemGroup TAB8 = new ItemGroup("MineTopiaTrophies") {
-//        @Override
-//        public ItemStack createIcon() {
-//            return new ItemStack(ModBlocks.MOD_MAKER_TROPHIE.get());
-//        }
-//    };
 }

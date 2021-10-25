@@ -1,9 +1,6 @@
 package com.ghostgamesdhg.minetopia.util.enums;
 
-import com.ghostgamesdhg.minetopia.init.ModItems;
 import com.ghostgamesdhg.minetopia.init.ModTools;
-import net.minecraft.enchantment.Enchantment;
-import net.minecraft.enchantment.EnchantmentType;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
@@ -25,11 +22,11 @@ public enum ModItemTier implements IItemTier {
     }),
 
     MES(0, 40, 4.0F, 20.0F, 14, () -> {
-        return Ingredient.fromItems(ModTools.MES.get());
+        return Ingredient.fromItems(ModTools.CLASSIC_KNIFE.get());
     }),
 
     LIGHTSABER(0, 200, 4.0F, 1.0F, 14, () -> {
-        return Ingredient.fromItems(ModTools.MES.get());
+        return Ingredient.fromItems(ModTools.CLASSIC_KNIFE.get());
     }),
 
     BAT(0, 40, 4.0F, 20.0F, 14, () -> {

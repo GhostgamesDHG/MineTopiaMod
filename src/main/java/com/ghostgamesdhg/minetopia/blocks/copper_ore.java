@@ -14,7 +14,7 @@ public class copper_ore extends OreBlock {
                 .hardnessAndResistance(4.0f, 2.0f)
                 .sound(SoundType.STONE)
                 .setRequiresTool()
-                .harvestLevel(2) //1 = wood - 2 = stone - 3 = iron - 4 = diamond.
+                .harvestLevel(2)
                 .harvestTool(ToolType.PICKAXE));
     }
 

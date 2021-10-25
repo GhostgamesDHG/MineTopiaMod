@@ -1,6 +1,7 @@
 package com.ghostgamesdhg.minetopia.init;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
+import com.ghostgamesdhg.minetopia.items.ItemBase;
 import com.ghostgamesdhg.minetopia.items.ItemPopetjes;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
@@ -43,4 +44,6 @@ public class ModPoppetjes {
     public static final RegistryObject<Item> TEDDYBEER_ROZE = ITEMS.register("teddybeer_roze", ItemPopetjes::new);
     public static final RegistryObject<Item> TEDDYBEER_WIT = ITEMS.register("teddybeer_wit", ItemPopetjes::new);
     public static final RegistryObject<Item> EASTER_BUNNY_DOLL = ITEMS.register("easter_bunny_doll", ItemPopetjes::new);
+    public static final RegistryObject<Item> CHRISTMAS_PINGUIN = ITEMS.register("christmas_pinguin", ItemPopetjes::new);
+    public static final RegistryObject<Item> CHRISTMAS_POLARBEAR = ITEMS.register("christmas_polarbear", ItemBase::new);
 }

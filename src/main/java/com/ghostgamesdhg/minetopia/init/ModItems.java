@@ -39,6 +39,7 @@ public class ModItems {
     public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot", ItemBase::new);
     public static final RegistryObject<Item> BALLON_ROZE = ITEMS.register("ballon_roze", ItemBase::new);
     public static final RegistryObject<Item> BALLON_ROOD = ITEMS.register("ballon_rood", ItemBase::new);
+    public static final RegistryObject<Item> CHRISTMAS_BALOON = ITEMS.register("christmas_baloon", ItemBase::new);
     public static final RegistryObject<Item> BALLON_ORANJE = ITEMS.register("ballon_oranje", ItemBase::new);
     public static final RegistryObject<Item> BALLON_GROEN = ITEMS.register("ballon_groen", ItemBase::new);
     public static final RegistryObject<Item> BALLON_GEEL = ITEMS.register("ballon_geel", ItemBase::new);
@@ -141,6 +142,11 @@ public class ModItems {
     public static final RegistryObject<Item> EASTER_BASKET = ITEMS.register("easter_basket", ItemBase::new);
     public static final RegistryObject<Item> GUITAR = ITEMS.register("guitar", ItemBase::new);
     public static final RegistryObject<Item> DRIVING_LICENSE = ITEMS.register("driving_license", ItemBase::new);
+    public static final RegistryObject<Item> SANTA_CLAUS_STAFF = ITEMS.register("santa_claus_staff", ItemBase::new);
+    public static final RegistryObject<Item> PURPLE_CHRISTMAS_CARD = ITEMS.register("purple_christmas_card", ItemBase::new);
+    public static final RegistryObject<Item> GREEN_CHRISTMAS_CARD = ITEMS.register("green_christmas_card", ItemBase::new);
+    public static final RegistryObject<Item> BLUE_CHRISTMAS_CARD = ITEMS.register("blue_christmas_card", ItemBase::new);
+    public static final RegistryObject<Item> RED_CHRISTMAS_CARD = ITEMS.register("red_christmas_card", ItemBase::new);
 
     public static final RegistryObject<NOTAB> WEED_SEEDS = ITEMS.register("weed_seeds", NOTAB::new);
 }

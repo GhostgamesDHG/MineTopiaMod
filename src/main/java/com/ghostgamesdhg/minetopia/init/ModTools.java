@@ -77,7 +77,22 @@ public class ModTools {
     public static final RegistryObject<SwordItem> VALENTIJN_SWORD = ITEMS.register("valentijn_sword", () ->
             new SwordItem(ModItemTier.BLUE_CRYSTAL, 5, -2.4F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 
-    public static final RegistryObject<SwordItem> MES = ITEMS.register("mes", () ->
+    public static final RegistryObject<SwordItem> CLASSIC_KNIFE = ITEMS.register("classic_knife", () ->
+            new SwordItem(ModItemTier.MES, 4, -3F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> WHITE_KNIFE = ITEMS.register("white_knife", () ->
+            new SwordItem(ModItemTier.MES, 4, -3F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> RED_KNIFE = ITEMS.register("red_knife", () ->
+            new SwordItem(ModItemTier.MES, 4, -3F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> PINK_KNIFE = ITEMS.register("pink_knife", () ->
+            new SwordItem(ModItemTier.MES, 4, -3F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> PURPLE_KNIFE = ITEMS.register("purple_knife", () ->
+            new SwordItem(ModItemTier.MES, 4, -3F, new Item.Properties().group(MinetopiaExtra.TAB3)));
+
+    public static final RegistryObject<SwordItem> RAINBOW_KNIFE = ITEMS.register("rainbow_knife", () ->
             new SwordItem(ModItemTier.MES, 4, -3F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 
     public static final RegistryObject<SwordItem> WAPENSTOK = ITEMS.register("wapenstok", () ->

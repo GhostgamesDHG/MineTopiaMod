@@ -177,4 +177,8 @@ public class ModHats {
     public static final RegistryObject<Item> GHOST_HEAD = ITEMS.register("ghost_head", ItemHats::new);
     public static final RegistryObject<Item> GOPRO_HEAD = ITEMS.register("gopro_head", ItemHats::new);
     public static final RegistryObject<Item> REINDEER_ANTLERS = ITEMS.register("reindeer_antlers", ItemHats::new);
+    public static final RegistryObject<Item> CARROT_NOSE = ITEMS.register("carrot_nose", ItemHats::new);
+    public static final RegistryObject<Item> CHRISTMAS_COWBOY_HAT = ITEMS.register("christmas_cowboy_hat", ItemHats::new);
+    public static final RegistryObject<Item> SANTA_MITER = ITEMS.register("santa_miter", ItemHats::new);
+    public static final RegistryObject<Item> SNOWMAN_HEAD = ITEMS.register("snowman_head", ItemHats::new);
 }

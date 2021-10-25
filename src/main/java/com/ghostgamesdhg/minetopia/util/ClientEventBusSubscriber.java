@@ -1,10 +1,13 @@
 package com.ghostgamesdhg.minetopia.util;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
+import com.ghostgamesdhg.minetopia.blocks.Blue_Crystal_Block;
+import com.ghostgamesdhg.minetopia.blocks.Oven;
 import com.ghostgamesdhg.minetopia.init.ModBlocks;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
