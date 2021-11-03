@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"textures": {
 		"texture": "minecraft:block/cyan_concrete_powder",
 		"iron_block": "minecraft:block/iron_block",
@@ -8,8 +9,8 @@
 	"elements": [
 		{
 			"name": "Element",
-			"from": [0.5, 0.5, 0.5],
-			"to": [15.5, 15.5, 15.5],
+			"from": [0.5, 0, 0.5],
+			"to": [15.5, 15.3, 15.5],
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#texture"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#texture"},
@@ -73,19 +74,6 @@
 		},
 		{
 			"name": "Element",
-			"from": [0, 0, 15.5],
-			"to": [16, 16, 16],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#snow"},
-				"east": {"uv": [0, 0, 0.5, 16], "texture": "#snow"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#snow"},
-				"west": {"uv": [15.5, 0, 16, 16], "texture": "#snow"},
-				"up": {"uv": [0, 0, 16, 0.5], "rotation": 180, "texture": "#snow"},
-				"down": {"uv": [16, 0.5, 0, 0], "rotation": 180, "texture": "#snow"}
-			}
-		},
-		{
-			"name": "Element",
 			"from": [0, 0, 0],
 			"to": [16, 16, 0.5],
 			"faces": {
@@ -99,20 +87,7 @@
 		},
 		{
 			"name": "Element",
-			"from": [0, 0, 0.5],
-			"to": [16, 0.5, 15.5],
-			"faces": {
-				"north": {"uv": [0, 15.5, 16, 16], "texture": "#snow"},
-				"east": {"uv": [0.5, 15.5, 15.5, 16], "texture": "#snow"},
-				"south": {"uv": [0, 15.5, 16, 16], "texture": "#snow"},
-				"west": {"uv": [0.5, 15.5, 15.5, 16], "texture": "#snow"},
-				"up": {"uv": [0, 0.5, 16, 15.5], "rotation": 180, "texture": "#snow"},
-				"down": {"uv": [16, 15.5, 0, 0.5], "rotation": 180, "texture": "#snow"}
-			}
-		},
-		{
-			"name": "Element",
-			"from": [15.5, 0.5, 0.5],
+			"from": [15.5, 0, 0.5],
 			"to": [16, 16, 15.5],
 			"faces": {
 				"north": {"uv": [0, 0, 0.5, 15.5], "texture": "#snow"},

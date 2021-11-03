@@ -158,7 +158,6 @@ public class ModHats {
     public static final RegistryObject<Item> HEADBAG = ITEMS.register("headbag", ItemHats::new);
     public static final RegistryObject<Item> HEADBAG_ANGRY = ITEMS.register("headbag_angry", ItemHats::new);
     public static final RegistryObject<Item> HEADBAG_PLEASED = ITEMS.register("headbag_pleased", ItemHats::new);
-    public static final RegistryObject<Item> BANANA_HEAD = ITEMS.register("banana_head", ItemHats::new);
     public static final RegistryObject<Item> BABY_SHARK_HEAD = ITEMS.register("baby_shark_head", ItemHats::new);
     public static final RegistryObject<Item> ORANGE_CROWN = ITEMS.register("orange_crown", ItemHats::new);
     public static final RegistryObject<Item> FISHBOWL_HEAD = ITEMS.register("fishbowl_head", ItemHats::new);

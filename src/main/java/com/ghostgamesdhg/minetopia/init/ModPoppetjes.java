@@ -12,7 +12,6 @@ public class ModPoppetjes {
 
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MinetopiaExtra.MOD_ID);
 
-    public static final RegistryObject<Item> OLAF = ITEMS.register("olaf", ItemPopetjes::new);
     public static final RegistryObject<Item> SKELETONPOPPETJE = ITEMS.register("skeletonpoppetje", ItemPopetjes::new);
     public static final RegistryObject<Item> PAPEGAAIPOPPETJE = ITEMS.register("papegaaipoppetje", ItemPopetjes::new);
     public static final RegistryObject<Item> COWPOPPETJE = ITEMS.register("cowpoppetje", ItemPopetjes::new);
