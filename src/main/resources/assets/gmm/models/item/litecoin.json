@@ -1,7 +1,6 @@
 {
-	"parent": "gmm:item/bitcoin",
+	"parent": "item/generated",
 	"textures": {
-		"0": "gmm:items/litecoin",
-		"particle": "gmm:items/litecoin"
+		"layer0": "gmm:items/litecoin"
 	}
 }

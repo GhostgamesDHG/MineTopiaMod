@@ -1,7 +1,6 @@
 {
-	"parent": "gmm:item/bitcoin",
+	"parent": "item/generated",
 	"textures": {
-		"0": "gmm:items/ethereum",
-		"particle": "gmm:items/ethereum"
+		"layer0": "gmm:items/ethereum"
 	}
 }

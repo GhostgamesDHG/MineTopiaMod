@@ -58,7 +58,6 @@ public class ModItems {
     public static final RegistryObject<Item> DUIKFLES = ITEMS.register("duikfles", ItemBase::new);
     public static final RegistryObject<Item> PEPPERSPRAY = ITEMS.register("pepperspray", ItemBase::new);
     public static final RegistryObject<Item> HORLOGE = ITEMS.register("horloge", ItemBase::new);
-    public static final RegistryObject<Item> WHEELCOIN = ITEMS.register("wheelcoin", ItemBase::new);
     public static final RegistryObject<Item> LUCKYSHARD = ITEMS.register("luckyshard", ItemBase::new);
     public static final RegistryObject<Item> BRONZE_PRISONCOIN = ITEMS.register("bronze_prisoncoin", ItemBase::new);
     public static final RegistryObject<Item> ZILVEREN_PRISONCOIN = ITEMS.register("zilveren_prisoncoin", ItemBase::new);
@@ -134,19 +133,13 @@ public class ModItems {
     public static final RegistryObject<Item> NECK_POUCH_GUCCI = ITEMS.register("neck_pouch_gucci", ItemBase::new);
     public static final RegistryObject<Item> NECK_POUCH_SUPREME = ITEMS.register("neck_pouch_supreme", ItemBase::new);
     public static final RegistryObject<Item> BITCOIN = ITEMS.register("bitcoin", ItemBase::new);
-    public static final RegistryObject<Item> BITCOIN_CASH = ITEMS.register("bitcoin_cash", ItemBase::new);
     public static final RegistryObject<Item> DASHCOIN = ITEMS.register("dashcoin", ItemBase::new);
     public static final RegistryObject<Item> ETHEREUM = ITEMS.register("ethereum", ItemBase::new);
     public static final RegistryObject<Item> LITECOIN = ITEMS.register("litecoin", ItemBase::new);
-    public static final RegistryObject<Item> MAKER = ITEMS.register("maker", ItemBase::new);
     public static final RegistryObject<Item> EASTER_BASKET = ITEMS.register("easter_basket", ItemBase::new);
     public static final RegistryObject<Item> GUITAR = ITEMS.register("guitar", ItemBase::new);
     public static final RegistryObject<Item> DRIVING_LICENSE = ITEMS.register("driving_license", ItemBase::new);
     public static final RegistryObject<Item> SANTA_CLAUS_STAFF = ITEMS.register("santa_claus_staff", ItemBase::new);
-    public static final RegistryObject<Item> PURPLE_CHRISTMAS_CARD = ITEMS.register("purple_christmas_card", ItemBase::new);
-    public static final RegistryObject<Item> GREEN_CHRISTMAS_CARD = ITEMS.register("green_christmas_card", ItemBase::new);
-    public static final RegistryObject<Item> BLUE_CHRISTMAS_CARD = ITEMS.register("blue_christmas_card", ItemBase::new);
-    public static final RegistryObject<Item> RED_CHRISTMAS_CARD = ITEMS.register("red_christmas_card", ItemBase::new);
 
     public static final RegistryObject<NOTAB> WEED_SEEDS = ITEMS.register("weed_seeds", NOTAB::new);
 }

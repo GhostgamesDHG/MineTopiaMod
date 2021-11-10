@@ -1,8 +1,0 @@
-{
-	"parent": "gmm:item/red_christmas_card",
-	"textures": {
-		"1": "gmm:items/kerst_kaart_01_front_icon",
-		"2": "gmm:items/kerst_kaart_01_back_icon",
-		"particle": "gmm:items/kerst_kaart_01_front_icon"
-	}
-}
