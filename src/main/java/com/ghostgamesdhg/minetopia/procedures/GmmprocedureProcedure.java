@@ -32,10 +32,10 @@ public class GmmprocedureProcedure extends GmmModElements.ModElement {
 				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7aCurrent commands:"), (false));
 			}
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7a/gmm - Shows this information"), (false));
+				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7a/heal - Heals the player"), (false));
 			}
 			//	if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-		//		((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7a/hat - Puts item in hand on head"), (false));
+		//		((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7a/hat - Puts item in hand on your head"), (false));
 		//	}
 		}
 	}
