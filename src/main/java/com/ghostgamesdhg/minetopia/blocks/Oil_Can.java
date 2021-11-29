@@ -35,10 +35,22 @@ public class Oil_Can extends Block {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
                 .harvestLevel(2)
+                .setLightLevel(s -> 0)
+                .setOpaque((bs, br, bp) -> false)
                 .notSolid()
                 .sound(SoundType.METAL)
                 .harvestTool(ToolType.PICKAXE)
                 .setRequiresTool());
+    }
+
+    @Override
+    public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
+        return true;
+    }
+
+    @Override
+    public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+        return 0;
     }
 
     @Override

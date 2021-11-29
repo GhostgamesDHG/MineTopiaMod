@@ -24,15 +24,15 @@ public class Cadeau extends Block {
 
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
-    private static final VoxelShape SHAPE_N = Stream.of(
-            Block.makeCuboidShape(3, 0.5, 3, 13, 9, 13)
-    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
-
     public Cadeau() {
         super(Properties.create(Material.WOOL)
                 .hardnessAndResistance(3.5f, 4.0f)
                 .sound(SoundType.CLOTH));
     }
+
+    private static final VoxelShape SHAPE_N = Stream.of(
+            Block.makeCuboidShape(3, 0.5, 3, 13, 9, 13)
+    ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     @Override
     public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {

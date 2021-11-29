@@ -1,13 +1,10 @@
 package com.ghostgamesdhg.minetopia.util;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.blocks.Blue_Crystal_Block;
-import com.ghostgamesdhg.minetopia.blocks.Oven;
 import com.ghostgamesdhg.minetopia.init.ModBlocks;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -17,7 +14,9 @@ public class ClientEventBusSubscriber {
 
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
-        RenderTypeLookup.setRenderLayer(ModBlocks.OVEN.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(ModBlocks.OIL_CAN.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(ModBlocks.OVEN.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.OIL_CAN.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.KRANS.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.KERST_SLINGERS.get(), RenderType.getCutoutMipped());
     }
 }

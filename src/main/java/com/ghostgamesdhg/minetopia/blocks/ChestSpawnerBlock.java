@@ -11,9 +11,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.loot.LootContext;
 import net.minecraft.util.ActionResultType;
@@ -42,12 +39,6 @@ public class ChestSpawnerBlock extends GmmModElements.ModElement {
 		super(instance, 15);
 	}
 
-	@Override
-	public void initElements() {
-		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
-	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Properties.create(Material.ROCK).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)

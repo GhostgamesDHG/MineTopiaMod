@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "block/white_terracotta",
+		"0": "block/white_concrete",
 		"1": "gmm:blocks/anvil_base",
-		"particle": "block/white_terracotta"
+		"particle": "block/white_concrete"
 	},
 	"elements": [
 		{

@@ -70,8 +70,19 @@ minecraft {
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
+repositories {
+    maven {
+        url "https://www.cursemaven.com"
+    }
+
+}
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.4-35.1.4'
+
+    runtimeOnly fg.deobf("curse.maven:mousetweaks-60089:3202662")
+
+    runtimeOnly fg.deobf("curse.maven:jei-238222:3530253")
 }
 
 jar {

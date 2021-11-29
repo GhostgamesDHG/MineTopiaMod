@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "gmm:items/ssnor",
-		"particle": "gmm:items/ssnor"
+		"0": "minecraft:block/brown_concrete",
+		"particle": "minecraft:block/brown_concrete"
 	},
 	"elements": [
 		{

@@ -3,6 +3,7 @@ package com.ghostgamesdhg.minetopia.blocks;
 
 import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.procedures.christmas_tree.ChristmastreeTopProcedure;
+import net.minecraft.util.math.RayTraceResult;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -124,6 +125,11 @@ public class ChristmasupperBlock extends GmmModElements.ModElement {
 		@Override
 		public PushReaction getPushReaction(BlockState state) {
 			return PushReaction.BLOCK;
+		}
+
+		@Override
+		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
+			return new ItemStack(ChristmastreeBlock.block);
 		}
 
 		@Override

@@ -55,7 +55,6 @@ public class ModHats {
     public static final RegistryObject<Item> PHOENIX_HEAD = ITEMS.register("phoenix_head", ItemHats::new);
     public static final RegistryObject<Item> WITTESTRIK = ITEMS.register("wittestrik", ItemHats::new);
     public static final RegistryObject<Item> WITTEBRIL = ITEMS.register("wittebril", ItemHats::new);
-    public static final RegistryObject<Item> VERREKIJKER = ITEMS.register("verrekijker", ItemHats::new);
     public static final RegistryObject<Item> TWBRIL = ITEMS.register("twbril", ItemHats::new);
     public static final RegistryObject<Item> THUGLIFEBRIL = ITEMS.register("thuglifebril", ItemHats::new);
     public static final RegistryObject<Item> STERREBRIL = ITEMS.register("sterrebril", ItemHats::new);
@@ -168,7 +167,6 @@ public class ModHats {
     public static final RegistryObject<Item> ORANGE_HEART_GLASSES = ITEMS.register("orange_heart_glasses", ItemHats::new);
     public static final RegistryObject<Item> COWBOY_HAT = ITEMS.register("cowboy_hat", ItemHats::new);
     public static final RegistryObject<Item> GUCCI_SKI_GOGGLES = ITEMS.register("gucci_ski_goggles", ItemHats::new);
-    public static final RegistryObject<Item> BUNNY_EARS = ITEMS.register("bunny_ears", ItemHats::new);
     public static final RegistryObject<Item> BUNNY_EARS2 = ITEMS.register("bunny_ears2", ItemHats::new);
     public static final RegistryObject<Item> EASTER_LOOP = ITEMS.register("easter_loop", ItemHats::new);
     public static final RegistryObject<Item> EASTER_BUNNY_HEAD = ITEMS.register("easter_bunny_head", ItemHats::new);
@@ -176,7 +174,6 @@ public class ModHats {
     public static final RegistryObject<Item> GHOST_HEAD = ITEMS.register("ghost_head", ItemHats::new);
     public static final RegistryObject<Item> GOPRO_HEAD = ITEMS.register("gopro_head", ItemHats::new);
     public static final RegistryObject<Item> REINDEER_ANTLERS = ITEMS.register("reindeer_antlers", ItemHats::new);
-    public static final RegistryObject<Item> CARROT_NOSE = ITEMS.register("carrot_nose", ItemHats::new);
     public static final RegistryObject<Item> CHRISTMAS_COWBOY_HAT = ITEMS.register("christmas_cowboy_hat", ItemHats::new);
     public static final RegistryObject<Item> SANTA_MITER = ITEMS.register("santa_miter", ItemHats::new);
     public static final RegistryObject<Item> SNOWMAN_HEAD = ITEMS.register("snowman_head", ItemHats::new);

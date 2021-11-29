@@ -25,27 +25,19 @@ public class wall_light extends Block {
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
     private static final VoxelShape SHAPE_N = Stream.of(
-            Block.makeCuboidShape(6.5, 6, 15.5, 9.5, 9.5, 16),
-            Block.makeCuboidShape(7.5, 7.5, 14.375, 8.5, 8.25, 15.5),
-            Block.makeCuboidShape(7.5, 8.25, 14.05, 8.5, 9.5, 14.8)
+            Block.makeCuboidShape(6, 6, 4, 10, 14, 16)
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR)).get();
 
     public static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(0, 6, 6.5, 0.5, 9.5, 9.5),
-            Block.makeCuboidShape(0.5, 7.5, 7.5, 1.625, 8.25, 8.5),
-            Block.makeCuboidShape(1.1999999999999993, 8.25, 7.5, 1.9499999999999993, 9.5, 8.5)
+            Block.makeCuboidShape(0, 6, 6, 12, 14, 10)
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR)).get();
 
     public static final VoxelShape SHAPE_S = Stream.of(
-            Block.makeCuboidShape(6.5, 6, 0, 9.5, 9.5, 0.5),
-            Block.makeCuboidShape(7.5, 7.5, 0.5, 8.5, 8.25, 1.625),
-            Block.makeCuboidShape(7.5, 8.25, 1.1999999999999993, 8.5, 9.5, 1.9499999999999993)
+            Block.makeCuboidShape(6, 6, 0, 10, 14, 12)
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR)).get();
 
     public static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(15.5, 6, 6.5, 16, 9.5, 9.5),
-            Block.makeCuboidShape(14.375, 7.5, 7.5, 15.5, 8.25, 8.5),
-            Block.makeCuboidShape(14.05, 8.25, 7.5, 14.8, 9.5, 8.5)
+            Block.makeCuboidShape(4, 6, 6, 16, 14, 10)
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR)).get();
 
     public wall_light() {

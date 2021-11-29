@@ -5,6 +5,10 @@ import com.ghostgamesdhg.minetopia.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.gui.GarbageCanGuiGui;
 import com.ghostgamesdhg.minetopia.procedures.GarbageProcedureProcedure;
+import net.minecraft.util.math.shapes.IBooleanFunction;
+import net.minecraft.util.math.shapes.ISelectionContext;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -51,8 +55,11 @@ import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
 import java.util.Collections;
+import java.util.stream.Stream;
 
 import io.netty.buffer.Unpooled;
+
+import javax.annotation.Nullable;
 
 @GmmModElements.ModElement.Tag
 public class GarbagecanBlock extends GmmModElements.ModElement {
@@ -93,23 +100,39 @@ public class GarbagecanBlock extends GmmModElements.ModElement {
 			return 0;
 		}
 
+		private static final VoxelShape SHAPE_N = Stream.of(
+				Block.makeCuboidShape(0, 0, 0, 16, 24, 16)
+		).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
+
 		@Override
-		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-			builder.add(FACING);
+		public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
+			switch (state.get(FACING)) {
+				case NORTH:
+					return SHAPE_N;
+				default:
+					return SHAPE_N;
+			}
 		}
 
+		@Nullable
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			return this .getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
+		}
+
+		@Override
 		public BlockState rotate(BlockState state, Rotation rot) {
 			return state.with(FACING, rot.rotate(state.get(FACING)));
 		}
 
+		@Override
 		public BlockState mirror(BlockState state, Mirror mirrorIn) {
 			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
 		}
 
 		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
+		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
+			builder.add(FACING);
 		}
 
 		@Override

@@ -21,7 +21,9 @@ public class Oven extends Block {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
                 .harvestLevel(2)
-                .notSolid() //for the non-xray look? Less bugs if I use this
+                .notSolid()
+                .setLightLevel(s -> 0)
+                .setOpaque((bs, br, bp) -> false)
                 .sound(SoundType.METAL)
                 .harvestTool(ToolType.PICKAXE)
                 .setRequiresTool());
