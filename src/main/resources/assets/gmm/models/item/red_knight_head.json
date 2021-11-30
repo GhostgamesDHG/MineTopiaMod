@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "gmm:blocks/blockz/texture",
+		"particle": "minecraft:block/red_concrete",
 		"voxels_atlas": "gmm:items/red_knight"
 	},
 	"elements": [

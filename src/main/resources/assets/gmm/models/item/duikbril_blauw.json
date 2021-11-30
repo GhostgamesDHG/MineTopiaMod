@@ -1,7 +1,6 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"5": "gmm:blocks/ddg",
 		"particle": "minecraft:block/light_blue_terracotta",
 		"color": "minecraft:block/light_blue_terracotta",
 		"glass": "minecraft:block/gray_stained_glass",
@@ -752,19 +751,6 @@
 				"west": {"uv": [15, 7.5, 15.25, 9.5], "texture": "#color2"},
 				"up": {"uv": [6.5, 15, 9.75, 15.25], "texture": "#color2"},
 				"down": {"uv": [6.5, 0.75, 9.75, 1], "texture": "#color2"}
-			}
-		},
-		{
-			"name": "Box57",
-			"from": [6.75, 6.5, 15.25],
-			"to": [9.5, 8.25, 15.251],
-			"faces": {
-				"north": {"uv": [0, 0, 3, 2], "texture": "#5"},
-				"east": {"uv": [0, 0, 0, 2], "texture": "#5"},
-				"south": {"uv": [0, 2, 3, 4], "texture": "#5"},
-				"west": {"uv": [0, 0, 0, 2], "texture": "#5"},
-				"up": {"uv": [3, 0, 0, 0], "texture": "#5"},
-				"down": {"uv": [3, 0, 0, 0], "texture": "#5"}
 			}
 		}
 	],

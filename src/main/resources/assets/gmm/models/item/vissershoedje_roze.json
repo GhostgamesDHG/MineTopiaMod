@@ -2,7 +2,7 @@
 	"parent": "gmm:item/vissershoedje",
 	"textures": {
 		"0": "minecraft:block/magenta_terracotta",
-		"2": "gmm:blocks/tnt_side",
+		"2": "minecraft:blocks/tnt_side",
 		"particle": "minecraft:block/magenta_terracotta"
 	}
 }

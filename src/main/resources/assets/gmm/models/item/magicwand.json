@@ -3,8 +3,8 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"1": "gmm:items/magicwand",
-		"2": "gmm:blocks/clay",
-		"particle": "gmm:blocks/clay"
+		"2": "minecraft:block/clay",
+		"particle": "minecraft:block/clay"
 	},
 	"elements": [
 		{

@@ -1,9 +1,9 @@
 {
 	"credit": "By TheDaann, for DDG/MTW",
 	"textures": {
-		"1": "gmm:blocks/black_concrete",
-		"2": "gmm:blocks/iron_block",
-		"particle": "gmm:blocks/black_concrete"
+		"1": "minecraft:block/black_concrete",
+		"2": "minecraft:block/iron_block",
+		"particle": "minecraft:block/black_concrete"
 	},
 	"elements": [
 		{
