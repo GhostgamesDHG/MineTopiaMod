@@ -16,11 +16,6 @@ public class ModHats {
     public static final RegistryObject<Item> BEERHEAD = ITEMS.register("beerhead", ItemHats::new);
     public static final RegistryObject<Item> IJSBEERHEAD = ITEMS.register("ijsbeerhead", ItemHats::new);
     public static final RegistryObject<Item> DROLHOED = ITEMS.register("drolhoed", ItemHats::new);
-    public static final RegistryObject<Item> GOKUHAIR = ITEMS.register("gokuhair", ItemHats::new);
-    public static final RegistryObject<Item> BLUEGOKUHAIR = ITEMS.register("bluegokuhair", ItemHats::new);
-    public static final RegistryObject<Item> ORANGEGOKUHAIR = ITEMS.register("orangegokuhair", ItemHats::new);
-    public static final RegistryObject<Item> PINKGOKUHAIR = ITEMS.register("pinkgokuhair", ItemHats::new);
-    public static final RegistryObject<Item> GREENGOKUHAIR = ITEMS.register("greengokuhair", ItemHats::new);
     public static final RegistryObject<Item> BOUWHELM = ITEMS.register("bouwhelm", ItemHats::new);
     public static final RegistryObject<Item> DUIKBRIL_BLAUW = ITEMS.register("duikbril_blauw", ItemHats::new);
     public static final RegistryObject<Item> DUIKBRIL_GEEL = ITEMS.register("duikbril_geel", ItemHats::new);
@@ -115,7 +110,6 @@ public class ModHats {
     public static final RegistryObject<Item> VR_BRIL = ITEMS.register("vr_bril", ItemHats::new);
     public static final RegistryObject<Item> VR_BRIL_WHITE = ITEMS.register("vr_bril_white", ItemHats::new);
     public static final RegistryObject<Item> BLUE_SPIRIT_MASK = ITEMS.register("blue_spirit_mask", ItemHats::new);
-    public static final RegistryObject<Item> AFRO = ITEMS.register("afro", ItemHats::new);
     public static final RegistryObject<Item> OOGGLAS = ITEMS.register("oogglas", ItemHats::new);
     public static final RegistryObject<Item> OOGGLAS_GOLD = ITEMS.register("oogglas_gold", ItemHats::new);
     public static final RegistryObject<Item> MOOSE_HAT = ITEMS.register("moose_hat", ItemHats::new);
