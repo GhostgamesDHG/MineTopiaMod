@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xax",
+    " x "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:gray_concrete"
+    },
+    "a":
+    {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:taser",
+    "count": 1
+  }
+}

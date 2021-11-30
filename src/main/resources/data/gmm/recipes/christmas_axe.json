@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " bc",
+    " ab",
+    " a "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:stick"
+    },
+    "b":
+    {
+      "item": "minecraft:red_concrete"
+    },
+    "c":
+    {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:christmas_axe",
+    "count": 1
+  }
+}

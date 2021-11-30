@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " bb",
+    " ab",
+    " a "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:stick"
+    },
+    "b":
+    {
+      "item": "gmm:copper"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:copper_axe",
+    "count": 1
+  }
+}

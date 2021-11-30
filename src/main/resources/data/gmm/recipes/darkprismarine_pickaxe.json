@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bbb",
+    " a ",
+    " a "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:stick"
+    },
+    "b":
+    {
+      "item": "minecraft:dark_prismarine"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:prismarine_pickaxe_refined",
+    "count": 1
+  }
+}

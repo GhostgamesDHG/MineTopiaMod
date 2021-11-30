@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bbb",
+    " a ",
+    " a "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:stick"
+    },
+    "b":
+    {
+      "item": "gmm:copper"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:copper_pickaxe_refined",
+    "count": 1
+  }
+}

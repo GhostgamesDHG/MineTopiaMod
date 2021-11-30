@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " b ",
+    " b ",
+    " a "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:stick"
+    },
+    "b":
+    {
+      "item": "minecraft:blue_crystal"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:blue_crystal_sword",
+    "count": 1
+  }
+}

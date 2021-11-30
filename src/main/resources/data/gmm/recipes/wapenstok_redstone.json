@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " x ",
+    " x ",
+    " a "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:redstone"
+    },
+    "a":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:wapenstok_redstone",
+    "count": 1
+  }
+}

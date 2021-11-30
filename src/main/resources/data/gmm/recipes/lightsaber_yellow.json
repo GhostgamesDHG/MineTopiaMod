@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " x ",
+    " x ",
+    " a "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:yellow_concrete"
+    },
+    "a":
+    {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:lightsaber_yellow",
+    "count": 1
+  }
+}

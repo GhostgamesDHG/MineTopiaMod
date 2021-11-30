@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bbb",
+    " a ",
+    " a "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:stick"
+    },
+    "b":
+    {
+      "item": "minecraft:magma_block"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:magma_pickaxe_refined",
+    "count": 1
+  }
+}

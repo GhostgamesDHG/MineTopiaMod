@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bbb",
+    " a ",
+    " a "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:stick"
+    },
+    "b":
+    {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:lava_pickaxe_refined",
+    "count": 1
+  }
+}

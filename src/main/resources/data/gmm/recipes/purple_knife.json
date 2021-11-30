@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:black_wool"
+    },
+    {
+      "item": "minecraft:purple_wool"
+    }
+  ],
+  "result":
+  {
+    "item": "gmm:purple_knife",
+    "count": 1
+  }
+}

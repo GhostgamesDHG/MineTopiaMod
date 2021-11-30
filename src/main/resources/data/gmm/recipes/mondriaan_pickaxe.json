@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bbb",
+    " a ",
+    " a "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:stone"
+    },
+    "b":
+    {
+      "item": "minecraft:white_glazed_terracotta"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:mondriaan_pickaxe_refined",
+    "count": 1
+  }
+}
