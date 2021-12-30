@@ -1,7 +1,7 @@
 package com.ghostgamesdhg.minetopia.init;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.util.enums.ModItemTier;
+import com.ghostgamesdhg.minetopia.util.ModItemTier;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;

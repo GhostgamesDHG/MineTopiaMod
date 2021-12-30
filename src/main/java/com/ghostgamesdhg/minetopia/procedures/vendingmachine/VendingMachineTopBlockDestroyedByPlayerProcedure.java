@@ -1,8 +1,8 @@
 package com.ghostgamesdhg.minetopia.procedures.vendingmachine;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.blocks.VendingMachineBlock;
-import com.ghostgamesdhg.minetopia.blocks.VendingMachineTopBlock;
+import com.ghostgamesdhg.minetopia.blocks.blocks.VendingMachineBlock;
+import com.ghostgamesdhg.minetopia.blocks.blocks.VendingMachineTopBlock;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.block.Blocks;

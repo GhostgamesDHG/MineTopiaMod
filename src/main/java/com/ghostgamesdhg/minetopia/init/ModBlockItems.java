@@ -1,9 +1,9 @@
 package com.ghostgamesdhg.minetopia.init;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.blocks.BlockInvis;
-import com.ghostgamesdhg.minetopia.blocks.BlockItemBase;
-import com.ghostgamesdhg.minetopia.blocks.BlockItemItemBase;
+import com.ghostgamesdhg.minetopia.blocks.blocks.BlockInvis;
+import com.ghostgamesdhg.minetopia.blocks.blocks.BlockItemBase;
+import com.ghostgamesdhg.minetopia.blocks.blocks.BlockItemItemBase;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;

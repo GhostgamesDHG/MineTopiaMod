@@ -1,7 +1,7 @@
 package com.ghostgamesdhg.minetopia.procedures.vendingmachine;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.gui.VendingguiGui;
+import com.ghostgamesdhg.minetopia.gui.vending.VendingguiGui;
 import net.minecraftforge.fml.network.NetworkHooks;
 
 import net.minecraft.world.IWorld;

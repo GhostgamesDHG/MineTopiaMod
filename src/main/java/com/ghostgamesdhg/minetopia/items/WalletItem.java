@@ -1,10 +1,10 @@
 
 package com.ghostgamesdhg.minetopia.items;
 
-import com.ghostgamesdhg.minetopia.GmmModElements;
+import com.ghostgamesdhg.minetopia.util.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.gui.WalletguiGui;
-import com.ghostgamesdhg.minetopia.gui.WalletguiGuiWindow;
+import com.ghostgamesdhg.minetopia.gui.wallet.WalletguiGui;
+import com.ghostgamesdhg.minetopia.gui.wallet.WalletguiGuiWindow;
 import io.netty.buffer.Unpooled;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.Minecraft;

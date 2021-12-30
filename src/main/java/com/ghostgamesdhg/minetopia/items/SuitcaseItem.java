@@ -1,10 +1,10 @@
 
 package com.ghostgamesdhg.minetopia.items;
 
-import com.ghostgamesdhg.minetopia.GmmModElements;
+import com.ghostgamesdhg.minetopia.util.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.gui.SuitcaseGuiGui;
-import com.ghostgamesdhg.minetopia.gui.SuitcaseGuiGuiWindow;
+import com.ghostgamesdhg.minetopia.gui.suitcase.SuitcaseGuiGui;
+import com.ghostgamesdhg.minetopia.gui.suitcase.SuitcaseGuiGuiWindow;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.CapabilityItemHandler;

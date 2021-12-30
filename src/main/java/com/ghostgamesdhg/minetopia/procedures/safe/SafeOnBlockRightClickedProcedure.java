@@ -1,9 +1,9 @@
 package com.ghostgamesdhg.minetopia.procedures.safe;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.gui.SAFEINVENTORYGui;
-import com.ghostgamesdhg.minetopia.gui.SafeGuiGui;
-import com.ghostgamesdhg.minetopia.gui.SafeGuiSetPasswordGui;
+import com.ghostgamesdhg.minetopia.gui.safe.SAFEINVENTORYGui;
+import com.ghostgamesdhg.minetopia.gui.safe.SafeGuiGui;
+import com.ghostgamesdhg.minetopia.gui.safe.SafeGuiSetPasswordGui;
 import net.minecraftforge.fml.network.NetworkHooks;
 
 import net.minecraft.world.IWorld;

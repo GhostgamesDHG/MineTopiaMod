@@ -1,7 +1,7 @@
 package com.ghostgamesdhg.minetopia.procedures.christmas_tree;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.blocks.ChristmasupperBlock;
+import com.ghostgamesdhg.minetopia.blocks.blocks.ChristmasupperBlock;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;

@@ -1,10 +1,10 @@
 
 package com.ghostgamesdhg.minetopia.items;
 
-import com.ghostgamesdhg.minetopia.GmmModElements;
+import com.ghostgamesdhg.minetopia.util.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.gui.HandbagguiGui;
-import com.ghostgamesdhg.minetopia.gui.HandbagguiGuiWindow;
+import com.ghostgamesdhg.minetopia.gui.handbag.HandbagguiGui;
+import com.ghostgamesdhg.minetopia.gui.handbag.HandbagguiGuiWindow;
 import io.netty.buffer.Unpooled;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.Minecraft;

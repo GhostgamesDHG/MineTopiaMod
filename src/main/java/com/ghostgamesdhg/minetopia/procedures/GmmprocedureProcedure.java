@@ -1,6 +1,6 @@
 package com.ghostgamesdhg.minetopia.procedures;
 
-import com.ghostgamesdhg.minetopia.GmmModElements;
+import com.ghostgamesdhg.minetopia.util.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
