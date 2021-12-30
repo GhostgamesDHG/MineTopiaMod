@@ -31,7 +31,7 @@ public class ModFood {
     public static final RegistryObject<sixHunger> VANILLA_MUFFIN = ITEMS.register("vanilla_muffin", sixHunger::new);
     public static final RegistryObject<sixHunger> CHOCOLATE_MUFFIN = ITEMS.register("chocolate_muffin", sixHunger::new);
     public static final RegistryObject<fourHunger> JELLYBEANS = ITEMS.register("jellybeans", fourHunger::new);
-    public static final RegistryObject<threeHunger> MAIZE = ITEMS.register("maize", threeHunger::new);
+
     public static final RegistryObject<twoHunger> CANDY_CANE = ITEMS.register("candy_cane", twoHunger::new);
     public static final RegistryObject<eightHunger> DOUBLE_SUSHI_PACKAGE = ITEMS.register("double_sushi_package", eightHunger::new);
     public static final RegistryObject<fourHunger> CUPCAKE = ITEMS.register("cupcake", fourHunger::new);
@@ -73,10 +73,8 @@ public class ModFood {
     public static final RegistryObject<fourHunger> BROWNIE = ITEMS.register("brownie", fourHunger::new);
     public static final RegistryObject<fiveHunger> DONER_SANDWICH = ITEMS.register("doner_sandwich", fiveHunger::new);
     public static final RegistryObject<Broodje_Gezond> HEALTHY_SANDWICH = ITEMS.register("healthy_sandwich", Broodje_Gezond::new);
-    public static final RegistryObject<fourHunger> TOMATO = ITEMS.register("tomato", fourHunger::new);
     public static final RegistryObject<fiveHunger> SAUSAGE_ROLL = ITEMS.register("sausage_roll", fiveHunger::new);
     public static final RegistryObject<eightHunger> WIENER_SCHNITZEL = ITEMS.register("wiener_schnitzel", eightHunger::new);
-    public static final RegistryObject<fourHunger> COOKIES = ITEMS.register("cookies", fourHunger::new);
     public static final RegistryObject<sixHunger> CROISSANT = ITEMS.register("croissant", sixHunger::new);
     public static final RegistryObject<fourHunger> DATES = ITEMS.register("dates", fourHunger::new);
     public static final RegistryObject<sixHunger> HERRING = ITEMS.register("herring", sixHunger::new);
@@ -99,9 +97,6 @@ public class ModFood {
     public static final RegistryObject<eightHunger> COOKED_SPARERIBS = ITEMS.register("cooked_spareribs", eightHunger::new);
     public static final RegistryObject<sixHunger> STURGEON = ITEMS.register("sturgeon", sixHunger::new);
     public static final RegistryObject<fourHunger> STROOPWAFEL = ITEMS.register("stroopwafel", fourHunger::new);
-    public static final RegistryObject<fourHunger> APPLE = ITEMS.register("apple", fourHunger::new);
-    public static final RegistryObject<fourHunger> GREEN_APPLE = ITEMS.register("green_apple", fourHunger::new);
-    public static final RegistryObject<fourHunger> GOLDEN_APPLE = ITEMS.register("golden_apple", fourHunger::new);
     public static final RegistryObject<eightHunger> TURKISH_PIZZA = ITEMS.register("turkish_pizza", eightHunger::new);
     public static final RegistryObject<fourHunger> WAFFLE = ITEMS.register("waffle", fourHunger::new);
     public static final RegistryObject<fourHunger> WHITE_GRAPES = ITEMS.register("white_grapes", fourHunger::new);
@@ -124,7 +119,6 @@ public class ModFood {
     public static final RegistryObject<twoHunger> CANDY_PURPLE = ITEMS.register("candy_purple", twoHunger::new);
     public static final RegistryObject<twoHunger> CANDY_RED = ITEMS.register("candy_red", twoHunger::new);
     public static final RegistryObject<gelukskoekje> FORTUNE_COOKIE = ITEMS.register("fortune_cookie", gelukskoekje::new);
-    public static final RegistryObject<fourHunger> PAPRIKA = ITEMS.register("paprika", fourHunger::new);
     public static final RegistryObject<fourHunger> ORANGE = ITEMS.register("orange", fourHunger::new);
     public static final RegistryObject<fourHunger> RASPBERRY = ITEMS.register("raspberry", fourHunger::new);
     public static final RegistryObject<fourHunger> PEAR = ITEMS.register("pear", fourHunger::new);
@@ -140,6 +134,9 @@ public class ModFood {
     public static final RegistryObject<twoHunger> TAAITAAI = ITEMS.register("taaitaai", twoHunger::new);
     public static final RegistryObject<twoHunger> SPICED_BESQUIT = ITEMS.register("spiced_besquit", twoHunger::new);
     public static final RegistryObject<twoHunger> TOMPOUCE = ITEMS.register("tompouce", twoHunger::new);
+    public static final RegistryObject<twoHunger> TOMATO = ITEMS.register("tomato", twoHunger::new);
+    public static final RegistryObject<twoHunger> CORN = ITEMS.register("corn", twoHunger::new);
+    public static final RegistryObject<sixHunger> COOKED_CORN = ITEMS.register("cooked_corn", sixHunger::new);
 
     //Potions (Need a rewrite!)
     public static final RegistryObject<noHunger> WATER_BOTTLE = ITEMS.register("water_bottle", noHunger::new);
@@ -161,4 +158,27 @@ public class ModFood {
     //ANIMAL FOOD (Need a custom code, Will do this later!)
     public static final RegistryObject<fourHunger> DOG_FOOD = ITEMS.register("dog_food", fourHunger::new);
     public static final RegistryObject<fourHunger> CAT_FOOD = ITEMS.register("cat_food", fourHunger::new);
+
+
+    //CROPS(BlockItem for linking together)
+    public static final RegistryObject<Item> CORN_SEEDS = ITEMS.register("corn_seeds",
+            () -> new BlockItem(ModBlocks.CORN.get(), new Item.Properties()
+                    .group(MinetopiaExtra.TAB4)));
+
+    public static final RegistryObject<Item> PAPRIKA = ITEMS.register("paprika",
+            () -> new BlockItem(ModBlocks.PAPRIKA.get(), new Item.Properties()
+                    .food(new Food.Builder().hunger(2*2).saturation(0.1f).fastToEat().build())
+                    .group(MinetopiaExtra.TAB4)));
+
+    public static final RegistryObject<Item> PINEAPPLE_SEEDS = ITEMS.register("pineapple_seeds",
+            () -> new BlockItem(ModBlocks.PINEAPPLE.get(), new Item.Properties()
+                    .group(MinetopiaExtra.TAB4)));
+
+    public static final RegistryObject<Item> TOMATO_SEEDS = ITEMS.register("tomato_seeds",
+            () -> new BlockItem(ModBlocks.TOMATO.get(), new Item.Properties()
+                    .group(MinetopiaExtra.TAB4)));
+
+    public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
+            () -> new BlockItem(ModBlocks.STRAWBERRY.get(), new Item.Properties()
+                    .group(MinetopiaExtra.TAB4)));
 }

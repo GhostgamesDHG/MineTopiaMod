@@ -6,10 +6,14 @@ import com.ghostgamesdhg.minetopia.init.ModBlocks;
 import com.ghostgamesdhg.minetopia.init.ModFood;
 import com.ghostgamesdhg.minetopia.init.ModHats;
 import com.ghostgamesdhg.minetopia.init.ModItems;
+import com.ghostgamesdhg.minetopia.init.ModPaintings;
 import com.ghostgamesdhg.minetopia.init.ModPoppetjes;
 import com.ghostgamesdhg.minetopia.init.ModTools;
 import com.ghostgamesdhg.minetopia.init.OreGeneration;
+import com.ghostgamesdhg.minetopia.util.GmmModElements;
 import net.minecraft.block.Block;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.Item;
@@ -46,6 +50,7 @@ public class MinetopiaExtra
     public MinetopiaExtra() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         elements = new GmmModElements();
+
         ModBlocks.BLOCKS.register(bus);
         ModItems.ITEMS.register(bus);
         ModBlockItems.ITEMS.register(bus);
@@ -54,6 +59,8 @@ public class MinetopiaExtra
         ModArmor.ITEMS.register(bus);
         ModPoppetjes.ITEMS.register(bus);
         ModTools.ITEMS.register(bus);
+        ModPaintings.PAINTING_TYPES.register(bus);
+
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
         MinecraftForge.EVENT_BUS.register(this);
         bus.register(this);
@@ -154,4 +161,17 @@ public class MinetopiaExtra
             return new ItemStack(ModHats.BEERHEAD.get());
         }
     };
+
+    @SubscribeEvent
+    public static void clientSetup(FMLClientSetupEvent event) {
+        RenderTypeLookup.setRenderLayer(ModBlocks.OVEN.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.OIL_CAN.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.KRANS.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.KERST_SLINGERS.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CORN.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PAPRIKA.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TOMATO.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINEAPPLE.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.STRAWBERRY.get(), RenderType.getCutout());
+    }
 }

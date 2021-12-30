@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/crop",
   "textures": {
-    "crop": "gmm:blocks/maize_stage7"
+    "crop": "gmm:blocks/paprika_stage5"
   }
 }

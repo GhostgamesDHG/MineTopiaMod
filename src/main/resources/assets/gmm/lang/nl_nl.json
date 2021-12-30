@@ -415,6 +415,7 @@
   "item.gmm.vitamin_d": "Vitamine D",
   "item.gmm.vitamin_e": "Vitamine E",
   "item.gmm.vitamin_f": "Vitamine F",
+  "block.gmm.tomato_crop": "Tomaten zaadjes",
   "item.gmm.tomato": "Tomaat",
   "item.gmm.trainer_boots": "Trainer schoenen",
   "item.gmm.trainer_leggings": "Trainer broek",
@@ -469,7 +470,9 @@
   "item.gmm.cupcake": "Cupcake",
   "item.gmm.chickenbucket": "Kip bucket",
   "item.gmm.muffin": "Muffin",
-  "block.gmm.maize_crop": "Mais",
+  "block.gmm.corn_crop": "Mais zaadjes",
+  "item.gmm.corn": "Mais",
+  "item.gmm.cooked_corn": "Gekookte mais",
   "item.gmm.candy_cane": "Zuurstok",
   "item.gmm.donut_blueberries": "Donut blauwe bessen",
   "item.gmm.donut_chocolate": "Donut chocolade",
@@ -665,5 +668,7 @@
   "block.gmm.black_bricks": "Zwarte stenen",
   "tooltip.ghostgamesdhg.money": "\u00A76Officiële Minetopia bankbiljet!",
   "tooltip.ghostgamesdhg.money1": "",
-  "tooltip.ghostgamesdhg.money2": "Eigendom van de centrale bank."
+  "tooltip.ghostgamesdhg.money2": "Eigendom van de centrale bank.",
+  "block.gmm.pineapple_crop": "Ananas zaadjes",
+  "block.gmm.strawberry_crop": "Aardbei zaadjes"
 }

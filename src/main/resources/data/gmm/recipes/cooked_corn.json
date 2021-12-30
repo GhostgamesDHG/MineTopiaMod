@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "gmm:corn"
+  },
+  "result": "gmm:cooked_corn",
+  "cookingtime": 50
+}

@@ -130,6 +130,4 @@ public class ModItems {
     public static final RegistryObject<Item> GUITAR = ITEMS.register("guitar", ItemBase::new);
     public static final RegistryObject<Item> WHEELCOIN = ITEMS.register("wheelcoin", ItemBase::new);
     public static final RegistryObject<Item> SANTA_CLAUS_STAFF = ITEMS.register("santa_claus_staff", ItemBase::new);
-
-    public static final RegistryObject<NOTAB> WEED_SEEDS = ITEMS.register("weed_seeds", NOTAB::new);
 }

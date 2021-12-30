@@ -1,8 +1,45 @@
 package com.ghostgamesdhg.minetopia.init;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.blocks.*;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Antenne;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Blue_Crystal_Block;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Blue_Crystal_Ore;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Cadeau;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Computer;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Flashlight;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Honden_Bedje;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Monitor;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Notebook;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Oil_Can;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Oven;
+import com.ghostgamesdhg.minetopia.blocks.blocks.PAtm;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Parking_Sign;
+import com.ghostgamesdhg.minetopia.blocks.blocks.PinAutomaat;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Pumpkin;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Roadblock;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Schoentje;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Traffic_Cone;
+import com.ghostgamesdhg.minetopia.blocks.blocks.boombox;
+import com.ghostgamesdhg.minetopia.blocks.blocks.copper_ore;
+import com.ghostgamesdhg.minetopia.blocks.blocks.diamondcore_ore;
+import com.ghostgamesdhg.minetopia.blocks.blocks.filmcamera;
+import com.ghostgamesdhg.minetopia.blocks.blocks.gopro;
+import com.ghostgamesdhg.minetopia.blocks.blocks.kerst_slingers;
+import com.ghostgamesdhg.minetopia.blocks.blocks.keukentegels;
+import com.ghostgamesdhg.minetopia.blocks.blocks.krans;
+import com.ghostgamesdhg.minetopia.blocks.blocks.lantaarn;
+import com.ghostgamesdhg.minetopia.blocks.blocks.microfoon;
+import com.ghostgamesdhg.minetopia.blocks.blocks.trophies_1j;
+import com.ghostgamesdhg.minetopia.blocks.blocks.walkietalkie;
+import com.ghostgamesdhg.minetopia.blocks.blocks.wall_light;
+import com.ghostgamesdhg.minetopia.blocks.crops.CornBlock;
+import com.ghostgamesdhg.minetopia.blocks.crops.PaprikaBlock;
+import com.ghostgamesdhg.minetopia.blocks.crops.PineAppleBlock;
+import com.ghostgamesdhg.minetopia.blocks.crops.StrawberryBlock;
+import com.ghostgamesdhg.minetopia.blocks.crops.TomatoBlock;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -62,4 +99,20 @@ public class ModBlocks {
     public static final RegistryObject<Block> WALL_LIGHT = BLOCKS.register("wall_light", wall_light::new);
     public static final RegistryObject<Block> WHITE_BRICKS = BLOCKS.register("white_bricks", keukentegels::new);
     public static final RegistryObject<Block> BLACK_BRICKS = BLOCKS.register("black_bricks", keukentegels::new);
+
+    //crops
+    public static final RegistryObject<Block> CORN = BLOCKS.register("corn_crop",
+            () -> new CornBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> PAPRIKA = BLOCKS.register("paprika_crop",
+            () -> new PaprikaBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> TOMATO = BLOCKS.register("tomato_crop",
+            () -> new TomatoBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> PINEAPPLE = BLOCKS.register("pineapple_crop",
+            () -> new PineAppleBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> STRAWBERRY = BLOCKS.register("strawberry_crop",
+            () -> new StrawberryBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
 }

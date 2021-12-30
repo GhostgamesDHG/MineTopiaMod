@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gmm:corn"
+    }
+  ],
+  "result": {
+    "item": "gmm:corn_seeds",
+    "count": 1
+  }
+}

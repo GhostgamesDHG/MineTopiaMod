@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gmm:pineapple"
+    }
+  ],
+  "result": {
+    "item": "gmm:pineapple_seeds",
+    "count": 4
+  }
+}

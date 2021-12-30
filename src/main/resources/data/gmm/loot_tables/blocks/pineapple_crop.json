@@ -12,17 +12,17 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "gmm:maize_crop",
+                  "block": "gmm:pineapple_crop",
                   "properties": {
-                    "age": "7"
+                    "age": "3"
                   }
                 }
               ],
-              "name": "gmm:maize"
+              "name": "gmm:pineapple"
             },
             {
               "type": "minecraft:item",
-              "name": "gmm:maize"
+              "name": "gmm:pineapple_seeds"
             }
           ]
         }
@@ -40,19 +40,19 @@
               "formula": "minecraft:binomial_with_bonus_count",
               "parameters": {
                 "extra": 3,
-                "probability": 0.5714286
+                "probability": 0.33
               }
             }
           ],
-          "name": "gmm:maize"
+          "name": "gmm:pineapple"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:block_state_property",
-          "block": "gmm:maize_crop",
+          "block": "gmm:pineapple_crop",
           "properties": {
-            "age": "7"
+            "age": "3"
           }
         }
       ]

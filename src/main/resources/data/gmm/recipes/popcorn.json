@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gmm:cooked_corn"
+    },
+    {
+      "item": "gmm:cooked_corn"
+    },
+    {
+      "item": "gmm:cooked_corn"
+    },
+    {
+      "item": "gmm:cooked_corn"
+    }
+  ],
+  "result": {
+    "item": "gmm:popcorn",
+    "count": 1
+  }
+}
