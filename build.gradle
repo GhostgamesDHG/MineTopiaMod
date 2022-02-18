@@ -12,7 +12,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '2.0-WORKINPROGRESS'
-group = 'com.yourname.modid'
+group = 'com.minetopiamod.gmm'
 archivesBaseName = 'MineTopiaMod'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
@@ -56,7 +56,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'minetopiamod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
                 minetopiamod {
@@ -80,6 +80,7 @@ repositories {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.4-35.1.4'
+
     runtimeOnly fg.deobf('curse.maven:mousetweaks-60089:3202662')
 }
 
