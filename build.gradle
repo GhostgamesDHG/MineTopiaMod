@@ -11,7 +11,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '2.0-WORKINPROGRESS'
+version = '2.0'
 archivesBaseName = 'MineTopiaMod'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
@@ -92,13 +92,9 @@ dependencies {
 
     runtimeOnly fg.deobf('curse.maven:mousetweaks-60089:3202662')
 
-
-    // compile against the JEI API but do not include it at runtime
     compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api")
-    // at runtime, use the full JEI jar
+
     runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
-
-
 }
 
 jar {
