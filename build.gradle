@@ -12,7 +12,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.16-F'
+version = '2.0-WORKINPROGRESS'
 group = 'com.yourname.modid'
 archivesBaseName = 'MineTopiaMod'
 
@@ -75,21 +75,30 @@ repositories {
         url "https://www.cursemaven.com"
     }
 
+    maven {
+        url = "https://dvs1.progwml6.com/files/maven/"
+    }
+
+    maven {
+        url = "https://modmaven.dev"
+    }
+
 }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.4-35.1.4'
+    runtimeOnly fg.deobf('curse.maven:mousetweaks-60089:3202662')
+    runtimeOnly fg.deobf("curse.maven:jei-238222:3650568")
 
-    runtimeOnly fg.deobf("curse.maven:mousetweaks-60089:3202662")
-
-    runtimeOnly fg.deobf("curse.maven:jei-238222:3530253")
+    compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api")
+    runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
 }
 
 jar {
     manifest {
         attributes([
-            "Specification-Title": "examplemod",
-            "Specification-Vendor": "examplemodsareus",
+            "Specification-Title": "minetopiamod",
+            "Specification-Vendor": "ghostgamesdhg",
             "Specification-Version": "1",
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
@@ -99,7 +108,7 @@ jar {
     }
 }
 
-jar.finalizedBy('reobfJar') 
+jar.finalizedBy('reobfJar')
 
 publishing {
     publications {
@@ -109,7 +118,7 @@ publishing {
     }
     repositories {
         maven {
-            url "file:///${project.projectDir}/mcmodsrepo"
+            url "file://${project.projectDir}/mcmodsrepo"
         }
     }
 }
