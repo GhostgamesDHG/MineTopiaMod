@@ -2,7 +2,7 @@
 package com.ghostgamesdhg.minetopia.command;
 
 import com.ghostgamesdhg.minetopia.util.GmmModElements;
-import com.ghostgamesdhg.minetopia.procedures.GmmprocedureProcedure;
+import com.ghostgamesdhg.minetopia.procedures.commands.GmmprocedureProcedure;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.context.CommandContext;

@@ -1,4 +1,4 @@
-package com.ghostgamesdhg.minetopia.procedures;
+package com.ghostgamesdhg.minetopia.procedures.ice_box;
 
 import com.ghostgamesdhg.minetopia.util.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
@@ -11,15 +11,15 @@ import net.minecraft.item.ItemStack;
 import java.util.Map;
 
 @GmmModElements.ModElement.Tag
-public class ChocoladeICEProcedure extends GmmModElements.ModElement {
-	public ChocoladeICEProcedure(GmmModElements instance) {
-		super(instance, 21);
+public class ChocoladekinderICEProcedure extends GmmModElements.ModElement {
+	public ChocoladekinderICEProcedure(GmmModElements instance) {
+		super(instance, 22);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				MinetopiaExtra.LOGGER.warn("Failed to load dependency entity for procedure ChocoladeICE!");
+				MinetopiaExtra.LOGGER.warn("Failed to load dependency entity for procedure ChocoladekinderICE!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -33,7 +33,7 @@ public class ChocoladeICEProcedure extends GmmModElements.ModElement {
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && _ent.world.getServer() != null) {
 					_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-							"give @s gmm:chocolate_icecream 1");
+							"give @s gmm:chocolate_kids_icecream 1");
 				}
 			}
 		}

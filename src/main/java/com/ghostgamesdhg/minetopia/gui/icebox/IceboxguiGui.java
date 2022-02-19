@@ -3,12 +3,12 @@ package com.ghostgamesdhg.minetopia.gui.icebox;
 
 import com.ghostgamesdhg.minetopia.util.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
-import com.ghostgamesdhg.minetopia.procedures.ChocoladeICEProcedure;
-import com.ghostgamesdhg.minetopia.procedures.ChocoladekinderICEProcedure;
-import com.ghostgamesdhg.minetopia.procedures.SmurfICEProcedure;
-import com.ghostgamesdhg.minetopia.procedures.SoftProcedure;
-import com.ghostgamesdhg.minetopia.procedures.StrawberryICEProcedure;
-import com.ghostgamesdhg.minetopia.procedures.VanillaProcedure;
+import com.ghostgamesdhg.minetopia.procedures.ice_box.ChocoladeICEProcedure;
+import com.ghostgamesdhg.minetopia.procedures.ice_box.ChocoladekinderICEProcedure;
+import com.ghostgamesdhg.minetopia.procedures.ice_box.SmurfICEProcedure;
+import com.ghostgamesdhg.minetopia.procedures.ice_box.SoftProcedure;
+import com.ghostgamesdhg.minetopia.procedures.ice_box.StrawberryICEProcedure;
+import com.ghostgamesdhg.minetopia.procedures.ice_box.VanillaProcedure;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;

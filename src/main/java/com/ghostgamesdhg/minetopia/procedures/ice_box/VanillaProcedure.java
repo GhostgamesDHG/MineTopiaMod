@@ -1,4 +1,4 @@
-package com.ghostgamesdhg.minetopia.procedures;
+package com.ghostgamesdhg.minetopia.procedures.ice_box;
 
 import com.ghostgamesdhg.minetopia.util.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
@@ -10,15 +10,15 @@ import net.minecraft.item.ItemStack;
 import java.util.Map;
 
 @GmmModElements.ModElement.Tag
-public class SoftProcedure extends GmmModElements.ModElement {
-	public SoftProcedure(GmmModElements instance) {
-		super(instance, 24);
+public class VanillaProcedure extends GmmModElements.ModElement {
+	public VanillaProcedure(GmmModElements instance) {
+		super(instance, 25);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				MinetopiaExtra.LOGGER.warn("Failed to load dependency entity for procedure Soft!");
+				MinetopiaExtra.LOGGER.warn("Failed to load dependency entity for procedure Vanilla!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -32,7 +32,7 @@ public class SoftProcedure extends GmmModElements.ModElement {
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && _ent.world.getServer() != null) {
 					_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-							"give @s gmm:kids_icecream 1");
+							"give @s gmm:vanilla_icecream 1");
 				}
 			}
 		}

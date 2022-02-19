@@ -1,4 +1,4 @@
-package com.ghostgamesdhg.minetopia.procedures;
+package com.ghostgamesdhg.minetopia.procedures.garbage;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import net.minecraft.util.text.StringTextComponent;

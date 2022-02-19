@@ -4,7 +4,7 @@ license="All rights reserved"
 IssueTrackerURL="https://github.com/GhostgamesDHG/MinetopiaMod/issues"
 [[mods]]
 modId="gmm"
-version="2.0"
+version="2.0 - WORK IN PROGRESS"
 displayName="MineTopia Mod"
 updateJSONURL="https://raw.githubusercontent.com/GhostgamesDHG/update.json/main/update.json"
 logoFile="pack.png"

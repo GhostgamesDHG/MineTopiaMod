@@ -1,4 +1,4 @@
-package com.ghostgamesdhg.minetopia.procedures;
+package com.ghostgamesdhg.minetopia.procedures.commands;
 
 import com.ghostgamesdhg.minetopia.util.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;

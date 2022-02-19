@@ -1,7 +1,7 @@
 
 package com.ghostgamesdhg.minetopia.command;
 
-import com.ghostgamesdhg.minetopia.procedures.HealProcedure;
+import com.ghostgamesdhg.minetopia.procedures.commands.HealProcedure;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegisterCommandsEvent;

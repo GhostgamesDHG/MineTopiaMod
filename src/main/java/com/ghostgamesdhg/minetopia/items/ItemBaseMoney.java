@@ -22,7 +22,6 @@ public class ItemBaseMoney extends Item {
 
         tooltip.add(new TranslationTextComponent("tooltip.ghostgamesdhg.money"));
         tooltip.add(new TranslationTextComponent("tooltip.ghostgamesdhg.money1"));
-        tooltip.add(new TranslationTextComponent("tooltip.ghostgamesdhg.money2"));
 
         super.addInformation(stack, worldIn, tooltip, flagIn);
     }

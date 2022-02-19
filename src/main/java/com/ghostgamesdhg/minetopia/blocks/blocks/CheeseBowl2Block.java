@@ -2,7 +2,7 @@
 package com.ghostgamesdhg.minetopia.blocks.blocks;
 
 import com.ghostgamesdhg.minetopia.util.GmmModElements;
-import com.ghostgamesdhg.minetopia.procedures.CheesebowlOnBlockRightClickedProcedure;
+import com.ghostgamesdhg.minetopia.procedures.cheese_bowl.CheesebowlOnBlockRightClickedProcedure;
 import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
