@@ -22,7 +22,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "gmm:paprika"
+              "name": "gmm:paprika_seeds"
             }
           ]
         }
@@ -39,7 +39,7 @@
               "enchantment": "minecraft:fortune",
               "formula": "minecraft:binomial_with_bonus_count",
               "parameters": {
-                "extra": 7,
+                "extra": 3,
                 "probability": 1
               }
             }

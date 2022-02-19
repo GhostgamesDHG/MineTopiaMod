@@ -22,9 +22,9 @@ import java.util.stream.Stream;
 
 public class wall_light extends Block {
 
-    private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+    public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
-    private static final VoxelShape SHAPE_N = Stream.of(
+    public static final VoxelShape SHAPE_N = Stream.of(
             Block.makeCuboidShape(6, 6, 4, 10, 14, 16)
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR)).get();
 

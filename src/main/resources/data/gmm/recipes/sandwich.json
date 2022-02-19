@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "ded",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:bread"
+    },
+    "d":
+    {
+      "item": "gmm:lettuce"
+    },
+    "e":
+    {
+      "item": "gmm:tomato"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:sandwich",
+    "count": 3
+  }
+}

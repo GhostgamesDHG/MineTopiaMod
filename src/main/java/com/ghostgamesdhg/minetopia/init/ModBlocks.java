@@ -27,19 +27,28 @@ import com.ghostgamesdhg.minetopia.blocks.blocks.gopro;
 import com.ghostgamesdhg.minetopia.blocks.blocks.kerst_slingers;
 import com.ghostgamesdhg.minetopia.blocks.blocks.keukentegels;
 import com.ghostgamesdhg.minetopia.blocks.blocks.krans;
+import com.ghostgamesdhg.minetopia.blocks.blocks.lamp;
 import com.ghostgamesdhg.minetopia.blocks.blocks.lantaarn;
 import com.ghostgamesdhg.minetopia.blocks.blocks.microfoon;
 import com.ghostgamesdhg.minetopia.blocks.blocks.trophies_1j;
 import com.ghostgamesdhg.minetopia.blocks.blocks.walkietalkie;
 import com.ghostgamesdhg.minetopia.blocks.blocks.wall_light;
 import com.ghostgamesdhg.minetopia.blocks.crops.CornBlock;
+import com.ghostgamesdhg.minetopia.blocks.crops.GrapesBlock;
+import com.ghostgamesdhg.minetopia.blocks.crops.HopBlock;
 import com.ghostgamesdhg.minetopia.blocks.crops.PaprikaBlock;
+import com.ghostgamesdhg.minetopia.blocks.crops.PepperBlock;
 import com.ghostgamesdhg.minetopia.blocks.crops.PineAppleBlock;
+import com.ghostgamesdhg.minetopia.blocks.crops.RedGrapesBlock;
 import com.ghostgamesdhg.minetopia.blocks.crops.StrawberryBlock;
 import com.ghostgamesdhg.minetopia.blocks.crops.TomatoBlock;
+import com.ghostgamesdhg.minetopia.blocks.crops.WhiteGrapesBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.DoorBlock;
+import net.minecraft.block.material.Material;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -50,7 +59,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BLUE_CRYSTAL_BLOCK = BLOCKS.register("blue_crystal_block", Blue_Crystal_Block::new);
     public static final RegistryObject<Block> BLUE_CRYSTAL_ORE = BLOCKS.register("blue_crystal_ore", Blue_Crystal_Ore::new);
-    public static final RegistryObject<Block> DIAMONDCORE_ORE = BLOCKS.register("diamondcore_ore", diamondcore_ore::new);
+    public static final RegistryObject<Block> PCB_DUST_ORE = BLOCKS.register("pcb_dust_ore", diamondcore_ore::new);
     public static final RegistryObject<Block> COPPER_ORE = BLOCKS.register("copper_ore", copper_ore::new);
     public static final RegistryObject<Block> COPPER_BLOCK = BLOCKS.register("copper_block", Blue_Crystal_Block::new);
     public static final RegistryObject<Block> PIN_AUTOMAAT = BLOCKS.register("pin_automaat", PinAutomaat::new);
@@ -70,6 +79,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> PAARZE_KEUKENTEGELS = BLOCKS.register("paarze_keukentegels", keukentegels::new);
     public static final RegistryObject<Block> RODE_KEUKENTEGELS = BLOCKS.register("rode_keukentegels", keukentegels::new);
     public static final RegistryObject<Block> GELE_KEUKENTEGELS = BLOCKS.register("gele_keukentegels", keukentegels::new);
+    public static final RegistryObject<Block> LAMP = BLOCKS.register("lamp", lamp::new);
     public static final RegistryObject<Block> COMPUTER = BLOCKS.register("computer", Computer::new);
     public static final RegistryObject<Block> HONDEN_BEDJE = BLOCKS.register("honden_bedje", Honden_Bedje::new);
     public static final RegistryObject<Block> OVEN = BLOCKS.register("oven", () -> new Oven());
@@ -115,4 +125,24 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STRAWBERRY = BLOCKS.register("strawberry_crop",
             () -> new StrawberryBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> HOP = BLOCKS.register("hop_crop",
+            () -> new HopBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> PEPPER = BLOCKS.register("pepper_crop",
+            () -> new PepperBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> GRAPES = BLOCKS.register("grapes_crop",
+            () -> new GrapesBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> RED_GRAPES = BLOCKS.register("red_grapes_crop",
+            () -> new RedGrapesBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> WHITE_GRAPES = BLOCKS.register("white_grapes_crop",
+            () -> new WhiteGrapesBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
+
+    //DOORS
+    public static final RegistryObject<Block> BUNKER_DOOR = BLOCKS.register("bunker_door",
+            () -> new DoorBlock(AbstractBlock.Properties.create(Material.IRON).harvestLevel(2).setRequiresTool()
+                    .harvestTool(ToolType.PICKAXE).hardnessAndResistance(6f).notSolid()));
 }

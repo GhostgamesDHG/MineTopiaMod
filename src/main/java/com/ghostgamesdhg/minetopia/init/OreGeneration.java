@@ -21,7 +21,7 @@ public class OreGeneration {
 
         if(!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
             generateOres(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
-            ModBlocks.DIAMONDCORE_ORE.get().getDefaultState(), 3, 8, 15, 6);
+            ModBlocks.PCB_DUST_ORE.get().getDefaultState(), 3, 8, 15, 6);
         }
 
         if(!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {

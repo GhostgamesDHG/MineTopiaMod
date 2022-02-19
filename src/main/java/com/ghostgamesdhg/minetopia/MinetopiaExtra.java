@@ -173,5 +173,14 @@ public class MinetopiaExtra
         RenderTypeLookup.setRenderLayer(ModBlocks.TOMATO.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.PINEAPPLE.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.STRAWBERRY.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.HOP.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PEPPER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GRAPES.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.WHITE_GRAPES.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.RED_GRAPES.get(), RenderType.getCutout());
+
+        event.enqueueWork(() -> {
+            RenderTypeLookup.setRenderLayer(ModBlocks.BUNKER_DOOR.get(), RenderType.getCutout());
+        });
     }
 }

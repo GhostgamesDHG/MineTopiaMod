@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aa ",
+    "a a",
+    "aa "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:chocolate_letter",
+    "count": 1
+  }
+}

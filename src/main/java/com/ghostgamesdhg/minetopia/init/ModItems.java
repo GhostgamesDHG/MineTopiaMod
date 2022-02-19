@@ -17,7 +17,6 @@ public class ModItems {
     public static final RegistryObject<Item> IPHONE_7_GREEN = ITEMS.register("iphone_7_green", ItemBase::new);
     public static final RegistryObject<Item> IPHONE_7_BLUE = ITEMS.register("iphone_7_blue", ItemBase::new);
     public static final RegistryObject<Item> IPHONE_7_RED = ITEMS.register("iphone_7_red", ItemBase::new);
-    public static final RegistryObject<Item> MINETOPIAEXTRA = ITEMS.register("minetopiaextra", MineTopiaExtra::new);
     public static final RegistryObject<Item> MONEY1 = ITEMS.register("0.10euro", ItemBaseMoney::new);
     public static final RegistryObject<Item> MONEY2 = ITEMS.register("1euro", ItemBaseMoney::new);
     public static final RegistryObject<Item> MONEY3 = ITEMS.register("5euro", ItemBaseMoney::new);
@@ -121,7 +120,8 @@ public class ModItems {
     public static final RegistryObject<Item> TABLET = ITEMS.register("tablet", ItemBase::new);
     public static final RegistryObject<Item> ZWARTE_VLIEGENMEPPER = ITEMS.register("zwarte_vliegenmepper", ItemBase::new);
     public static final RegistryObject<Item> GOLDEN_VLIEGENMEPPER = ITEMS.register("golden_vliegenmepper", ItemBase::new);
-    public static final RegistryObject<Item> DIAMONDCORE = ITEMS.register("diamondcore", ItemBase::new);
+    public static final RegistryObject<Item> PCB_DUST = ITEMS.register("pcb_dust", ItemBase::new);
+    public static final RegistryObject<Item> PCB = ITEMS.register("pcb", ItemBase::new);
     public static final RegistryObject<Item> BITCOIN = ITEMS.register("bitcoin", ItemBase::new);
     public static final RegistryObject<Item> DASHCOIN = ITEMS.register("dashcoin", ItemBase::new);
     public static final RegistryObject<Item> ETHEREUM = ITEMS.register("ethereum", ItemBase::new);

@@ -1,12 +1,9 @@
 package com.ghostgamesdhg.minetopia.blocks.crops;
 
 import com.ghostgamesdhg.minetopia.init.ModFood;
-import com.ghostgamesdhg.minetopia.init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CropsBlock;
-import net.minecraft.state.IntegerProperty;
-import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.util.IItemProvider;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.shapes.ISelectionContext;
@@ -21,8 +18,7 @@ public class TomatoBlock extends CropsBlock {
             Block.makeCuboidShape(0.0D, 0.0D, 0.0D, 16.0D, 10.0D, 16.0D), //3
             Block.makeCuboidShape(0.0D, 0.0D, 0.0D, 16.0D, 12.0D, 16.0D), //4
             Block.makeCuboidShape(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)}; //5
-
-
+    
     public TomatoBlock(Properties builder) {
         super(builder);
     }

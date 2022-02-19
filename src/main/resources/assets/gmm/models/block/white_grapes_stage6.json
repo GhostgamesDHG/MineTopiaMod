@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "gmm:blocks/white_grapes_stage6"
+  }
+}

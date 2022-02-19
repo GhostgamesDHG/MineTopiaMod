@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gmm:paprika"
+    }
+  ],
+  "result": {
+    "item": "gmm:paprika_seeds",
+    "count": 1
+  }
+}

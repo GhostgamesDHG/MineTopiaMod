@@ -19,8 +19,8 @@ public class ModBlockItems {
     public static final RegistryObject<Item> BLUE_CRYSTAL_ORE_ITEM = ITEMS.register("blue_crystal_ore",
             () -> new BlockItemBase(ModBlocks.BLUE_CRYSTAL_ORE.get()));
 
-    public static final RegistryObject<Item> DIAMONDCORE_ORE_ITEM = ITEMS.register("diamondcore_ore",
-            () -> new BlockItemBase(ModBlocks.DIAMONDCORE_ORE.get()));
+    public static final RegistryObject<Item> PCB_DUST_ORE_ITEM = ITEMS.register("pcb_dust_ore",
+            () -> new BlockItemBase(ModBlocks.PCB_DUST_ORE.get()));
 
     public static final RegistryObject<Item> COPPER_ORE_ITEM = ITEMS.register("copper_ore",
             () -> new BlockItemBase(ModBlocks.COPPER_ORE.get()));
@@ -165,4 +165,10 @@ public class ModBlockItems {
 
     public static final RegistryObject<Item> BLACK_BRICKS_ITEM = ITEMS.register("black_bricks",
             () -> new BlockItemBase(ModBlocks.BLACK_BRICKS.get()));
+
+    public static final RegistryObject<Item> BUNKER_DOOR_ITEM = ITEMS.register("bunker_door",
+            () -> new BlockItemBase(ModBlocks.BUNKER_DOOR.get()));
+
+    public static final RegistryObject<Item> LAMP_ITEM = ITEMS.register("lamp",
+            () -> new BlockItemBase(ModBlocks.LAMP.get()));
 }

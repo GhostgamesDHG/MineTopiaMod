@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gmm:white_grapes"
+    }
+  ],
+  "result": {
+    "item": "gmm:white_grapes_seeds",
+    "count": 1
+  }
+}

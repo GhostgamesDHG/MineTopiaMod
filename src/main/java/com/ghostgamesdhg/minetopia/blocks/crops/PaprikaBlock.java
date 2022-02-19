@@ -27,8 +27,13 @@ public class PaprikaBlock extends CropsBlock {
     }
 
     @Override
+    public int getMaxAge() {
+        return 7;
+    }
+
+    @Override
     protected IItemProvider getSeedsItem() {
-        return ModFood.PAPRIKA.get();
+        return ModFood.PAPRIKA_SEEDS.get();
     }
 
     @Override
