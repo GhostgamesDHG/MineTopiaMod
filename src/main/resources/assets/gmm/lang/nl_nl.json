@@ -677,5 +677,7 @@
   "item.gmm.pcb_dust": "PCB dust",
   "item.gmm.pcb": "PCB",
   "block.gmm.pcb_dust_ore": "PCB dust ore",
-  "block.gmm.lamp": "Lamp"
+  "block.gmm.lamp": "Lamp",
+  "block.gmm.bunker_door": "Bunker deur",
+  "block.gmm.lettuce_crop": "Sla zaadjes"
 }

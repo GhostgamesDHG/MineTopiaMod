@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gmm:lettuce"
+    }
+  ],
+  "result": {
+    "item": "gmm:lettuce_seeds",
+    "count": 1
+  }
+}

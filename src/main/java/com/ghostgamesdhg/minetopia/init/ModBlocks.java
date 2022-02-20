@@ -36,6 +36,7 @@ import com.ghostgamesdhg.minetopia.blocks.blocks.wall_light;
 import com.ghostgamesdhg.minetopia.blocks.crops.CornBlock;
 import com.ghostgamesdhg.minetopia.blocks.crops.GrapesBlock;
 import com.ghostgamesdhg.minetopia.blocks.crops.HopBlock;
+import com.ghostgamesdhg.minetopia.blocks.crops.LettuceBlock;
 import com.ghostgamesdhg.minetopia.blocks.crops.PaprikaBlock;
 import com.ghostgamesdhg.minetopia.blocks.crops.PepperBlock;
 import com.ghostgamesdhg.minetopia.blocks.crops.PineAppleBlock;
@@ -140,6 +141,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> WHITE_GRAPES = BLOCKS.register("white_grapes_crop",
             () -> new WhiteGrapesBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> LETTUCE = BLOCKS.register("lettuce_crop",
+            () -> new LettuceBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
 
     //DOORS
     public static final RegistryObject<Block> BUNKER_DOOR = BLOCKS.register("bunker_door",

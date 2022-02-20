@@ -47,6 +47,7 @@ public class MinetopiaExtra
     public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation("gmm", "gmm"), () -> PROTOCOL_VERSION,
             PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
     public GmmModElements elements;
+
     public MinetopiaExtra() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         elements = new GmmModElements();
@@ -178,6 +179,7 @@ public class MinetopiaExtra
         RenderTypeLookup.setRenderLayer(ModBlocks.GRAPES.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.WHITE_GRAPES.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.RED_GRAPES.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.LETTUCE.get(), RenderType.getCutout());
 
         event.enqueueWork(() -> {
             RenderTypeLookup.setRenderLayer(ModBlocks.BUNKER_DOOR.get(), RenderType.getCutout());

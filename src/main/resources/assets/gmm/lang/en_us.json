@@ -677,5 +677,7 @@
   "tooltip.ghostgamesdhg.money": "\u00A76Official MineTopia banknote!",
   "tooltip.ghostgamesdhg.money1": "Owned by the central bank.",
   "item.gmm.flour": "Flour",
-  "block.gmm.lamp": "Lamp"
+  "block.gmm.lamp": "Lamp",
+  "block.gmm.bunker_door": "Bunker door",
+  "block.gmm.lettuce_crop": "Lettuce seeds"
 }
