@@ -3,11 +3,11 @@
   <configuration default="false" factoryName="Application" name="runData" singleton="false" type="Application">
     <option name="MAIN_CLASS_NAME" value="net.minecraftforge.userdev.LaunchTesting"/>
     <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=SCAN,REGISTRIES,REGISTRYDUMP"/>
-    <option name="PROGRAM_PARAMETERS" value="--mod examplemod --all --output C:\Users\DGcoo\Desktop\MinecraftModding\MinetopiaMod\src\generated\resources --existing C:\Users\DGcoo\Desktop\MinecraftModding\MinetopiaMod\src\main\resources"/>
+    <option name="PROGRAM_PARAMETERS" value="--mod minetopiamod --all --output C:\MinecraftModding\MinetopiaModFolder\MinetopiaMod\src\generated\resources --existing C:\MinecraftModding\MinetopiaModFolder\MinetopiaMod\src\main\resources"/>
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$\run"/>
     <module name="MinetopiaMod.main"/>
     <envs>
-      <env name="MOD_CLASSES" value="examplemod%%$PROJECT_DIR$\build\resources\main;examplemod%%$PROJECT_DIR$\build\classes\java\main"/>
+      <env name="MOD_CLASSES" value="minetopiamod%%$PROJECT_DIR$\build\resources\main;minetopiamod%%$PROJECT_DIR$\build\classes\java\main"/>
       <env name="MCP_MAPPINGS" value="snapshot_20201028-1.16.3"/>
       <env name="MCP_VERSION" value="20201102.104115"/>
       <env name="FORGE_VERSION" value="35.1.4"/>
