@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "   ",
+    "aaa"
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:black_bricks"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:black_brick_slab",
+    "count": 1
+  }
+}

@@ -9,9 +9,9 @@ import net.minecraftforge.common.ToolType;
 public class keukentegels extends Block {
     public keukentegels() {
         super(AbstractBlock.Properties.create(Material.ROCK)
-                .hardnessAndResistance(3.0f, 10.0f)
+                .hardnessAndResistance(3.0f, 5.0f)
                 .sound(SoundType.STONE)
-                .harvestLevel(2) //1 = wood - 2 = stone - 3 = iron - 4 = diamond.
+                .harvestLevel(1) //1 = wood - 2 = stone - 3 = iron - 4 = diamond.
                 .setRequiresTool()
                 .harvestTool(ToolType.PICKAXE));
 

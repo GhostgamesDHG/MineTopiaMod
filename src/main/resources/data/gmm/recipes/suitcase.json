@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "xax",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "a":
+    {
+      "item": "minecraft:chest"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:suitcase",
+    "count": 1
+  }
+}

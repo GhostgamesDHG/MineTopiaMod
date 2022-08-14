@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aaa",
+    "bxb",
+    "aaa"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:torch"
+    },
+    "b":
+    {
+      "item": "minecraft:glass"
+    },
+    "a":
+    {
+      "item": "minecraft:gray_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:lantaarn",
+    "count": 1
+  }
+}

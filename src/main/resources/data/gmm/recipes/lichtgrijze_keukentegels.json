@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "ax ",
+    "xa "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:light_gray_concrete"
+    },
+    "x":
+    {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:lichtgrijze_keukentegels",
+    "count": 16
+  }
+}

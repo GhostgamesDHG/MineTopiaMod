@@ -46,13 +46,22 @@ import com.ghostgamesdhg.minetopia.blocks.crops.TomatoBlock;
 import com.ghostgamesdhg.minetopia.blocks.crops.WhiteGrapesBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.DoorBlock;
+import net.minecraft.block.SlabBlock;
+import net.minecraft.block.SmokerBlock;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.block.material.Material;
+import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+
+import javax.tools.Tool;
+import java.util.function.ToIntFunction;
+
 
 public class ModBlocks {
 
@@ -83,7 +92,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> LAMP = BLOCKS.register("lamp", lamp::new);
     public static final RegistryObject<Block> COMPUTER = BLOCKS.register("computer", Computer::new);
     public static final RegistryObject<Block> HONDEN_BEDJE = BLOCKS.register("honden_bedje", Honden_Bedje::new);
-    public static final RegistryObject<Block> OVEN = BLOCKS.register("oven", () -> new Oven());
+    public static final RegistryObject<Block> OVEN = BLOCKS.register("oven", () -> new Oven(AbstractBlock.Properties.create(Material.ROCK).setRequiresTool().hardnessAndResistance(3.5F).setLightLevel(getLightValueLit(13))));
     public static final RegistryObject<Block> OIL_CAN = BLOCKS.register("oil_can", Oil_Can::new);
     public static final RegistryObject<Block> PARKING_SIGN = BLOCKS.register("parking_sign", Parking_Sign::new);
     public static final RegistryObject<Block> PUMPKIN = BLOCKS.register("pumpkin", Pumpkin::new);
@@ -149,4 +158,26 @@ public class ModBlocks {
     public static final RegistryObject<Block> BUNKER_DOOR = BLOCKS.register("bunker_door",
             () -> new DoorBlock(AbstractBlock.Properties.create(Material.IRON).harvestLevel(2).setRequiresTool()
                     .harvestTool(ToolType.PICKAXE).hardnessAndResistance(6f).notSolid()));
+
+    //STAIRS
+    public static final RegistryObject<Block> WHITE_BRICK_STAIRS = BLOCKS.register("white_brick_stairs",
+            () -> new StairsBlock(() -> WHITE_BRICKS.get().getDefaultState(),
+                    AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+    public static final RegistryObject<Block> BLACK_BRICK_STAIRS = BLOCKS.register("black_brick_stairs",
+            () -> new StairsBlock(() -> BLACK_BRICKS.get().getDefaultState(),
+                    AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+    //SLABS
+    public static final RegistryObject<Block> BLACK_BRICK_SLAB = BLOCKS.register("black_brick_slab",
+            () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+    public static final RegistryObject<Block> WHITE_BRICK_SLAB = BLOCKS.register("white_brick_slab",
+            () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+    private static ToIntFunction<BlockState> getLightValueLit(int lightValue) {
+        return (state) -> {
+            return state.get(BlockStateProperties.LIT) ? lightValue : 0;
+        };
+    }
 }

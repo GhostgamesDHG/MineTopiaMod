@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " a ",
+    " x ",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:gray_concrete"
+    },
+    "a":
+    {
+      "item": "minecraft:sea_lantern"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:lamp",
+    "count": 1
+  }
+}

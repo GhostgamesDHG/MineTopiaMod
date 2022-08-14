@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx ",
+    "xa ",
+    "xx "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "a":
+    {
+      "item": "minecraft:iron_door"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:bunker_door",
+    "count": 1
+  }
+}

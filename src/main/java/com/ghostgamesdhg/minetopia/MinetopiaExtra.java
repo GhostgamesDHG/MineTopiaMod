@@ -1,7 +1,7 @@
 package com.ghostgamesdhg.minetopia;
 
 import com.ghostgamesdhg.minetopia.init.ModArmor;
-import com.ghostgamesdhg.minetopia.init.ModBlockItems;
+import com.ghostgamesdhg.minetopia.init.BlockItems;
 import com.ghostgamesdhg.minetopia.init.ModBlocks;
 import com.ghostgamesdhg.minetopia.init.ModFood;
 import com.ghostgamesdhg.minetopia.init.ModHats;
@@ -54,7 +54,7 @@ public class MinetopiaExtra
 
         ModBlocks.BLOCKS.register(bus);
         ModItems.ITEMS.register(bus);
-        ModBlockItems.ITEMS.register(bus);
+        BlockItems.ITEMS.register(bus);
         ModFood.ITEMS.register(bus);
         ModHats.ITEMS.register(bus);
         ModArmor.ITEMS.register(bus);

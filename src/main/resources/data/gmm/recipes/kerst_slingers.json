@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "   ",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "tag": "minecraft:leaves"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:kerst_slingers",
+    "count": 2
+  }
+}

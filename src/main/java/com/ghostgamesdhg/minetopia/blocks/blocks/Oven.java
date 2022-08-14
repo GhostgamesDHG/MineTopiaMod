@@ -1,52 +1,55 @@
 package com.ghostgamesdhg.minetopia.blocks.blocks;
 
-import net.minecraft.block.Block;
+
+import java.util.Random;
+
+import com.ghostgamesdhg.minetopia.tileentity.OvenTileEntity;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.AbstractFurnaceBlock;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.HorizontalBlock;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.material.Material;
-import net.minecraft.item.BlockItemUseContext;
-import net.minecraft.state.DirectionProperty;
-import net.minecraft.state.StateContainer;
-import net.minecraft.util.Mirror;
-import net.minecraft.util.Rotation;
-import net.minecraftforge.common.ToolType;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.inventory.container.INamedContainerProvider;
+import net.minecraft.particles.ParticleTypes;
+import net.minecraft.stats.Stats;
+import net.minecraft.tileentity.SmokerTileEntity;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.SoundEvents;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.world.World;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 
-import javax.annotation.Nullable;
-
-public class Oven extends Block {
-
-    private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
-    public Oven() {
-        super(Properties.create(Material.IRON)
-                .hardnessAndResistance(3.5f, 4.0f)
-                .harvestLevel(2)
-                .notSolid()
-                .setLightLevel(s -> 0)
-                .setOpaque((bs, br, bp) -> false)
-                .sound(SoundType.METAL)
-                .harvestTool(ToolType.PICKAXE)
-                .setRequiresTool());
+public class Oven extends AbstractFurnaceBlock {
+    public Oven(AbstractBlock.Properties properties) {
+        super(properties);
     }
 
-    @Nullable
-    @Override
-    public BlockState getStateForPlacement(BlockItemUseContext context) {
-        return this .getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
+    public TileEntity createNewTileEntity(IBlockReader worldIn) {
+        return new OvenTileEntity();
     }
 
-    @Override
-    public BlockState rotate(BlockState state, Rotation rot) {
-        return state.with(FACING, rot.rotate(state.get(FACING)));
+    protected void interactWith(World worldIn, BlockPos pos, PlayerEntity player) {
+        TileEntity tileentity = worldIn.getTileEntity(pos);
+        if (tileentity instanceof OvenTileEntity) {
+            player.openContainer((INamedContainerProvider)tileentity);
+            player.addStat(Stats.INTERACT_WITH_SMOKER);
+        }
+
     }
 
-    @Override
-    public BlockState mirror(BlockState state, Mirror mirrorIn) {
-        return state.rotate(mirrorIn.toRotation(state.get(FACING)));
-    }
+    @OnlyIn(Dist.CLIENT)
+    public void animateTick(BlockState stateIn, World worldIn, BlockPos pos, Random rand) {
+        if (stateIn.get(LIT)) {
+            double d0 = (double)pos.getX() + 0.5D;
+            double d1 = (double)pos.getY();
+            double d2 = (double)pos.getZ() + 0.5D;
+            if (rand.nextDouble() < 0.1D) {
+                worldIn.playSound(d0, d1, d2, SoundEvents.BLOCK_SMOKER_SMOKE, SoundCategory.BLOCKS, 1.0F, 1.0F, false);
+            }
 
-    @Override
-    protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-        builder.add(FACING);
+            worldIn.addParticle(ParticleTypes.SMOKE, d0, d1 + 1.1D, d2, 0.0D, 0.0D, 0.0D);
+        }
     }
 }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "minecraft:black_concrete"
+    }
+  ],
+  "result": {
+    "item": "gmm:black_bricks",
+    "count": 1
+  }
+}

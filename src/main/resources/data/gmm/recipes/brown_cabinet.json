@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aaa",
+    "axb",
+    "aaa"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:chest"
+    },
+    "a":
+    {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "b":
+    {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:brown_cabinet",
+    "count": 1
+  }
+}

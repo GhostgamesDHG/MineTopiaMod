@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "ax ",
+    "xa "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:red_concrete"
+    },
+    "x":
+    {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:rode_keukentegels",
+    "count": 16
+  }
+}

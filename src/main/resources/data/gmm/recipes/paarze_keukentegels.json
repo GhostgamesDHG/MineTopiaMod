@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "ax ",
+    "xa "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:purple_concrete"
+    },
+    "x":
+    {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:paarze_keukentegels",
+    "count": 16
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aaa",
+    "axa",
+    "aaa"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:red_wool"
+    },
+    "a":
+    {
+      "tag": "minecraft:leaves"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:krans",
+    "count": 1
+  }
+}

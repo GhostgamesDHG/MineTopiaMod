@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "xxx",
+    "xaa"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:gray_concrete"
+    },
+    "a":
+    {
+      "item": "minecraft:sea_lantern"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:wall_light",
+    "count": 2
+  }
+}

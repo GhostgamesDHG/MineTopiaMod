@@ -61,7 +61,7 @@
   "item.gmm.eenhoornhead": "Unicorn Head",
   "item.gmm.kerstmuts": "Santa hat",
   "item.gmm.stone_sleutel": "Stone key",
-  "item.gmm.0.10euro": "€0.10 Euro",
+  "item.gmm.0.10euro": "10 cent",
   "item.gmm.1euro": "€1 Euro",
   "item.gmm.5euro": "€5 Euro",
   "item.gmm.10euro": "€10 Euro",
@@ -125,6 +125,7 @@
   "block.gmm.honden_bedje": "Dog bed",
   "block.gmm.oil_can": "Oil Can",
   "block.gmm.oven": "oven",
+  "container.oven": "Oven",
   "block.gmm.boombox": "Boombox",
   "block.gmm.microfoon": "Microphone",
   "block.gmm.gopro": "GoPro",
@@ -679,5 +680,9 @@
   "item.gmm.flour": "Flour",
   "block.gmm.lamp": "Lamp",
   "block.gmm.bunker_door": "Bunker door",
-  "block.gmm.lettuce_crop": "Lettuce seeds"
+  "block.gmm.lettuce_crop": "Lettuce seeds",
+  "block.gmm.white_brick_stairs": "White brick stairs",
+  "block.gmm.black_brick_stairs": "Black brick stairs",
+  "block.gmm.black_brick_slab": "Black brick slab",
+  "block.gmm.white_brick_slab": "Black brick slab"
 }

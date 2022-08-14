@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gmm:monitor"
+    },
+    {
+      "item": "gmm:pcb"
+    },
+    {
+      "item": "gmm:notebook"
+    }
+  ],
+  "result": {
+    "item": "gmm:computer",
+    "count": 1
+  }
+}

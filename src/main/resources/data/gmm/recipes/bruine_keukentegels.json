@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "ax ",
+    "xa "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:brown_concrete"
+    },
+    "x":
+    {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:bruine_keukentegels",
+    "count": 16
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aba",
+    "aba",
+    "x x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:clay"
+    },
+    "b":
+    {
+      "item": "minecraft:white_concrete"
+    },
+    "a":
+    {
+      "item": "minecraft:red_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:roadblock",
+    "count": 1
+  }
+}

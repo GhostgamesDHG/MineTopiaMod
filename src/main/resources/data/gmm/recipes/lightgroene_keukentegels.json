@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "ax ",
+    "xa "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:lime_concrete"
+    },
+    "x":
+    {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:lichtgroene_keukentegels",
+    "count": 16
+  }
+}

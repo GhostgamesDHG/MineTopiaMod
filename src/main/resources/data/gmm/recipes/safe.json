@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bbb",
+    "bxb",
+    "a a"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:chest"
+    },
+    "b":
+    {
+      "item": "minecraft:gray_concrete"
+    },
+    "a":
+    {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:safe",
+    "count": 1
+  }
+}

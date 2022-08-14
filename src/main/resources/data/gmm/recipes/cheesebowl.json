@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "gmm:cheese"
+    }
+  ],
+  "result":
+  {
+    "item": "gmm:cheesebowl",
+    "count": 1
+  }
+}

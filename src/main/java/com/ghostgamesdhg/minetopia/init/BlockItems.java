@@ -9,7 +9,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-public class ModBlockItems {
+public class BlockItems {
 
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MinetopiaExtra.MOD_ID);
 
@@ -171,4 +171,18 @@ public class ModBlockItems {
 
     public static final RegistryObject<Item> LAMP_ITEM = ITEMS.register("lamp",
             () -> new BlockItemBase(ModBlocks.LAMP.get()));
+
+
+    //Half blocks, stairs
+    public static final RegistryObject<Item> WHITE_BRICK_STAIRS_ITEM = ITEMS.register("white_brick_stairs",
+            () -> new BlockItemBase(ModBlocks.WHITE_BRICK_STAIRS.get()));
+
+    public static final RegistryObject<Item> BLACK_BRICK_STAIRS_ITEM = ITEMS.register("black_brick_stairs",
+            () -> new BlockItemBase(ModBlocks.BLACK_BRICK_STAIRS.get()));
+
+    public static final RegistryObject<Item> BLACK_BRICK_SLAB_ITEM = ITEMS.register("black_brick_slab",
+            () -> new BlockItemBase(ModBlocks.BLACK_BRICK_SLAB.get()));
+
+    public static final RegistryObject<Item> WHITE_BRICK_SLAB_ITEM = ITEMS.register("white_brick_slab",
+            () -> new BlockItemBase(ModBlocks.WHITE_BRICK_SLAB.get()));
 }

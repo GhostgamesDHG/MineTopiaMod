@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " dd",
+    "add",
+    " bc"
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "gmm:gopro"
+    },
+    "b":
+    {
+      "item": "gmm:microfoon"
+    },
+    "c":
+    {
+      "item": "gmm:tablet"
+    },
+    "d":
+    {
+      "item": "minecraft:gray_terracotta"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:filmcamera",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xax",
+    " a "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:white_concrete"
+    },
+    "a":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:paraplu_white",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xax",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:smooth_stone"
+    },
+    "a":
+    {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:oven",
+    "count": 1
+  }
+}
