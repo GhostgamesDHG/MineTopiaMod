@@ -163,6 +163,13 @@ public class MinetopiaExtra
         }
     };
 
+    public static final ItemGroup TAB8 = new ItemGroup("MineTopiaHalloween") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModBlocks.PUMPKIN.get());
+        }
+    };
+
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
         RenderTypeLookup.setRenderLayer(ModBlocks.OVEN.get(), RenderType.getCutout());
@@ -180,9 +187,16 @@ public class MinetopiaExtra
         RenderTypeLookup.setRenderLayer(ModBlocks.WHITE_GRAPES.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.RED_GRAPES.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.LETTUCE.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.WEED.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PUMPKIN.get(), RenderType.getCutout());
 
         event.enqueueWork(() -> {
             RenderTypeLookup.setRenderLayer(ModBlocks.BUNKER_DOOR.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.WOODEN_DOOR.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.RICH_QUARTZ_DOOR.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.STEEL_DOOR.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.QUARTZ_DOOR.get(), RenderType.getCutout());
+
         });
     }
 }

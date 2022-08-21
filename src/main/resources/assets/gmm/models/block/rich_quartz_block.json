@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "gmm:blocks/rich_quartz_block_bottom",
+    "bottom": "gmm:blocks/rich_quartz_block_bottom",
+    "side": "gmm:blocks/rich_quartz_block"
+  }
+}

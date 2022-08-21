@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bb ",
+    "ba ",
+    "bb "
+  ],
+  "key":
+  {
+    "b":
+    {
+      "tag": "minecraft:planks"
+    },
+    "a":
+    {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:wooden_door",
+    "count": 3
+  }
+}

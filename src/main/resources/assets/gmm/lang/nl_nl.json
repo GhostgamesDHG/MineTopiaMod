@@ -680,5 +680,16 @@
   "block.gmm.pcb_dust_ore": "PCB dust ore",
   "block.gmm.lamp": "Lamp",
   "block.gmm.bunker_door": "Bunker deur",
-  "block.gmm.lettuce_crop": "Sla zaadjes"
+  "block.gmm.lettuce_crop": "Sla zaadjes",
+  "block.gmm.weed_crop": "Wiet zaadjes",
+  "block.gmm.white_brick_stairs": "White brick stairs",
+  "block.gmm.black_brick_stairs": "Black brick stairs",
+  "block.gmm.black_brick_slab": "Black brick slab",
+  "block.gmm.white_brick_slab": "Black brick slab",
+  "block.gmm.wooden_door": "Houten deur",
+  "block.gmm.rich_quartz_door": "Rijke quartz deur",
+  "block.gmm.steel_door": "Stalen deur",
+  "block.gmm.quartz_door": "Quartz deur",
+  "item.gmm.steel_ingot": "Stalen bar",
+  "block.gmm.rich_quartz_block": "Rijke quartz blok"
 }

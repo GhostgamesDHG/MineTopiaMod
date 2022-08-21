@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "b":
+    {
+      "item": "minecraft:pumpkin"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:pumpkin",
+    "count": 1
+  }
+}

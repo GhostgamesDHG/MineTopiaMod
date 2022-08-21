@@ -205,4 +205,8 @@ public class ModFood {
     public static final RegistryObject<Item> LETTUCE_SEEDS = ITEMS.register("lettuce_seeds",
             () -> new BlockItem(ModBlocks.LETTUCE.get(), new Item.Properties()
                     .group(MinetopiaExtra.TAB4)));
+
+    public static final RegistryObject<Item> WEED_SEEDS = ITEMS.register("weed_seeds",
+            () -> new BlockItem(ModBlocks.WEED.get(), new Item.Properties()
+                    .group(MinetopiaExtra.TAB4)));
 }

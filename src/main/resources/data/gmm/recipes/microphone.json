@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " c ",
+    " ba",
+    " b "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "gmm:pcb"
+    },
+    "b":
+    {
+      "item": "minecraft:clay"
+    },
+    "c":
+    {
+      "item": "minecraft:gray_wool"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:microfoon",
+    "count": 1
+  }
+}

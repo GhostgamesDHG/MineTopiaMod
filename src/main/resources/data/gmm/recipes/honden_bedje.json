@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "bab",
+    "bbb"
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:white_carpet"
+    },
+    "b":
+    {
+      "item": "minecraft:orange_terracotta"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:honden_bedje",
+    "count": 1
+  }
+}

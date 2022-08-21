@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bb ",
+    "bb ",
+    "bb "
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "gmm:steel_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:steel_door",
+    "count": 3
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aa ",
+    "bb ",
+    "aa "
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "minecraft:quartz_block"
+    },
+    "a":
+    {
+      "item": "gmm:rich_quartz_block"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:rich_quartz_door",
+    "count": 3
+  }
+}

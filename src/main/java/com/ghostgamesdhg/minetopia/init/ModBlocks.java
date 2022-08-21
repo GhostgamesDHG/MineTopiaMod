@@ -43,6 +43,7 @@ import com.ghostgamesdhg.minetopia.blocks.crops.PineAppleBlock;
 import com.ghostgamesdhg.minetopia.blocks.crops.RedGrapesBlock;
 import com.ghostgamesdhg.minetopia.blocks.crops.StrawberryBlock;
 import com.ghostgamesdhg.minetopia.blocks.crops.TomatoBlock;
+import com.ghostgamesdhg.minetopia.blocks.crops.WeedBlock;
 import com.ghostgamesdhg.minetopia.blocks.crops.WhiteGrapesBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -50,7 +51,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.DoorBlock;
 import net.minecraft.block.SlabBlock;
-import net.minecraft.block.SmokerBlock;
 import net.minecraft.block.StairsBlock;
 import net.minecraft.block.material.Material;
 import net.minecraft.state.properties.BlockStateProperties;
@@ -59,7 +59,6 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-import javax.tools.Tool;
 import java.util.function.ToIntFunction;
 
 
@@ -119,6 +118,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> WALL_LIGHT = BLOCKS.register("wall_light", wall_light::new);
     public static final RegistryObject<Block> WHITE_BRICKS = BLOCKS.register("white_bricks", keukentegels::new);
     public static final RegistryObject<Block> BLACK_BRICKS = BLOCKS.register("black_bricks", keukentegels::new);
+    public static final RegistryObject<Block> RICH_QUARTZ_BLOCK = BLOCKS.register("rich_quartz_block", keukentegels::new);
 
     //crops
     public static final RegistryObject<Block> CORN = BLOCKS.register("corn_crop",
@@ -154,10 +154,30 @@ public class ModBlocks {
     public static final RegistryObject<Block> LETTUCE = BLOCKS.register("lettuce_crop",
             () -> new LettuceBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
 
+    public static final RegistryObject<Block> WEED = BLOCKS.register("weed_crop",
+            () -> new WeedBlock(AbstractBlock.Properties.from(Blocks.WHEAT)));
+
     //DOORS
     public static final RegistryObject<Block> BUNKER_DOOR = BLOCKS.register("bunker_door",
             () -> new DoorBlock(AbstractBlock.Properties.create(Material.IRON).harvestLevel(2).setRequiresTool()
                     .harvestTool(ToolType.PICKAXE).hardnessAndResistance(6f).notSolid()));
+
+    public static final RegistryObject<Block> WOODEN_DOOR = BLOCKS.register("wooden_door",
+            () -> new DoorBlock(AbstractBlock.Properties.create(Material.WOOD).harvestLevel(2).setRequiresTool()
+                    .harvestTool(ToolType.PICKAXE).hardnessAndResistance(6f).notSolid()));
+
+    public static final RegistryObject<Block> RICH_QUARTZ_DOOR = BLOCKS.register("rich_quartz_door",
+            () -> new DoorBlock(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).setRequiresTool()
+                    .harvestTool(ToolType.PICKAXE).hardnessAndResistance(6f).notSolid()));
+
+    public static final RegistryObject<Block> STEEL_DOOR = BLOCKS.register("steel_door",
+            () -> new DoorBlock(AbstractBlock.Properties.create(Material.IRON).harvestLevel(2).setRequiresTool()
+                    .harvestTool(ToolType.PICKAXE).hardnessAndResistance(6f).notSolid()));
+
+    public static final RegistryObject<Block> QUARTZ_DOOR = BLOCKS.register("quartz_door",
+            () -> new DoorBlock(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).setRequiresTool()
+                    .harvestTool(ToolType.PICKAXE).hardnessAndResistance(6f).notSolid()));
+
 
     //STAIRS
     public static final RegistryObject<Block> WHITE_BRICK_STAIRS = BLOCKS.register("white_brick_stairs",
@@ -175,6 +195,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> WHITE_BRICK_SLAB = BLOCKS.register("white_brick_slab",
             () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
 
+
+    // LIT STATE VALUE
     private static ToIntFunction<BlockState> getLightValueLit(int lightValue) {
         return (state) -> {
             return state.get(BlockStateProperties.LIT) ? lightValue : 0;

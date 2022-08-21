@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aaa",
+    "bbb ",
+    "aaa"
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:quartz_block"
+    },
+    "b":
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:rich_quartz_block",
+    "count": 16
+  }
+}

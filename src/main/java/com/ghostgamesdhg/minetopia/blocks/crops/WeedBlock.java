@@ -7,6 +7,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.CropsBlock;
 import net.minecraft.util.IItemProvider;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IWorldReader;
@@ -41,7 +42,7 @@ public class WeedBlock extends CropsBlock {
 
     @Override
     protected IItemProvider getSeedsItem() {
-        return ModFood.WEED.get();
+        return ModFood.WEED_SEEDS.get();
     }
 
     @Override
@@ -50,9 +51,12 @@ public class WeedBlock extends CropsBlock {
     }
 
     @Override
+    protected int getBonemealAgeIncrease(World worldIn) {
+        return MathHelper.nextInt(worldIn.rand, 0, 0);
+    }
+
+    @Override
     protected boolean isValidGround(BlockState state, IBlockReader worldIn, BlockPos pos) {
-        if ((worldIn.getBlockState(new BlockPos(0, 3, 0))).getBlock() == Blocks.DIAMOND_BLOCK) {
-        }
         return state.isIn(Blocks.PODZOL);
     }
 }

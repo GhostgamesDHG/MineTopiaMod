@@ -535,6 +535,7 @@
   "item.gmm.drop": "Drop",
   "item.gmm.paprika": "Paprika",
   "block.gmm.paprika_crop": "Paprika Seeds",
+  "block.gmm.weed_crop": "Weed Seeds",
   "block.gmm.grapes_crop": "Grapes Seeds",
   "block.gmm.red_grapes_crop": "Red grapes Seeds",
   "block.gmm.white_grapes_crop": "White grapes Seeds",
@@ -684,5 +685,12 @@
   "block.gmm.white_brick_stairs": "White brick stairs",
   "block.gmm.black_brick_stairs": "Black brick stairs",
   "block.gmm.black_brick_slab": "Black brick slab",
-  "block.gmm.white_brick_slab": "Black brick slab"
+  "block.gmm.white_brick_slab": "Black brick slab",
+  "block.gmm.wooden_door": "Wooden door",
+  "block.gmm.rich_quartz_door": "Rich quartz door",
+  "block.gmm.steel_door": "Steel door",
+  "block.gmm.quartz_door": "Quartz door",
+  "item.gmm.steel_ingot": "Steel ingot",
+  "block.gmm.rich_quartz_block": "Rich quartz block",
+  "itemGroup.MineTopiaHalloween": "\u00A76\u00A7lMineTopia Halloween"
 }

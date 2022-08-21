@@ -1,0 +1,6 @@
+{
+  "parent": "gmm:block/crop",
+  "textures": {
+    "crop": "gmm:blocks/weed_stage6"
+  }
+}

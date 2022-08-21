@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gmm:block/rich_quartz_block"
+    }
+  }
+}

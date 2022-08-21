@@ -51,7 +51,7 @@ public class ModItems {
     public static final RegistryObject<Item> PARAPLU_ROODWIT = ITEMS.register("paraplu_roodwit", ItemBase::new);
     public static final RegistryObject<Item> STONE_SLEUTEL = ITEMS.register("stone_sleutel", ItemBase::new);
     public static final RegistryObject<Item> MINETOPIABAG = ITEMS.register("minetopiabag", ItemBase::new);
-    public static final RegistryObject<Item> POMPOENLANTAARN = ITEMS.register("pompoenlantaarn", ItemBase::new);
+    public static final RegistryObject<Item> POMPOENLANTAARN = ITEMS.register("pompoenlantaarn", ItemHalloween::new);
     public static final RegistryObject<Item> PEPPERSPRAY = ITEMS.register("pepperspray", ItemBase::new);
     public static final RegistryObject<Item> HORLOGE = ITEMS.register("horloge", ItemBase::new);
     public static final RegistryObject<Item> LUCKYSHARD = ITEMS.register("luckyshard", ItemBase::new);
@@ -130,4 +130,5 @@ public class ModItems {
     public static final RegistryObject<Item> GUITAR = ITEMS.register("guitar", ItemBase::new);
     public static final RegistryObject<Item> WHEELCOIN = ITEMS.register("wheelcoin", ItemBase::new);
     public static final RegistryObject<Item> SANTA_CLAUS_STAFF = ITEMS.register("santa_claus_staff", ItemBase::new);
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", ItemBase::new);
 }

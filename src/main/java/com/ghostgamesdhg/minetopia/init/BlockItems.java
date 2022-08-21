@@ -1,6 +1,7 @@
 package com.ghostgamesdhg.minetopia.init;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
+import com.ghostgamesdhg.minetopia.blocks.blocks.BlockHalloweenBase;
 import com.ghostgamesdhg.minetopia.blocks.blocks.BlockInvis;
 import com.ghostgamesdhg.minetopia.blocks.blocks.BlockItemBase;
 import com.ghostgamesdhg.minetopia.blocks.blocks.BlockItemItemBase;
@@ -89,7 +90,7 @@ public class BlockItems {
             () -> new BlockItemBase(ModBlocks.OVEN.get()));
 
     public static final RegistryObject<Item> PUMPKIN_ITEM = ITEMS.register("pumpkin",
-            () -> new BlockItemBase(ModBlocks.PUMPKIN.get()));
+            () -> new BlockHalloweenBase(ModBlocks.PUMPKIN.get()));
 
     public static final RegistryObject<Item> OIL_CAN_ITEM = ITEMS.register("oil_can",
             () -> new BlockItemBase(ModBlocks.OIL_CAN.get()));
@@ -163,6 +164,9 @@ public class BlockItems {
     public static final RegistryObject<Item> WHITE_BRICKS_ITEM = ITEMS.register("white_bricks",
             () -> new BlockItemBase(ModBlocks.WHITE_BRICKS.get()));
 
+    public static final RegistryObject<Item> RICH_QUARTZ_BLOCK_ITEM = ITEMS.register("rich_quartz_block",
+            () -> new BlockItemBase(ModBlocks.RICH_QUARTZ_BLOCK.get()));
+
     public static final RegistryObject<Item> BLACK_BRICKS_ITEM = ITEMS.register("black_bricks",
             () -> new BlockItemBase(ModBlocks.BLACK_BRICKS.get()));
 
@@ -172,6 +176,17 @@ public class BlockItems {
     public static final RegistryObject<Item> LAMP_ITEM = ITEMS.register("lamp",
             () -> new BlockItemBase(ModBlocks.LAMP.get()));
 
+    public static final RegistryObject<Item> WOODEN_DOOR_ITEM = ITEMS.register("wooden_door",
+            () -> new BlockItemBase(ModBlocks.WOODEN_DOOR.get()));
+
+    public static final RegistryObject<Item> RICH_QUARTZ_DOOR_ITEM = ITEMS.register("rich_quartz_door",
+            () -> new BlockItemBase(ModBlocks.RICH_QUARTZ_DOOR.get()));
+
+    public static final RegistryObject<Item> STEEL_DOOR_ITEM = ITEMS.register("steel_door",
+            () -> new BlockItemBase(ModBlocks.STEEL_DOOR.get()));
+
+    public static final RegistryObject<Item> QUARTZ_DOOR_ITEM = ITEMS.register("quartz_door",
+            () -> new BlockItemBase(ModBlocks.QUARTZ_DOOR.get()));
 
     //Half blocks, stairs
     public static final RegistryObject<Item> WHITE_BRICK_STAIRS_ITEM = ITEMS.register("white_brick_stairs",

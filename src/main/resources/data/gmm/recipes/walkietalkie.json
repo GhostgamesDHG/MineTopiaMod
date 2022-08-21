@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "  b",
+    " ab",
+    " bb"
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "gmm:pcb"
+    },
+    "b":
+    {
+      "item": "minecraft:gray_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "gmm:walkietalkie",
+    "count": 1
+  }
+}
