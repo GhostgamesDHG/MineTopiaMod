@@ -21,11 +21,15 @@ public enum ModItemTier implements IItemTier {
 
     }),
 
-    MES(0, 40, 4.0F, 20.0F, 14, () -> {
+    MES(0, 40, 4.0F, 3.0F, 14, () -> {
         return Ingredient.fromItems(ModTools.CLASSIC_KNIFE.get());
     }),
 
     LIGHTSABER(0, 200, 4.0F, 1.0F, 14, () -> {
+        return Ingredient.fromItems(ModTools.CLASSIC_KNIFE.get());
+    }),
+
+    SCYTHE(0, 80, 4.0F, 10.0F, 14, () -> {
         return Ingredient.fromItems(ModTools.CLASSIC_KNIFE.get());
     }),
 

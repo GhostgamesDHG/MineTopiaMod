@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gmm:block/dark_spirit"
+    },
+    "facing=east": {
+      "model": "gmm:block/dark_spirit",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gmm:block/dark_spirit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gmm:block/dark_spirit",
+      "y": 270
+    }
+  }
+}

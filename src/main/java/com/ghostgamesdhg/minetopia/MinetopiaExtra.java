@@ -1,5 +1,6 @@
 package com.ghostgamesdhg.minetopia;
 
+import com.ghostgamesdhg.minetopia.blocks.blocks.DarkspiritBlock;
 import com.ghostgamesdhg.minetopia.init.ModArmor;
 import com.ghostgamesdhg.minetopia.init.BlockItems;
 import com.ghostgamesdhg.minetopia.init.ModBlocks;
@@ -189,14 +190,19 @@ public class MinetopiaExtra
         RenderTypeLookup.setRenderLayer(ModBlocks.LETTUCE.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.WEED.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.PUMPKIN.get(), RenderType.getCutout());
-
         event.enqueueWork(() -> {
             RenderTypeLookup.setRenderLayer(ModBlocks.BUNKER_DOOR.get(), RenderType.getCutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.WOODEN_DOOR.get(), RenderType.getCutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.RICH_QUARTZ_DOOR.get(), RenderType.getCutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.STEEL_DOOR.get(), RenderType.getCutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.QUARTZ_DOOR.get(), RenderType.getCutout());
-
+            RenderTypeLookup.setRenderLayer(ModBlocks.SITTING_SKELETON.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.MONSTERBOOK.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.CLEAVER.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.OWL.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.RAT.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.GLOBE.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.ZOMBIE_ARM.get(), RenderType.getCutout());
         });
     }
 }

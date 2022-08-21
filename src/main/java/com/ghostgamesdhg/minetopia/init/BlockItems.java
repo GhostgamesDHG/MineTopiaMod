@@ -92,6 +92,27 @@ public class BlockItems {
     public static final RegistryObject<Item> PUMPKIN_ITEM = ITEMS.register("pumpkin",
             () -> new BlockHalloweenBase(ModBlocks.PUMPKIN.get()));
 
+    public static final RegistryObject<Item> SITTING_SKELETON_ITEM = ITEMS.register("sitting_skeleton",
+            () -> new BlockHalloweenBase(ModBlocks.SITTING_SKELETON.get()));
+
+    public static final RegistryObject<Item> MONSTERBOOK_ITEM = ITEMS.register("monsterbook",
+            () -> new BlockHalloweenBase(ModBlocks.MONSTERBOOK.get()));
+
+    public static final RegistryObject<Item> CLEAVER_ITEM = ITEMS.register("cleaver",
+            () -> new BlockHalloweenBase(ModBlocks.CLEAVER.get()));
+
+    public static final RegistryObject<Item> OWL_ITEM = ITEMS.register("owl",
+            () -> new BlockHalloweenBase(ModBlocks.OWL.get()));
+
+    public static final RegistryObject<Item> RAT_ITEM = ITEMS.register("rat",
+            () -> new BlockHalloweenBase(ModBlocks.RAT.get()));
+
+    public static final RegistryObject<Item> ZOMBIE_ARM_ITEM = ITEMS.register("zombie_arm",
+            () -> new BlockHalloweenBase(ModBlocks.ZOMBIE_ARM.get()));
+
+    public static final RegistryObject<Item> GLOBE_ITEM = ITEMS.register("globe",
+            () -> new BlockItemBase(ModBlocks.GLOBE.get()));
+
     public static final RegistryObject<Item> OIL_CAN_ITEM = ITEMS.register("oil_can",
             () -> new BlockItemBase(ModBlocks.OIL_CAN.get()));
 

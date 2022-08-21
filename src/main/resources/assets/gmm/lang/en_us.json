@@ -692,5 +692,16 @@
   "block.gmm.quartz_door": "Quartz door",
   "item.gmm.steel_ingot": "Steel ingot",
   "block.gmm.rich_quartz_block": "Rich quartz block",
-  "itemGroup.MineTopiaHalloween": "\u00A76\u00A7lMineTopia Halloween"
+  "block.gmm.sitting_skeleton": "Sitting skeleton",
+  "itemGroup.MineTopiaHalloween": "\u00A76\u00A7lMineTopia Halloween",
+  "block.gmm.dark_spirit": "Dark spirit",
+  "block.gmm.monsterbook": "Monsterbook",
+  "block.gmm.cleaver": "Cleaver",
+  "block.gmm.owl": "Owl",
+  "block.gmm.rat": "Rat",
+  "block.gmm.globe": "Globe",
+  "block.gmm.zombie_arm": "Zombie arm",
+  "item.gmm.demon_red_horns": "Demon red horns",
+  "item.gmm.demon_red_tail": "Demon red tail",
+  "item.gmm.scythe": "Scythe"
 }

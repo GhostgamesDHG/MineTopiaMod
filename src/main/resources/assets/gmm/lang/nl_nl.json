@@ -691,5 +691,17 @@
   "block.gmm.steel_door": "Stalen deur",
   "block.gmm.quartz_door": "Quartz deur",
   "item.gmm.steel_ingot": "Stalen bar",
-  "block.gmm.rich_quartz_block": "Rijke quartz blok"
+  "block.gmm.rich_quartz_block": "Rijke quartz blok",
+  "block.gmm.sitting_skeleton": "Zittende skelet",
+  "itemGroup.MineTopiaHalloween": "§6§lMineTopia Halloween",
+  "block.gmm.dark_spirit": "Donkere geest",
+  "block.gmm.monsterbook": "Monster boek",
+  "block.gmm.cleaver": "Hakmes",
+  "block.gmm.owl": "Uil",
+  "item.gmm.demon_red_horns": "Demoon rode oren",
+  "item.gmm.demon_red_tail": "Demoon rode staart",
+  "item.gmm.scythe": "Scythe",
+  "block.gmm.rat": "Rat",
+  "block.gmm.globe": "Wereldbol",
+  "block.gmm.zombie_arm": "Zombie arm"
 }

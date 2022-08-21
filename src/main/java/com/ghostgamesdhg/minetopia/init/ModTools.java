@@ -134,6 +134,9 @@ public class ModTools {
     public static final RegistryObject<SwordItem> LIGHTSABER_YELLOW = ITEMS.register("lightsaber_yellow", () ->
             new SwordItem(ModItemTier.LIGHTSABER, 1, 10F, new Item.Properties().group(MinetopiaExtra.TAB3)));
 
+    public static final RegistryObject<SwordItem> SCYTHE = ITEMS.register("scythe", () ->
+            new SwordItem(ModItemTier.SCYTHE, 4, -3F, new Item.Properties().group(MinetopiaExtra.TAB8)));
+
     //REFINED PICKAXES
     public static final RegistryObject<PickaxeItem> CACTUS_PICKAXE_REFINED = ITEMS.register("cactus_pickaxe_refined", () ->
             new PickaxeItem(ModItemTier.BLUE_CRYSTAL, 0, 1F, new Item.Properties().group(MinetopiaExtra.TAB3)));

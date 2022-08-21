@@ -131,4 +131,6 @@ public class ModItems {
     public static final RegistryObject<Item> WHEELCOIN = ITEMS.register("wheelcoin", ItemBase::new);
     public static final RegistryObject<Item> SANTA_CLAUS_STAFF = ITEMS.register("santa_claus_staff", ItemBase::new);
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", ItemBase::new);
+    public static final RegistryObject<Item> DEMON_RED_HORNS = ITEMS.register("demon_red_horns", ItemHalloween::new);
+    public static final RegistryObject<Item> DEMON_RED_TAIL = ITEMS.register("demon_red_tail", ItemHalloween::new);
 }

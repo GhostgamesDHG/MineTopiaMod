@@ -5,6 +5,13 @@ import com.ghostgamesdhg.minetopia.blocks.blocks.Antenne;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Blue_Crystal_Block;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Blue_Crystal_Ore;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Cadeau;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Cleaver;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Globe;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Monsterbook;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Owl;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Rat;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Zombie_arm;
+import com.ghostgamesdhg.minetopia.blocks.blocks.sitting_skeleton;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Computer;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Flashlight;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Honden_Bedje;
@@ -119,6 +126,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> WHITE_BRICKS = BLOCKS.register("white_bricks", keukentegels::new);
     public static final RegistryObject<Block> BLACK_BRICKS = BLOCKS.register("black_bricks", keukentegels::new);
     public static final RegistryObject<Block> RICH_QUARTZ_BLOCK = BLOCKS.register("rich_quartz_block", keukentegels::new);
+    public static final RegistryObject<Block> SITTING_SKELETON = BLOCKS.register("sitting_skeleton", sitting_skeleton::new);
+    public static final RegistryObject<Block> MONSTERBOOK = BLOCKS.register("monsterbook", Monsterbook::new);
+    public static final RegistryObject<Block> CLEAVER = BLOCKS.register("cleaver", Cleaver::new);
+    public static final RegistryObject<Block> OWL = BLOCKS.register("owl", Owl::new);
+    public static final RegistryObject<Block> RAT = BLOCKS.register("rat", Rat::new);
+    public static final RegistryObject<Block> GLOBE = BLOCKS.register("globe", Globe::new);
+    public static final RegistryObject<Block> ZOMBIE_ARM = BLOCKS.register("zombie_arm", Zombie_arm::new);
 
     //crops
     public static final RegistryObject<Block> CORN = BLOCKS.register("corn_crop",
