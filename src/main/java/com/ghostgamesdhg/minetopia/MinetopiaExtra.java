@@ -1,6 +1,5 @@
 package com.ghostgamesdhg.minetopia;
 
-import com.ghostgamesdhg.minetopia.blocks.blocks.DarkspiritBlock;
 import com.ghostgamesdhg.minetopia.init.ModArmor;
 import com.ghostgamesdhg.minetopia.init.BlockItems;
 import com.ghostgamesdhg.minetopia.init.ModBlocks;
@@ -174,6 +173,7 @@ public class MinetopiaExtra
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
         RenderTypeLookup.setRenderLayer(ModBlocks.OVEN.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.LANTAARN.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.OIL_CAN.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.KRANS.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.KERST_SLINGERS.get(), RenderType.getCutout());

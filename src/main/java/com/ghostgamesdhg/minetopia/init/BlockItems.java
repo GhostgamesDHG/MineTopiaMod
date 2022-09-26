@@ -110,6 +110,9 @@ public class BlockItems {
     public static final RegistryObject<Item> ZOMBIE_ARM_ITEM = ITEMS.register("zombie_arm",
             () -> new BlockHalloweenBase(ModBlocks.ZOMBIE_ARM.get()));
 
+    public static final RegistryObject<Item> MINI_SPIDER_ITEM = ITEMS.register("mini_spider",
+            () -> new BlockHalloweenBase(ModBlocks.MINI_SPIDER.get()));
+
     public static final RegistryObject<Item> GLOBE_ITEM = ITEMS.register("globe",
             () -> new BlockItemBase(ModBlocks.GLOBE.get()));
 

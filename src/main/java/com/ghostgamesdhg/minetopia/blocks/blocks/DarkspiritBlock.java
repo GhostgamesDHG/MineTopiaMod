@@ -27,7 +27,6 @@ import net.minecraft.state.DirectionProperty;
 import net.minecraft.pathfinding.PathNodeType;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
@@ -96,26 +95,26 @@ public class DarkspiritBlock extends GmmModElements.ModElement {
 			switch ((Direction) state.get(FACING)) {
 				case NORTH:
 				default :
-					return VoxelShapes.or(makeCuboidShape(0, 0, 9, 16, 23, 14),
-									      makeCuboidShape(5, 23, 9, 11, 30, 14)
+					return VoxelShapes.or(makeCuboidShape(0, 0, 8.9, 15.9, 22.9, 13.9),
+									      makeCuboidShape(4.9, 22.9, 8.9, 10.9, 29.9, 13.9)
 							)
 
 							.withOffset(offset.x, offset.y, offset.z);
 				case EAST:
-					return VoxelShapes.or(makeCuboidShape(2, 0, 0, 7, 23, 16),
-									makeCuboidShape(2, 23, 5, 7, 30, 11)
+					return VoxelShapes.or(makeCuboidShape(1.9, 0, 0, 6.9, 22.9, 15.9),
+									makeCuboidShape(1.9, 22.9, 4.9, 6.9, 29.9, 10.9)
 							)
 
 							.withOffset(offset.x, offset.y, offset.z);
 				case SOUTH:
-					return VoxelShapes.or(makeCuboidShape(0, 0, 2, 16, 23, 7),
-									makeCuboidShape(5, 23, 2, 11, 30, 7)
+					return VoxelShapes.or(makeCuboidShape(0, 0, 1.9, 15.9, 22.9, 6.9),
+									makeCuboidShape(4.9, 22.9, 1.9, 10.9, 29.9, 6.9)
 							)
 
 							.withOffset(offset.x, offset.y, offset.z);
 				case WEST:
-					return VoxelShapes.or(makeCuboidShape(9, 0, 0, 14, 23, 16),
-									makeCuboidShape(9, 23, 5, 14, 30, 11)
+					return VoxelShapes.or(makeCuboidShape(8.9, 0, 0, 13.9, 22.9, 15.9),
+									makeCuboidShape(8.9, 22.9, 4.9, 13.9, 29.9, 10.9)
 							)
 
 							.withOffset(offset.x, offset.y, offset.z);

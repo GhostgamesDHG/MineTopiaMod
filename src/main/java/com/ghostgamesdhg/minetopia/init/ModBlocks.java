@@ -7,6 +7,7 @@ import com.ghostgamesdhg.minetopia.blocks.blocks.Blue_Crystal_Ore;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Cadeau;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Cleaver;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Globe;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Mini_Spider;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Monsterbook;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Owl;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Rat;
@@ -133,6 +134,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAT = BLOCKS.register("rat", Rat::new);
     public static final RegistryObject<Block> GLOBE = BLOCKS.register("globe", Globe::new);
     public static final RegistryObject<Block> ZOMBIE_ARM = BLOCKS.register("zombie_arm", Zombie_arm::new);
+    public static final RegistryObject<Block> MINI_SPIDER = BLOCKS.register("mini_spider", Mini_Spider::new);
 
     //crops
     public static final RegistryObject<Block> CORN = BLOCKS.register("corn_crop",

@@ -1,6 +1,8 @@
 {
-	"parent": "gmm:item/mtcasino_blauw",
-	"textures": {
-		"1": "gmm:items/mtcasino_groen"
-	}
+    "credit": "robinlol2 ;p",
+    "parent": "gmm:item/mtcasino_base",
+    "textures": {
+        "0": "gmm:items/mtcasino_groen",
+        "particle": "gmm:items/mtcasino_groen"
+    }
 }

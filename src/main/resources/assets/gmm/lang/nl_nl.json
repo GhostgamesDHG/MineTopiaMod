@@ -703,5 +703,6 @@
   "item.gmm.scythe": "Scythe",
   "block.gmm.rat": "Rat",
   "block.gmm.globe": "Wereldbol",
-  "block.gmm.zombie_arm": "Zombie arm"
+  "block.gmm.zombie_arm": "Zombie arm",
+  "block.gmm.mini_spider": "Mini spin"
 }
