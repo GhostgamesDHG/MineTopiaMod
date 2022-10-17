@@ -154,16 +154,15 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"ground": {
-			"translation": [0, 6.25, 0],
-			"scale": [0.75, 0.75, 0.75]
+			"translation": [0, 3.25, 0],
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
 			"rotation": [30, 162, 0],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"fixed": {
-			"translation": [0, 0, -1.25],
-			"scale": [1.5, 1.5, 1.5]
+			"translation": [0, 0, -1.25]
 		}
 	},
 	"groups": [
