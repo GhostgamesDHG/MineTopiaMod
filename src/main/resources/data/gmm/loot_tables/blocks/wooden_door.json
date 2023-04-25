@@ -6,7 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "gmm:wooden_door",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
           "name": "gmm:wooden_door"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
         }
       ]
     }

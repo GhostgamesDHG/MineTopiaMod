@@ -157,8 +157,8 @@ public class ModFood {
     public static final RegistryObject<Vitamine_B> VITAMIN_F = ITEMS.register("vitamin_f", Vitamine_B::new);
 
     //ANIMAL FOOD (Need a custom code, Will do this later!)
-    public static final RegistryObject<fourHunger> DOG_FOOD = ITEMS.register("dog_food", fourHunger::new);
-    public static final RegistryObject<fourHunger> CAT_FOOD = ITEMS.register("cat_food", fourHunger::new);
+    public static final RegistryObject<DogFood> DOG_FOOD = ITEMS.register("dog_food", DogFood::new);
+    public static final RegistryObject<CatFood> CAT_FOOD = ITEMS.register("cat_food", CatFood::new);
 
 
     //CROPS(BlockItem for linking together)

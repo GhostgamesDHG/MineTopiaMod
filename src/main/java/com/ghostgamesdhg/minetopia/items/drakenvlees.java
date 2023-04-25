@@ -14,6 +14,7 @@ public class drakenvlees extends Item {
                 .group(MinetopiaExtra.TAB4)
                 .food(new Food.Builder()
                         .hunger(3)
+                     //   .meat()       IS FOR ANIMALS TO EAT
                         .saturation(1.2f)
                         .effect(new EffectInstance(Effects.POISON, 10*20, 2) ,1f)
                         .effect(new EffectInstance(Effects.NAUSEA, 12*20, 2) ,1f)
@@ -25,6 +26,7 @@ public class drakenvlees extends Item {
                         .build())
         );
     }
+
     @Override
     public boolean hasEffect(ItemStack stack)
     {

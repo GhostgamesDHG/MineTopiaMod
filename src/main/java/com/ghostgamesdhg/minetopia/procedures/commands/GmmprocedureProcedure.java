@@ -26,7 +26,7 @@ public class GmmprocedureProcedure extends GmmModElements.ModElement {
 				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A72\u00A7l====Info===="), (false));
 			}
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7aCurrent version: 2.0"), (false));
+				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7aCurrent version: 2.1"), (false));
 			}
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7aCurrent commands:"), (false));
@@ -34,9 +34,9 @@ public class GmmprocedureProcedure extends GmmModElements.ModElement {
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7a/heal - Heals the player"), (false));
 			}
-			//	if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-		//		((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7a/hat - Puts item in hand on your head"), (false));
-		//	}
+				if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
+				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7a/hat - Puts item in hand on your head"), (false));
+			}
 		}
 	}
 }

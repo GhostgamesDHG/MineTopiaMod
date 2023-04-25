@@ -212,6 +212,9 @@ public class BlockItems {
     public static final RegistryObject<Item> QUARTZ_DOOR_ITEM = ITEMS.register("quartz_door",
             () -> new BlockItemBase(ModBlocks.QUARTZ_DOOR.get()));
 
+    public static final RegistryObject<Item> DARTBORD_ITEM = ITEMS.register("dartbord",
+            () -> new BlockItemBase(ModBlocks.DARTBORD.get()));
+
     //Half blocks, stairs
     public static final RegistryObject<Item> WHITE_BRICK_STAIRS_ITEM = ITEMS.register("white_brick_stairs",
             () -> new BlockItemBase(ModBlocks.WHITE_BRICK_STAIRS.get()));

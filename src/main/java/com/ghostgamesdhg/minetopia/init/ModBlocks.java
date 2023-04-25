@@ -6,6 +6,7 @@ import com.ghostgamesdhg.minetopia.blocks.blocks.Blue_Crystal_Block;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Blue_Crystal_Ore;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Cadeau;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Cleaver;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Dartbord;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Globe;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Mini_Spider;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Monsterbook;
@@ -135,6 +136,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> GLOBE = BLOCKS.register("globe", Globe::new);
     public static final RegistryObject<Block> ZOMBIE_ARM = BLOCKS.register("zombie_arm", Zombie_arm::new);
     public static final RegistryObject<Block> MINI_SPIDER = BLOCKS.register("mini_spider", Mini_Spider::new);
+    public static final RegistryObject<Block> DARTBORD = BLOCKS.register("dartbord", Dartbord::new);
 
     //crops
     public static final RegistryObject<Block> CORN = BLOCKS.register("corn_crop",
@@ -179,8 +181,8 @@ public class ModBlocks {
                     .harvestTool(ToolType.PICKAXE).hardnessAndResistance(6f).notSolid()));
 
     public static final RegistryObject<Block> WOODEN_DOOR = BLOCKS.register("wooden_door",
-            () -> new DoorBlock(AbstractBlock.Properties.create(Material.WOOD).harvestLevel(2).setRequiresTool()
-                    .harvestTool(ToolType.PICKAXE).hardnessAndResistance(6f).notSolid()));
+            () -> new DoorBlock(AbstractBlock.Properties.create(Material.WOOD)
+                    .hardnessAndResistance(6f).notSolid()));
 
     public static final RegistryObject<Block> RICH_QUARTZ_DOOR = BLOCKS.register("rich_quartz_door",
             () -> new DoorBlock(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).setRequiresTool()
