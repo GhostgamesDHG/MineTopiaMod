@@ -32,6 +32,7 @@ public class lantaarn extends Block {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.5f, 4.0f)
                 .setLightLevel(value -> 15)
+                .notSolid()
                 .sound(SoundType.METAL));
     }
 

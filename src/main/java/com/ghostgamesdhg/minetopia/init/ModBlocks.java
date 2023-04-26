@@ -7,11 +7,14 @@ import com.ghostgamesdhg.minetopia.blocks.blocks.Blue_Crystal_Ore;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Cadeau;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Cleaver;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Dartbord;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Firepit;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Globe;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Mini_Spider;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Monsterbook;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Owl;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Rat;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Smalltree;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Tableplant;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Zombie_arm;
 import com.ghostgamesdhg.minetopia.blocks.blocks.sitting_skeleton;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Computer;
@@ -137,6 +140,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> ZOMBIE_ARM = BLOCKS.register("zombie_arm", Zombie_arm::new);
     public static final RegistryObject<Block> MINI_SPIDER = BLOCKS.register("mini_spider", Mini_Spider::new);
     public static final RegistryObject<Block> DARTBORD = BLOCKS.register("dartbord", Dartbord::new);
+    public static final RegistryObject<Block> FIRE_PIT = BLOCKS.register("fire_pit", Firepit::new);
+    public static final RegistryObject<Block> SMALL_TREE = BLOCKS.register("small_tree", Smalltree::new);
+    public static final RegistryObject<Block> TABLE_PLANT = BLOCKS.register("table_plant", Tableplant::new);
 
     //crops
     public static final RegistryObject<Block> CORN = BLOCKS.register("corn_crop",

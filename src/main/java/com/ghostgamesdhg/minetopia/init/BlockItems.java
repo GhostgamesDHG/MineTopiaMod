@@ -215,6 +215,15 @@ public class BlockItems {
     public static final RegistryObject<Item> DARTBORD_ITEM = ITEMS.register("dartbord",
             () -> new BlockItemBase(ModBlocks.DARTBORD.get()));
 
+    public static final RegistryObject<Item> FIRE_PIT_ITEM = ITEMS.register("fire_pit",
+            () -> new BlockItemBase(ModBlocks.FIRE_PIT.get()));
+
+    public static final RegistryObject<Item> SMALL_TREE_ITEM = ITEMS.register("small_tree",
+            () -> new BlockItemBase(ModBlocks.SMALL_TREE.get()));
+
+    public static final RegistryObject<Item> TABLE_PLANT_ITEM = ITEMS.register("table_plant",
+            () -> new BlockItemBase(ModBlocks.TABLE_PLANT.get()));
+
     //Half blocks, stairs
     public static final RegistryObject<Item> WHITE_BRICK_STAIRS_ITEM = ITEMS.register("white_brick_stairs",
             () -> new BlockItemBase(ModBlocks.WHITE_BRICK_STAIRS.get()));

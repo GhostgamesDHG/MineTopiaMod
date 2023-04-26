@@ -705,5 +705,8 @@
   "item.gmm.demon_red_tail": "Demon red tail",
   "item.gmm.scythe": "Scythe",
   "block.gmm.mini_spider": "Mini spider",
-  "block.gmm.dartbord": "Dartboard"
+  "block.gmm.dartbord": "Dartboard",
+  "block.gmm.fire_pit": "Fire pit",
+  "block.gmm.small_tree": "Small tree",
+  "block.gmm.table_plant": "Table plant"
 }

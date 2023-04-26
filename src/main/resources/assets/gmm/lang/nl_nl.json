@@ -705,5 +705,8 @@
   "block.gmm.globe": "Wereldbol",
   "block.gmm.zombie_arm": "Zombie arm",
   "block.gmm.mini_spider": "Mini spin",
-  "block.gmm.dartbord": "Dartboard"
+  "block.gmm.dartbord": "Dartboard",
+  "block.gmm.fire_pit": "Vuurkorf",
+  "block.gmm.small_tree": "Klein boompje",
+  "block.gmm.table_plant": "Tafel plant"
 }
