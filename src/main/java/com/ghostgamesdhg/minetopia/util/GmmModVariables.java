@@ -82,7 +82,7 @@ public class GmmModVariables {
 
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "gmm_mapvars";
-		public boolean devmode = false;
+		public boolean DevMode = false;
 		public MapVariables() {
 			super(DATA_NAME);
 		}
@@ -93,12 +93,12 @@ public class GmmModVariables {
 
 		@Override
 		public void read(CompoundNBT nbt) {
-			devmode = nbt.getBoolean("devmode");
+			DevMode = nbt.getBoolean("DevMode");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
-			nbt.putBoolean("devmode", devmode);
+			nbt.putBoolean("DevMode", DevMode);
 			return nbt;
 		}
 

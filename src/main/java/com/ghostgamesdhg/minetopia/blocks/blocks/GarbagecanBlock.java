@@ -1,6 +1,7 @@
 
 package com.ghostgamesdhg.minetopia.blocks.blocks;
 
+import com.ghostgamesdhg.minetopia.procedures.garbage.PrulsearchProcedure;
 import com.ghostgamesdhg.minetopia.util.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.gui.garbage.GarbageCanGuiGui;
@@ -51,6 +52,7 @@ import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import java.util.AbstractMap;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
@@ -185,5 +187,19 @@ public class GarbagecanBlock extends GmmModElements.ModElement {
 			}
 			return ActionResultType.SUCCESS;
 		}
+
+		@Override
+		public void onBlockClicked(BlockState blockstate, World world, BlockPos pos, PlayerEntity entity) {
+			super.onBlockClicked(blockstate, world, pos, entity);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+
+			PrulsearchProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+		}
+
 	}
 }

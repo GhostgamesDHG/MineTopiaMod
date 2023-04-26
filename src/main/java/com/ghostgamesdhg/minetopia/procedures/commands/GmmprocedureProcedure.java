@@ -37,6 +37,9 @@ public class GmmprocedureProcedure extends GmmModElements.ModElement {
 				if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7a/hat - Puts item in hand on your head"), (false));
 			}
+			//if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
+			//	((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7c/devmode - Do not use. Could break functionality of this mod"), (false));
+			//}
 		}
 	}
 }
