@@ -41,9 +41,6 @@ public class Honden_Bedje extends Block {
             default :
                 return VoxelShapes.or(makeCuboidShape(-6, 0.5, 0, 22, 8, 16)).withOffset(offset.x, offset.y, offset.z);
             case EAST :
-                return VoxelShapes.or(makeCuboidShape(0, 0.5, -6, 16, 8, 22)).withOffset(offset.x, offset.y, offset.z);
-            case SOUTH:
-                return VoxelShapes.or(makeCuboidShape(-6, 0.5, 0, 22, 8, 16)).withOffset(offset.x, offset.y, offset.z);
             case WEST :
                 return VoxelShapes.or(makeCuboidShape(0, 0.5, -6, 16, 8, 22)).withOffset(offset.x, offset.y, offset.z);
         }

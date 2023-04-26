@@ -51,11 +51,6 @@ public class WeedBlock extends CropsBlock {
     }
 
     @Override
-    protected int getBonemealAgeIncrease(World worldIn) {
-        return MathHelper.nextInt(worldIn.rand, 0, 0);
-    }
-
-    @Override
     protected boolean isValidGround(BlockState state, IBlockReader worldIn, BlockPos pos) {
         return state.isIn(Blocks.PODZOL);
     }

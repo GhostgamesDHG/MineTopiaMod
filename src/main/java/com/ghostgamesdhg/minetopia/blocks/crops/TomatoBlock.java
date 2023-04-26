@@ -32,9 +32,4 @@ public class TomatoBlock extends CropsBlock {
     protected IItemProvider getSeedsItem() {
         return ModFood.TOMATO_SEEDS.get();
     }
-
-    @Override
-    public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
-        return SHAPE_BY_AGE[state.get(this.getAgeProperty())];
-    }
 }

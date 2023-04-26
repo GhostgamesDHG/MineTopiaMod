@@ -8,6 +8,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.state.StateContainer;
+import net.minecraft.util.Direction;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
@@ -42,12 +43,10 @@ public class Traffic_Cone extends Block {
 
     @Override
     public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
-        switch (state.get(FACING)) {
-            case NORTH:
-                return SHAPE_N;
-            default:
-                return SHAPE_N;
+        if (state.get(FACING) == Direction.NORTH) {
+            return SHAPE_N;
         }
+        return SHAPE_N;
     }
 
     @Nullable

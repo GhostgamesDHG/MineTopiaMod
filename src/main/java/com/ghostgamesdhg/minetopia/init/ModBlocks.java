@@ -100,7 +100,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> LAMP = BLOCKS.register("lamp", lamp::new);
     public static final RegistryObject<Block> COMPUTER = BLOCKS.register("computer", Computer::new);
     public static final RegistryObject<Block> HONDEN_BEDJE = BLOCKS.register("honden_bedje", Honden_Bedje::new);
-    public static final RegistryObject<Block> OVEN = BLOCKS.register("oven", () -> new Oven(AbstractBlock.Properties.create(Material.ROCK).setRequiresTool().hardnessAndResistance(3.5F).setLightLevel(getLightValueLit(13))));
+    public static final RegistryObject<Block> OVEN = BLOCKS.register("oven", () -> new Oven(AbstractBlock.Properties.create(Material.ROCK).setRequiresTool().hardnessAndResistance(3.5F).setLightLevel(getLightValueLit())));
     public static final RegistryObject<Block> OIL_CAN = BLOCKS.register("oil_can", Oil_Can::new);
     public static final RegistryObject<Block> PARKING_SIGN = BLOCKS.register("parking_sign", Parking_Sign::new);
     public static final RegistryObject<Block> PUMPKIN = BLOCKS.register("pumpkin", Pumpkin::new);
@@ -215,9 +215,7 @@ public class ModBlocks {
 
 
     // LIT STATE VALUE
-    private static ToIntFunction<BlockState> getLightValueLit(int lightValue) {
-        return (state) -> {
-            return state.get(BlockStateProperties.LIT) ? lightValue : 0;
-        };
+    private static ToIntFunction<BlockState> getLightValueLit() {
+        return (state) -> state.get(BlockStateProperties.LIT) ? 13 : 0;
     }
 }

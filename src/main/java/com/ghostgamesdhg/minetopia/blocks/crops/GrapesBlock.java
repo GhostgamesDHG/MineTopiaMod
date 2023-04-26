@@ -2,13 +2,9 @@ package com.ghostgamesdhg.minetopia.blocks.crops;
 
 import com.ghostgamesdhg.minetopia.init.ModFood;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
 import net.minecraft.block.CropsBlock;
 import net.minecraft.util.IItemProvider;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
-import net.minecraft.world.IBlockReader;
 
 public class GrapesBlock extends CropsBlock {
     private static final VoxelShape[] SHAPE_BY_AGE = new VoxelShape[]{
@@ -33,10 +29,5 @@ public class GrapesBlock extends CropsBlock {
     @Override
     protected IItemProvider getSeedsItem() {
         return ModFood.GRAPES_SEEDS.get();
-    }
-
-    @Override
-    public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
-        return SHAPE_BY_AGE[state.get(this.getAgeProperty())];
     }
 }

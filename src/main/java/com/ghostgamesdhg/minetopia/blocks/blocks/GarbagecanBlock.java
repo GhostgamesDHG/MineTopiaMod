@@ -106,12 +106,7 @@ public class GarbagecanBlock extends GmmModElements.ModElement {
 
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
-			switch (state.get(FACING)) {
-				case NORTH:
-					return SHAPE_N;
-				default:
-					return SHAPE_N;
-			}
+			return SHAPE_N;
 		}
 
 		@Nullable

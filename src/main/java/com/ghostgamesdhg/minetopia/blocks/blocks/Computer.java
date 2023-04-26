@@ -81,8 +81,6 @@ public class Computer extends Block {
     @Override
     public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
         switch (state.get(FACING)) {
-            case NORTH:
-                return SHAPE_N;
             case EAST:
                 return  SHAPE_E;
             case SOUTH:

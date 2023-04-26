@@ -86,17 +86,7 @@ public class CheeseBowl2Block extends GmmModElements.ModElement {
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			switch ((Direction) state.get(FACING)) {
-				case SOUTH :
-				default :
-					return VoxelShapes.or(Block.makeCuboidShape(0, 0.1, 0, 16, 7.1, 16)).withOffset(offset.x, offset.y, offset.z);
-				case NORTH :
-					return VoxelShapes.or(Block.makeCuboidShape(0, 0.1, 0, 16, 7.1, 16)).withOffset(offset.x, offset.y, offset.z);
-				case EAST :
-					return VoxelShapes.or(Block.makeCuboidShape(0, 0.1, 0, 16, 7.1, 16)).withOffset(offset.x, offset.y, offset.z);
-				case WEST :
-					return VoxelShapes.or(Block.makeCuboidShape(0, 0.1, 0, 16, 7.1, 16)).withOffset(offset.x, offset.y, offset.z);
-			}
+			return VoxelShapes.or(Block.makeCuboidShape(0, 0.1, 0, 16, 7.1, 16)).withOffset(offset.x, offset.y, offset.z);
 		}
 
 		@Override
