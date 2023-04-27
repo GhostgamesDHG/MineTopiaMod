@@ -33,7 +33,7 @@ public class PizzaProcedure {
 		Entity entity = (Entity) dependencies.get("entity");
 		double count;
 		ItemStack output;
-		count = 1;
+		count = 1*8;
 		output = new ItemStack(ModFood.PIZZA.get());
 		if (entity instanceof PlayerEntity) {
 			Container _current = ((PlayerEntity) entity).openContainer;

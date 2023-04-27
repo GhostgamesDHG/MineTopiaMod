@@ -33,7 +33,7 @@ public class FriesProcedure {
 		Entity entity = (Entity) dependencies.get("entity");
 		double count;
 		ItemStack output;
-		count = 3;
+		count = 3*8;
 		output = new ItemStack(ModFood.FRIES.get());
 		if (entity instanceof PlayerEntity) {
 			Container _current = ((PlayerEntity) entity).openContainer;

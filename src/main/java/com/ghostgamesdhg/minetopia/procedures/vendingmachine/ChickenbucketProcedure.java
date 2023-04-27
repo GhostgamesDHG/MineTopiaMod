@@ -33,7 +33,7 @@ public class ChickenbucketProcedure {
 		Entity entity = (Entity) dependencies.get("entity");
 		double count;
 		ItemStack output;
-		count = 4;
+		count = 4*8;
 		output = new ItemStack(ModFood.CHICKENBUCKET.get());
 		if (entity instanceof PlayerEntity) {
 			Container _current = ((PlayerEntity) entity).openContainer;

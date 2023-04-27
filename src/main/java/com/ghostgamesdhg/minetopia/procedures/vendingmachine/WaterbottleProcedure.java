@@ -33,7 +33,7 @@ public class WaterbottleProcedure {
 		Entity entity = (Entity) dependencies.get("entity");
 		double count;
 		ItemStack output;
-		count = 1;
+		count = 1*8;
 		output = new ItemStack(ModFood.WATER_BOTTLE.get());
 		if (entity instanceof PlayerEntity) {
 			Container _current = ((PlayerEntity) entity).openContainer;

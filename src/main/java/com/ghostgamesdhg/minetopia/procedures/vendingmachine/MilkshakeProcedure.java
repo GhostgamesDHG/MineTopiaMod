@@ -33,7 +33,7 @@ public class MilkshakeProcedure {
 		Entity entity = (Entity) dependencies.get("entity");
 		double count;
 		ItemStack output;
-		count = 2;
+		count = 2*8;
 		output = new ItemStack(ModFood.MILKSHAKE.get());
 		if (entity instanceof PlayerEntity) {
 			Container _current = ((PlayerEntity) entity).openContainer;
