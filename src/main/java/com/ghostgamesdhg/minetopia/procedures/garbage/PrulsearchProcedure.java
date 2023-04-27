@@ -50,7 +50,7 @@ public class PrulsearchProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
-		if (!GmmModVariables.MapVariables.get(world).DevMode) {
+		if (!GmmModVariables.MapVariables.get(world).devMode) {
 			if ((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.BARRIER) {
 				if (entity.isSneaking()) {
 					if (entity instanceof PlayerEntity && !entity.world.isRemote()) {

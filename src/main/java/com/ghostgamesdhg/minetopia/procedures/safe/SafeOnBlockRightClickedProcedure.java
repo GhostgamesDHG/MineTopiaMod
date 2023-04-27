@@ -62,7 +62,7 @@ public class SafeOnBlockRightClickedProcedure {
 					return tileEntity.getTileData().getBoolean(tag);
 				return false;
 			}
-		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidBlockHasPassword")) == (true))) {
+		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidBlockHasPassword")))) {
 			if (((new Object() {
 				public boolean getValue(IWorld world, BlockPos pos, String tag) {
 					TileEntity tileEntity = world.getTileEntity(pos);
@@ -70,7 +70,7 @@ public class SafeOnBlockRightClickedProcedure {
 						return tileEntity.getTileData().getBoolean(tag);
 					return false;
 				}
-			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidBlockLocked")) == (true))) {
+			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidBlockLocked")))) {
 				{
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {

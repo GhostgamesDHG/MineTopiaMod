@@ -24,14 +24,14 @@ public class DevmodepProcedure {
 		}
 		IWorld world = (IWorld) dependencies.get("world");
 		Entity entity = (Entity) dependencies.get("entity");
-		if (!GmmModVariables.MapVariables.get(world).DevMode) {
-			GmmModVariables.MapVariables.get(world).DevMode = (true);
+		if (!GmmModVariables.MapVariables.get(world).devMode) {
+			GmmModVariables.MapVariables.get(world).devMode = (true);
 			GmmModVariables.MapVariables.get(world).syncData(world);
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("DevMode on!"), (true));
 			}
-		} else if (GmmModVariables.MapVariables.get(world).DevMode) {
-			GmmModVariables.MapVariables.get(world).DevMode = (false);
+		} else if (GmmModVariables.MapVariables.get(world).devMode) {
+			GmmModVariables.MapVariables.get(world).devMode = (false);
 			GmmModVariables.MapVariables.get(world).syncData(world);
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("DevMode off!"), (true));

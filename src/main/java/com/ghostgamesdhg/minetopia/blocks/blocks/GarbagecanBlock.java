@@ -5,7 +5,6 @@ import com.ghostgamesdhg.minetopia.procedures.garbage.PrulsearchProcedure;
 import com.ghostgamesdhg.minetopia.util.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.gui.garbage.GarbageCanGuiGui;
-import com.ghostgamesdhg.minetopia.procedures.garbage.GarbageProcedureProcedure;
 import net.minecraft.util.math.shapes.IBooleanFunction;
 import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
@@ -181,9 +180,6 @@ public class GarbagecanBlock extends GmmModElements.ModElement {
 			double hitZ = hit.getHitVec().z;
 			Direction direction = hit.getFace();
 			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				GarbageProcedureProcedure.executeProcedure($_dependencies);
 			}
 			return ActionResultType.SUCCESS;
 		}

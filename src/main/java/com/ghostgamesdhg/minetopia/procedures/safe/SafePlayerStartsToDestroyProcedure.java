@@ -46,14 +46,14 @@ public class SafePlayerStartsToDestroyProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if (((new Object() {
+		if ((!(new Object() {
 			public boolean getValue(IWorld world, BlockPos pos, String tag) {
 				TileEntity tileEntity = world.getTileEntity(pos);
 				if (tileEntity != null)
 					return tileEntity.getTileData().getBoolean(tag);
 				return false;
 			}
-		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidBlockLocked")) == (false))) {
+		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidBlockLocked")))) {
 			world.destroyBlock(new BlockPos((int) x, (int) y, (int) z), false);
 			if (world instanceof World && !world.isRemote()) {
 				ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), y, (z + 0.5), new ItemStack(SafeBlock.block));

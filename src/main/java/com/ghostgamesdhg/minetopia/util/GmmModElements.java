@@ -9,6 +9,7 @@ import net.minecraft.network.PacketBuffer;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -36,6 +37,7 @@ public class GmmModElements {
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
+
 	public GmmModElements() {
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("gmm").getFile().getScanResult();
@@ -52,13 +54,16 @@ public class GmmModElements {
 		}
 		Collections.sort(elements);
 		elements.forEach(GmmModElements.ModElement::initElements);
+		MinecraftForge.EVENT_BUS.register(new GmmModVariables(this));
 	}
 
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
 		for (Map.Entry<ResourceLocation, net.minecraft.util.SoundEvent> sound : sounds.entrySet())
 			event.getRegistry().register(sound.getValue().setRegistryName(sound.getKey()));
 	}
+
 	private int messageID = 0;
+
 	public <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, PacketBuffer> encoder, Function<PacketBuffer, T> decoder,
 			BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
 		MinetopiaExtra.PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
@@ -88,8 +93,10 @@ public class GmmModElements {
 		@Retention(RetentionPolicy.RUNTIME)
 		public @interface Tag {
 		}
+
 		protected final GmmModElements elements;
 		protected final int sortid;
+
 		public ModElement(GmmModElements elements, int sortid) {
 			this.elements = elements;
 			this.sortid = sortid;

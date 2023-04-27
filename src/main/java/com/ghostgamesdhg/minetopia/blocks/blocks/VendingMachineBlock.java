@@ -1,12 +1,22 @@
 
 package com.ghostgamesdhg.minetopia.blocks.blocks;
 
-import com.ghostgamesdhg.minetopia.util.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.gui.vending.VendingguiGui;
 import com.ghostgamesdhg.minetopia.procedures.vendingmachine.VendingMachineAddedProcedure;
-import com.ghostgamesdhg.minetopia.procedures.vendingmachine.VendingMachineOnBlockRightClickedProcedure;
 import com.ghostgamesdhg.minetopia.procedures.vendingmachine.VendingMachineTopBlockDestroyedByPlayerProcedure;
+import com.ghostgamesdhg.minetopia.util.GmmModElements;
+import net.minecraft.block.material.MaterialColor;
+import net.minecraft.block.material.PushReaction;
+import net.minecraft.entity.MobEntity;
+import net.minecraft.fluid.FluidState;
+import net.minecraft.pathfinding.PathNodeType;
+import net.minecraft.util.math.shapes.ISelectionContext;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.world.Explosion;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.items.wrapper.SidedInvWrapper;
 import net.minecraftforge.items.IItemHandler;
@@ -18,19 +28,13 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.Capability;
-import net.minecraftforge.common.ToolType;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
-import net.minecraft.world.Explosion;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.math.vector.Vector3d;
-import net.minecraft.util.math.shapes.VoxelShapes;
-import net.minecraft.util.math.shapes.VoxelShape;
-import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
@@ -44,7 +48,6 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.LockableLootTileEntity;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.DirectionProperty;
-import net.minecraft.pathfinding.PathNodeType;
 import net.minecraft.network.play.server.SUpdateTileEntityPacket;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.NetworkManager;
@@ -58,15 +61,11 @@ import net.minecraft.inventory.container.INamedContainerProvider;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.ISidedInventory;
-import net.minecraft.fluid.FluidState;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.MobEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.block.material.PushReaction;
-import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.HorizontalBlock;
@@ -75,22 +74,23 @@ import net.minecraft.block.Block;
 
 import javax.annotation.Nullable;
 
-import java.util.stream.IntStream;
-import java.util.Map;
-import java.util.List;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.stream.IntStream;
+import java.util.List;
 import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
 @GmmModElements.ModElement.Tag
 public class VendingMachineBlock extends GmmModElements.ModElement {
-	@ObjectHolder("gmm:vending_machine")
+	@ObjectHolder("gmm:vendingmachine")
 	public static final Block block = null;
-	@ObjectHolder("gmm:vending_machine")
+	@ObjectHolder("gmm:vendingmachine")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
+
 	public VendingMachineBlock(GmmModElements instance) {
-		super(instance, 31);
+		super(instance, 42);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -99,24 +99,28 @@ public class VendingMachineBlock extends GmmModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(MinetopiaExtra.TAB2)).setRegistryName(block.getRegistryName()));
 	}
+
 	private static class TileEntityRegisterHandler {
 		@SubscribeEvent
 		public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("vending_machine"));
+			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("vendingmachine"));
 		}
 	}
+
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
+		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
 	}
+
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(3.5f, 3.5f).setLightLevel(s -> 8)
 					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("vending_machine");
+			setRegistryName("vendingmachine");
 		}
 
 		@Override
@@ -238,7 +242,7 @@ public class VendingMachineBlock extends GmmModElements.ModElement {
 
 		@Override
 		public ActionResultType onBlockActivated(BlockState blockstate, World world, BlockPos pos, PlayerEntity entity, Hand hand,
-				BlockRayTraceResult hit) {
+												 BlockRayTraceResult hit) {
 			super.onBlockActivated(blockstate, world, pos, entity, hand, hit);
 			int x = pos.getX();
 			int y = pos.getY();
@@ -247,7 +251,7 @@ public class VendingMachineBlock extends GmmModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Vending Machine");
+						return new StringTextComponent("Vending machine");
 					}
 
 					@Override
@@ -256,19 +260,6 @@ public class VendingMachineBlock extends GmmModElements.ModElement {
 								new PacketBuffer(Unpooled.buffer()).writeBlockPos(new BlockPos(x, y, z)));
 					}
 				}, new BlockPos(x, y, z));
-			}
-			double hitX = hit.getHitVec().x;
-			double hitY = hit.getHitVec().y;
-			double hitZ = hit.getHitVec().z;
-			Direction direction = hit.getFace();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				VendingMachineOnBlockRightClickedProcedure.executeProcedure($_dependencies);
 			}
 			return ActionResultType.SUCCESS;
 		}
@@ -298,7 +289,8 @@ public class VendingMachineBlock extends GmmModElements.ModElement {
 	}
 
 	public static class CustomTileEntity extends LockableLootTileEntity implements ISidedInventory {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(0, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(3, ItemStack.EMPTY);
+
 		protected CustomTileEntity() {
 			super(tileEntityType);
 		}
@@ -351,7 +343,7 @@ public class VendingMachineBlock extends GmmModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("vending_machine");
+			return new StringTextComponent("vendingmachine");
 		}
 
 		@Override
@@ -366,7 +358,7 @@ public class VendingMachineBlock extends GmmModElements.ModElement {
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Vending Machine");
+			return new StringTextComponent("Vending machine");
 		}
 
 		@Override
@@ -385,58 +377,6 @@ public class VendingMachineBlock extends GmmModElements.ModElement {
 				return false;
 			if (index == 1)
 				return false;
-			if (index == 2)
-				return false;
-			if (index == 3)
-				return false;
-			if (index == 4)
-				return false;
-			if (index == 5)
-				return false;
-			if (index == 6)
-				return false;
-			if (index == 7)
-				return false;
-			if (index == 8)
-				return false;
-			if (index == 9)
-				return false;
-			if (index == 10)
-				return false;
-			if (index == 11)
-				return false;
-			if (index == 12)
-				return false;
-			if (index == 13)
-				return false;
-			if (index == 14)
-				return false;
-			if (index == 15)
-				return false;
-			if (index == 16)
-				return false;
-			if (index == 17)
-				return false;
-			if (index == 18)
-				return false;
-			if (index == 19)
-				return false;
-			if (index == 20)
-				return false;
-			if (index == 21)
-				return false;
-			if (index == 22)
-				return false;
-			if (index == 23)
-				return false;
-			if (index == 24)
-				return false;
-			if (index == 25)
-				return false;
-			if (index == 26)
-				return false;
-			if (index == 27)
-				return false;
 			return true;
 		}
 
@@ -452,65 +392,11 @@ public class VendingMachineBlock extends GmmModElements.ModElement {
 
 		@Override
 		public boolean canExtractItem(int index, ItemStack stack, Direction direction) {
-			if (index == 0)
-				return false;
-			if (index == 1)
-				return false;
-			if (index == 2)
-				return false;
-			if (index == 3)
-				return false;
-			if (index == 4)
-				return false;
-			if (index == 5)
-				return false;
-			if (index == 6)
-				return false;
-			if (index == 7)
-				return false;
-			if (index == 8)
-				return false;
-			if (index == 9)
-				return false;
-			if (index == 10)
-				return false;
-			if (index == 11)
-				return false;
-			if (index == 12)
-				return false;
-			if (index == 13)
-				return false;
-			if (index == 14)
-				return false;
-			if (index == 15)
-				return false;
-			if (index == 16)
-				return false;
-			if (index == 17)
-				return false;
-			if (index == 18)
-				return false;
-			if (index == 19)
-				return false;
-			if (index == 20)
-				return false;
-			if (index == 21)
-				return false;
-			if (index == 22)
-				return false;
-			if (index == 23)
-				return false;
-			if (index == 24)
-				return false;
-			if (index == 25)
-				return false;
-			if (index == 26)
-				return false;
-			if (index == 27)
-				return false;
 			return true;
 		}
+
 		private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
+
 		@Override
 		public <T> LazyOptional<T> getCapability(Capability<T> capability, @Nullable Direction facing) {
 			if (!this.removed && facing != null && capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY)

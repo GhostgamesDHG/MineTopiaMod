@@ -1,5 +1,5 @@
 {
-  "parent": "gmm:custom/vending_machine",
+  "parent": "gmm:custom/vending_machine_bottom",
   "textures": {
     "1": "block/gray_concrete",
     "2": "block/green_concrete",

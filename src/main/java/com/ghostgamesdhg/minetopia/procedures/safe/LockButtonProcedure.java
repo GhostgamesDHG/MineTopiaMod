@@ -62,7 +62,7 @@ public class LockButtonProcedure {
 					return tileEntity.getTileData().getBoolean(tag);
 				return false;
 			}
-		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidBlockHasPassword")) == (true))) {
+		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "modidBlockHasPassword")))) {
 			if (!world.isRemote()) {
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				TileEntity _tileEntity = world.getTileEntity(_bp);
