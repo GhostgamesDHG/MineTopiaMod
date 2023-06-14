@@ -2,16 +2,19 @@ package com.ghostgamesdhg.minetopia.init;
 
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Antenne;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Bin;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Blue_Crystal_Block;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Blue_Crystal_Ore;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Cadeau;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Cleaver;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Dartbord;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Firepit;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Frying_pan;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Globe;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Mini_Spider;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Monsterbook;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Owl;
+import com.ghostgamesdhg.minetopia.blocks.blocks.PopcornMachine;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Rat;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Smalltree;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Tableplant;
@@ -143,6 +146,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> FIRE_PIT = BLOCKS.register("fire_pit", Firepit::new);
     public static final RegistryObject<Block> SMALL_TREE = BLOCKS.register("small_tree", Smalltree::new);
     public static final RegistryObject<Block> TABLE_PLANT = BLOCKS.register("table_plant", Tableplant::new);
+    public static final RegistryObject<Block> FRYING_PAN = BLOCKS.register("frying_pan", Frying_pan::new);
+    public static final RegistryObject<Block> POPCORN_MACHINE = BLOCKS.register("popcorn_machine", PopcornMachine::new);
+    public static final RegistryObject<Block> BIN = BLOCKS.register("bin", Bin::new);
 
     //crops
     public static final RegistryObject<Block> CORN = BLOCKS.register("corn_crop",

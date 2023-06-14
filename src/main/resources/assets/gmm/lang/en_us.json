@@ -708,5 +708,7 @@
   "block.gmm.dartbord": "Dartboard",
   "block.gmm.fire_pit": "Fire pit",
   "block.gmm.small_tree": "Small tree",
-  "block.gmm.table_plant": "Table plant"
+  "block.gmm.table_plant": "Table plant",
+  "block.gmm.frying_pan": "Frying pan",
+  "block.gmm.bin": "Bin"
 }

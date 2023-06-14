@@ -206,6 +206,9 @@ public class MinetopiaExtra
             RenderTypeLookup.setRenderLayer(ModBlocks.TABLE_PLANT.get(), RenderType.getCutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.SMALL_TREE.get(), RenderType.getCutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.ZOMBIE_ARM.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.FRYING_PAN.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.POPCORN_MACHINE.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.BIN.get(), RenderType.getCutout());
         });
     }
 }

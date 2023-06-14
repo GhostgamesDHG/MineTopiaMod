@@ -26,7 +26,7 @@ public class GmmprocedureProcedure extends GmmModElements.ModElement {
 				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A72\u00A7l====Info===="), (false));
 			}
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7aCurrent version: 2.1"), (false));
+				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7aCurrent version: 2.2"), (false));
 			}
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7aCurrent commands:"), (false));

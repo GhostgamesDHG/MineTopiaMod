@@ -224,6 +224,15 @@ public class BlockItems {
     public static final RegistryObject<Item> TABLE_PLANT_ITEM = ITEMS.register("table_plant",
             () -> new BlockItemBase(ModBlocks.TABLE_PLANT.get()));
 
+    public static final RegistryObject<Item> FRYING_PAN_ITEM = ITEMS.register("frying_pan",
+            () -> new BlockItemBase(ModBlocks.FRYING_PAN.get()));
+
+    public static final RegistryObject<Item> POPCORN_MACHINE_ITEM = ITEMS.register("popcorn_machine",
+            () -> new BlockItemBase(ModBlocks.POPCORN_MACHINE.get()));
+
+    public static final RegistryObject<Item> BIN_ITEM = ITEMS.register("bin",
+            () -> new BlockItemBase(ModBlocks.BIN.get()));
+
     //Half blocks, stairs
     public static final RegistryObject<Item> WHITE_BRICK_STAIRS_ITEM = ITEMS.register("white_brick_stairs",
             () -> new BlockItemBase(ModBlocks.WHITE_BRICK_STAIRS.get()));

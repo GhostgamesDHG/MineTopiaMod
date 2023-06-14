@@ -708,5 +708,7 @@
   "block.gmm.dartbord": "Dartboard",
   "block.gmm.fire_pit": "Vuurkorf",
   "block.gmm.small_tree": "Klein boompje",
-  "block.gmm.table_plant": "Tafel plant"
+  "block.gmm.table_plant": "Tafel plant",
+  "block.gmm.frying_pan": "Frituurpan",
+  "block.gmm.bin": "Prullenbak"
 }

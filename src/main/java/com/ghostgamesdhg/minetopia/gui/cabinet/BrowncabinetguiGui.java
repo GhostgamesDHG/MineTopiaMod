@@ -1,6 +1,8 @@
 
 package com.ghostgamesdhg.minetopia.gui.cabinet;
 
+import com.ghostgamesdhg.minetopia.procedures.cabinet.CabinetClose;
+import com.ghostgamesdhg.minetopia.procedures.cabinet.CabinetOpen;
 import com.ghostgamesdhg.minetopia.util.GmmModElements;
 import com.ghostgamesdhg.minetopia.MinetopiaExtra;
 import net.minecraftforge.items.SlotItemHandler;
@@ -30,9 +32,11 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
+import java.util.AbstractMap;
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
+import java.util.stream.Stream;
 
 @GmmModElements.ModElement.Tag
 public class BrowncabinetguiGui extends GmmModElements.ModElement {
@@ -82,6 +86,11 @@ public class BrowncabinetguiGui extends GmmModElements.ModElement {
 				this.yy = pos.getY();
 				this.zz = pos.getZ();
 			}
+
+			CabinetOpen.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", xx), new AbstractMap.SimpleEntry<>("y", yy), new AbstractMap.SimpleEntry<>("z", zz))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+
+
 			if (pos != null) {
 				if (extraData.readableBytes() == 1) { // bound to item
 					byte hand = extraData.readByte();
@@ -425,6 +434,8 @@ public class BrowncabinetguiGui extends GmmModElements.ModElement {
 					}
 				}
 			}
+			CabinetClose.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", xx), new AbstractMap.SimpleEntry<>("y", yy), new AbstractMap.SimpleEntry<>("z", zz))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 
 		private void slotChanged(int slotid, int ctype, int meta) {

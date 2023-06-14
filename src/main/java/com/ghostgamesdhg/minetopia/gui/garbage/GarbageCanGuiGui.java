@@ -112,23 +112,23 @@ public class GarbageCanGuiGui extends GmmModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 61, 17) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 62, 25) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 79, 17) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 80, 25) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 97, 17) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 98, 25) {
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 35) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 62, 43) {
 			}));
-			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 79, 35) {
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 80, 43) {
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 97, 35) {
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 98, 43) {
 			}));
-			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 61, 53) {
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 62, 61) {
 			}));
-			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 79, 53) {
+			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 80, 61) {
 			}));
-			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 97, 53) {
+			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 98, 61) {
 			}));
 			int si;
 			int sj;
