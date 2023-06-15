@@ -11,14 +11,25 @@ import com.ghostgamesdhg.minetopia.blocks.blocks.Dartbord;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Firepit;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Frying_pan;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Globe;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Grave;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Mini_Spider;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Monsterbook;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Owl;
 import com.ghostgamesdhg.minetopia.blocks.blocks.PopcornMachine;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Pumpkin_cabinet;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Rat;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Scarecrow;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Smalltree;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Table_lamp;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Tableplant;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Tomb;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Waste_container;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Zombie_arm;
+import com.ghostgamesdhg.minetopia.blocks.blocks.coolbox;
+import com.ghostgamesdhg.minetopia.blocks.blocks.ghost;
+import com.ghostgamesdhg.minetopia.blocks.blocks.modern_pancake_plant;
+import com.ghostgamesdhg.minetopia.blocks.blocks.modern_plant;
+import com.ghostgamesdhg.minetopia.blocks.blocks.pumpkins;
 import com.ghostgamesdhg.minetopia.blocks.blocks.sitting_skeleton;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Computer;
 import com.ghostgamesdhg.minetopia.blocks.blocks.Flashlight;
@@ -149,6 +160,16 @@ public class ModBlocks {
     public static final RegistryObject<Block> FRYING_PAN = BLOCKS.register("frying_pan", Frying_pan::new);
     public static final RegistryObject<Block> POPCORN_MACHINE = BLOCKS.register("popcorn_machine", PopcornMachine::new);
     public static final RegistryObject<Block> BIN = BLOCKS.register("bin", Bin::new);
+    public static final RegistryObject<Block> COOLBOX = BLOCKS.register("coolbox", coolbox::new);
+    public static final RegistryObject<Block> MODERN_PLANT = BLOCKS.register("modern_plant", modern_plant::new);
+    public static final RegistryObject<Block> MODERN_PANCAKE_PLANT = BLOCKS.register("modern_pancake_plant", modern_pancake_plant::new);
+    public static final RegistryObject<Block> GHOST = BLOCKS.register("ghost", ghost::new);
+    public static final RegistryObject<Block> GRAVE = BLOCKS.register("grave", Grave::new);
+    public static final RegistryObject<Block> PUMPKIN_CABINET = BLOCKS.register("pumpkin_cabinet", Pumpkin_cabinet::new);
+    public static final RegistryObject<Block> PUMPKINS = BLOCKS.register("pumpkins", pumpkins::new);
+    public static final RegistryObject<Block> SCARECROW = BLOCKS.register("scarecrow", Scarecrow::new);
+    public static final RegistryObject<Block> TABLE_LAMP = BLOCKS.register("table_lamp", Table_lamp::new);
+    public static final RegistryObject<Block> TOMB = BLOCKS.register("tomb", Tomb::new);
 
     //crops
     public static final RegistryObject<Block> CORN = BLOCKS.register("corn_crop",

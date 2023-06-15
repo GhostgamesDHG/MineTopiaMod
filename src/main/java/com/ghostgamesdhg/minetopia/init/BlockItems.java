@@ -233,6 +233,36 @@ public class BlockItems {
     public static final RegistryObject<Item> BIN_ITEM = ITEMS.register("bin",
             () -> new BlockItemBase(ModBlocks.BIN.get()));
 
+    public static final RegistryObject<Item> COOLBOX_ITEM = ITEMS.register("coolbox",
+            () -> new BlockItemBase(ModBlocks.COOLBOX.get()));
+
+    public static final RegistryObject<Item> MODERN_PLANT_ITEM = ITEMS.register("modern_plant",
+            () -> new BlockItemBase(ModBlocks.MODERN_PLANT.get()));
+
+    public static final RegistryObject<Item> MODERN_PANCAKE_PLANT_ITEM = ITEMS.register("modern_pancake_plant",
+            () -> new BlockItemBase(ModBlocks.MODERN_PANCAKE_PLANT.get()));
+
+    public static final RegistryObject<Item> GHOST_ITEM = ITEMS.register("ghost",
+            () -> new BlockHalloweenBase(ModBlocks.GHOST.get()));
+
+    public static final RegistryObject<Item> GRAVE_ITEM = ITEMS.register("grave",
+            () -> new BlockHalloweenBase(ModBlocks.GRAVE.get()));
+
+    public static final RegistryObject<Item> PUMPKIN_CABINET_ITEM = ITEMS.register("pumpkin_cabinet",
+            () -> new BlockHalloweenBase(ModBlocks.PUMPKIN_CABINET.get()));
+
+    public static final RegistryObject<Item> PUMPKINS_ITEM = ITEMS.register("pumpkins",
+            () -> new BlockHalloweenBase(ModBlocks.PUMPKINS.get()));
+
+    public static final RegistryObject<Item> SCARECROW_ITEM = ITEMS.register("scarecrow",
+            () -> new BlockHalloweenBase(ModBlocks.SCARECROW.get()));
+
+    public static final RegistryObject<Item> TABLE_LAMP = ITEMS.register("table_lamp",
+            () -> new BlockItemBase(ModBlocks.TABLE_LAMP.get()));
+
+    public static final RegistryObject<Item> TOMB_ITEM = ITEMS.register("tomb",
+            () -> new BlockHalloweenBase(ModBlocks.TOMB.get()));
+
     //Half blocks, stairs
     public static final RegistryObject<Item> WHITE_BRICK_STAIRS_ITEM = ITEMS.register("white_brick_stairs",
             () -> new BlockItemBase(ModBlocks.WHITE_BRICK_STAIRS.get()));

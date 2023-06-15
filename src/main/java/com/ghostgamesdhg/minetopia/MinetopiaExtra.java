@@ -1,5 +1,7 @@
 package com.ghostgamesdhg.minetopia;
 
+import com.ghostgamesdhg.minetopia.blocks.blocks.BrownCabinetBlock;
+import com.ghostgamesdhg.minetopia.blocks.blocks.Waste_container;
 import com.ghostgamesdhg.minetopia.init.ModArmor;
 import com.ghostgamesdhg.minetopia.init.BlockItems;
 import com.ghostgamesdhg.minetopia.init.ModBlocks;
@@ -8,6 +10,7 @@ import com.ghostgamesdhg.minetopia.init.ModHats;
 import com.ghostgamesdhg.minetopia.init.ModItems;
 import com.ghostgamesdhg.minetopia.init.ModPaintings;
 import com.ghostgamesdhg.minetopia.init.ModPoppetjes;
+import com.ghostgamesdhg.minetopia.init.ModSoundEvents;
 import com.ghostgamesdhg.minetopia.init.ModTools;
 import com.ghostgamesdhg.minetopia.init.OreGeneration;
 import com.ghostgamesdhg.minetopia.util.GmmModElements;
@@ -53,6 +56,7 @@ public class MinetopiaExtra
         elements = new GmmModElements();
 
         ModBlocks.BLOCKS.register(bus);
+        ModSoundEvents.register(bus);
         ModItems.ITEMS.register(bus);
         BlockItems.ITEMS.register(bus);
         ModFood.ITEMS.register(bus);
@@ -209,6 +213,15 @@ public class MinetopiaExtra
             RenderTypeLookup.setRenderLayer(ModBlocks.FRYING_PAN.get(), RenderType.getCutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.POPCORN_MACHINE.get(), RenderType.getCutout());
             RenderTypeLookup.setRenderLayer(ModBlocks.BIN.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.MODERN_PLANT.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.MODERN_PANCAKE_PLANT.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.GHOST.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.GRAVE.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.PUMPKIN_CABINET.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.PUMPKINS.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.SCARECROW.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.TABLE_LAMP.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.TOMB.get(), RenderType.getCutout());
         });
     }
 }

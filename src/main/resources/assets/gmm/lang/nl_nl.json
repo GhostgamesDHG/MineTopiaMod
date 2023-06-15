@@ -710,5 +710,6 @@
   "block.gmm.small_tree": "Klein boompje",
   "block.gmm.table_plant": "Tafel plant",
   "block.gmm.frying_pan": "Frituurpan",
-  "block.gmm.bin": "Prullenbak"
+  "block.gmm.bin": "Prullenbak",
+  "block.gmm.waste_container": "Container"
 }

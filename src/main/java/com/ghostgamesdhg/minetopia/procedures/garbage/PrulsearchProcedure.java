@@ -51,7 +51,7 @@ public class PrulsearchProcedure {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
 		if (!GmmModVariables.MapVariables.get(world).devMode) {
-			if ((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.BARRIER) {
+			if ((world.getBlockState(new BlockPos(x, y - 3, z))).getBlock() == Blocks.BARRIER) {
 				if (entity.isSneaking()) {
 					if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 						((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("This has already been searched"), (true));
@@ -87,7 +87,7 @@ public class PrulsearchProcedure {
 							ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 						}
 					}
-					world.setBlockState(new BlockPos(x, y - 1, z), Blocks.BARRIER.getDefaultState(), 3);
+					world.setBlockState(new BlockPos(x, y - 3, z), Blocks.BARRIER.getDefaultState(), 3);
 				}
 			}
 		} else {

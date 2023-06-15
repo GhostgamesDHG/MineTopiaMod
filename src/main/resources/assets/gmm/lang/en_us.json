@@ -710,5 +710,15 @@
   "block.gmm.small_tree": "Small tree",
   "block.gmm.table_plant": "Table plant",
   "block.gmm.frying_pan": "Frying pan",
-  "block.gmm.bin": "Bin"
+  "block.gmm.bin": "Bin",
+  "block.gmm.coolbox": "Coolbox",
+  "block.gmm.modern_plant": "Modern plant",
+  "block.gmm.modern_pancake_plant": "Modern pancake plant",
+  "block.gmm.ghost": "Ghost",
+  "block.gmm.grave": "Grave",
+  "block.gmm.pumpkin_cabinet": "Pumpkin cabinet",
+  "block.gmm.pumpkins": "Pumpkins",
+  "block.gmm.scarecrow": "Scarecrow",
+  "block.gmm.table_lamp": "Table lamp",
+  "block.gmm.tomb": "Tomb"
 }
