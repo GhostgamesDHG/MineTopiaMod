@@ -20,8 +20,7 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
         "item": {
-          "item": "gmm:garbage_can",
-          "items": "gmm:bin"
+          "item": "gmm:garbage_can"
         }
       }
     }
